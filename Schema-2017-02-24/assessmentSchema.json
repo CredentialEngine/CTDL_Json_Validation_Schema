@@ -410,6 +410,10 @@
                     "type": "string",
                     "enum": [ "http://purl.org/ctdl/vocabs/audience/" ]
                 },
+                "audLevel": {
+                    "type": "string",
+                    "enum": [ "http://purl.org/ctdl/vocabs/audLevel/" ]
+                },
                 "claimType": {
                     "type": "string",
                     "enum": [ "http://purl.org/ctdl/vocabs/claimType/" ]
@@ -498,18 +502,12 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:ProcessProfile" }
         },
-        "ceterms:dateEffective": {
-            "type": "string",
-            "format": "date-time"
-        },
+        "ceterms:dateEffective": { "type": "string" },
         "ceterms:externalInputType": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:alignmentDate": {
-            "type": "string",
-            "format": "date-time"
-        },
+        "ceterms:alignmentDate": { "type": "string" },
         "ceterms:alignmentType": { "$ref": "#/definitions/meta:literal" },
         "ceterms:codedNotation": { "$ref": "#/definitions/meta:literal_multi" },
         "ceterms:framework": { "$ref": "#/definitions/meta:uri" },
@@ -616,10 +614,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:endTime": {
-            "type": "string",
-            "format": "date-time"
-        },
+        "ceterms:endTime": { "type": "string" },
         "ceterms:learningOpportunityProfiled": { "$ref": "#/definitions/meta:identifier_multi" },
         "ceterms:paymentPattern": { "$ref": "#/definitions/meta:literal" },
         "ceterms:price": { "type": "number" },
@@ -627,10 +622,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:startTime": {
-            "type": "string",
-            "format": "date-time"
-        },
+        "ceterms:startTime": { "type": "string" },
         "ceterms:taskProfiled": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:TaskProfile" }
@@ -722,7 +714,7 @@
         },
         "ceterms:subject": {
             "anyOf": [
-                { "$ref": "#/definitions/meta:literal" },
+                { "$ref": "#/definitions/meta:literal_multi" },
                 {
                     "type": "array",
                     "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
