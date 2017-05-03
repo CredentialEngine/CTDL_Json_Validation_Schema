@@ -29,7 +29,7 @@ describe 'JSON Schema Validation' do
       end
 
       context 'invalidates resources' do
-        resources.reject { |r| r !~ /invalid/ }.each do |resource|
+        resources.select { |r| r =~ /invalid/ }.each do |resource|
           it resource.split('/').last.to_s do
             expect(resource).not_to match_json_schema(schema_name)
           end
