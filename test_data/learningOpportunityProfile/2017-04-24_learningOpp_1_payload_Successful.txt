@@ -1,0 +1,352 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:LearningOpportunityProfile",
+  "@id": "96327159-c619-4f8a-b140-e481de0ff73c",
+  "ceterms:approvedBy": [
+    {
+      "@id": "acf6e21d-4a7c-44ac-a408-be868c538fbe"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    {
+      "@id": "http://lopp1.availability.com"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Aurora",
+          "ceterms:addressRegion": "OH",
+          "ceterms:postalCode": "44202",
+          "ceterms:streetAddress": "610 Thornhill Lane"
+        }
+      ],
+      "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "home base one",
+          "ceterms:addressCountry": "Canada",
+          "ceterms:addressLocality": "Winnipeg",
+          "ceterms:addressRegion": "MB",
+          "ceterms:postalCode": "R3Y1J1",
+          "ceterms:streetAddress": "2 Shillingstone Ct"
+        }
+      ],
+      "ceterms:name": "home base one"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "home base",
+          "ceterms:addressCountry": "Canada",
+          "ceterms:addressLocality": "Winnipeg",
+          "ceterms:addressRegion": "MB",
+          "ceterms:postalCode": "R3T1N2",
+          "ceterms:streetAddress": "910 Oakenwald Ave"
+        }
+      ],
+      "ceterms:name": "home base"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "three",
+          "ceterms:addressCountry": "Canada",
+          "ceterms:addressLocality": "Winnipeg",
+          "ceterms:addressRegion": "MB",
+          "ceterms:postalCode": "R3Y1J1",
+          "ceterms:streetAddress": "2 shillingstone Rd"
+        }
+      ],
+      "ceterms:name": "three"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    {
+      "@id": "http://available.here.com"
+    }
+  ],
+  "ceterms:dateEffective": "2012-12-13T00:00:00",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:BlendedDelivery"
+      },
+      "ceterms:targetNodeName": "Blended Learning"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:InPerson"
+      },
+      "ceterms:targetNodeName": "In-Person"
+    }
+  ],
+  "ceterms:description": "later\nCharter Oak state\nupdate",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:name": "Western Governor Bachelor Degree in IT Tuition",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "costType:EnrollmentFee"
+          },
+          "ceterms:targetNodeDescription": "Cost to enroll in the resource being described.",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:price": 136.99,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:inState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:local"
+          },
+          "ceterms:targetNodeName": "Local"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:outOfState"
+          },
+          "ceterms:targetNodeName": "Out-Of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:hasPart": [
+    {
+      "@id": "77e3385a-ddc7-4869-9931-934e2f4eaedf"
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0102"
+      },
+      "ceterms:targetNodeDescription": "A program that focuses on the symbolic inference, representation, and simulation by computers and software of human learning and reasoning processes and capabilities, and the computer modeling of human motor control and motion. Includes instruction in computing theory, cybernetics, human factors, natural language processing, and applicable aspects of engineering, technology, and specific end-use applications.",
+      "ceterms:targetNodeName": "Artificial Intelligence"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0102"
+      },
+      "ceterms:targetNodeDescription": "A program that focuses on the symbolic inference, representation, and simulation by computers and software of human learning and reasoning processes and capabilities, and the computer modeling of human motor control and motion. Includes instruction in computing theory, cybernetics, human factors, natural language processing, and applicable aspects of engineering, technology, and specific end-use applications.",
+      "ceterms:targetNodeName": "Artificial Intelligence"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0103"
+      },
+      "ceterms:targetNodeDescription": "A program that focuses on the design of technological information systems, including computing systems, as solutions to business and research data and communications support needs.  Includes instruction in the principles of computer hardware and software components, algorithms, databases, telecommunications, user tactics, application testing, and human interface design.",
+      "ceterms:targetNodeName": "Information Technology"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=13.1325"
+      },
+      "ceterms:targetNodeDescription": "A program that prepares individuals to teach French language programs at various educational levels.",
+      "ceterms:targetNodeName": "French Language Teacher Education"
+    }
+  ],
+  "ceterms:isPartOf": [
+    {
+      "@id": "bd853dc0-7ddb-4aa4-9c41-30c1e4f644f3"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Bahamas",
+          "ceterms:url": {
+            "@id": "http://geonames.org/3572887/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "universal jurisdiction",
+      "ceterms:globalJurisdiction": true
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "USA for learning opp 1",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Wisconsin",
+          "ceterms:url": {
+            "@id": "http://geonames.org/5279468/"
+          }
+        },
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Michigan",
+          "ceterms:url": {
+            "@id": "http://geonames.org/5001836/"
+          }
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Las Cañadas",
+          "ceterms:url": {
+            "@id": "http://geonames.org/4000155/"
+          }
+        }
+      ]
+    }
+  ],
+  "ceterms:keyword": [
+    "LOPP_1"
+  ],
+  "ceterms:name": "zzz Learning opportunity one update - 17-03-16a",
+  "ceterms:ownedBy": [
+    {
+      "@id": "acf6e21d-4a7c-44ac-a408-be868c538fbe"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://credentialengineregistry.org/resources/ec446f69-2c4f-4efb-9513-c4794e2553a8"
+        }
+      ],
+      "ceterms:dateEffective": "2011-11-11T00:00:00",
+      "ceterms:name": "Lopp cond profile 1",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "ace309c8-ccec-45fa-9711-5589a75c8b14"
+        },
+        {
+          "@id": "42316834-77ee-41fe-a06f-ac5608179a5d"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://credentialengineregistry.org/resources/ec446f69-2c4f-4efb-9513-c4794e2553a8"
+        }
+      ],
+      "ceterms:dateEffective": "2011-11-12T00:00:00",
+      "ceterms:name": "Lopp cond profile 2"
+    }
+  ],
+  "ceterms:subject": [
+    "learningopportunity-1",
+    "Testing"
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.cti.com/lop1update"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "zzz Learning opportunity one update",
+      "ceterms:targetNode": {
+        "@id": "http://COMP.COM"
+      },
+      "ceterms:targetNodeDescription": "tbd",
+      "ceterms:targetNodeName": "l opp 1 competency"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "zzz Learning opportunity one update",
+      "ceterms:targetNodeDescription": "later ",
+      "ceterms:targetNodeName": "LO1 competency taught"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "zzz Learning opportunity one update",
+      "ceterms:targetNodeDescription": "testing the description",
+      "ceterms:targetNodeName": "competency test"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "zzz Learning opportunity one update",
+      "ceterms:targetNode": {
+        "@id": "http://www.competency.org/123456"
+      },
+      "ceterms:targetNodeDescription": "new competency description",
+      "ceterms:targetNodeName": "my competency name"
+    }
+  ]
+}

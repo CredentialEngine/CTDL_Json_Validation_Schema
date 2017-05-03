@@ -1,0 +1,93 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:LearningOpportunityProfile",
+  "@id": "3348d71c-2c1c-4fb8-b83a-5675f0772982",
+  "ceterms:dateEffective": "2016-05-15T00:00:00",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:InPerson"
+      },
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:OnlineOnly"
+      },
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "Curriculum progression will be mapped out in sequence within each major content area (safety, quality, etc.). Students will need to document/demonstrate competence in sequential order within each content area. Various “checkpoints” will be built into the curriculum sequence as a method of ensuring students do not get behind in moving through the program. \nCurriculum Layout & Course Crosswalk\n•\tWorkplace Principles - WPP2001 (1 cr)\n•\tSafety - ISX1001 (1 cr)\n•\tApplied Mathematics – MAT110 (3 cr)\n•\tHand & Power Tools (including Mechanical Principles & Linkages) – IET1206 (1cr)\n•\tMetrology & Control Charts – CMM118 (2 cr)\n•\tLean Manufacturing – MFG175 (2 cr)\n•\tIntroduction to Quality Management Systems QMS101 (3 cr)\n•\tLean Six Sigma Yellow Belt – QMS299 (1 cr)\n",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:Citizen"
+          },
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:description": "Total course $2300\nNo additional textbook cost\n$195 Lean Six Sigma Yellow Belt Certification Exam (optional)\nSome employers offer scholarships or tuition reimbursement ",
+      "ceterms:name": "Enhanced Operator Certificate Curriculum Costs",
+      "ceterms:costDetails": {
+        "@id": "http://gateway.kctcs.edu/en/CorporateCollege/Workforce_Solutions.aspx"
+      },
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "costType:Tuition"
+          },
+          "ceterms:targetNodeDescription": "Cost for accessing technologies related to the resource being described.",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:price": 2300.00
+    }
+  ],
+  "ceterms:name": "Enhanced Operator Certificate Curriculum",
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://gateway.kctcs.edu/en/CorporateCollege/Workforce_Solutions.aspx"
+    }
+  ]
+}

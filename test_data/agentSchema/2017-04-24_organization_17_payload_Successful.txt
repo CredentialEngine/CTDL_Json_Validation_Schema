@@ -1,0 +1,155 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "7ce4a2e7-0d1c-443b-aa95-9fd78edf7e3a",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "NSF International Training and Education",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Ann Arbor",
+      "ceterms:addressRegion": "MI",
+      "ceterms:postalCode": "48105",
+      "ceterms:streetAddress": "789 N. Dixboro Road"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "NSF International is dedicated to being the leading global provider of public health and safety-based risk management solutions while serving the interests of all stakeholders, namely the public, the business community and government agencies. Our mission is carried out by over 2,100 global employees, including microbiologists, toxicologists, chemists, engineers, and environmental and public health professionals.",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:CertificationBody"
+      },
+      "ceterms:targetNodeName": "Certification Body"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:Vendor"
+      },
+      "ceterms:targetNodeName": "Vendor"
+    }
+  ],
+  "ceterms:description": "Founded in 1944, our mission is to protect and improve global human health. Manufacturers, regulators and consumers look to us to develop public health standards and certifications that help protect food, water, consumer products and the environment. As an independent, accredited organization, we test, audit and certify products and systems as well as provide education and risk management.",
+  "ceterms:duns": "68801992",
+  "ceterms:fein": "38-1428955",
+  "ceterms:image": [
+    {
+      "@id": "https://cdnimg.webstaurantstore.com/uploads/buying_guide/2013/11/nsf.jpg"
+    }
+  ],
+  "ceterms:name": "NSF International Training and Education",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Provides the assessment or exam to earn the credential.",
+      "ceterms:targetNodeName": "Offer Assessment or Exam for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Offers education, training, professional development either required or optional to earn the credential.",
+      "ceterms:targetNodeName": "Offer Education and/or Training and/or Professional Development Opportunities for Credential"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Updates the version of the credential.",
+      "ceterms:targetNodeName": "Versioning of Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.nsf.org/contact-us/"
+    },
+    {
+      "@id": "https://www.facebook.com/NSF.LiveSafer"
+    },
+    {
+      "@id": "https://twitter.com/NSF_Intl"
+    },
+    {
+      "@id": "https://www.youtube.com/user/NSFInternational"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/nsf-international"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.nsf.org"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:email": [
+        "info@nsf.org"
+      ],
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.nsf.org/contact-us/"
+        },
+        {
+          "@id": "https://www.facebook.com/NSF.LiveSafer"
+        },
+        {
+          "@id": "https://twitter.com/NSF_Intl"
+        },
+        {
+          "@id": "https://www.youtube.com/user/NSFInternational"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/nsf-international"
+        }
+      ],
+      "ceterms:telephone": [
+        "734-769-8010",
+        "800-673-6275",
+        "734-769-0109"
+      ]
+    }
+  ]
+}

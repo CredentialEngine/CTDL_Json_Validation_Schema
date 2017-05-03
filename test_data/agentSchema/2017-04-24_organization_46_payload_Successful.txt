@@ -1,0 +1,142 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "6686c066-0948-4c0b-8fb0-43c6af625a70",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "National Institute for Metalworking Skills",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Fairfax",
+      "ceterms:addressRegion": "VA",
+      "ceterms:postalCode": "22030",
+      "ceterms:streetAddress": "10565 Fairfax Boulevard, Suite 10"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "To strengthen American manufacturing by building a globally competitive metalworking workforce.",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:QualityAssurance"
+      },
+      "ceterms:targetNodeName": "Quality Assurance"
+    }
+  ],
+  "ceterms:description": "The National Institute for Metalworking Skills (NIMS) was formed in 1994 by the metalworking trade associations to develop and maintain a globally competitive workforce. NIMS sets skills standards for the industry, certifies individual skills against the standards and accredits training programs that meet NIMS quality requirements.",
+  "ceterms:duns": "84549182",
+  "ceterms:fein": "52-1933455",
+  "ceterms:image": [
+    {
+      "@id": "http://dev.ghaasfoundation.org/wp-content/uploads/2014/07/nims.png"
+    }
+  ],
+  "ceterms:name": "National Institute for Metalworking Skills",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Determines how a person can qualify to pursue a credential.",
+      "ceterms:targetNodeName": "Determine Qualifications for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Provides the assessment or exam to earn the credential.",
+      "ceterms:targetNodeName": "Offer Assessment or Exam for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Offers education, training, professional development either required or optional to earn the credential.",
+      "ceterms:targetNodeName": "Offer Education and/or Training and/or Professional Development Opportunities for Credential"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Updates the version of the credential.",
+      "ceterms:targetNodeName": "Versioning of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described provides accreditation service.",
+      "ceterms:targetNodeName": "Accredit Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "https://www.facebook.com/GoNIMS"
+    },
+    {
+      "@id": "https://twitter.com/NIMS_Inc"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "www.nims-skills.org"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:email": [
+        "support@nims-skills.org",
+        "support@nims-skills.org"
+      ],
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "https://www.facebook.com/GoNIMS"
+        },
+        {
+          "@id": "https://twitter.com/NIMS_Inc"
+        }
+      ],
+      "ceterms:telephone": [
+        "703-352-4971",
+        "703-352-4991",
+        "844-839-6467",
+        "703-352-4991"
+      ]
+    }
+  ]
+}

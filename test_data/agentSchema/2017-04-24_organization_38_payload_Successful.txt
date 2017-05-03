@@ -1,0 +1,123 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "c1a136f4-73e8-4a63-9c13-bad299aa7712",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "National Registry of Food Safety Professionals",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Orlando",
+      "ceterms:addressRegion": "FL",
+      "ceterms:postalCode": "32819",
+      "ceterms:streetAddress": "7680 Universal Boulevard, Suite 550"
+    }
+  ],
+  "ceterms:description": "National Registry of Food Safety Professionals develops and maintains certification examination programs in the food safety profession. National Registry is recognized internationally by the food service industry for its examinations and service delivery standards and practices.",
+  "ceterms:duns": "20186207",
+  "ceterms:image": [
+    {
+      "@id": "http://hrbuni.com/wp-content/uploads/2013/08/NRFSP-HACCP2-228x300.png"
+    }
+  ],
+  "ceterms:name": "National Registry of Food Safety Professionals",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Determines how a person can qualify to pursue a credential.",
+      "ceterms:targetNodeName": "Determine Qualifications for Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.nrfsp.com/en/Contact%20Info.aspx"
+    },
+    {
+      "@id": "https://www.facebook.com/nationalregistry"
+    },
+    {
+      "@id": "https://twitter.com/NRFSP"
+    },
+    {
+      "@id": "https://plus.google.com/108979942620761055408/posts"
+    },
+    {
+      "@id": "https://www.youtube.com/user/NationalRegistry"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/national-registry-of-food-safety-professionals-nrfsp-"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.nrfsp.com"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:email": [
+        "Customer.Service@nrfsp.com"
+      ],
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.nrfsp.com/en/Contact%20Info.aspx"
+        },
+        {
+          "@id": "https://www.facebook.com/nationalregistry"
+        },
+        {
+          "@id": "https://twitter.com/NRFSP"
+        },
+        {
+          "@id": "https://plus.google.com/108979942620761055408/posts"
+        },
+        {
+          "@id": "https://www.youtube.com/user/NationalRegistry"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/national-registry-of-food-safety-professionals-nrfsp-"
+        }
+      ],
+      "ceterms:telephone": [
+        "407-352-3830",
+        "800-446-0257",
+        "407-352-3603"
+      ]
+    }
+  ]
+}

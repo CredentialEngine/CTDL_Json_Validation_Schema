@@ -1,0 +1,112 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:AssessmentProfile",
+  "@id": "bea2510f-1af0-425a-a637-01f433cc54c9",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "052f9fb4-6a4a-4eda-aaea-744e208fa92b"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "ACCJC Address",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Novato",
+          "ceterms:addressRegion": "California",
+          "ceterms:postalCode": "94949",
+          "ceterms:streetAddress": "10 Commercial boulevard Suite 100"
+        }
+      ],
+      "ceterms:name": "ACCJC Address"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Pharmacy Technician Certification Board",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Washington ",
+          "ceterms:addressRegion": "DC",
+          "ceterms:postalCode": "20037",
+          "ceterms:streetAddress": "2215 Constitution Avenue NW Suite 101"
+        }
+      ],
+      "ceterms:name": "Pharmacy Technician Certification Board"
+    }
+  ],
+  "ceterms:dateEffective": "2013-11-01T00:00:00",
+  "ceterms:description": "The Pharmacy Technician Certification Exam (PTCE) is a computer-based exam administered at Pearson VUE test centers nationwide. PTCE scores are used to determine whether individuals have demonstrated the knowledge necessary to practice as pharmacy technicians. \n\nThe PTCE is a two-hour, multiple-choice, exam that contains 90 questions (80 scored questions and 10 unscored questions). Each question is shown with four possible answers, only one of which is the correct or best answer. Unscored questions are not identified and are randomly distributed throughout the exam. A candidate’s exam score is based on the responses to the 80 scored questions. One hour and 50 minutes are allotted for answering the exam questions and 10 minutes for a tutorial and post-exam survey. ",
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "United States",
+          "ceterms:url": {
+            "@id": "http://geonames.org/6252001/"
+          }
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "The Pharmacy Technician Certification Exam (PTCE)",
+  "ceterms:ownedBy": [
+    {
+      "@id": "0a448f2e-b76b-497b-92cf-51504c7a5000"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "https://www.ptcb.org/get-certified/prepare"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false
+}

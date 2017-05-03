@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "052f9fb4-6a4a-4eda-aaea-744e208fa92b",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Pharmacy Technician Certification Board",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Washington ",
+      "ceterms:addressRegion": "DC",
+      "ceterms:postalCode": "20037",
+      "ceterms:streetAddress": "2215 Constitution Avenue NW Suite 101"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "PTCB advances medication safety by certifying technicians who are qualified to support pharmacists and patient care teams in all practice settings.",
+  "ceterms:description": "PTCB advocates for a single national standard for pharmacy technician certification that is recognized and supported by the profession. Establishing a national standard for pharmacy technician certification through PTCB is consistent with the approach used by other health professions, including the pharmacist licensure process.",
+  "ceterms:duns": "47795526",
+  "ceterms:fein": "52-1923733",
+  "ceterms:image": [
+    {
+      "@id": "http://www.pearsonvue.com/pvueImages/clients/ptcb/ptcb_logo.gif"
+    }
+  ],
+  "ceterms:name": "Pharmacy Technician Certification Board",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Determines specific programs, courses, activities to complete to earn a credential. ",
+      "ceterms:targetNodeName": "Determine Program/Course or Activity for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Determines how a person can qualify to pursue a credential.",
+      "ceterms:targetNodeName": "Determine Qualifications for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Provides the assessment or exam to earn the credential.",
+      "ceterms:targetNodeName": "Offer Assessment or Exam for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Updates the version of the credential.",
+      "ceterms:targetNodeName": "Versioning of Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "https://www.facebook.com/pages/Pharmacy-Technician-Certification-Board-PTCB/107362115962143?ref=hl"
+    },
+    {
+      "@id": "https://twitter.com/PTCB"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/pharmacy-technician-certification-board"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.ptcb.org/"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "https://www.facebook.com/pages/Pharmacy-Technician-Certification-Board-PTCB/107362115962143?ref=hl"
+        },
+        {
+          "@id": "https://twitter.com/PTCB"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/pharmacy-technician-certification-board"
+        }
+      ],
+      "ceterms:telephone": [
+        "800-363-8012",
+        "202-888-1699"
+      ]
+    }
+  ]
+}
