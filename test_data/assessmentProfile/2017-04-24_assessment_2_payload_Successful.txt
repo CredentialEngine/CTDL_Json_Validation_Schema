@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:AssessmentProfile",
+  "@id": "25945ad3-5617-4786-9adb-a970e3831dfc",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "b14fc3d1-78f9-4aec-abd9-68cfebd7ff27"
+    }
+  ],
+  "ceterms:approvedBy": [
+    {
+      "@id": "b14fc3d1-78f9-4aec-abd9-68cfebd7ff27"
+    }
+  ],
+  "ceterms:dateEffective": "1956-07-13T00:00:00",
+  "ceterms:description": "clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate one-to-one customer service with robust.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentStudent"
+          },
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:Member"
+          },
+          "ceterms:targetNodeName": "Member"
+        }
+      ],
+      "ceterms:description": "later",
+      "ceterms:name": "A2: Cost 1",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "costType:BackgroundCheck"
+          },
+          "ceterms:targetNodeDescription": "Cost for a background check.",
+          "ceterms:targetNodeName": "Background Check"
+        }
+      ],
+      "ceterms:paymentPattern": "one-time monthly recurring",
+      "ceterms:price": 4356.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:foreign_International"
+          },
+          "ceterms:targetNodeName": "Foreign/International"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:local"
+          },
+          "ceterms:targetNodeName": "Local"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:outOfState"
+          },
+          "ceterms:targetNodeName": "Out-Of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "ASMT 2",
+  "ceterms:subject": [
+    "a the top",
+    "cred 1 - Assessment-2a rename",
+    "Middle of the road",
+    "programs",
+    "truck",
+    "wrecked",
+    "xname cred 1 - Assessment-2b",
+    "ZZ TOP"
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.services-portals.com"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNode": {
+        "@id": "http://www.compurl.com"
+      },
+      "ceterms:targetNodeName": "comp description"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNode": {
+        "@id": "http://www.competencyurl.com"
+      },
+      "ceterms:targetNodeDescription": "comp description",
+      "ceterms:targetNodeName": "comp name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNodeName": "competency description"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNode": {
+        "@id": "http://www.compurl"
+      },
+      "ceterms:targetNodeName": "comp name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNodeDescription": "comp description",
+      "ceterms:targetNodeName": "comp name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "ASMT 2",
+      "ceterms:targetNodeDescription": "this is the description",
+      "ceterms:targetNodeName": "competency name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:framework": {
+        "@id": "http:/www.test.com"
+      },
+      "ceterms:frameworkName": "my framework name",
+      "ceterms:targetNode": {
+        "@id": "http:/www.test.com"
+      },
+      "ceterms:targetNodeDescription": "my framework competency description",
+      "ceterms:targetNodeName": "my framework-related competency name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:framework": {
+        "@id": "http:/www.test.com"
+      },
+      "ceterms:frameworkName": "my framework name",
+      "ceterms:targetNode": {
+        "@id": "http:/www.test.com"
+      },
+      "ceterms:targetNodeDescription": "my other framework competency description",
+      "ceterms:targetNodeName": "my other framework competency name"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false
+}

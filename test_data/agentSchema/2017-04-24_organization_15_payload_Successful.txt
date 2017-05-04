@@ -1,0 +1,128 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "c427f875-9d54-402f-8a66-9c6b9ef2143d",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "American Society for Clinical Pathology",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Chicago",
+      "ceterms:addressRegion": "IL",
+      "ceterms:postalCode": "60603",
+      "ceterms:streetAddress": "33 West Monroe Suite Suite 1600"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "Our mission is to provide excellence in education, certification, and advocacy on behalf of \nthe patients, pathologists, and laboratory professionals across the globe.",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:ProfessionalAssociation"
+      },
+      "ceterms:targetNodeName": "Professional Association"
+    }
+  ],
+  "ceterms:description": "The American Society for Clinical Pathology (ASCP) is the world’s largest professional membership organization for pathologists and laboratory professionals. Our mission is to provide excellence in education, certification and advocacy on behalf of patients, pathologists and laboratory professionals across the globe. With more than 100,000 members, the society’s influence has guided the application and evolution of the pathology and laboratory medicine specialty since 1922. ",
+  "ceterms:duns": "76881697",
+  "ceterms:fein": "36-2406080",
+  "ceterms:image": [
+    {
+      "@id": "http://www.ccclw.org/images/ascp_logo.gif"
+    }
+  ],
+  "ceterms:name": "American Society for Clinical Pathology",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Updates the version of the credential.",
+      "ceterms:targetNodeName": "Versioning of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.ascp.org/Services/SendFeedback.aspx"
+    },
+    {
+      "@id": "http://www.ascp.org/Services/SendFeedback.aspx"
+    },
+    {
+      "@id": "https://twitter.com/ASCP_Chicago"
+    },
+    {
+      "@id": "https://www.youtube.com/user/ascpchi"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.ascp.org/"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.ascp.org/Services/SendFeedback.aspx"
+        },
+        {
+          "@id": "http://www.ascp.org/Services/SendFeedback.aspx"
+        },
+        {
+          "@id": "https://twitter.com/ASCP_Chicago"
+        },
+        {
+          "@id": "https://www.youtube.com/user/ascpchi"
+        }
+      ],
+      "ceterms:telephone": [
+        "312-541-4999",
+        "312-541-4998"
+      ]
+    }
+  ]
+}

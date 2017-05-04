@@ -1,0 +1,348 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:LearningOpportunityProfile",
+  "@id": "3c6dccc7-9fc2-4c8b-9d22-b23595568c98",
+  "ceterms:approvedBy": [
+    {
+      "@id": "8c5e42ea-724a-40e2-b082-efdc2299205e"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    {
+      "@id": "http://www.google.com/?availabilityListing"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Springfield",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Springfield",
+          "ceterms:addressRegion": "IL  ",
+          "ceterms:postalCode": "62761",
+          "ceterms:postOfficeBoxNumber": "12345",
+          "ceterms:streetAddress": " 525-535 West Jefferson Street Address line 2"
+        }
+      ],
+      "ceterms:name": "Springfield"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    {
+      "@id": "http://www.google.com/?availableOnlineAt"
+    }
+  ],
+  "ceterms:codedNotation": [
+    "123abc"
+  ],
+  "ceterms:creditHourType": "credit hour type value",
+  "ceterms:creditHourValue": 20.00,
+  "ceterms:creditUnitType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "creditUnit:ContinuingEducationUnit"
+      },
+      "ceterms:targetNodeDescription": "Credit that is issued or is accepted as education units for meeting professional requirements.",
+      "ceterms:targetNodeName": "Continuing Education Unit"
+    }
+  ],
+  "ceterms:creditUnitTypeDescription": "credit unit type description",
+  "ceterms:creditUnitValue": 10.00,
+  "ceterms:dateEffective": "2001-01-01T00:00:00",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:BlendedDelivery"
+      },
+      "ceterms:targetNodeName": "Blended Learning"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:InPerson"
+      },
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:OnlineOnly"
+      },
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "Delivery Type Description value",
+  "ceterms:description": "This will help test the publishing mechanism.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentStudent"
+          },
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:FormerMilitary"
+          },
+          "ceterms:targetNodeName": "Former Military / Veteran"
+        }
+      ],
+      "ceterms:description": "Cost profile description",
+      "ceterms:endTime": "2002-02-02T00:00:00",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "jurisdiction description",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": "Cost profile name",
+      "ceterms:startTime": "2001-01-01T00:00:00",
+      "ceterms:costDetails": {
+        "@id": "http://www.google.com/?costdetailsurl"
+      },
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "costType:EnrollmentFee"
+          },
+          "ceterms:targetNodeDescription": "Cost to enroll in the resource being described.",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:paymentPattern": "payment pattern description",
+      "ceterms:price": 1234567.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:inState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "missingPrefix:local"
+          },
+          "ceterms:targetNodeName": "Local"
+        }
+      ]
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P1Y2M3W4DT5H6M"
+    }
+  ],
+  "ceterms:hasPart": [
+    {
+      "@id": "006c5852-19da-4267-b6cf-f8d527c2fc39"
+    },
+    {
+      "@id": "96fd5a7f-4365-4874-919a-20a34230ac80"
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11"
+      },
+      "ceterms:targetNodeDescription": "Instructional programs that focus on the computer and information sciences and prepare individuals for various occupations in information technology and computer operations fields.",
+      "ceterms:targetNodeName": "COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.01"
+      },
+      "ceterms:targetNodeDescription": "Instructional content for this group of programs is defined in codes 11.0101 - 11.0199.",
+      "ceterms:targetNodeName": "Computer and Information Sciences, General"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0101"
+      },
+      "ceterms:targetNodeDescription": "A general program that focuses on computing, computer science, and information science and systems. Such programs are undifferentiated as to title and content and are not to be confused with specific programs in computer science, information science, or related support services.",
+      "ceterms:targetNodeName": "Computer and Information Sciences, General"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "other program category"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "jurisdiction description",
+      "ceterms:globalJurisdiction": true,
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Saint Peter",
+          "ceterms:url": {
+            "@id": "http://geonames.org/3373554/"
+          }
+        }
+      ]
+    }
+  ],
+  "ceterms:keyword": [
+    "Keyword 1",
+    "Keyword 2"
+  ],
+  "ceterms:name": "Full Test Learning Opportunity",
+  "ceterms:offeredBy": [
+    {
+      "@id": "8c5e42ea-724a-40e2-b082-efdc2299205e"
+    },
+    {
+      "@id": "c27612df-7fae-4d4e-906a-2c9a1beaf101"
+    }
+  ],
+  "ceterms:ownedBy": [
+    {
+      "@id": "8c5e42ea-724a-40e2-b082-efdc2299205e"
+    },
+    {
+      "@id": "c27612df-7fae-4d4e-906a-2c9a1beaf101"
+    }
+  ],
+  "ceterms:recognizedBy": [
+    {
+      "@id": "8c5e42ea-724a-40e2-b082-efdc2299205e"
+    },
+    {
+      "@id": "c27612df-7fae-4d4e-906a-2c9a1beaf101"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://credentialengineregistry.org/resources/8c5e42ea-724a-40e2-b082-efdc2299205e"
+        }
+      ],
+      "ceterms:description": "These are the eligibility requirements.",
+      "ceterms:name": "requirements",
+      "ceterms:experience": "23 things",
+      "ceterms:yearsOfExperience": 5.00
+    }
+  ],
+  "ceterms:subject": [
+    "Subject 1",
+    "Subject 2"
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.google.com/?subjectWebpage"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Teaches",
+      "ceterms:codedNotation": [
+        "abcabc123"
+      ],
+      "ceterms:framework": {
+        "@id": "http://www.google.com/?frameworkURL"
+      },
+      "ceterms:frameworkName": "Teaches competency framework",
+      "ceterms:targetNode": {
+        "@id": "http://www.google.com/?frameworkURL"
+      },
+      "ceterms:targetNodeDescription": "teaches competency description",
+      "ceterms:targetNodeName": "teaches competency name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:codedNotation": [
+        "123abc"
+      ],
+      "ceterms:framework": {
+        "@id": "http://www.google.com/?educationalframeworkurl"
+      },
+      "ceterms:frameworkName": "Competency framework name",
+      "ceterms:targetNode": {
+        "@id": "http://www.google.com/?competencyURL"
+      },
+      "ceterms:targetNodeDescription": "Competency Description value",
+      "ceterms:targetNodeName": "Competency Name value"
+    }
+  ],
+  "ceterms:verificationMethodDescription": "Verification Method Description value",
+  "ceterms:learningMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "learnMethod:Applied"
+      },
+      "ceterms:targetNodeName": "Applied"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "learnMethod:ElectronicMediaBased"
+      },
+      "ceterms:targetNodeName": "Electronic Media Based"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "learnMethod:Laboratory"
+      },
+      "ceterms:targetNodeName": "Laboratory"
+    }
+  ]
+}

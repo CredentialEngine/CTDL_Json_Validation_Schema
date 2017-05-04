@@ -1,0 +1,115 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "6eb7abf1-f5b7-444c-a304-6c10b451a534",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Board of Certified Safety Professionals",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Champaign",
+      "ceterms:addressRegion": "Illinois",
+      "ceterms:postalCode": "61821",
+      "ceterms:streetAddress": "2301 W. Bradley Avenue "
+    }
+  ],
+  "ceterms:agentPurposeDescription": "BCSP sets and certifies technical competency criteria for safety, health and environmental practitioners worldwide; enhancing careers, advancing the profession, protecting the public.",
+  "ceterms:description": "Board of Certified Safety Professionals (BCSP) sets and certifies technical competency criteria for safety, health and environmental practitioners worldwide; enhancing careers, advancing the profession, protecting the public.",
+  "ceterms:duns": "79148938",
+  "ceterms:fein": "370982724",
+  "ceterms:image": [
+    {
+      "@id": "http://www.enr.com/ext/resources/images/construction/BCSP-300dp-250pxi.png"
+    }
+  ],
+  "ceterms:name": "Board of Certified Safety Professionals",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.bcsp.org/Contact"
+    },
+    {
+      "@id": "https://www.facebook.com/pages/BCSP/134960406575047"
+    },
+    {
+      "@id": "https://twitter.com/BCSP"
+    },
+    {
+      "@id": "https://plus.google.com/+BcspOrg/posts"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/board-of-certified-safety-professionals"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.bcsp.org/"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.bcsp.org/Contact"
+        },
+        {
+          "@id": "https://www.facebook.com/pages/BCSP/134960406575047"
+        },
+        {
+          "@id": "https://twitter.com/BCSP"
+        },
+        {
+          "@id": "https://plus.google.com/+BcspOrg/posts"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/board-of-certified-safety-professionals"
+        }
+      ],
+      "ceterms:telephone": [
+        "217-359-9263",
+        "217-359-0055"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "8ddbf031-bad6-4b19-b726-066d5f71ad01",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Capella University",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Minneapolis",
+      "ceterms:addressRegion": "MN",
+      "ceterms:postalCode": "55402",
+      "ceterms:streetAddress": "225 South 6th Street 9th Floor"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "The mission of Capella University is to extend access to high quality bachelor's, master's, doctoral, and certificate programs for adults who seek to maximize their personal and professional potential. This mission is fulfilled through innovative programs that are responsive to the needs of adult learners and involve active, engaging, challenging, and relevant learning experiences offered in a variety of delivery modes.",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:Postsecondary"
+      },
+      "ceterms:targetNodeName": "Postsecondary Educational Institution"
+    }
+  ],
+  "ceterms:description": "The mission of Capella University is to extend access to high quality bachelor's, master's, doctoral, and certificate programs for adults who seek to maximize their personal and professional potential. This mission is fulfilled through innovative programs that are responsive to the needs of adult learners and involve active, engaging, challenging, and relevant learning experiences offered in a variety of delivery modes.",
+  "ceterms:duns": "32020245",
+  "ceterms:fein": "411717955",
+  "ceterms:image": [
+    {
+      "@id": "https://s3.amazonaws.com/sophia-images/logo-partner-capella.png"
+    }
+  ],
+  "ceterms:ipedsID": "413413",
+  "ceterms:name": "Capella University",
+  "ceterms:opeID": "032673",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Created the specific credential.",
+      "ceterms:targetNodeName": "Creator of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Determines how a person can qualify to pursue a credential.",
+      "ceterms:targetNodeName": "Determine Qualifications for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Provides the assessment or exam to earn the credential.",
+      "ceterms:targetNodeName": "Offer Assessment or Exam for Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Offers education, training, professional development either required or optional to earn the credential.",
+      "ceterms:targetNodeName": "Offer Education and/or Training and/or Professional Development Opportunities for Credential"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "Updates the version of the credential.",
+      "ceterms:targetNodeName": "Versioning of Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.capella.edu/contact-us/"
+    },
+    {
+      "@id": "https://www.facebook.com/CapellaUniversity"
+    },
+    {
+      "@id": "https://twitter.com/CapellaU"
+    },
+    {
+      "@id": "https://plus.google.com/+capellauniversity/posts"
+    },
+    {
+      "@id": "https://www.youtube.com/user/capellauniversity"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/capella-university"
+    },
+    {
+      "@id": "https://www.pinterest.com/capellau/"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.capella.edu"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.capella.edu/contact-us/"
+        },
+        {
+          "@id": "https://www.facebook.com/CapellaUniversity"
+        },
+        {
+          "@id": "https://twitter.com/CapellaU"
+        },
+        {
+          "@id": "https://plus.google.com/+capellauniversity/posts"
+        },
+        {
+          "@id": "https://www.youtube.com/user/capellauniversity"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/capella-university"
+        },
+        {
+          "@id": "https://www.pinterest.com/capellau/"
+        }
+      ],
+      "ceterms:telephone": [
+        "1-844-316-8955",
+        "1-612-977-5060"
+      ]
+    }
+  ]
+}
