@@ -63,6 +63,7 @@
                 "ceterms:availabilityListing": { "$ref": "#/definitions/ceterms:availabilityListing" },
                 "ceterms:contactPoint": { "$ref": "#/definitions/ceterms:contactPoint" },
                 "ceterms:credentialingAction": { "$ref": "#/definitions/ceterms:credentialingAction" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:department": { "$ref": "#/definitions/ceterms:department" },
                 "ceterms:description": { "$ref": "#/definitions/ceterms:description" },
                 "ceterms:developmentProcess": { "$ref": "#/definitions/ceterms:developmentProcess" },
@@ -162,6 +163,7 @@
                 "ceterms:availabilityListing": { "$ref": "#/definitions/ceterms:availabilityListing" },
                 "ceterms:contactPoint": { "$ref": "#/definitions/ceterms:contactPoint" },
                 "ceterms:credentialingAction": { "$ref": "#/definitions/ceterms:credentialingAction" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:department": { "$ref": "#/definitions/ceterms:department" },
                 "ceterms:description": { "$ref": "#/definitions/ceterms:description" },
                 "ceterms:developmentProcess": { "$ref": "#/definitions/ceterms:developmentProcess" },
@@ -346,6 +348,7 @@
                 "@id": { "$ref": "#/definitions/@id" },
                 "ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
                 "ceterms:commonConditions": { "$ref": "#/definitions/ceterms:commonConditions" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:description": { "$ref": "#/definitions/ceterms:description" },
                 "ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
                 "ceterms:isAdvancedStandingFor": { "$ref": "#/definitions/ceterms:isAdvancedStandingFor" },
@@ -746,6 +749,7 @@
             "items": { "$ref": "#/definitions/ceterms:ContactPoint" }
         },
         "ceterms:credentialingAction": { "$ref": "#/definitions/meta:identifier_multi" },
+        "ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
         "ceterms:department": { "$ref": "#/definitions/meta:identifier_multi" },
         "ceterms:developmentProcess": {
             "type": "array",
