@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "ec446f69-2c4f-4efb-9513-c4794e2553a8"
+    }
+  ],
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Aurora",
+      "ceterms:addressRegion": "OH",
+      "ceterms:postalCode": "44202",
+      "ceterms:streetAddress": "610 Thornhill Lane"
+    }
+  ],
+  "ceterms:administrationProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:dateEffective": "1999-01-01",
+      "ceterms:description": "Process profile description",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "Jurisdication - separate from Region",
+          "ceterms:globalJurisdiction": false,
+          "ceterms:mainJurisdiction": [
+            {
+              "@type": "ceterms:GeoCoordinates",
+              "ceterms:name": "Missouri",
+              "ceterms:geoURI": {
+                "@id": "http://geonames.org/4398678/"
+              }
+            }
+          ]
+        },
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "Process profile region",
+          "ceterms:globalJurisdiction": false,
+          "ceterms:mainJurisdiction": [
+            {
+              "@type": "ceterms:GeoCoordinates",
+              "ceterms:name": "Iowa",
+              "ceterms:geoURI": {
+                "@id": "http://geonames.org/4862182/"
+              }
+            }
+          ]
+        }
+      ],
+      "ceterms:processStandards": {
+        "@id": "http://example.com?t=processStandards"
+      },
+      "ceterms:processStandardsDescription": "Process standards description",
+      "ceterms:scoringMethodDescription": "Scoring method description",
+      "ceterms:scoringMethodExample": {
+        "@id": "http://example.com?t=processScoringExample"
+      },
+      "ceterms:scoringMethodExampleDescription": "Scoring method example description",
+      "ceterms:verificationMethodDescription": "Validation method description",
+      "ceterms:processFrequency": "Yearly",
+      "ceterms:processMethod": {
+        "@id": "http://example.com?t=processMethod"
+      },
+      "ceterms:processMethodDescription": "Process method description"
+    }
+  ],
+  "ceterms:agentPurpose": {
+    "@id": "http://example.com"
+  },
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:ProfessionalAssociation"
+      },
+      "ceterms:targetNodeName": "Professional Association"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "orgType:QualityAssurance"
+      },
+      "ceterms:targetNodeName": "Quality Assurance"
+    }
+  ],
+  "ceterms:alternativeIdentifier": [
+    {
+      "@type": "ceterms:IdentifierValue",
+      "ceterms:identifierType": "Other code type",
+      "ceterms:identifierValueCode": "abcdef"
+    }
+  ],
+  "ceterms:ctid": "ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F",
+  "ceterms:department": [
+    {
+      "@id": "8c5e42ea-724a-40e2-b082-efdc2299205e"
+    }
+  ],
+  "ceterms:description": "The Accreditation Board for Specialty Nursing Certification (ABSNC), formerly the ABNS Accreditation Council, is the only accrediting body specifically for nursing certification. ABSNC accreditation is a peer-review mechanism that allows nursing certification organizations to obtain accreditation by demonstrating compliance with the highest quality standards available in the industry. Accreditation is available for both ABNS member and non-member organizations.",
+  "ceterms:duns": "556789",
+  "ceterms:image": [
+    {
+      "@id": "http://www.nursingcertification.org/resources/Theme/logo-absnc.png"
+    }
+  ],
+  "ceterms:keyword": [
+    "Registry test case"
+  ],
+  "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeDescription": "The resource being described provides accreditation service.",
+      "ceterms:targetNodeName": "Accredit Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "http://www.nursingcertification.org/absnc/programs"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "https://www.nursingcertification.org"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "http://www.nursingcertification.org/absnc/programs"
+        }
+      ],
+      "ceterms:telephone": [
+        "330-995-9172"
+      ]
+    }
+  ]
+}
