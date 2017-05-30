@@ -50,6 +50,7 @@
                 "ceterms:creditUnitType": { "$ref": "#/definitions/ceterms:creditUnitType" },
                 "ceterms:creditUnitTypeDescription": { "$ref": "#/definitions/ceterms:creditUnitTypeDescription" },
                 "ceterms:creditUnitValue": { "$ref": "#/definitions/ceterms:creditUnitValue" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:dateEffective": { "$ref": "#/definitions/ceterms:dateEffective" },
                 "ceterms:deliveryType": { "$ref": "#/definitions/ceterms:deliveryType" },
                 "ceterms:deliveryTypeDescription": { "$ref": "#/definitions/ceterms:deliveryTypeDescription" },
@@ -157,6 +158,7 @@
                 "@id": { "$ref": "#/definitions/@id" },
                 "ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
                 "ceterms:commonConditions": { "$ref": "#/definitions/ceterms:commonConditions" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:description": { "$ref": "#/definitions/ceterms:description" },
                 "ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
                 "ceterms:isAdvancedStandingFor": { "$ref": "#/definitions/ceterms:isAdvancedStandingFor" },
@@ -518,10 +520,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:alignmentDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:alignmentDate": { "type": "string" },
         "ceterms:alignmentType": { "$ref": "#/definitions/meta:literal" },
         "ceterms:framework": { "$ref": "#/definitions/meta:uri" },
         "ceterms:frameworkName": { "$ref": "#/definitions/meta:literal" },
@@ -543,10 +542,7 @@
         },
         "ceterms:creditUnitTypeDescription": { "$ref": "#/definitions/meta:literal" },
         "ceterms:creditUnitValue": { "type": "number" },
-        "ceterms:dateEffective": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:dateEffective": { "type": "string" },
         "ceterms:estimatedCost": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CostProfile" }
@@ -558,10 +554,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:endDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:endDate": { "type": "string" },
         "ceterms:jurisdiction": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
@@ -577,10 +570,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:startDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:startDate": { "type": "string" },
         "ceterms:taskProfiled": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:TaskProfile" }
@@ -620,6 +610,7 @@
             "items": { "$ref": "#/definitions/ceterms:TaskProfile" }
         },
         "ceterms:yearsOfExperience": { "type": "number" },
+        "ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
         "ceterms:entryCondition": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
