@@ -55,6 +55,7 @@
                 "ceterms:creditUnitType": { "$ref": "#/definitions/ceterms:creditUnitType" },
                 "ceterms:creditUnitTypeDescription": { "$ref": "#/definitions/ceterms:creditUnitTypeDescription" },
                 "ceterms:creditUnitValue": { "$ref": "#/definitions/ceterms:creditUnitValue" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:dateEffective": { "$ref": "#/definitions/ceterms:dateEffective" },
                 "ceterms:deliveryType": { "$ref": "#/definitions/ceterms:deliveryType" },
                 "ceterms:deliveryTypeDescription": { "$ref": "#/definitions/ceterms:deliveryTypeDescription" },
@@ -217,6 +218,7 @@
                 "@id": { "$ref": "#/definitions/@id" },
                 "ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
                 "ceterms:commonConditions": { "$ref": "#/definitions/ceterms:commonConditions" },
+                "ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
                 "ceterms:description": { "$ref": "#/definitions/ceterms:description" },
                 "ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
                 "ceterms:isAdvancedStandingFor": { "$ref": "#/definitions/ceterms:isAdvancedStandingFor" },
@@ -550,18 +552,12 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:ProcessProfile" }
         },
-        "ceterms:dateEffective": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:dateEffective": { "type": "string" },
         "ceterms:externalInputType": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:alignmentDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:alignmentDate": { "type": "string" },
         "ceterms:alignmentType": { "$ref": "#/definitions/meta:literal" },
         "ceterms:codedNotation": { "$ref": "#/definitions/meta:literal_multi" },
         "ceterms:framework": { "$ref": "#/definitions/meta:uri" },
@@ -677,10 +673,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:endDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:endDate": { "type": "string" },
         "ceterms:learningOpportunityProfiled": { "$ref": "#/definitions/meta:identifier_multi" },
         "ceterms:paymentPattern": { "$ref": "#/definitions/meta:literal" },
         "ceterms:price": { "type": "number" },
@@ -688,10 +681,7 @@
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
         },
-        "ceterms:startDate": {
-            "type": "string",
-            "format": "date"
-        },
+        "ceterms:startDate": { "type": "string" },
         "ceterms:taskProfiled": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:TaskProfile" }
@@ -727,6 +717,7 @@
             "items": { "$ref": "#/definitions/ceterms:TaskProfile" }
         },
         "ceterms:yearsOfExperience": { "type": "number" },
+        "ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
         "ceterms:entryCondition": {
             "type": "array",
             "items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
@@ -867,8 +858,13 @@
         "ceterms:identifierType": { "$ref": "#/definitions/meta:literal" },
         "ceterms:identifierValueCode": { "$ref": "#/definitions/meta:literal" },
         "ceterms:partOfIdentifierValueSet": {
-            "type": "array",
-            "items": { "$ref": "#/definitions/ceterms:IdentifierValueSet" }
+            "anyOf": [
+                { "$ref": "#/definitions/meta:literal_multi" },
+                {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/ceterms:IdentifierValueSet" }
+                }
+            ]
         }
     }
 }
