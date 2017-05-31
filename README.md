@@ -17,3 +17,5 @@ In order to test a new release, complete the follow steps:
 1. Update the symbolic link called `latest` to point to the latest release (eg. `Schema-2017-06-30`)
 1. Update the test cases (if necessary).
    They are located in the folder `/test_data` with subsequent subfolders named after their respective schemas (i.e. for `/Schema-2017-06-30/credentialSchema.json` we would have `/test_data/credentialSchema/credential_1167_payload_Successful.txt` or `/test_data/credentialSchema/invalid_credential.txt`)
+
+test.
