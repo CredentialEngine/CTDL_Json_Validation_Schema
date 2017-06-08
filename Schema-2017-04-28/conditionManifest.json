@@ -35,7 +35,6 @@
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id_absolute" },
 				"ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
-				"ceterms:commonConditions": { "$ref": "#/definitions/ceterms:commonConditions" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
 				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
 				"ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
@@ -62,6 +61,7 @@
 				"ceterms:assertedBy": { "$ref": "#/definitions/ceterms:assertedBy" },
 				"ceterms:audienceLevelType": { "$ref": "#/definitions/ceterms:audienceLevelType" },
 				"ceterms:audienceType": { "$ref": "#/definitions/ceterms:audienceType" },
+				"ceterms:commonCosts": { "$ref": "#/definitions/ceterms:commonCosts" },
 				"ceterms:condition": { "$ref": "#/definitions/ceterms:condition" },
 				"ceterms:credentialProfiled": { "$ref": "#/definitions/ceterms:credentialProfiled" },
 				"ceterms:creditHourType": { "$ref": "#/definitions/ceterms:creditHourType" },
@@ -116,6 +116,7 @@
 				"@id": { "$ref": "#/definitions/@id" },
 				"ceterms:assessmentProfiled": { "$ref": "#/definitions/ceterms:assessmentProfiled" },
 				"ceterms:audienceType": { "$ref": "#/definitions/ceterms:audienceType" },
+				"ceterms:condition": { "$ref": "#/definitions/ceterms:condition" },
 				"ceterms:costDetails": { "$ref": "#/definitions/ceterms:costDetails" },
 				"ceterms:currency": { "$ref": "#/definitions/ceterms:currency" },
 				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
@@ -399,6 +400,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
+		"ceterms:commonCosts": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:condition": { "$ref": "#/definitions/meta:literal_multi" },
 		"ceterms:credentialProfiled": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:creditHourType": { "$ref": "#/definitions/meta:literal" },
@@ -518,7 +520,6 @@
 			"items": { "$ref": "#/definitions/ceterms:TaskProfile" }
 		},
 		"ceterms:yearsOfExperience": { "type": "number" },
-		"ceterms:commonConditions": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
 		"ceterms:entryCondition": {
 			"type": "array",
