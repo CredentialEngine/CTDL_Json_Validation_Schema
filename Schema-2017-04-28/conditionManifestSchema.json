@@ -34,16 +34,13 @@
 				"@type": { "enum": [ "ceterms:ConditionManifest" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id_absolute" },
-				"ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
+				"ceterms:conditionManifestOf": { "$ref": "#/definitions/ceterms:conditionManifestOf" },
+				"ceterms:assertedBy": { "$ref": "#/definitions/ceterms:assertedBy" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
 				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
+				"ceterms:corequisite": { "$ref": "#/definitions/ceterms:corequisite" },
 				"ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
-				"ceterms:isAdvancedStandingFor": { "$ref": "#/definitions/ceterms:isAdvancedStandingFor" },
-				"ceterms:isPreparationFor": { "$ref": "#/definitions/ceterms:isPreparationFor" },
-				"ceterms:isRecommendedFor": { "$ref": "#/definitions/ceterms:isRecommendedFor" },
-				"ceterms:isRequiredFor": { "$ref": "#/definitions/ceterms:isRequiredFor" },
 				"ceterms:name": { "$ref": "#/definitions/ceterms:name" },
-				"ceterms:preparationFrom": { "$ref": "#/definitions/ceterms:preparationFrom" },
 				"ceterms:recommends": { "$ref": "#/definitions/ceterms:recommends" },
 				"ceterms:requires": { "$ref": "#/definitions/ceterms:requires" },
 				"ceterms:subjectWebpage": { "$ref": "#/definitions/ceterms:subjectWebpage" }
@@ -382,6 +379,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
+		"ceterms:conditionManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:assertedBy": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:audienceLevelType": {
 			"type": "array",
@@ -525,6 +523,10 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
+		 "ceterms:corequisite": {
+            "type": "array",
+            "items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
+        },
 		"ceterms:isAdvancedStandingFor": {
 			"anyOf": [
 				{ "$ref": "#/definitions/meta:identifier_multi" },
