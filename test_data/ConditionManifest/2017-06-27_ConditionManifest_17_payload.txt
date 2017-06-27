@@ -1,0 +1,153 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:ConditionManifest",
+  "@id": "ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
+  "ceterms:ctid": "ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
+  "ceterms:description": "sample description",
+  "ceterms:name": "Test Condition Manifet",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audLevel:IntermediateLevel"
+          },
+          "ceterms:targetNodeName": "Intermediate Level"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audLevel:BachelorsDegreeLevel"
+          },
+          "ceterms:targetNodeName": "Bachelors Degree Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:FullTime"
+          },
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:NonCitizen"
+          },
+          "ceterms:targetNodeName": "Non-Citizen"
+        }
+      ],
+      "ceterms:creditUnitTypeDescription": "sample credit unit type description",
+      "ceterms:creditUnitValue": 60.00,
+      "ceterms:description": "sample desc",
+      "ceterms:name": "Org Reqs",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "ce-54E76F4B-9C04-4E57-AB9F-E04EAD5E86ED"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "ce-b671b0c0-f620-4600-ace2-09b31b2ba76f"
+        }
+      ],
+      "ceterms:alternativeCondition": [
+        {
+          "@type": "ceterms:ConditionProfile",
+          "ceterms:audienceLevelType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:targetNode": {
+                "@id": "audLevel:IntermediateLevel"
+              },
+              "ceterms:targetNodeName": "Intermediate Level"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:targetNode": {
+                "@id": "audLevel:BachelorsDegreeLevel"
+              },
+              "ceterms:targetNodeName": "Bachelors Degree Level"
+            }
+          ],
+          "ceterms:audienceType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:targetNode": {
+                "@id": "audience:FullTime"
+              },
+              "ceterms:targetNodeName": "Full-Time"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:targetNode": {
+                "@id": "audience:NonCitizen"
+              },
+              "ceterms:targetNodeName": "Non-Citizen"
+            }
+          ],
+          "ceterms:creditUnitTypeDescription": "sample credit unit type description",
+          "ceterms:creditUnitValue": 40.00,
+          "ceterms:description": "SAmple Alternative conditions description",
+          "ceterms:name": "sample alternative condition",
+          "ceterms:targetAssessment": [
+            {
+              "@id": "ce-F0215351-88C6-4285-8FAD-CBC5EEA2447B"
+            }
+          ],
+          "ceterms:targetCredential": [
+            {
+              "@id": "ce-88409435-EBA9-4B42-8977-0814356F9A74"
+            }
+          ],
+          "ceterms:condition": [
+            "certification in clinical pathology"
+          ],
+          "ceterms:experience": "2 years of experience in clinical pathology",
+          "ceterms:yearsOfExperience": 2.00
+        }
+      ],
+      "ceterms:condition": [
+        "certified in clincal pathology"
+      ],
+      "ceterms:experience": "2 years of experience in clinical pathology",
+      "ceterms:yearsOfExperience": 2.00
+    }
+  ]
+}
