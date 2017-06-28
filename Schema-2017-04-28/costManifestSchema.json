@@ -34,9 +34,8 @@
 				"@type": { "enum": [ "ceterms:CostManifest" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id_absolute" },
-				"ceterms:costManifestOf": { "$ref": "#/definitions/ceterms:costManifestOf" },
-				"ceterms:assertedBy": { "$ref": "#/definitions/ceterms:assertedBy" },
 				"ceterms:costDetails": { "$ref": "#/definitions/ceterms:costDetails" },
+				"ceterms:costManifestOf": { "$ref": "#/definitions/ceterms:costManifestOf" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
 				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
 				"ceterms:endDate": { "$ref": "#/definitions/ceterms:endDate" },
@@ -322,6 +321,7 @@
 			"additionalProperties": false
 		},
 		"ceterms:costDetails": { "$ref": "#/definitions/meta:uri" },
+		"ceterms:costManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
 		"ceterms:description": { "$ref": "#/definitions/meta:literal" },
 		"ceterms:endDate": { "type": "string" },
@@ -353,7 +353,6 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
 		},
-		"ceterms:costManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:assertedBy": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:globalJurisdiction": { "type": "boolean" },
 		"ceterms:jurisdictionException": {
