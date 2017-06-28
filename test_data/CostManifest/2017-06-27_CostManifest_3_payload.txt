@@ -1,0 +1,180 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CostManifest",
+  "@id": "ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
+  "ceterms:costDetails": {
+    "@id": "http://www.google.com/?test"
+  },
+  "ceterms:ctid": "ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
+  "ceterms:description": "manifest costs for this org",
+  "ceterms:endDate": "2002-02-02",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentMilitaryDependent"
+          },
+          "ceterms:targetNodeName": "Current Military Dependent"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentMilitarySpouse"
+          },
+          "ceterms:targetNodeName": "Current Military Spouse"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentStudent"
+          },
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:FormerMilitary"
+          },
+          "ceterms:targetNodeName": "Former Military / Veteran"
+        }
+      ],
+      "ceterms:costDetails": {
+        "@id": "http://www.google.com/?test2"
+      },
+      "ceterms:description": "These are costs in a manifest",
+      "ceterms:endDate": "2004-04-04",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "this is the jurisdiction for these costs",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": " Estimated cost within manifest",
+      "ceterms:startDate": "2003-03-03",
+      "ceterms:currency": "MISSING_CURRENCY",
+      "ceterms:paymentPattern": "Payment pattern value",
+      "ceterms:price": 12345.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:International"
+          },
+          "ceterms:targetNodeName": "Foreign/International"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:InState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:FullTime"
+          },
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:NonCitizen"
+          },
+          "ceterms:targetNodeName": "Non-Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:PartTime"
+          },
+          "ceterms:targetNodeName": "Part-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:PrivateEmployee"
+          },
+          "ceterms:targetNodeName": "Private Employee"
+        }
+      ],
+      "ceterms:costDetails": {
+        "@id": "http://www.google.com/?test2"
+      },
+      "ceterms:description": "These are costs in a manifest",
+      "ceterms:endDate": "2004-04-04",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "this is the jurisdiction for these costs",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": " Estimated cost within manifest",
+      "ceterms:startDate": "2003-03-03",
+      "ceterms:currency": "MISSING_CURRENCY",
+      "ceterms:paymentPattern": "Another payment pattern",
+      "ceterms:price": 678980.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:International"
+          },
+          "ceterms:targetNodeName": "Foreign/International"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:InState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "my cost manifest",
+  "ceterms:startDate": "2001-01-01"
+}
