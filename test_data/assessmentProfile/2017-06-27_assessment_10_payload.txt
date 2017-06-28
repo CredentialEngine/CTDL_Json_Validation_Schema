@@ -1,0 +1,83 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:AssessmentProfile",
+  "@id": "ce-54E76F4B-9C04-4E57-AB9F-E04EAD5E86ED",
+  "ceterms:ctid": "ce-54E76F4B-9C04-4E57-AB9F-E04EAD5E86ED",
+  "ceterms:description": "The Board  of  Certified  Safety Professionals (BCSP) partners  with Pearson VUE to deliver  its  computer-based certification examinations  at testing  centers  available   throughout  the world.",
+  "ceterms:name": "ASP Exam",
+  "ceterms:ownedBy": [
+    {
+      "@id": "6a62b250-a1a2-4d31-a702-cdc2437efd31"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Information Technology"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/BCSPVUEBrochure.pdf"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Assesses:\n- normalizing database design",
+      "ceterms:targetNodeName": "cred 1, asmt 10 - verify relational database design principles"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Limit tardiness, early departures, and absences to legitimate and essential occasions",
+      "ceterms:targetNodeName": "Attendance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Explain the importance of satisfactory attendance to the overall operation of the business",
+      "ceterms:targetNodeName": "Attendance"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false
+}

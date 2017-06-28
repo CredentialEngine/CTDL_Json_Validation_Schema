@@ -1,0 +1,196 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:AssessmentProfile",
+  "@id": "ce-76D08FE9-C4CF-46C2-B2F1-7778F1133621",
+  "ceterms:approvedBy": [
+    {
+      "@id": "356bee5c-3740-40a8-b00d-c1c38ca7f103"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Aurora",
+          "ceterms:addressRegion": "OH",
+          "ceterms:postalCode": "44202",
+          "ceterms:streetAddress": "610 Thornhill Lane"
+        }
+      ],
+      "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    {
+      "@id": "http://testing.com"
+    }
+  ],
+  "ceterms:codedNotation": [
+    "123345abc"
+  ],
+  "ceterms:ctid": "ce-76D08FE9-C4CF-46C2-B2F1-7778F1133621",
+  "ceterms:dateEffective": "2001-01-01",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:OnlineOnly"
+      },
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "test",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:endDate": "2002-02-02",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": "My cost profile",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "costType:EnrollmentFee"
+          },
+          "ceterms:targetNodeDescription": "Cost to enroll in the resource being described.",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:paymentPattern": "daily",
+      "ceterms:price": 12345.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:InState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "residency:OutOfState"
+          },
+          "ceterms:targetNodeName": "Out-Of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:description": "my duration",
+      "ceterms:maximumDuration": "P6W",
+      "ceterms:minimumDuration": "P3Y"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:keyword": [
+    "keyword 1",
+    "keyword 2"
+  ],
+  "ceterms:name": "zzz Full Test assessment",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:description": "requirements description",
+      "ceterms:name": "My eligibility requirements",
+      "ceterms:experience": "experience data"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "another subject"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Asmt test 2"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "subject here"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.test.com"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "zzz Full Test assessment",
+      "ceterms:targetNode": {
+        "@id": "http://www.compurl.com"
+      },
+      "ceterms:targetNodeName": "comp name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "zzz Full Test assessment",
+      "ceterms:targetNodeDescription": "This competency is assessed, but has no URL",
+      "ceterms:targetNodeName": "assessed competency"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "zzz Full Test assessment",
+      "ceterms:targetNode": {
+        "@id": "http://www.competency.url.com"
+      },
+      "ceterms:targetNodeDescription": "competency description text",
+      "ceterms:targetNodeName": "compname2"
+    }
+  ]
+}
