@@ -35,10 +35,9 @@
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id_absolute" },
 				"ceterms:conditionManifestOf": { "$ref": "#/definitions/ceterms:conditionManifestOf" },
-				"ceterms:assertedBy": { "$ref": "#/definitions/ceterms:assertedBy" },
+				"ceterms:corequisite": { "$ref": "#/definitions/ceterms:corequisite" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
 				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
-				"ceterms:corequisite": { "$ref": "#/definitions/ceterms:corequisite" },
 				"ceterms:entryCondition": { "$ref": "#/definitions/ceterms:entryCondition" },
 				"ceterms:name": { "$ref": "#/definitions/ceterms:name" },
 				"ceterms:recommends": { "$ref": "#/definitions/ceterms:recommends" },
@@ -362,14 +361,10 @@
 			},
 			"additionalProperties": false
 		},
-		"ceterms:advancedStandingFrom": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
+		"ceterms:conditionManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
+		"ceterms:corequisite": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
 		"ceterms:additionalCondition": {
 			"type": "array",
@@ -379,7 +374,6 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
-		"ceterms:conditionManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:assertedBy": { "$ref": "#/definitions/meta:identifier_multi" },
 		"ceterms:audienceLevelType": {
 			"type": "array",
@@ -522,55 +516,6 @@
 		"ceterms:entryCondition": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-		},
-		 "ceterms:corequisite": {
-            "type": "array",
-            "items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-        },
-		"ceterms:isAdvancedStandingFor": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
-		},
-		"ceterms:isPreparationFor": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
-		},
-		"ceterms:isRecommendedFor": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
-		},
-		"ceterms:isRequiredFor": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
-		},
-		"ceterms:preparationFrom": {
-			"anyOf": [
-				{ "$ref": "#/definitions/meta:identifier_multi" },
-				{
-					"type": "array",
-					"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
-				}
-			]
 		},
 		"ceterms:recommends": {
 			"anyOf": [
