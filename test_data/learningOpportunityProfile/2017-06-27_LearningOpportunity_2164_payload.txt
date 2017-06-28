@@ -1,0 +1,126 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://dublincore.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:LearningOpportunityProfile",
+  "@id": "ce-4657eb84-651f-4891-9c7f-c5be2f0dd0d1",
+  "ceterms:codedNotation": [
+    "70-560"
+  ],
+  "ceterms:creditUnitType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "creditUnit:CertificateCredit"
+      },
+      "ceterms:targetNodeDescription": "Credit that is issued or accepted for certificates.",
+      "ceterms:targetNodeName": "Certificate Credit"
+    }
+  ],
+  "ceterms:ctid": "ce-4657eb84-651f-4891-9c7f-c5be2f0dd0d1",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:InPerson"
+      },
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "deliveryType:OnlineOnly"
+      },
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "test",
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P20D"
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11"
+      },
+      "ceterms:targetNodeDescription": "Instructional programs that focus on the computer and information sciences and prepare individuals for various occupations in information technology and computer operations fields.",
+      "ceterms:targetNodeName": "COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES"
+    }
+  ],
+  "ceterms:name": "microsoft virtual academy",
+  "ceterms:ownedBy": [
+    {
+      "@id": "e3590c24-e0f2-4dd3-9aa0-73e8fe39f7b2"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audLevel:BachelorsDegreeLevel"
+          },
+          "ceterms:targetNodeName": "Bachelors Degree Level"
+        }
+      ],
+      "ceterms:name": "mvc",
+      "ceterms:residentOf": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:globalJurisdiction": false
+        }
+      ]
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "https://mva.microsoft.com/en-US/training-courses/getting-started-with-the-internet-of-things-iot-16170?l=VUaAyuRIC_6305846048"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Teaches",
+      "ceterms:frameworkName": "Microsoft Network Certifications ",
+      "ceterms:targetNodeDescription": "this is a test",
+      "ceterms:targetNodeName": "Com1"
+    }
+  ]
+}
