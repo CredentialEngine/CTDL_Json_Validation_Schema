@@ -36,7 +36,7 @@
   "@type": "ceterms:ConditionManifest",
   "@id": "ce-6f754a1d-928f-4450-ba6a-84c9cde89952",
   "ceterms:ctid": "ce-6f754a1d-928f-4450-ba6a-84c9cde89952",
-  "ceterms:description": "This describes a set of requirements",
+  "ceterms:description": "This describes a set of requirements for bachelor degrees",
   "ceterms:entryCondition": [
     {
       "@type": "ceterms:ConditionProfile",

@@ -36,7 +36,7 @@
   "@type": "ceterms:ConditionManifest",
   "@id": "ce-a2f0b683-70bb-4c19-b302-86c1409b3369",
   "ceterms:ctid": "ce-a2f0b683-70bb-4c19-b302-86c1409b3369",
-  "ceterms:description": "OK, is description really required?",
+  "ceterms:description": "OK, make description required?",
   "ceterms:entryCondition": [
     {
       "@type": "ceterms:ConditionProfile",

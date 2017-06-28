@@ -39,7 +39,7 @@
     "@id": "http://www.google.com/?test"
   },
   "ceterms:ctid": "ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
-  "ceterms:description": "manifest costs for this org",
+  "ceterms:description": "manifest costs for this org. Update One",
   "ceterms:endDate": "2002-02-02",
   "ceterms:estimatedCost": [
     {

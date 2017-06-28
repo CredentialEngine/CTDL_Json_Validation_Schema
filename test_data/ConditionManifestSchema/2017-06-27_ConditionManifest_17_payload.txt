@@ -47,7 +47,7 @@
           "ceterms:targetNode": {
             "@id": "audLevel:IntermediateLevel"
           },
-          "ceterms:targetNodeName": "Intermediate Level"
+          "ceterms:targetNodeName": "Intermediate Level_custom"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
