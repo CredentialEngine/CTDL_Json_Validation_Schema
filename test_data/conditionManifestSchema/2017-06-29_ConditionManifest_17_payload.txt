@@ -34,20 +34,38 @@
     "@language": "en-US"
   },
   "@type": "ceterms:ConditionManifest",
-  "@id": "ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
   "ceterms:ctid": "ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
   "ceterms:description": "sample description",
+  "ceterms:entryCondition": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+        }
+      ]
+    }
+  ],
+  "ceterms:conditionManifestOf": {
+    "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+  },
   "ceterms:name": "Test Condition Manifet",
   "ceterms:requires": [
     {
       "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/c427f875-9d54-402f-8a66-9c6b9ef2143d"
+        }
+      ],
       "ceterms:audienceLevelType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
           "ceterms:targetNode": {
             "@id": "audLevel:IntermediateLevel"
           },
-          "ceterms:targetNodeName": "Intermediate Level_custom"
+          "ceterms:targetNodeName": "Intermediate Level"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
@@ -79,17 +97,22 @@
       "ceterms:name": "Org Reqs",
       "ceterms:targetAssessment": [
         {
-          "@id": "ce-54E76F4B-9C04-4E57-AB9F-E04EAD5E86ED"
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-54E76F4B-9C04-4E57-AB9F-E04EAD5E86ED"
         }
       ],
       "ceterms:targetCredential": [
         {
-          "@id": "ce-b671b0c0-f620-4600-ace2-09b31b2ba76f"
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-b671b0c0-f620-4600-ace2-09b31b2ba76f"
         }
       ],
       "ceterms:alternativeCondition": [
         {
           "@type": "ceterms:ConditionProfile",
+          "ceterms:assertedBy": [
+            {
+              "@id": "http://lr-staging.learningtapestry.com/resources/c427f875-9d54-402f-8a66-9c6b9ef2143d"
+            }
+          ],
           "ceterms:audienceLevelType": [
             {
               "@type": "ceterms:CredentialAlignmentObject",
@@ -128,12 +151,12 @@
           "ceterms:name": "sample alternative condition",
           "ceterms:targetAssessment": [
             {
-              "@id": "ce-F0215351-88C6-4285-8FAD-CBC5EEA2447B"
+              "@id": "http://lr-staging.learningtapestry.com/resources/ce-F0215351-88C6-4285-8FAD-CBC5EEA2447B"
             }
           ],
           "ceterms:targetCredential": [
             {
-              "@id": "ce-88409435-EBA9-4B42-8977-0814356F9A74"
+              "@id": "http://lr-staging.learningtapestry.com/resources/ce-88409435-EBA9-4B42-8977-0814356F9A74"
             }
           ],
           "ceterms:condition": [

@@ -34,12 +34,12 @@
     "@language": "en-US"
   },
   "@type": "ceterms:CostManifest",
-  "@id": "ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
   "ceterms:costDetails": {
     "@id": "http://www.google.com/?test"
   },
   "ceterms:ctid": "ce-18494a8a-2abb-4ada-af74-d39c78ba382e",
-  "ceterms:description": "manifest costs for this org. Update One",
+  "ceterms:description": "manifest costs for this org",
   "ceterms:endDate": "2002-02-02",
   "ceterms:estimatedCost": [
     {
@@ -175,6 +175,9 @@
       ]
     }
   ],
+  "ceterms:costManifestOf": {
+    "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+  },
   "ceterms:name": "my cost manifest",
   "ceterms:startDate": "2001-01-01"
 }
