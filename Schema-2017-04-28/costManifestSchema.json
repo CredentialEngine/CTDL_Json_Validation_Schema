@@ -321,7 +321,7 @@
 			"additionalProperties": false
 		},
 		"ceterms:costDetails": { "$ref": "#/definitions/meta:uri" },
-		"ceterms:costManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
+		"ceterms:costManifestOf": { "$ref": "#/definitions/meta:identifier" },
 		"ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
 		"ceterms:description": { "$ref": "#/definitions/meta:literal" },
 		"ceterms:endDate": { "type": "string" },
