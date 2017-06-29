@@ -361,7 +361,7 @@
 			},
 			"additionalProperties": false
 		},
-		"ceterms:conditionManifestOf": { "$ref": "#/definitions/meta:identifier_multi" },
+		"ceterms:conditionManifestOf": { "$ref": "#/definitions/meta:identifier" },
 		"ceterms:corequisite": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
