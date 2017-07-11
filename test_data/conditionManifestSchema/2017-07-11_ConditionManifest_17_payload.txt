@@ -44,13 +44,136 @@
         {
           "@id": "http://lr-staging.learningtapestry.com/resources/43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
         }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audLevel:BeginnerLevel"
+          },
+          "ceterms:targetNodeName": "Beginner Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:Citizen"
+          },
+          "ceterms:targetNodeName": "Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:NonCitizen"
+          },
+          "ceterms:targetNodeName": "Non-Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:NonMember"
+          },
+          "ceterms:targetNodeName": "Non-Member"
+        }
+      ],
+      "ceterms:creditHourType": "clock hours",
+      "ceterms:creditHourValue": 60.00,
+      "ceterms:name": "sample org Entry Conditions",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-F0215351-88C6-4285-8FAD-CBC5EEA2447B"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-3a1d4d24-e710-4d67-a44e-6ea792c75bf9"
+        }
+      ],
+      "ceterms:experience": "3 years of experience in Reg Assistant",
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
+  "ceterms:corequisite": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+        }
+      ],
+      "ceterms:name": "Bachelor of Science in Business",
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-88409435-EBA9-4B42-8977-0814356F9A74"
+        }
       ]
     }
   ],
-  "ceterms:conditionManifestOf": {
-    "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
-  },
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+    }
+  ],
   "ceterms:name": "Test Condition Manifet",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/356bee5c-3740-40a8-b00d-c1c38ca7f103"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audLevel:SecondaryLevel"
+          },
+          "ceterms:targetNodeName": "Secondary School or Equivalent"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:PrivateEmployee"
+          },
+          "ceterms:targetNodeName": "Private Employee"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNode": {
+            "@id": "audience:PublicEmployee"
+          },
+          "ceterms:targetNodeName": "Public Employee"
+        }
+      ],
+      "ceterms:creditUnitTypeDescription": "sample desc",
+      "ceterms:creditUnitValue": 3.00,
+      "ceterms:description": "Sample desc for recommendations",
+      "ceterms:name": "Sample Recommendations",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-A81E3B16-F583-40DA-A186-C568559AD7E5"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-43B65F6B-188F-443C-B495-11F0D6B52D38"
+        }
+      ],
+      "ceterms:experience": "5 yrs of work experience",
+      "ceterms:residentOf": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "sample residency",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
   "ceterms:requires": [
     {
       "@type": "ceterms:ConditionProfile",

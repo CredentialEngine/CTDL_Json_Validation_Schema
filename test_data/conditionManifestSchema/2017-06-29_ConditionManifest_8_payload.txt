@@ -67,9 +67,11 @@
       ]
     }
   ],
-  "ceterms:conditionManifestOf": {
+  "ceterms:conditionManifestOf":  [
+{
     "@id": "http://lr-staging.learningtapestry.com/resources/ce-6bfbe865-c822-4eb3-8792-9dfd6dfe8239"
-  },
+  }
+],
   "ceterms:name": "First Condition Manifest",
   "ceterms:requires": [
     {
