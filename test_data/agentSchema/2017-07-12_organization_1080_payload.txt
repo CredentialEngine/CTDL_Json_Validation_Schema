@@ -34,15 +34,7 @@
     "@language": "en-US"
   },
   "@type": "ceterms:CredentialOrganization",
-  "@id": "ce-66B26730-C43F-4FF7-A055-5A6919568750",
-  "ceterms:accreditedBy": [
-    {
-      "@id": "0a448f2e-b76b-497b-92cf-51504c7a5000"
-    },
-    {
-      "@id": "bf5d5693-2706-467c-8081-46ee8a0ef578"
-    }
-  ],
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750",
   "ceterms:address": [
     {
       "@type": "ceterms:PostalAddress",
@@ -112,24 +104,19 @@
       "ceterms:targetNodeName": "Education and Training Provider"
     }
   ],
-  "ceterms:approvedBy": [
-    {
-      "@id": "bf5d5693-2706-467c-8081-46ee8a0ef578"
-    }
-  ],
   "ceterms:ctid": "ce-66B26730-C43F-4FF7-A055-5A6919568750",
   "ceterms:department": [
     {
-      "@id": "356bee5c-3740-40a8-b00d-c1c38ca7f103"
+      "@id": "http://lr-staging.learningtapestry.com/resources/356bee5c-3740-40a8-b00d-c1c38ca7f103"
     },
     {
-      "@id": "acf6e21d-4a7c-44ac-a408-be868c538fbe"
+      "@id": "http://lr-staging.learningtapestry.com/resources/acf6e21d-4a7c-44ac-a408-be868c538fbe"
     },
     {
-      "@id": "0a448f2e-b76b-497b-92cf-51504c7a5000"
+      "@id": "http://lr-staging.learningtapestry.com/resources/0a448f2e-b76b-497b-92cf-51504c7a5000"
     },
     {
-      "@id": "e9f85158-42ab-4a07-91e6-c6e289ad1763"
+      "@id": "http://lr-staging.learningtapestry.com/resources/e9f85158-42ab-4a07-91e6-c6e289ad1763"
     }
   ],
   "ceterms:description": "Headquartered in the United States and with offices in London, Hong Kong, Tokyo, Mumbai, and an authorized China agency in Beijing, the International Information System Security Certification Consortium, Inc., (ISC)²®, is the global, not-for-profit leader in educating and certifying cyber, information, software and infrastructure security professionals throughout their careers. We are recognized for Gold Standard certifications and world class education programs.",
@@ -138,7 +125,33 @@
   "ceterms:foundingDate": "1988-1",
   "ceterms:hasConditionManifest": [
     {
-      "@id": "ce-0214d23e-372f-410e-aad4-c02d5c9872bb"
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0214d23e-372f-410e-aad4-c02d5c9872bb"
+    }
+  ],
+  "ceterms:hasVerificationService": [
+    {
+      "@type": "ceterms:VerificationServiceProfile",
+      "ceterms:dateEffective": "2017-12-02",
+      "ceterms:description": "this is service data",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "check it out",
+          "ceterms:globalJurisdiction": false
+        }
+      ],
+      "ceterms:verificationMethodDescription": "the methods are pretty standard",
+      "ceterms:holderMustAuthorize": true,
+      "ceterms:verificationDirectory": [
+        {
+          "@id": "http://directory.com"
+        }
+      ],
+      "ceterms:verificationService": [
+        {
+          "@id": "http://example.com"
+        }
+      ]
     }
   ],
   "ceterms:image": [
@@ -198,11 +211,6 @@
   ],
   "ceterms:name": "(ISC)²",
   "ceterms:opeID": "1080-OPEID",
-  "ceterms:recognizedBy": [
-    {
-      "@id": "0a448f2e-b76b-497b-92cf-51504c7a5000"
-    }
-  ],
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
