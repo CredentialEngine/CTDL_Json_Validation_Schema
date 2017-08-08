@@ -239,25 +239,6 @@
       "@id": "https://www.isc2.org"
     }
   ],
-    "ceterms:hasVerificationService": [
-    {
-      "@type": "ceterms:VerificationServiceProfile",
-      "ceterms:dateEffective": "2017-12-02",
-      "ceterms:description": "this is service data",
-      "ceterms:jurisdiction": [
-        {
-          "@type": "ceterms:JurisdictionProfile",
-          "ceterms:description": "check it out",
-          "ceterms:globalJurisdiction": false
-        }
-      ],
-      "ceterms:verificationMethodDescription": "the methods are pretty standard",
-      "ceterms:holderMustAuthorize": true,
-      "ceterms:verificationDirectory": {
-        "@id": "http://directory.com"
-      }
-    }
-  ],
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
