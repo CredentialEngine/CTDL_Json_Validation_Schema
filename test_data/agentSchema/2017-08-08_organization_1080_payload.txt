@@ -1,0 +1,483 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:CredentialOrganization",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-BF5D5693-2706-467C-8081-46EE8A0EF578"
+    }
+  ],
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "(ISC)²",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:name": "Grants",
+          "ceterms:contactType": "Registrar"
+        }
+      ],
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Clearwater",
+      "ceterms:addressRegion": "Florida",
+      "ceterms:postalCode": " 33759",
+      "ceterms:streetAddress": "311 Park Place Blvd Suite 400"
+    },
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Main address",
+      "ceterms:addressCountry": "Guam",
+      "ceterms:addressLocality": "victoryville",
+      "ceterms:addressRegion": "GM",
+      "ceterms:postalCode": "23009",
+      "ceterms:streetAddress": "123 Main"
+    }
+  ],
+  "ceterms:administrationProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "Admin",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2255"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:InternationalBodies"
+          },
+          "ceterms:targetNodeName": "International Bodies"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2254"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Practitioners"
+          },
+          "ceterms:targetNodeName": "Practitioners"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2366"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Associations"
+          },
+          "ceterms:targetNodeName": "Professional Associations"
+        }
+      ]
+    }
+  ],
+  "ceterms:reviewProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "DEV",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2257"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Governments"
+          },
+          "ceterms:targetNodeName": "Government"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2258"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Guardians"
+          },
+          "ceterms:targetNodeName": "Guardians"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2259"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Students"
+          },
+          "ceterms:targetNodeName": "Students"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2251"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Experts"
+          },
+          "ceterms:targetNodeName": "Subject Matter Experts"
+        }
+      ]
+    }
+  ],
+  "ceterms:revocationProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "MTCE",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2253"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Business"
+          },
+          "ceterms:targetNodeName": "Business"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2248"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:BusinessAssociation"
+          },
+          "ceterms:targetNodeName": "Business or Industry Association"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2249"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Consumers"
+          },
+          "ceterms:targetNodeName": "Consumers"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "Mtce process - new",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2255"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:InternationalBodies"
+          },
+          "ceterms:targetNodeName": "International Bodies"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2254"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Practitioners"
+          },
+          "ceterms:targetNodeName": "Practitioners"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2256"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inoutType:Public"
+          },
+          "ceterms:targetNodeName": "Public"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2251"
+          ],
+          "ceterms:targetNode": {
+            "@id": "inputType:Experts"
+          },
+          "ceterms:targetNodeName": "Subject Matter Experts"
+        }
+      ]
+    }
+  ],
+  "ceterms:agentPurpose": {
+    "@id": "http://credentialfinder.org"
+  },
+  "ceterms:agentPurposeDescription": "Support and provide members and constituents with credentials, resources, and leadership to address cyber, information, software and infrastructure security to deliver value to society.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "2185"
+      ],
+      "ceterms:targetNode": {
+        "@id": "agentSector:PrivateForProfit"
+      },
+      "ceterms:targetNodeName": "Private For-Profit"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1188"
+      ],
+      "ceterms:targetNode": {
+        "@id": "orgType:BusinessAssociation"
+      },
+      "ceterms:targetNodeName": "Business or Industry Association"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1146"
+      ],
+      "ceterms:targetNode": {
+        "@id": "orgType:CertificationBody"
+      },
+      "ceterms:targetNodeName": "Certification Body"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1187"
+      ],
+      "ceterms:targetNode": {
+        "@id": "orgType:TrainingProvider"
+      },
+      "ceterms:targetNodeName": "Education and Training Provider"
+    }
+  ],
+  "ceterms:alternativeIdentifier": [
+    {
+      "@type": "ceterms:IdentifierValue",
+      "ceterms:identifierValueCode": "org alternative identifier"
+    }
+  ],
+  "ceterms:approvedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-BF5D5693-2706-467C-8081-46EE8A0EF578"
+    }
+  ],
+  "ceterms:ctid": "ce-66B26730-C43F-4FF7-A055-5A6919568750",
+  "ceterms:description": "Headquartered in the United States and with offices in London, Hong Kong, Tokyo, Mumbai, and an authorized China agency in Beijing, the International Information System Security Certification Consortium, Inc., (ISC)²®, is the global, not-for-profit leader in educating and certifying cyber, information, software and infrastructure security professionals throughout their careers. We are recognized for Gold Standard certifications and world class education programs.",
+  "ceterms:duns": "789797920",
+  "ceterms:fein": "04-3064434",
+  "ceterms:foundingDate": "1988-1",
+  "ceterms:hasConditionManifest": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0214d23e-372f-410e-aad4-c02d5c9872bb"
+    }
+  ],
+  "ceterms:hasVerificationService": [
+    {
+      "@type": "ceterms:VerificationServiceProfile",
+      "ceterms:dateEffective": "2017-12-02",
+      "ceterms:description": "this is service data",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "check it out",
+          "ceterms:globalJurisdiction": false
+        }
+      ],
+      "ceterms:verificationMethodDescription": "the methods are pretty standard",
+      "ceterms:holderMustAuthorize": true,
+      "ceterms:verificationDirectory": [
+        {
+          "@id": "http://directory.com"
+        }
+      ],
+      "ceterms:verificationService": [
+        {
+          "@id": "http://example.com"
+        }
+      ]
+    }
+  ],
+  "ceterms:image": [
+    {
+      "@id": "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg"
+    }
+  ],
+  "ceterms:industryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "11"
+      ],
+      "ceterms:targetNode": {
+        "@id": "https://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=11&search=2012"
+      },
+      "ceterms:targetNodeDescription": "Agriculture, Forestry, Fishing and Hunting",
+      "ceterms:targetNodeName": "Agriculture, Forestry, Fishing and Hunting"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "111"
+      ],
+      "ceterms:targetNode": {
+        "@id": "https://www.census.gov/cgi-bin/sssd/naics/naicsrch?code=111&search=2012"
+      },
+      "ceterms:targetNodeDescription": "Crop Production",
+      "ceterms:targetNodeName": "Crop Production"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "Available world wide - check update",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Earth",
+          "ceterms:geoURI": {
+            "@id": "http://geonames.org/6295630/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "United States",
+          "ceterms:geoURI": {
+            "@id": "http://geonames.org/6252001/"
+          }
+        }
+      ]
+    }
+  ],
+  "ceterms:keyword": [
+    "Organization 1080"
+  ],
+  "ceterms:name": "(ISC)²",
+  "ceterms:opeID": "1080-OPEID",
+  "ceterms:recognizedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    }
+  ],
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "7"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:OfferService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "10"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:RecognizeService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described provides recognition service.",
+      "ceterms:targetNodeName": "Recognize Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "https://www.facebook.com/isc2fb"
+    },
+    {
+      "@id": "https://www.youtube.com/user/ISC2TV"
+    },
+    {
+      "@id": "https://www.linkedin.com/company/isc2"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "https://www.isc2.org"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:email": [
+        "membersupport@isc2.org"
+      ],
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "https://www.facebook.com/isc2fb"
+        },
+        {
+          "@id": "https://www.youtube.com/user/ISC2TV"
+        },
+        {
+          "@id": "https://www.linkedin.com/company/isc2"
+        }
+      ],
+      "ceterms:telephone": [
+        "1-866-462-4777",
+        "703-891-6781",
+        "703-356-7977",
+        "+61 2 4728 4600"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Technical Support",
+      "ceterms:contactOption": [
+        "Toll-Free"
+      ],
+      "ceterms:contactType": "Illinois",
+      "ceterms:telephone": [
+        "810-Get-Help"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,373 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:AssessmentProfile",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-3D57BA3B-9B84-4A14-9F64-13D83960F9CC",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:approvedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    {
+      "@id": "http://example.com?t=asmt1.availability"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Chg to primary (and check sorted properly) ==> NOTE all were set primary",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Springfield",
+          "ceterms:addressRegion": "IL",
+          "ceterms:postalCode": "62704",
+          "ceterms:streetAddress": "2450 Foundation Dr"
+        }
+      ],
+      "ceterms:name": "Chg to primary (and check sorted properly) ==> NOTE all were set primary"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "Main Site - but want to change it",
+          "ceterms:addressCountry": "United States",
+          "ceterms:addressLocality": "Bloomington",
+          "ceterms:addressRegion": "IL",
+          "ceterms:postalCode": "61704",
+          "ceterms:streetAddress": "2 graystone court"
+        }
+      ],
+      "ceterms:name": "Main Site - but want to change it"
+    },
+    {
+      "@type": "ceterms:GeoCoordinates",
+      "ceterms:address": [
+        {
+          "@type": "ceterms:PostalAddress",
+          "ceterms:name": "My address updated 3",
+          "ceterms:addressCountry": "Canada",
+          "ceterms:addressLocality": "Winnipeg",
+          "ceterms:addressRegion": "MB",
+          "ceterms:postalCode": "r3t1n2",
+          "ceterms:streetAddress": "685 Weatherdon Ave"
+        }
+      ],
+      "ceterms:name": "My address updated 3"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    {
+      "@id": "http://availableAt.com"
+    }
+  ],
+  "ceterms:ctid": "ce-3D57BA3B-9B84-4A14-9F64-13D83960F9CC",
+  "ceterms:dateEffective": "2012-01-01",
+  "ceterms:description": "more later - 0504a\nJP exceptions not saving\nupdate",
+  "ceterms:entryCondition": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/8ddbf031-bad6-4b19-b726-066d5f71ad01"
+        }
+      ],
+      "ceterms:name": "A very important condition",
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-fc0a3e98-7b8c-4153-bc49-a5dcce76c7ae"
+        }
+      ]
+    }
+  ],
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:endDate": "2020-12-12",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:globalJurisdiction": false,
+          "ceterms:mainJurisdiction": [
+            {
+              "@type": "ceterms:GeoCoordinates",
+              "ceterms:name": "United States",
+              "ceterms:geoURI": {
+                "@id": "http://geonames.org/6252001/"
+              }
+            }
+          ]
+        }
+      ],
+      "ceterms:name": "overall cost profile",
+      "ceterms:startDate": "2001-12-12",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "29"
+          ],
+          "ceterms:targetNode": {
+            "@id": "costType:BackgroundCheck"
+          },
+          "ceterms:targetNodeDescription": "Cost for a background check.",
+          "ceterms:targetNodeName": "Background Check"
+        }
+      ],
+      "ceterms:paymentPattern": "Ch",
+      "ceterms:price": 123.23
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:endDate": "2020-12-12",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:globalJurisdiction": false,
+          "ceterms:mainJurisdiction": [
+            {
+              "@type": "ceterms:GeoCoordinates",
+              "ceterms:name": "United States",
+              "ceterms:geoURI": {
+                "@id": "http://geonames.org/6252001/"
+              }
+            }
+          ]
+        }
+      ],
+      "ceterms:name": "overall cost profile",
+      "ceterms:startDate": "2001-12-12",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "31"
+          ],
+          "ceterms:targetNode": {
+            "@id": "costType:StandaloneAssessment"
+          },
+          "ceterms:targetNodeDescription": "Cost for standalone assessments.",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:paymentPattern": "Initial cost is for after 5 days, and for each additional 10 days",
+      "ceterms:price": 25.00
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "01"
+      ],
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=01"
+      },
+      "ceterms:targetNodeDescription": "Instructional programs that focus on agriculture and related sciences and that prepare individuals to apply specific knowledge, methods, and techniques to the management and performance of agricultural operations.",
+      "ceterms:targetNodeName": "AGRICULTURE, AGRICULTURE OPERATIONS, AND RELATED SCIENCES"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "01.00"
+      ],
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=01.00"
+      },
+      "ceterms:targetNodeDescription": "Instructional content is defined in code 01.0000.",
+      "ceterms:targetNodeName": "Agriculture, General"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "30.01"
+      ],
+      "ceterms:targetNode": {
+        "@id": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=30.01"
+      },
+      "ceterms:targetNodeDescription": "Instructional content is defined in code 30.0101.",
+      "ceterms:targetNodeName": "Biological and Physical Sciences"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "The exceptions are not saving ",
+      "ceterms:globalJurisdiction": false,
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "Oregon",
+          "ceterms:geoURI": {
+            "@id": "http://geonames.org/5744337/"
+          }
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:name": "United States",
+          "ceterms:geoURI": {
+            "@id": "http://geonames.org/6252001/"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "my jurisdiction",
+      "ceterms:globalJurisdiction": false
+    }
+  ],
+  "ceterms:keyword": [
+    "Spelunking"
+  ],
+  "ceterms:name": "my first assessment - updated 170316a",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-C2F8BCB4-0270-47B0-B0D6-5F88FD98336C"
+    }
+  ],
+  "ceterms:recognizedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-24BD72B4-0247-43A1-B669-934C17DD08D2"
+    }
+  ],
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/8ddbf031-bad6-4b19-b726-066d5f71ad01"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "36"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audLevel:BachelorsDegreeLevel"
+          },
+          "ceterms:targetNodeName": "Bachelors Degree Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2200"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audience:NonCitizen"
+          },
+          "ceterms:targetNodeName": "Non-Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2321"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audience:NonMember"
+          },
+          "ceterms:targetNodeName": "Non-Member"
+        }
+      ],
+      "ceterms:condition": [
+        "Free lunch"
+      ],
+      "ceterms:description": "test description",
+      "ceterms:name": "Recommendations",
+      "ceterms:experience": "Must have some life experience",
+      "ceterms:yearsOfExperience": 5.00
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Asmt testing"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Testing"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://example.com?t=asmtsRUs_update"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Assesses",
+      "ceterms:frameworkName": "my first assessment - updated 0504a update",
+      "ceterms:targetNode": {
+        "@id": "http://a.competency.asssessed.com"
+      },
+      "ceterms:targetNodeDescription": "a competency asssessed",
+      "ceterms:targetNodeName": "a competency asssessed"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "my first assessment - updated 0504a update",
+      "ceterms:targetNode": {
+        "@id": "http://www.Mycompetency.com/updates0906a"
+      },
+      "ceterms:targetNodeDescription": "A description for this competency 0906a",
+      "ceterms:targetNodeName": "An assessment competency 0906a"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false
+}

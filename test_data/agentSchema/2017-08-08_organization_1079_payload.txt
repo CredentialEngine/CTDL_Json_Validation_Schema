@@ -1,0 +1,190 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:QACredentialOrganization",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FC88C602-5214-4CD0-A17E-629549D8F65F",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:name": "Example Quality Assurance Organization",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Springfield",
+      "ceterms:addressRegion": "IL",
+      "ceterms:postalCode": "62704",
+      "ceterms:streetAddress": "2450 Foundation Drive"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "This organization assures the quality of other organizations and their credentials.",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1146"
+      ],
+      "ceterms:targetNode": {
+        "@id": "orgType:CertificationBody"
+      },
+      "ceterms:targetNodeName": "Certification Body"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1144"
+      ],
+      "ceterms:targetNode": {
+        "@id": "orgType:QualityAssurance"
+      },
+      "ceterms:targetNodeName": "Quality Assurance"
+    }
+  ],
+  "ceterms:ctid": "ce-FC88C602-5214-4CD0-A17E-629549D8F65F",
+  "ceterms:description": "Example of an organization that issues and maintains quality assurance credentials",
+  "ceterms:duns": "1357",
+  "ceterms:fein": "2468",
+  "ceterms:foundingDate": "2016-01-01",
+  "ceterms:ipedsID": "0864",
+  "ceterms:name": "Example Quality Assurance Organization",
+  "ceterms:opeID": "9753",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:AccreditService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described provides accreditation service.",
+      "ceterms:targetNodeName": "Accredit Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "2"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:ApproveService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described provides approval service.",
+      "ceterms:targetNodeName": "Approve Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "8"
+      ],
+      "ceterms:targetNode": {
+        "@id": "cti:endorses"
+      },
+      "ceterms:targetNodeDescription": "Public support of the credential.",
+      "ceterms:targetNodeName": "Endorsement of Credentials"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "13"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:RenewService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described provides renewal service.",
+      "ceterms:targetNodeName": "Renew Credential Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "11"
+      ],
+      "ceterms:targetNode": {
+        "@id": "serviceType:RevokeService"
+      },
+      "ceterms:targetNodeDescription": "The resource being described provides revocation service.",
+      "ceterms:targetNodeName": "Revoke Credential Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "23"
+      ],
+      "ceterms:targetNode": {
+        "@id": "missingPrefix:TBD"
+      },
+      "ceterms:targetNodeDescription": "Determines what a person must complete to earn a credential. ",
+      "ceterms:targetNodeName": "Determine Requirements for Credentials"
+    }
+  ],
+  "ceterms:socialMedia": [
+    {
+      "@id": "https://www.linkedin.com/testorg"
+    },
+    {
+      "@id": "https://twitter.com/illinoisworknet"
+    },
+    {
+      "@id": "http://www.facebook.com/credtransparency"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://ctitest.siuccwd.com/OrganizationManagement/Detail2/1079"
+    }
+  ],
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:email": [
+        "info@siuccwd.com"
+      ],
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        {
+          "@id": "https://www.linkedin.com/testorg"
+        },
+        {
+          "@id": "https://twitter.com/illinoisworknet"
+        },
+        {
+          "@id": "http://www.facebook.com/credtransparency"
+        }
+      ],
+      "ceterms:telephone": [
+        "217-303-2222",
+        "217-303-2222",
+        "217-303-2222",
+        "217-303-2222"
+      ]
+    }
+  ]
+}

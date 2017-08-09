@@ -1,0 +1,277 @@
+{
+  "@context": {
+    "ceterms": "http://purl.org/ctdl/terms/",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "dct": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "obi": "https://w3id.org/openbadges#",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "lrmi": "http://purl.org/dcx/lrmi-terms/",
+    "asn": "http://purl.org/ASN/schema/core/",
+    "vann": "http://purl.org/vocab/vann/",
+    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
+    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
+    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
+    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
+    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
+    "audience": "http://purl.org/ctdl/vocabs/audience/",
+    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
+    "costType": "http://purl.org/ctdl/vocabs/costType/",
+    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
+    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
+    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
+    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
+    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
+    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
+    "residency": "http://purl.org/ctdl/vocabs/residency/",
+    "score": "http://purl.org/ctdl/vocabs/score/",
+    "@language": "en-US"
+  },
+  "@type": "ceterms:LearningOpportunityProfile",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
+  "ceterms:approvedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+    }
+  ],
+  "ceterms:commonCosts": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-8af74f7f-4d14-4bb2-8ed3-cd1ee0da2ed9"
+    }
+  ],
+  "ceterms:commonConditions": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-82a21f9d-bb19-497b-9f8f-86ddf83a1df7"
+    }
+  ],
+  "ceterms:ctid": "ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1169"
+      ],
+      "ceterms:targetNode": {
+        "@id": "deliveryType:InPerson"
+      },
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": [
+        "1172"
+      ],
+      "ceterms:targetNode": {
+        "@id": "deliveryType:OnlineOnly"
+      },
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "The Advanced Multimedia Development Certificate focuses on the application of effective design principles in the development of various digital media. The skill set obtained in this certificate cover digital design, 3D design, image editing, web design, desktop publishing, electronic publishing and multimedia development. This program helps preparation for industry certifications such as the Adobe Certified Expert (ACE) as well as the Autodesk 3ds Max Design certification. While widely available, not all programs are available in all locations or in both online and on-campus formats.  Please check with a University Enrollment Representative.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "102"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audience:Citizen"
+          },
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": {
+        "@id": "http://www.phoenix.edu/programs/ge/default/cert-ammd.html"
+      },
+      "ceterms:description": "There is no application fee.",
+      "ceterms:name": "Advanced Multimedia Development Certificate",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "32"
+          ],
+          "ceterms:targetNode": {
+            "@id": "costType:Tuition"
+          },
+          "ceterms:targetNodeDescription": "Cost for accessing technologies related to the resource being described.",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:price": 11430.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "102"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audience:Citizen"
+          },
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": {
+        "@id": "http://www.phoenix.edu/programs/ge/default/cert-ammd.html"
+      },
+      "ceterms:description": "There is no application fee.",
+      "ceterms:name": "Advanced Multimedia Development Certificate",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "30"
+          ],
+          "ceterms:targetNode": {
+            "@id": "costType:LearningResource"
+          },
+          "ceterms:targetNodeDescription": "Cost for one or more learning resources related to the resource being described.",
+          "ceterms:targetNodeName": "Learning Resource Fees (e.g., Textbooks and Online Materials)"
+        }
+      ],
+      "ceterms:price": 840.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "2196"
+          ],
+          "ceterms:targetNode": {
+            "@id": "audience:CurrentStudent"
+          },
+          "ceterms:targetNodeName": "Current Student"
+        }
+      ],
+      "ceterms:name": "*** new profile ***",
+      "ceterms:currency": "USD",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "1175"
+          ],
+          "ceterms:targetNode": {
+            "@id": "costType:EnrollmentFee"
+          },
+          "ceterms:targetNodeDescription": "Cost to enroll in the resource being described.",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:price": 3456.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "1159"
+          ],
+          "ceterms:targetNode": {
+            "@id": "residency:InState"
+          },
+          "ceterms:targetNodeName": "In-State"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:codedNotation": [
+            "1158"
+          ],
+          "ceterms:targetNode": {
+            "@id": "residency:Local"
+          },
+          "ceterms:targetNodeName": "Local"
+        }
+      ]
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P2Y3M"
+    },
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:maximumDuration": "P3Y",
+      "ceterms:minimumDuration": "P1Y"
+    }
+  ],
+  "ceterms:isAdvancedStandingFor": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/8ddbf031-bad6-4b19-b726-066d5f71ad01"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-25843D95-13E6-4CF8-B3F3-E5B9DBBEDB10"
+        }
+      ]
+    }
+  ],
+  "ceterms:isPartOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-006C5852-19DA-4267-B6CF-F8D527C2FC39"
+    }
+  ],
+  "ceterms:keyword": [
+    "Information Technology"
+  ],
+  "ceterms:name": "Advanced Multimedia Development Certificate",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/8ddbf031-bad6-4b19-b726-066d5f71ad01"
+        }
+      ],
+      "ceterms:description": "later",
+      "ceterms:name": "how to get the lopp"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Information Technology"
+    }
+  ],
+  "ceterms:subjectWebpage": [
+    {
+      "@id": "http://www.phoenix.edu/programs/continuing-education/certificate-programs/technology/cert-ammd.pdf"
+    }
+  ],
+  "ceterms:targetCompetency": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:alignmentType": "Teaches",
+      "ceterms:frameworkName": "Advanced Multimedia Development Certificate",
+      "ceterms:targetNodeDescription": "The graduate will be able to design, monitor, and performance test relational databases",
+      "ceterms:targetNodeName": "learning opp 3 - database design"
+    }
+  ]
+}
