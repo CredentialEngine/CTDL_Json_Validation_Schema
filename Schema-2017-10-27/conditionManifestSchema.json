@@ -235,8 +235,7 @@
 				},
 				"ceterms": {
 					"type": "string",
-					"enum": [ "http://purl.org/ctdl/terms/" ]
-				},
+					"enum": [ "http://purl.org/ctdl/terms/" ]				},
 				"dc": {
 					"type": "string",
 					"enum": [ "http://purl.org/dc/elements/1.1/" ]
