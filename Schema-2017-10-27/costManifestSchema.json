@@ -5,8 +5,7 @@
 		"@context": {
 			"type": "string",
 			"enum": [
-				"http://credreg.net/ctdl/schema/context/json"
-			]
+				"http://credreg.net/ctdl/schema/context/json"			]
 		},
 		"@id": { "type": "string" },
 		"@id_absolute": {
