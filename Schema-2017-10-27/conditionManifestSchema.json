@@ -41,13 +41,19 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:langstring" }
 		},
-		"meta:literal": {
+		"meta:literal_object": {
 			"type": "object",
 			"properties": {
 				"@id": { "$ref": "#/definitions/@id" },
 				"@value": { "$ref": "#/definitions/meta:string" },
 				"@language": { "$ref": "#/definitions/meta:string" }
 			}
+		},
+		"meta:literal": {
+			"anyOf": [
+				{ "$ref": "#/definitions/meta:string" },
+				{ "$ref": "#/definitions/meta:literal_object" }
+			]
 		},
 		"meta:literal_multi": {
 			"type": "array",
