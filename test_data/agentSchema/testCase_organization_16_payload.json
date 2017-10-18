@@ -33,8 +33,8 @@
     "score": "http://purl.org/ctdl/vocabs/score/",
     "@language": "en-US"
   },
-  "@type": "ceterms:CredentialOrganization",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-FD885D15-C0E7-4E1E-9EDC-0DE9B51E7DB7",
+  "@type": "ceterms:CredentialOrganization",
   "ceterms:accreditedBy": [
     {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
@@ -43,10 +43,10 @@
   "ceterms:address": [
     {
       "@type": "ceterms:PostalAddress",
-      "ceterms:name": "Gateway Community & Technical College",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Florence",
       "ceterms:addressRegion": "KY",
+      "ceterms:name": "Gateway Community & Technical College",
       "ceterms:postalCode": "41042",
       "ceterms:streetAddress": "500 Technology Way"
     }
@@ -55,9 +55,9 @@
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "66"
-      ],
+      "ceterms:framework": {
+        "@id": "OrganizationType"
+      },
       "ceterms:targetNode": {
         "@id": "orgType:Postsecondary"
       },
@@ -65,7 +65,7 @@
     }
   ],
   "ceterms:ctid": "ce-FD885D15-C0E7-4E1E-9EDC-0DE9B51E7DB7",
-  "ceterms:description": "Gateway Community and Technical College is Northern Kentucky’s only public, accredited, comprehensive two-year institution. Gateway offers high-quality, targeted education to meet the personal and professional needs of students, and contribute to the economic development of the region. \n\n",
+  "ceterms:description": "Gateway Community and Technical College is Northern Kentucky’s only public, accredited, comprehensive two-year institution. Gateway offers high-quality, targeted education to meet the personal and professional needs of students, and contribute to the economic development of the region.",
   "ceterms:duns": "124711065",
   "ceterms:fein": "611320380",
   "ceterms:foundingDate": "2002",
@@ -74,30 +74,18 @@
       "@id": "https://www.nationalappcenter.com/school_logos/GoHigherKY/Gateway_Community_and_Technical_College/Gateway_Community_and_Technical_College.jpg"
     }
   ],
-  "ceterms:name": "Gateway Community & Technical College",
+  "ceterms:name": "TESTING_Gateway Community & Technical College",
   "ceterms:opeID": "013753",
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "7"
-      ],
+      "ceterms:framework": {
+        "@id": "AgentServiceType"
+      },
       "ceterms:targetNode": {
         "@id": "serviceType:OfferService"
       },
-      "ceterms:targetNodeDescription": "The resource being described offers other resources.",
       "ceterms:targetNodeName": "Offer Service"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "5"
-      ],
-      "ceterms:targetNode": {
-        "@id": "schema:creator"
-      },
-      "ceterms:targetNodeDescription": "Created the specific credential.",
-      "ceterms:targetNodeName": "Creator of Credentials"
     }
   ],
   "ceterms:socialMedia": [
@@ -111,17 +99,15 @@
       "@id": "https://twitter.com/GCTC_News"
     },
     {
-      "@id": "https://www.instagram.com/GCTC_News/"
+      "@id": "https://www.instagram.com/GCTC_News"
     },
     {
       "@id": "https://www.youtube.com/channel/UCp4sWtUcUgqv4aELPG8YaAA"
     }
   ],
-  "ceterms:subjectWebpage": [
-    {
-      "@id": "http://www.gateway.kctcs.edu/"
-    }
-  ],
+  "ceterms:subjectWebpage": {
+    "@id": "http://example.com?t=testOrganization"
+  },
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
@@ -137,15 +123,11 @@
           "@id": "https://twitter.com/GCTC_News"
         },
         {
-          "@id": "https://www.instagram.com/GCTC_News/"
+          "@id": "https://www.instagram.com/GCTC_News"
         },
         {
           "@id": "https://www.youtube.com/channel/UCp4sWtUcUgqv4aELPG8YaAA"
         }
-      ],
-      "ceterms:telephone": [
-        "859-441-4500",
-        "855-346-4282"
       ]
     }
   ]

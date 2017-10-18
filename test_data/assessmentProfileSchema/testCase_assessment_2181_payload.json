@@ -33,114 +33,109 @@
     "score": "http://purl.org/ctdl/vocabs/score/",
     "@language": "en-US"
   },
-  "@type": "ceterms:LearningOpportunityProfile",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-624f7432-d05d-496f-a586-f9be3ece63a4",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": {
+    "@id": "http://www.example.com/?.AssessmentExample"
+  },
+  "ceterms:assessmentExampleDescription": "Assessment Example Desc",
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": {
+        "@id": "AssessmentMethod"
+      },
+      "ceterms:targetNode": {
+        "@id": "assessMethod:Performance"
+      },
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:assessmentOutput": "Grades",
+  "ceterms:availabilityListing": [
+    {
+      "@id": "http://www.example.com/?AvailabilityListing"
+    }
+  ],
   "ceterms:availableAt": [
     {
       "@type": "ceterms:GeoCoordinates",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
-          "ceterms:name": "Springfield",
           "ceterms:addressCountry": "United States",
           "ceterms:addressLocality": "Springfield",
-          "ceterms:addressRegion": "IL  ",
-          "ceterms:postalCode": "62761",
-          "ceterms:streetAddress": " 525-535 West Jefferson Street"
+          "ceterms:addressRegion": "IL",
+          "ceterms:name": "Reg Ass",
+          "ceterms:postalCode": "62704",
+          "ceterms:streetAddress": "2450 Foundation  Dr"
         }
       ],
-      "ceterms:name": "Springfield"
+      "ceterms:name": "Reg Ass"
     }
   ],
   "ceterms:availableOnlineAt": [
     {
-      "@id": "https://www.google.com"
+      "@id": "http://www.example.com/?AvailableOnlineAt"
     }
   ],
-  "ceterms:creditUnitType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "2326"
-      ],
-      "ceterms:targetNode": {
-        "@id": "creditUnit:DegreeCredit"
-      },
-      "ceterms:targetNodeDescription": "Credit that is issued or is accepted as credit for earning a college-level degree.",
-      "ceterms:targetNodeName": "Degree Credit"
-    }
-  ],
-  "ceterms:ctid": "ce-624f7432-d05d-496f-a586-f9be3ece63a4",
+  "ceterms:codedNotation": "101",
+  "ceterms:creditHourType": "semm hrs",
+  "ceterms:creditHourValue": 50.00,
+  "ceterms:dateEffective": "2014-06-04",
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "1172"
-      ],
+      "ceterms:framework": {
+        "@id": "Delivery"
+      },
       "ceterms:targetNode": {
         "@id": "deliveryType:OnlineOnly"
       },
       "ceterms:targetNodeName": "Online Only"
     }
   ],
-  "ceterms:deliveryTypeDescription": "This learning opportunity is provided online only.",
-  "ceterms:description": "This is a test Learning Opportunity created on February 2, 2017",
-  "ceterms:estimatedDuration": [
+  "ceterms:deliveryTypeDescription": "Can have online classes",
+  "ceterms:description": "Testing Assessment Description",
+  "ceterms:externalResearch": [
     {
-      "@type": "ceterms:DurationProfile",
-      "ceterms:exactDuration": "P4Y"
+      "@id": "http://www.example.com/?.ExternalResearch"
     }
   ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": [
+    "Akan"
+  ],
+  "ceterms:isProctored": false,
   "ceterms:jurisdiction": [
     {
       "@type": "ceterms:JurisdictionProfile",
-      "ceterms:globalJurisdiction": false,
-      "ceterms:jurisdictionException": [
-        {
-          "@type": "ceterms:GeoCoordinates",
-          "ceterms:name": "Iowa",
-          "ceterms:geoURI": {
-            "@id": "http://geonames.org/4862182/"
-          }
-        }
-      ],
-      "ceterms:mainJurisdiction": [
-        {
-          "@type": "ceterms:GeoCoordinates",
-          "ceterms:name": "United States",
-          "ceterms:geoURI": {
-            "@id": "http://geonames.org/6252001/"
-          }
-        }
-      ]
+      "ceterms:description": "jursidiction sample",
+      "ceterms:globalJurisdiction": true
     }
   ],
-  "ceterms:name": "Test Learning Opportunity - February 2, 2017",
+  "ceterms:keyword": [
+    "public health",
+    "testing"
+  ],
+  "ceterms:name": "TESTING_Registry Testing",
+  "ceterms:processStandards": {
+    "@id": "http://www.example.com/?ProcessStandards/"
+  },
+  "ceterms:processStandardsDescription": "Testing Process Standards ",
+  "ceterms:scoringMethodDescription": "sample",
+  "ceterms:scoringMethodExampleDescription": "Sample Desc",
   "ceterms:subject": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:targetNodeName": "Credential"
+      "ceterms:targetNodeName": "pharmacy"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:targetNodeName": "subject"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:targetNodeName": "test"
+      "ceterms:targetNodeName": "public health"
     }
   ],
-  "ceterms:verificationMethodDescription": "http://www.bing.com/",
-  "ceterms:learningMethodType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "2355"
-      ],
-      "ceterms:targetNode": {
-        "@id": "learnMethod:SelfPaced"
-      },
-      "ceterms:targetNodeName": "Self Paced"
-    }
-  ]
+  "ceterms:subjectWebpage": {
+    "@id": "http://example.com?t=testAssessment"
+  }
 }

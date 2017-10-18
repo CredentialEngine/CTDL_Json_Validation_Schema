@@ -34,14 +34,13 @@
     "@language": "en-US"
   },
   "@type": "ceterms:QACredentialOrganization",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FC88C602-5214-4CD0-A17E-629549D8F65F",
   "ceterms:address": [
     {
       "@type": "ceterms:PostalAddress",
-      "ceterms:name": "Example Quality Assurance Organization",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Springfield",
       "ceterms:addressRegion": "IL",
+      "ceterms:name": "Example Quality Assurance Organization",
       "ceterms:postalCode": "62704",
       "ceterms:streetAddress": "2450 Foundation Drive"
     }
@@ -50,9 +49,9 @@
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "1146"
-      ],
+      "ceterms:framework": {
+        "@id": "OrganizationType"
+      },
       "ceterms:targetNode": {
         "@id": "orgType:CertificationBody"
       },
@@ -60,89 +59,65 @@
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "1144"
-      ],
+      "ceterms:framework": {
+        "@id": "OrganizationType"
+      },
       "ceterms:targetNode": {
         "@id": "orgType:QualityAssurance"
       },
-      "ceterms:targetNodeName": "Quality Assurance"
+      "ceterms:targetNodeName": "Quality Assurance Body"
     }
   ],
-  "ceterms:ctid": "ce-FC88C602-5214-4CD0-A17E-629549D8F65F",
   "ceterms:description": "Example of an organization that issues and maintains quality assurance credentials",
   "ceterms:duns": "1357",
+  "ceterms:email": [
+    "info@siuccwd.com"
+  ],
   "ceterms:fein": "2468",
   "ceterms:foundingDate": "2016-01-01",
   "ceterms:ipedsID": "0864",
-  "ceterms:name": "Example Quality Assurance Organization",
+  "ceterms:name": "TESTING_Example Quality Assurance Organization",
   "ceterms:opeID": "9753",
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "1"
-      ],
+      "ceterms:framework": {
+        "@id": "AgentServiceType"
+      },
       "ceterms:targetNode": {
         "@id": "serviceType:AccreditService"
       },
-      "ceterms:targetNodeDescription": "The resource being described provides accreditation service.",
       "ceterms:targetNodeName": "Accredit Service"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "2"
-      ],
+      "ceterms:framework": {
+        "@id": "AgentServiceType"
+      },
       "ceterms:targetNode": {
         "@id": "serviceType:ApproveService"
       },
-      "ceterms:targetNodeDescription": "The resource being described provides approval service.",
       "ceterms:targetNodeName": "Approve Service"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "8"
-      ],
-      "ceterms:targetNode": {
-        "@id": "cti:endorses"
+      "ceterms:framework": {
+        "@id": "AgentServiceType"
       },
-      "ceterms:targetNodeDescription": "Public support of the credential.",
-      "ceterms:targetNodeName": "Endorsement of Credentials"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "13"
-      ],
       "ceterms:targetNode": {
         "@id": "serviceType:RenewService"
       },
-      "ceterms:targetNodeDescription": "The resource being described provides renewal service.",
-      "ceterms:targetNodeName": "Renew Credential Service"
+      "ceterms:targetNodeName": "Renew Service"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "11"
-      ],
+      "ceterms:framework": {
+        "@id": "AgentServiceType"
+      },
       "ceterms:targetNode": {
         "@id": "serviceType:RevokeService"
       },
-      "ceterms:targetNodeDescription": "The resource being described provides revocation service.",
-      "ceterms:targetNodeName": "Revoke Credential Service"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": [
-        "23"
-      ],
-      "ceterms:targetNode": {
-        "@id": "missingPrefix:TBD"
-      },
-      "ceterms:targetNodeDescription": "Determines what a person must complete to earn a credential. ",
-      "ceterms:targetNodeName": "Determine Requirements for Credentials"
+      "ceterms:targetNodeName": "Revoke Service"
     }
   ],
   "ceterms:socialMedia": [
@@ -156,11 +131,9 @@
       "@id": "http://www.facebook.com/credtransparency"
     }
   ],
-  "ceterms:subjectWebpage": [
-    {
-      "@id": "http://ctitest.siuccwd.com/OrganizationManagement/Detail2/1079"
-    }
-  ],
+  "ceterms:subjectWebpage": {
+    "@id": "http://example.com?t=testOrganization"
+  },
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
@@ -178,12 +151,6 @@
         {
           "@id": "http://www.facebook.com/credtransparency"
         }
-      ],
-      "ceterms:telephone": [
-        "217-303-2222",
-        "217-303-2222",
-        "217-303-2222",
-        "217-303-2222"
       ]
     }
   ]
