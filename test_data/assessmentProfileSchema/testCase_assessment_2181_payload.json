@@ -34,27 +34,19 @@
     "@language": "en-US"
   },
   "@type": "ceterms:AssessmentProfile",
-  "ceterms:assessmentExample": {
-    "@id": "http://www.example.com/?.AssessmentExample"
-  },
+  "ceterms:assessmentExample": "http://www.example.com/?.AssessmentExample",
   "ceterms:assessmentExampleDescription": "Assessment Example Desc",
   "ceterms:assessmentMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "AssessmentMethod"
-      },
-      "ceterms:targetNode": {
-        "@id": "assessMethod:Performance"
-      },
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
       "ceterms:targetNodeName": "Performance"
     }
   ],
   "ceterms:assessmentOutput": "Grades",
   "ceterms:availabilityListing": [
-    {
-      "@id": "http://www.example.com/?AvailabilityListing"
-    }
+    "http://www.example.com/?AvailabilityListing"
   ],
   "ceterms:availableAt": [
     {
@@ -74,9 +66,7 @@
     }
   ],
   "ceterms:availableOnlineAt": [
-    {
-      "@id": "http://www.example.com/?AvailableOnlineAt"
-    }
+    "http://www.example.com/?AvailableOnlineAt"
   ],
   "ceterms:codedNotation": "101",
   "ceterms:creditHourType": "semm hrs",
@@ -85,21 +75,15 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "Delivery"
-      },
-      "ceterms:targetNode": {
-        "@id": "deliveryType:OnlineOnly"
-      },
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
   ],
   "ceterms:deliveryTypeDescription": "Can have online classes",
   "ceterms:description": "Testing Assessment Description",
   "ceterms:externalResearch": [
-    {
-      "@id": "http://www.example.com/?.ExternalResearch"
-    }
+    "http://www.example.com/?.ExternalResearch"
   ],
   "ceterms:hasGroupEvaluation": false,
   "ceterms:hasGroupParticipation": false,
@@ -119,11 +103,10 @@
     "testing"
   ],
   "ceterms:name": "TESTING_Registry Testing",
-  "ceterms:processStandards": {
-    "@id": "http://www.example.com/?ProcessStandards/"
-  },
+  "ceterms:processStandards": "http://www.example.com/?ProcessStandards/",
   "ceterms:processStandardsDescription": "Testing Process Standards ",
   "ceterms:scoringMethodDescription": "sample",
+  "ceterms:scoringMethodExample": "http://www.example.com/?ScoringMethodExample",
   "ceterms:scoringMethodExampleDescription": "Sample Desc",
   "ceterms:subject": [
     {
@@ -135,7 +118,5 @@
       "ceterms:targetNodeName": "public health"
     }
   ],
-  "ceterms:subjectWebpage": {
-    "@id": "http://example.com?t=testAssessment"
-  }
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
 }

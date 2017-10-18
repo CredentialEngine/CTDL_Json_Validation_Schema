@@ -88,51 +88,33 @@
       ]
     }
   ],
-  "ceterms:agentPurpose": {
-    "@id": "http://credentialfinder.org"
-  },
+  "ceterms:agentPurpose": "http://credentialfinder.org",
   "ceterms:agentPurposeDescription": "Support and provide members and constituents with credentials, resources, and leadership to address cyber, information, software and infrastructure security to deliver value to society.",
   "ceterms:agentSectorType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "AgentSector"
-      },
-      "ceterms:targetNode": {
-        "@id": "agentSector:PrivateForProfit"
-      },
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateForProfit",
       "ceterms:targetNodeName": "Private For-Profit"
     }
   ],
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "OrganizationType"
-      },
-      "ceterms:targetNode": {
-        "@id": "orgType:BusinessAssociation"
-      },
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:BusinessAssociation",
       "ceterms:targetNodeName": "Business or Industry Association"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "OrganizationType"
-      },
-      "ceterms:targetNode": {
-        "@id": "orgType:CertificationBody"
-      },
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:CertificationBody",
       "ceterms:targetNodeName": "Certification Body"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "OrganizationType"
-      },
-      "ceterms:targetNode": {
-        "@id": "orgType:TrainingProvider"
-      },
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:TrainingProvider",
       "ceterms:targetNodeName": "Education and Training Provider"
     }
   ],
@@ -168,12 +150,8 @@
           "ceterms:directCostType": [
             {
               "@type": "ceterms:CredentialAlignmentObject",
-              "ceterms:framework": {
-                "@id": "CostType"
-              },
-              "ceterms:targetNode": {
-                "@id": "costType:BackgroundCheck"
-              },
+              "ceterms:framework": "CostType",
+              "ceterms:targetNode": "costType:BackgroundCheck",
               "ceterms:targetNodeName": "Background Check"
             }
           ],
@@ -194,62 +172,28 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
         }
       ],
-      "ceterms:subjectWebpage": [
-        {
-          "@id": "http://example.com?t=verificationSWP"
-        }
-      ],
+      "ceterms:subjectWebpage": "http://example.com?t=verificationSWP",
       "ceterms:targetCredential": [
         {
-          "@type": "ceterms:Credential",
-          "ceterms:description": "The 21st Century Skills for Workplace Success industry-based credential is included in NOCTI’s Job Ready assessment battery.  Job Ready assessments measure \ntechnical skills at the occupational level and include items which gauge factual and theoretical knowledge.  Job Ready assessments typically over both a written and performance component and can be used at the secondary and post-secondary levels.  Job Ready assessments can be delivered in an online or paper/pencil format.",
-          "ceterms:name": "TESTING_21st Century Skills for Workplace Success",
-          "ceterms:subjectWebpage": {
-            "@id": "http://example.com?t=testCredential"
-          }
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-86BE9B32-0556-4429-A058-E6DE44BD8FD3"
         },
         {
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-e6b2018e-217f-4ec0-8c19-8916b4ce86f5"
         },
         {
-          "@type": "ceterms:Credential",
-          "ceterms:description": "This is a sample certificate",
-          "ceterms:name": "TESTING_A Simple Cerificate Credential",
-          "ceterms:subjectWebpage": {
-            "@id": "http://example.com?t=testCredential"
-          }
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
         },
         {
-          "@type": "Target Credential",
-          "ceterms:description": "The 21st Century Skills for Workplace Success industry-based credential is included in NOCTI’s Job Ready assessment battery.  Job Ready assessments measure \ntechnical skills at the occupational level and include items which gauge factual and theoretical knowledge.  Job Ready assessments typically over both a written and performance component and can be used at the secondary and post-secondary levels.  Job Ready assessments can be delivered in an online or paper/pencil format.",
-          "ceterms:name": "TESTING_21st Century Skills for Workplace Success",
-          "ceterms:subjectWebpage": {
-            "@id": "http://example.com?t=testCredential"
-          }
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-86BE9B32-0556-4429-A058-E6DE44BD8FD3"
         },
         {
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-e6b2018e-217f-4ec0-8c19-8916b4ce86f5"
         },
         {
-          "@type": "Target Credential",
-          "ceterms:description": "This is a sample certificate",
-          "ceterms:name": "TESTING_A Simple Cerificate Credential",
-          "ceterms:subjectWebpage": {
-            "@id": "http://example.com?t=testCredential"
-          }
-        }
-      ],
-      "ceterms:verificationDirectory": [
-        {
-          "@id": "http://directory.com"
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
         }
       ],
       "ceterms:verificationMethodDescription": "the methods are pretty standard",
-      "ceterms:verificationService": [
-        {
-          "@id": "http://example.com"
-        }
-      ],
       "ceterms:verifiedClaimType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
@@ -267,9 +211,7 @@
     }
   ],
   "ceterms:image": [
-    {
-      "@id": "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg"
-    }
+    "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg"
   ],
   "ceterms:industryType": [
     {
@@ -292,9 +234,7 @@
       "ceterms:mainJurisdiction": [
         {
           "@type": "ceterms:GeoCoordinates",
-          "ceterms:geoURI": {
-            "@id": "http://geonames.org/6295630/"
-          }
+          "ceterms:geoURI": "http://geonames.org/6295630/"
         }
       ]
     },
@@ -303,9 +243,7 @@
       "ceterms:mainJurisdiction": [
         {
           "@type": "ceterms:GeoCoordinates",
-          "ceterms:geoURI": {
-            "@id": "http://geonames.org/6252001/"
-          },
+          "ceterms:geoURI": "http://geonames.org/6252001/",
           "ceterms:latitude": "39.76",
           "ceterms:longitude": "-98.5"
         }
@@ -325,39 +263,23 @@
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "AgentServiceType"
-      },
-      "ceterms:targetNode": {
-        "@id": "serviceType:OfferService"
-      },
+      "ceterms:framework": "AgentServiceType",
+      "ceterms:targetNode": "serviceType:OfferService",
       "ceterms:targetNodeName": "Offer Service"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": {
-        "@id": "AgentServiceType"
-      },
-      "ceterms:targetNode": {
-        "@id": "serviceType:RecognizeService"
-      },
+      "ceterms:framework": "AgentServiceType",
+      "ceterms:targetNode": "serviceType:RecognizeService",
       "ceterms:targetNodeName": "Recognize Service"
     }
   ],
   "ceterms:socialMedia": [
-    {
-      "@id": "https://www.facebook.com/isc2fb"
-    },
-    {
-      "@id": "https://www.youtube.com/user/ISC2TV"
-    },
-    {
-      "@id": "https://www.linkedin.com/company/isc2"
-    }
+    "https://www.facebook.com/isc2fb",
+    "https://www.youtube.com/user/ISC2TV",
+    "https://www.linkedin.com/company/isc2"
   ],
-  "ceterms:subjectWebpage": {
-    "@id": "http://example.com?t=testOrganization"
-  },
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization",
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
@@ -366,15 +288,9 @@
       ],
       "ceterms:name": "Organization Contact Information",
       "ceterms:socialMedia": [
-        {
-          "@id": "https://www.facebook.com/isc2fb"
-        },
-        {
-          "@id": "https://www.youtube.com/user/ISC2TV"
-        },
-        {
-          "@id": "https://www.linkedin.com/company/isc2"
-        }
+        "https://www.facebook.com/isc2fb",
+        "https://www.youtube.com/user/ISC2TV",
+        "https://www.linkedin.com/company/isc2"
       ]
     },
     {
