@@ -39,7 +39,7 @@
   "ceterms:assessmentMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AssessmentMethod",
+      "ceterms:framework": "ceterms:AssessmentMethod",
       "ceterms:targetNode": "assessMethod:Performance",
       "ceterms:targetNodeName": "Performance"
     }
@@ -48,7 +48,7 @@
   "ceterms:assessmentUseType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AssessmentUse",
+      "ceterms:framework": "ceterms:AssessmentUse",
       "ceterms:targetNode": "assessUse:Summative",
       "ceterms:targetNodeName": "Summative Assessment"
     }
@@ -58,7 +58,7 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:GeoCoordinates",
+      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
@@ -88,7 +88,8 @@
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
         }
       ],
-      "ceterms:name": "Associate of Science - Engineering Technology",
+      "ceterms:description": "this is a co-requisite condition, for some purpose",
+      "ceterms:name": "TESTING_Associate of Science - Engineering Technology",
       "ceterms:targetCredential": [
         {
           "@type": "ceterms:Credential",
@@ -106,7 +107,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:framework": "ceterms:Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -144,8 +145,17 @@
           "ceterms:targetNodeName": "Member"
         }
       ],
+      "ceterms:creditUnitType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CreditUnit",
+          "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
+          "ceterms:targetNodeName": "Continuing Education Unit"
+        }
+      ],
       "ceterms:creditUnitTypeDescription": "testing description",
       "ceterms:creditUnitValue": 20.00,
+      "ceterms:description": "Entry Conditions Sample",
       "ceterms:experience": "4 years of experience in public health",
       "ceterms:name": "Entry Conditions Sample",
       "ceterms:subjectWebpage": "http://example.com?t=subjectwebpage",
@@ -398,6 +408,14 @@
           "ceterms:targetNodeName": "NonCitizen"
         }
       ],
+      "ceterms:creditUnitType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ceterms:CreditUnit",
+          "ceterms:targetNode": "creditUnit:DegreeCredit",
+          "ceterms:targetNodeName": "Degree Credit"
+        }
+      ],
       "ceterms:creditUnitTypeDescription": "sample credit unit type description",
       "ceterms:creditUnitValue": 15.00,
       "ceterms:description": "sample description data",
@@ -486,7 +504,7 @@
   "ceterms:scoringMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ScoringMethod",
+      "ceterms:framework": "ceterms:ScoringMethod",
       "ceterms:targetNode": "score:CriterionReferenced",
       "ceterms:targetNodeName": "Criterion-Referenced"
     }

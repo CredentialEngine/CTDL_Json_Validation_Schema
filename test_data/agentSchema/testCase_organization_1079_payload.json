@@ -17,7 +17,7 @@
   "ceterms:agentSectorType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AgentSector",
+      "ceterms:framework": "ceterms:AgentSector",
       "ceterms:targetNode": "agentSector:Public",
       "ceterms:targetNodeName": "Public"
     }
@@ -25,7 +25,7 @@
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "OrganizationType",
+      "ceterms:framework": "ceterms:OrganizationType",
       "ceterms:targetNode": "orgType:CertificationBody",
       "ceterms:targetNodeName": "Certification Body"
     },
@@ -50,7 +50,7 @@
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AgentServiceType",
+      "ceterms:framework": "ceterms:AgentServiceType",
       "ceterms:targetNode": "serviceType:AccreditService",
       "ceterms:targetNodeName": "Accredit Service"
     },

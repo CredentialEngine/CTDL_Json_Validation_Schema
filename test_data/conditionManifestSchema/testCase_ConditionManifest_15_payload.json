@@ -21,5 +21,6 @@
       "ceterms:name": "try another entry condition to see if update fails"
     }
   ],
-  "ceterms:name": "Top condition manifest"
+  "ceterms:name": "Top condition manifest",
+  "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage"
 }

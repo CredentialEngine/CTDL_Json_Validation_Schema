@@ -24,7 +24,7 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:GeoCoordinates",
+      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",

@@ -33,13 +33,6 @@
     }
   ],
   "ceterms:description": "test",
-  "ceterms:estimatedCost": [
-    {
-      "@type": "ceterms:CostProfile",
-      "ceterms:currency": "US Dollar",
-      "ceterms:name": "*** new profile ***"
-    }
-  ],
   "ceterms:estimatedDuration": [
     {
       "@type": "ceterms:DurationProfile",

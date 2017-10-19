@@ -2,6 +2,7 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-819ad172-f6cb-411d-814a-37a234803c09",
   "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "http://example.com",
   "ceterms:costManifestOf": [
     {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC"
