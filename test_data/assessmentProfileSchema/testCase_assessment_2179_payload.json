@@ -1,40 +1,45 @@
 {
-  "@context": {
-    "ceterms": "http://purl.org/ctdl/terms/",
-    "dc": "http://purl.org/dc/elements/1.1/",
-    "dct": "http://purl.org/dc/terms/",
-    "foaf": "http://xmlns.com/foaf/0.1/",
-    "obi": "https://w3id.org/openbadges#",
-    "owl": "http://www.w3.org/2002/07/owl#",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "schema": "http://schema.org/",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "vs": "https://www.w3.org/2003/06/sw-vocab-status/ns",
-    "xsd": "http://www.w3.org/2001/XMLSchema#",
-    "lrmi": "http://purl.org/dcx/lrmi-terms/",
-    "asn": "http://purl.org/ASN/schema/core/",
-    "vann": "http://purl.org/vocab/vann/",
-    "actionStat": "http://purl.org/ctdl/vocabs/actionStat/",
-    "agentSector": "http://purl.org/ctdl/vocabs/agentSector/",
-    "serviceType": "http://purl.org/ctdl/vocabs/serviceType/",
-    "assessMethod": "http://purl.org/ctdl/vocabs/assessMethod/",
-    "assessUse": "http://purl.org/ctdl/vocabs/assessUse/",
-    "audience": "http://purl.org/ctdl/vocabs/audience/",
-    "claimType": "http://purl.org/ctdl/vocabs/claimType/",
-    "costType": "http://purl.org/ctdl/vocabs/costType/",
-    "credentialStat": "http://purl.org/ctdl/vocabs/credentialStat/",
-    "creditUnit": "http://purl.org/ctdl/vocabs/creditUnit/",
-    "deliveryType": "http://purl.org/ctdl/vocabs/deliveryType/",
-    "inputType": "http://purl.org/ctdl/vocabs/inputType/",
-    "learnMethod": "http://purl.org/ctdl/vocabs/learnMethod/",
-    "orgType": "http://purl.org/ctdl/vocabs/orgType/",
-    "residency": "http://purl.org/ctdl/vocabs/residency/",
-    "score": "http://purl.org/ctdl/vocabs/score/",
-    "@language": "en-US"
-  },
+  "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-2513176a-4acd-41fa-aad7-0107eac540f9",
   "@type": "ceterms:AssessmentProfile",
+  "ceterms:approvedIn": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC"
+        }
+      ],
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/2755249/",
+          "ceterms:latitude": "53.25",
+          "ceterms:longitude": "6.75",
+          "ceterms:name": "Groningen"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/3165802/",
+          "ceterms:latitude": "42.65",
+          "ceterms:longitude": "13.68333",
+          "ceterms:name": "Abruzzo"
+        }
+      ]
+    }
+  ],
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "2345esf",
+      "ceterms:framework": "http://www.google.com/?frameworkURL",
+      "ceterms:frameworkName": "Framework Name - assesses",
+      "ceterms:targetNodeDescription": "competency description test",
+      "ceterms:targetNodeName": "competency name - assesses"
+    }
+  ],
   "ceterms:assessmentExample": "http://www.google.com/?assessmentExample",
   "ceterms:assessmentExampleDescription": "Assessment Example Description value",
   "ceterms:assessmentMethodType": [
@@ -52,6 +57,14 @@
     }
   ],
   "ceterms:assessmentOutput": "Assessment Output value",
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentUse",
+      "ceterms:targetNode": "assessUse:Formative",
+      "ceterms:targetNodeName": "Formative Assessment"
+    }
+  ],
   "ceterms:availabilityListing": [
     "http://www.google.com/?availabilityListing"
   ],
@@ -76,6 +89,16 @@
     "http://www.google.com/?availableOnlineAt"
   ],
   "ceterms:codedNotation": "123.abc",
+  "ceterms:corequisite": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
+        }
+      ]
+    }
+  ],
   "ceterms:creditUnitType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
@@ -104,11 +127,125 @@
   ],
   "ceterms:deliveryTypeDescription": "Delivery Type Description",
   "ceterms:description": "This is a description of the assessment.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:CurrentStudent",
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FormerStudent",
+          "ceterms:targetNodeName": "Former Student / Alumni"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        }
+      ],
+      "ceterms:costDetails": "http://www.google.com/?costDetailsURL",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "This is a description of the cost profile",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:LearningResource",
+          "ceterms:targetNodeName": "Learning Resource"
+        }
+      ],
+      "ceterms:endDate": "2001-01-01",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "cost jurisdiction",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": "Cost profile name",
+      "ceterms:paymentPattern": "payment pattern value",
+      "ceterms:price": 456789.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:International",
+          "ceterms:targetNodeName": "Foreign/International"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ],
+      "ceterms:startDate": "2001-01-01"
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P1Y2M3W4DT5H6M"
+    }
+  ],
   "ceterms:externalResearch": [
     "http://www.google.com/?externalResearch"
   ],
+  "ceterms:financialAssistance": [
+    {
+      "@type": "ceterms:FinancialAlignmentObject",
+      "ceterms:alignmentDate": "2010-12-12",
+      "ceterms:alignmentType": "Requires",
+      "ceterms:frameworkName": "Testing update"
+    }
+  ],
   "ceterms:hasGroupEvaluation": false,
   "ceterms:hasGroupParticipation": false,
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "24",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "General instructional programs and independent or individualized studies in the liberal arts subjects, the humanities disciplines and the general curriculum.",
+      "ceterms:targetNodeName": "LIBERAL ARTS AND SCIENCES, GENERAL STUDIES AND HUMANITIES"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "24.01",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "Instructional content for this group of programs is defined in codes 24.0101 - 24.0199.",
+      "ceterms:targetNodeName": "Liberal Arts and Sciences, General Studies and Humanities"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "24.0103",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "A program that focuses on combined studies and research in the humanities subjects as distinguished from the social and physical sciences, emphasizing languages, literatures, art, music, philosophy and religion.",
+      "ceterms:targetNodeName": "Humanities/Humanistic Studies"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "other program category"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeName": "other program category"
+    }
+  ],
   "ceterms:isProctored": false,
   "ceterms:jurisdiction": [
     {
@@ -139,11 +276,73 @@
     "keyword 2"
   ],
   "ceterms:name": "TESTING_Full Test Assessment",
+  "ceterms:offeredIn": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC"
+        }
+      ],
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/2755249/",
+          "ceterms:latitude": "53.25",
+          "ceterms:longitude": "6.75",
+          "ceterms:name": "Groningen"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/3165802/",
+          "ceterms:latitude": "42.65",
+          "ceterms:longitude": "13.68333",
+          "ceterms:name": "Abruzzo"
+        }
+      ]
+    }
+  ],
   "ceterms:processStandards": "http://www.google.com/?processStandards",
   "ceterms:processStandardsDescription": "Process standards description",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
+        }
+      ],
+      "ceterms:description": "These are the recommendations for preparation.",
+      "ceterms:name": "preparation recommendations"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-A4041983-B1AE-4AD4-A43D-284A5B4B2D73"
+        }
+      ],
+      "ceterms:description": "these are requirements for eligibility",
+      "ceterms:experience": "must be eligible",
+      "ceterms:name": "Eligibility Profile",
+      "ceterms:yearsOfExperience": 23.00
+    }
+  ],
   "ceterms:scoringMethodDescription": "Scoring method description value",
   "ceterms:scoringMethodExample": "http://www.google.com/?scoringMethodExample",
   "ceterms:scoringMethodExampleDescription": "scoring method example description value",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
   "ceterms:subject": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
