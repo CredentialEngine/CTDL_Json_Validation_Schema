@@ -140,7 +140,7 @@
   "ceterms:learningMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:framework": "ceterms:LearningMethod",
       "ceterms:targetNode": "learnMethod:Applied",
       "ceterms:targetNodeName": "Applied Instruction"
     },
