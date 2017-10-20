@@ -161,7 +161,13 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
         }
       ],
+      "ceterms:verificationDirectory": [
+        "http://directory.com"
+      ],
       "ceterms:verificationMethodDescription": "the methods are pretty standard",
+      "ceterms:verificationService": [
+        "http://example.com"
+      ],
       "ceterms:verifiedClaimType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
