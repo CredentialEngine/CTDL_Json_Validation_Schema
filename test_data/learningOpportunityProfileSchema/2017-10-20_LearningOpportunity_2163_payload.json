@@ -70,7 +70,6 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
@@ -206,12 +205,6 @@
       "ceterms:frameworkName": "Classification of Instructional Programs",
       "ceterms:targetNodeDescription": "A general program that focuses on computing, computer science, and information science and systems. Such programs are undifferentiated as to title and content and are not to be confused with specific programs in computer science, information science, or related support services.",
       "ceterms:targetNodeName": "Computer and Information Sciences, General"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
-      "ceterms:frameworkName": "Classification of Instructional Programs",
-      "ceterms:targetNodeDescription": "other program category"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",

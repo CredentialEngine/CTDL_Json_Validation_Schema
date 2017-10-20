@@ -24,7 +24,6 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
@@ -38,9 +37,7 @@
     }
   ],
   "ceterms:commonCosts": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-bf427786-e7e3-44b8-92b0-6603b3b0b8e3"
-    }
+    "http://lr-staging.learningtapestry.com/resources/ce-bf427786-e7e3-44b8-92b0-6603b3b0b8e3"
   ],
   "ceterms:corequisite": [
     {
@@ -147,12 +144,6 @@
       "ceterms:frameworkName": "Classification of Instructional Programs",
       "ceterms:targetNodeDescription": "Any instructional program in specifically defined area studies not listed above.",
       "ceterms:targetNodeName": "Area Studies, Other"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
-      "ceterms:frameworkName": "Classification of Instructional Programs",
-      "ceterms:targetNodeDescription": "l2086 another program category"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",

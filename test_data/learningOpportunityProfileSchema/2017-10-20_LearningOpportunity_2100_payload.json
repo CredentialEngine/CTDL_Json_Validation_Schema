@@ -7,7 +7,6 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",

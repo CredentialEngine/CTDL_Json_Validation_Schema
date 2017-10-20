@@ -9,14 +9,10 @@
     "http://example.com?lopp=2142"
   ],
   "ceterms:commonConditions": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-4d8d4a93-c87a-42e5-9993-921fb60ae1d9"
-    }
+    "http://lr-staging.learningtapestry.com/resources/ce-4d8d4a93-c87a-42e5-9993-921fb60ae1d9"
   ],
   "ceterms:commonCosts": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-9d50ae36-7adf-49bc-aaed-da8e649335f2"
-    }
+    "http://lr-staging.learningtapestry.com/resources/ce-9d50ae36-7adf-49bc-aaed-da8e649335f2"
   ],
   "ceterms:corequisite": [
     {
