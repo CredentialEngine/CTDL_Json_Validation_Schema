@@ -70,7 +70,6 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
@@ -221,12 +220,6 @@
       "ceterms:frameworkName": "Classification of Instructional Programs",
       "ceterms:targetNodeDescription": "A program that focuses on combined studies and research in the humanities subjects as distinguished from the social and physical sciences, emphasizing languages, literatures, art, music, philosophy and religion.",
       "ceterms:targetNodeName": "Humanities/Humanistic Studies"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
-      "ceterms:frameworkName": "Classification of Instructional Programs",
-      "ceterms:targetNodeDescription": "other program category"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
