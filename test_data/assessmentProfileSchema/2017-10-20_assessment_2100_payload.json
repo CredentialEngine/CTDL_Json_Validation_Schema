@@ -17,7 +17,7 @@
   "ceterms:assessmentMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AssessmentMethod",
+      "ceterms:framework": "ceterms:AssessmentMethod",
       "ceterms:targetNode": "assessMethod:Artifact",
       "ceterms:targetNodeName": "Artifact"
     },
@@ -39,7 +39,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:framework": "ceterms:Delivery",
       "ceterms:targetNode": "deliveryType:BlendedDelivery",
       "ceterms:targetNodeName": "Blended Delivery"
     },
