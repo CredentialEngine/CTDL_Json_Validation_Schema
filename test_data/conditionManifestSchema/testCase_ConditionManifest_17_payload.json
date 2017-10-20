@@ -15,6 +15,7 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:name": "Bachelor of Science in Business",
       "ceterms:targetCredential": [
         {
@@ -55,6 +56,7 @@
       ],
       "ceterms:creditHourType": "clock hours",
       "ceterms:creditHourValue": 60.00,
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:experience": "3 years of experience in Reg Assistant",
       "ceterms:name": "sample org Entry Conditions",
       "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage",

@@ -21,6 +21,8 @@
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
         }
       ]
+      ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION"
     }
   ],
   "ceterms:ctid": "ce-6f754a1d-928f-4450-ba6a-84c9cde89952",

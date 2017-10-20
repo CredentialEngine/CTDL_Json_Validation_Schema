@@ -69,6 +69,7 @@
           "ceterms:targetNodeName": "BachelorsDegreeLevel"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:name": "mvc",
       "ceterms:residentOf": [
         {

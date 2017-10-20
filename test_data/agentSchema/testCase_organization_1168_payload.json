@@ -235,8 +235,9 @@
               "ceterms:targetNodeName": "Former Military / Veteran"
             }
           ],
+          "ceterms:costDetails": "http://example.com?t=costDetailsForVerificationProfile",
           "ceterms:currency": "US Dollar",
-          "ceterms:description": "These are the costs for verification",
+          "ceterms:description": "These are the costs for verification. Typically 100.",
           "ceterms:directCostType": [
             {
               "@type": "ceterms:CredentialAlignmentObject",
@@ -292,18 +293,24 @@
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:codedNotation": "311",
+      "ceterms:framework": "https://www.census.gov/eos/www/naics/",
+      "ceterms:frameworkName": "NAICS",
       "ceterms:targetNodeDescription": "Food Manufacturing",
       "ceterms:targetNodeName": "Food Manufacturing"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:codedNotation": "31111",
+      "ceterms:framework": "https://www.census.gov/eos/www/naics/",
+      "ceterms:frameworkName": "NAICS",
       "ceterms:targetNodeDescription": "Animal Food Manufacturing",
       "ceterms:targetNodeName": "Animal Food Manufacturing"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:codedNotation": "3112",
+      "ceterms:framework": "https://www.census.gov/eos/www/naics/",
+      "ceterms:frameworkName": "NAICS",
       "ceterms:targetNodeDescription": "Grain and Oilseed Milling",
       "ceterms:targetNodeName": "Grain and Oilseed Milling"
     },
@@ -380,6 +387,11 @@
   ],
   "ceterms:missionAndGoalsStatement": "http://www.google.com/?MissionGoalsURL",
   "ceterms:missionAndGoalsStatementDescription": "Mission and Goals Statement Description",
+  "ceterms:naics": [
+    "311",
+    "31111",
+    "3112"
+  ],
   "ceterms:name": "TESTING_Full Testing Organization",
   "ceterms:opeID": "OPE ID value",
   "ceterms:serviceType": [

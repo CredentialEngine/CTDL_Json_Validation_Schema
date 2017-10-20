@@ -69,8 +69,8 @@
           "ceterms:postalCode": "62704",
           "ceterms:streetAddress": "2450 Foundation  Dr"
         }
-      ],
       "ceterms:name": "Reg Ass"
+      ]
     }
   ],
   "ceterms:availableOnlineAt": [
@@ -238,6 +238,7 @@
           "@type": "ceterms:CredentialAlignmentObject"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:targetAssessment": [
         {
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-A81E3B16-1111-40DA-A186-C568559AD7E5"
@@ -411,7 +412,6 @@
       "ceterms:creditUnitType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "ceterms:CreditUnit",
           "ceterms:targetNode": "creditUnit:DegreeCredit",
           "ceterms:targetNodeName": "Degree Credit"
         }
@@ -442,6 +442,7 @@
               "ceterms:targetNodeName": "Member"
             }
           ],
+          "ceterms:costDetails": "http://example.com",
           "ceterms:currency": "US Dollar",
           "ceterms:directCostType": [
             {

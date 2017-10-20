@@ -26,6 +26,7 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:name": "add credential to a condition profile",
       "ceterms:targetCredential": [
         {
@@ -110,6 +111,7 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:name": "EC"
     }
   ],
@@ -178,6 +180,7 @@
           "@type": "ceterms:CredentialAlignmentObject"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:targetCredential": [
         {
           "@type": "ceterms:Credential",

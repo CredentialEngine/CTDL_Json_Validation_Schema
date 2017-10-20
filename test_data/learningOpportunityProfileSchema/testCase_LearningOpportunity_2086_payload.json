@@ -34,8 +34,8 @@
           "ceterms:postalCode": "62704",
           "ceterms:streetAddress": "12 Main str"
         }
-      ],
       "ceterms:name": "Springfield"
+      ]
     }
   ],
   "ceterms:commonCosts": [
@@ -250,6 +250,7 @@
           "@type": "ceterms:CredentialAlignmentObject"
         }
       ]
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION"
     }
   ],
   "ceterms:regulatedIn": [
@@ -294,6 +295,7 @@
           "ceterms:targetNodeName": "AdvancedLevel"
         }
       ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:name": "Requirements for this learning opportunity"
     }
   ],
