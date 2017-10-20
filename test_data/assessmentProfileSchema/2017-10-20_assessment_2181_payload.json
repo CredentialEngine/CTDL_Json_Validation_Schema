@@ -58,7 +58,6 @@
   ],
   "ceterms:availableAt": [
     {
-      "@type": "ceterms:PostalAddress",
       "ceterms:address": [
         {
           "@type": "ceterms:PostalAddress",
@@ -439,6 +438,7 @@
           ],
           "ceterms:costDetails": "http://example.com",
           "ceterms:currency": "US Dollar",
+          "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
           "ceterms:directCostType": [
             {
               "@type": "ceterms:CredentialAlignmentObject",
@@ -473,7 +473,7 @@
       "ceterms:targetAssessment": [
         {
           "@type": "ceterms:AssessmentProfile",
-          "ceterms:description": "Students may participate in a course, they don’t earn the badge by participating in the course, they earn it through re-assessment.",
+          "ceterms:description": "Students may participate in a course, they donâ€™t earn the badge by participating in the course, they earn it through re-assessment.",
           "ceterms:name": "Applied Problem Solving and Decision Making Badge",
           "ceterms:subjectWebpage": "http://example.com"
         }
