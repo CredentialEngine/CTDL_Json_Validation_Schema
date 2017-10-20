@@ -81,7 +81,6 @@
           "ceterms:postalCode": "12345",
           "ceterms:streetAddress": "address line 1, address line 2"
         }
-      "ceterms:name": "address name"
       ]
     }
   ],

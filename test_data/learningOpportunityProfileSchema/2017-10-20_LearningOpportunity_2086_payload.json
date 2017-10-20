@@ -34,7 +34,6 @@
           "ceterms:postalCode": "62704",
           "ceterms:streetAddress": "12 Main str"
         }
-      "ceterms:name": "Springfield"
       ]
     }
   ],
@@ -245,11 +244,6 @@
           "@id": "http://lr-staging.learningtapestry.com/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
         }
       ],
-      "ceterms:creditUnitType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject"
-        }
-      ]
       "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION"
     }
   ],

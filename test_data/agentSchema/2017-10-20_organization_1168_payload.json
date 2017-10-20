@@ -316,14 +316,6 @@
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:targetNodeDescription": "cyber security"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:targetNodeDescription": "Biotechnology"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:targetNodeName": "cyber security"
     },
     {

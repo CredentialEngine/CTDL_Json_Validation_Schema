@@ -69,7 +69,6 @@
           "ceterms:postalCode": "62704",
           "ceterms:streetAddress": "2450 Foundation  Dr"
         }
-      "ceterms:name": "Reg Ass"
       ]
     }
   ],
@@ -233,11 +232,6 @@
       ],
       "ceterms:creditHourType": "clock hours",
       "ceterms:creditHourValue": 20.00,
-      "ceterms:creditUnitType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject"
-        }
-      ],
       "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:targetAssessment": [
         {
@@ -412,6 +406,7 @@
       "ceterms:creditUnitType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CreditUnit",
           "ceterms:targetNode": "creditUnit:DegreeCredit",
           "ceterms:targetNodeName": "Degree Credit"
         }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750",
@@ -226,56 +225,6 @@
   "ceterms:keyword": [
     "Organization 1080"
   ],
-  "ceterms:name": "TESTING_(ISC)²",
-  "ceterms:opeID": "1080-OPEID",
-  "ceterms:recognizedBy": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
-    }
-  ],
-  "ceterms:serviceType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AgentServiceType",
-      "ceterms:targetNode": "serviceType:OfferService",
-      "ceterms:targetNodeName": "Offer Service"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AgentServiceType",
-      "ceterms:targetNode": "serviceType:RecognizeService",
-      "ceterms:targetNodeName": "Recognize Service"
-    }
-  ],
-  "ceterms:socialMedia": [
-    "https://www.facebook.com/isc2fb",
-    "https://www.youtube.com/user/ISC2TV",
-    "https://www.linkedin.com/company/isc2"
-  ],
-  "ceterms:subjectWebpage": "http://example.com?t=testOrganization",
-  "ceterms:targetContactPoint": [
-    {
-      "@type": "ceterms:ContactPoint",
-      "ceterms:email": [
-        "membersupport@isc2.org"
-      ],
-      "ceterms:name": "Organization Contact Information",
-      "ceterms:socialMedia": [
-        "https://www.facebook.com/isc2fb",
-        "https://www.youtube.com/user/ISC2TV",
-        "https://www.linkedin.com/company/isc2"
-      ]
-    },
-    {
-      "@type": "ceterms:ContactPoint",
-      "ceterms:contactOption": [
-        "Toll-Free"
-      ],
-      "ceterms:contactType": "Illinois",
-      "ceterms:name": "Technical Support"
-    }
-  ]
-=======
   "ceterms:naics": [
     "11",
     "111"
@@ -329,5 +278,4 @@
       "ceterms:name": "Technical Support"
     }
   ]
->>>>>>> a601b263f6e4d94471af6873a43f05fa90aca8d0
 }
