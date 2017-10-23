@@ -1,0 +1,111 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-4fd52c37-f0d0-4499-b3e7-8c37a865fc3d",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "http://www.tstc.edu/admissions/tuition?_ga=2.67757458.206721200.1501095680-1754683349.1501095680",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3cee9a46-97a7-41f2-955b-0220c4cead5a"
+    }
+  ],
+  "ceterms:ctid": "ce-4fd52c37-f0d0-4499-b3e7-8c37a865fc3d",
+  "ceterms:description": "The cost of attending Texas State Technical College (TSTC) varies depending on a variety of factors, such as residency status, whether or you live on campus, the program of study and any other services that you may need. You may be eligible for financial assistance which can help provide the financial support for tuition, housing, books and other educational items.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "In-State Tuition ",
+      "ceterms:paymentPattern": "Tier 1 (Electrical Power & Controls Technology, Instrumentation Technology, Nursing, Dental Hygiene, Welding Technology): per credit hour",
+      "ceterms:price": 137.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "In-State Tuition ",
+      "ceterms:paymentPattern": "Tier 2 (All technical classes not in Tier 1): per credit hour",
+      "ceterms:price": 115.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "In-State Tuition ",
+      "ceterms:paymentPattern": "Tier 3 (Biology, Math, Engineering, Physics, All academic classes): per credit hour",
+      "ceterms:price": 93.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "Out-of-State Tuition",
+      "ceterms:paymentPattern": "Per semester credit hour",
+      "ceterms:price": 290.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:OutOfState",
+          "ceterms:targetNodeName": "Out-of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Texas State Technical College Tuition and Payment"
+}

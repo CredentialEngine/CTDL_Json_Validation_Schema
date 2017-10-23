@@ -1,0 +1,64 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-085214da-6eb8-4d46-9751-d37c02092f41",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "https://www.ivytech.edu/12711.html",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-1ABB6C52-0F8C-4B17-9F89-7E9807673106"
+    }
+  ],
+  "ceterms:ctid": "ce-085214da-6eb8-4d46-9751-d37c02092f41",
+  "ceterms:description": "The cost of attendance consists of the following base components: tuition and fees, books and supplies, transportation, room and board, and personal expenses. Adjustments may be made to the cost of attendance for students enrolled in distance education courses. Cost of attendance estimates vary depending on a student's enrollment level and living situation. Four enrollment categories are:",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "https://www.ivytech.edu/12711.html",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:AggregateCost",
+          "ceterms:targetNodeName": "Aggregate Cost"
+        }
+      ],
+      "ceterms:name": " Indiana Resident Undergraduate Student",
+      "ceterms:price": 14662.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "https://www.ivytech.edu/financial-aid/2617.html",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:AggregateCost",
+          "ceterms:targetNodeName": "Aggregate Cost"
+        }
+      ],
+      "ceterms:name": " Nonresident Undergraduate Student",
+      "ceterms:price": 18090.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:OutOfState",
+          "ceterms:targetNodeName": "Out-of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Ivy Tech Tuition and Fees"
+}

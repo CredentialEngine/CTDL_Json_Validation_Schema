@@ -1,0 +1,14 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-52db2bff-1e6b-4e29-8fd7-3ba546bf50d4",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "http://info.sf.edu/tuition",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-a799a6db-1544-493b-9d73-978ea112beec"
+    }
+  ],
+  "ceterms:ctid": "ce-52db2bff-1e6b-4e29-8fd7-3ba546bf50d4",
+  "ceterms:description": "We’re making it affordable for you to complete your degree. We want you to have access to the high-quality education the University of Saint Francis is known for, but at a price you can afford. Our online adult and graduate programs are offered at lower-than-average tuition rates and financial aid is available for qualifying students.\n\nOutside scholarships, employer reimbursement and government funding may be available. Because you will receive a reduced tuition rate when you earn your degree through the USF Virtual Campus, you will be ineligible for scholarships or discounts from the USF, including the Alumni Second Degree Grant and Franciscan Alliance.",
+  "ceterms:name": "Tuition and Fees (Online Programs)"
+}

@@ -1,0 +1,41 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-1188ddc3-84b0-42ed-9db0-62b80a06016a",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "https://www.elon.edu/e/admissions/undergraduate/financial-aid/index.html",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-33b14188-1871-4d75-b065-45cf7edeece4"
+    }
+  ],
+  "ceterms:ctid": "ce-1188ddc3-84b0-42ed-9db0-62b80a06016a",
+  "ceterms:description": "Elon University is committed to providing an exceptional education at a reasonable cost.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:CurrentStudent",
+          "ceterms:targetNodeName": "Current Student"
+        }
+      ],
+      "ceterms:costDetails": "https://www.elon.edu/e/admissions/undergraduate/financial-aid/index.html",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "For federal financial aid purposes, indirect costs including books, transportation, and miscellaneous expenses (set at $3,500) are added to tuition, fees, room, and board to determine Elon University’s official total cost of attendance, which is $49,642 for 2017-2018.\n\n",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:AggregateCost",
+          "ceterms:targetNodeName": "Aggregate Cost"
+        }
+      ],
+      "ceterms:name": "Cost",
+      "ceterms:paymentPattern": "For 2017-2018",
+      "ceterms:price": 49642.00
+    }
+  ],
+  "ceterms:name": "Elon University Tuition and Fees"
+}

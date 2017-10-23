@@ -1,0 +1,76 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-f7066346-3e85-4d2c-bf1c-6919ab816800",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "http://www.energymanagementassociation.org/training/empprocessseminar.aspx",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-77f9fd94-9219-4346-bbb8-326f0d84e5e5"
+    }
+  ],
+  "ceterms:ctid": "ce-f7066346-3e85-4d2c-bf1c-6919ab816800",
+  "ceterms:description": "EMP certification is available to industry professionals who are responsible for managing and continually improving energy performance in commercial buildings. The scope of the EMP program is aligned with the Energy Management Professional consensus qualifications guidelines established by the U.S. Department of Energy.\n\nEMP certificants:\n\nPlan effective energy management\n\nManage energy information\n\nImplement energy management programs\n\nManage budgets and finances\n\nImplement energy efficient projects\n\nManage energy communications",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:PublicEmployee",
+          "ceterms:targetNodeName": "Public Employee"
+        }
+      ],
+      "ceterms:costDetails": "http://www.energymanagementassociation.org/training/empprocessseminar.aspx",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Individuals employed by an EMA member company, or by a company that has submitted a completed application EMP Application & Exam Fee $500. All other individuals, $750.",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": " EMA Employee",
+      "ceterms:price": 500.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:PublicEmployee",
+          "ceterms:targetNodeName": "Public Employee"
+        }
+      ],
+      "ceterms:costDetails": "http://www.energymanagementassociation.org/training/empprocessseminar.aspx",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": " Non-EMA Employees",
+      "ceterms:price": 750.00
+    }
+  ],
+  "ceterms:name": "Certification Fees"
+}

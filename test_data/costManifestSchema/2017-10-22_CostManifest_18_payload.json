@@ -1,0 +1,15 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-bf86ffa4-6603-40f8-927e-06ad1df4f9cc",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "http://www.nocti.org/Pricing.cfm",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-6A62B250-A1A2-4D31-A702-CDC2437EFD31"
+    }
+  ],
+  "ceterms:ctid": "ce-bf86ffa4-6603-40f8-927e-06ad1df4f9cc",
+  "ceterms:description": "The cost of the assessment per test taker includes access to the assessment and a score report.",
+  "ceterms:name": "NOCTI Assessment Cost",
+  "ceterms:startDate": "2016-07-01"
+}
