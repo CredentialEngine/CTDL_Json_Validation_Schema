@@ -1,0 +1,22 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-CBF4A2F7-CEF1-4A8D-A6FC-B7D10ABFD215",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "https://certification.bcsp.org/bcspssa/ssaauthmain.login_page"
+  ],
+  "ceterms:ctid": "ce-CBF4A2F7-CEF1-4A8D-A6FC-B7D10ABFD215",
+  "ceterms:description": "CET Certification Examination contains 200 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "CET Certification Examination",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Safety"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/CET-Complete-Guide.pdf"
+}

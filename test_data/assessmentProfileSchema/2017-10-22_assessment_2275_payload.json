@@ -1,0 +1,159 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-db062c82-ffb4-4938-9aea-be8ed81514f6",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://nccco.org/nccco/certification-programs/rigger/practical-exam/level-i-practical-exam",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 1: PRE-USE RIGGING INSPECTION",
+      "ceterms:targetNodeDescription": "Select those items that meet ASME and OSHA Removal from Service criteria.",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, you will inspect all of the rigging slings and hardware located in front of you. "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://nccco.org/nccco/certification-programs/rigger/practical-exam/level-i-practical-exam",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 1: PRE-USE RIGGING INSPECTION",
+      "ceterms:targetNodeName": "Place the selected items to one side and say “Done” to indicate that you have finished."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: RIGGING HITCHES",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, you will be directed to demonstrate six different hitches."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: RIGGING HITCHES",
+      "ceterms:targetNodeName": "After completing each hitch, say “Done” when you are ready to have the hitch evaluated."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: RIGGING HITCHES",
+      "ceterms:targetNodeName": "You will rig a single straight-line hitch using the 5 ft. web sling and a 5/8-inch shackle on the eye bolt located on the round tube."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: RIGGING HITCHES",
+      "ceterms:targetNodeName": "All other hitches will be rigged around the round tube."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: RIGGING CONNECTIONS",
+      "ceterms:targetNodeDescription": "-  If your task involves the use of hardware that requires a torque wrench for final tightening, you are only required to secure the hardware to finger-tight condition for the task assignment.\n-  Softeners are not required for these tasks.",
+      "ceterms:targetNodeName": "You will have one minute to review the available rigging equipment for this testing session. The rigging has been inspected and is approved for use."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: RIGGING CONNECTIONS",
+      "ceterms:targetNodeName": "You will choose three task assignment cards—one of each color—for the three rigging tasks. The Examiner will read the cards aloud. "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: RIGGING CONNECTIONS",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, gather and assemble the rigging materials that are required to complete the assigned task. You will then rig and suspend the 6 in. × 30 in. square aluminum tube, as described on the task assignment card."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: RIGGING CONNECTIONS",
+      "ceterms:targetNodeName": "When you have completed your rigging assignment, announce that you are “Done.” The Examiner will evaluate your completed rigging setup."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: RIGGING CONNECTIONS",
+      "ceterms:targetNodeName": "You will disassemble the rigging assembly before continuing on to the next rigging assignment."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: BASIC KNOTS",
+      "ceterms:targetNodeDescription": "-  When it is necessary, use the 4 in. round PVC pipe and eye bolt as your anchor point.\n-  Tie each knot and say “Done” when you are ready to have the knot evaluated.\n-  Place the tying rope on the table after the last knot has been evaluated.",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, you will tie five different knots using a rope or ropes of different diameters."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: BASIC KNOTS",
+      "ceterms:targetNodeDescription": "-  Sheet bend\n-  Clove hitch\n-  Inside bowline\n-  Square/reef\n-  Two half hitches",
+      "ceterms:targetNodeName": "Candidates must demonstrate the following basic knots: "
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:assessmentOutput": "A candidate may lose points either through operational errors or exceeding established optimum time limits. Candidates’ performances are scored off site at NCCCO facilities.",
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    "http://nccco.org/nccco/find-test-location/practical-test-sites"
+  ],
+  "ceterms:ctid": "ce-db062c82-ffb4-4938-9aea-be8ed81514f6",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "Candidate performance on the Practical Examinations is recorded by Practical Examiners accredited by NCCCO. Examiner requirements include meeting NCCCO requirements for certification, passing the Written and Practical Exams, and successfully completing an accreditation workshop. The testing procedure has been developed to provide the highest degree of standardization and reliability. The Examiner’s task is primarily to record the performance of the candidate. ",
+  "ceterms:description": "The successful completion of an NCCCO Certified Rigger Level I Practical Examination demonstrates a candidate’s basic rigging competency. The Practical Examination is comprised of four main tasks that increase progressively in the skill level tested. Candidates’ skills are tested in demonstrating pre-use rigging inspection, rigging hitches, rigging connections, and basic knots. Candidates are allowed 60 minutes to complete the exam.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://nccco.org/nccco/certification-programs/rigger/rigger-exam-fees",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": " Rigger Level I Practical Exam",
+      "ceterms:paymentPattern": "New Rigger candidates",
+      "ceterms:price": 95.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://nccco.org/nccco/certification-programs/rigger/rigger-exam-fees",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": " Rigger Level I Practical Exam",
+      "ceterms:paymentPattern": "Current CCO card holders",
+      "ceterms:price": 50.00
+    }
+  ],
+  "ceterms:hasGroupEvaluation": true,
+  "ceterms:hasGroupParticipation": true,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:name": "CCO Rigger Level I Practical Exam",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://nccco.org/nccco/certification-programs/rigger/practical-exam/level-i-practical-exam"
+}

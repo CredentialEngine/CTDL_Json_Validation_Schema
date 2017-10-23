@@ -1,0 +1,122 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-d02d6792-64ac-4c40-92ba-209f4cb962c4",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+      "ceterms:frameworkName": "CSC-110 Exam Contents",
+      "ceterms:targetNodeName": "Domain I: Common Secure Application Development Terminology and Concepts"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+      "ceterms:frameworkName": "CSC-110 Exam Contents",
+      "ceterms:targetNodeName": "Domain II: Job and Process Responsibilities Related to Secure Application"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+      "ceterms:frameworkName": "CSC-110 Exam Contents",
+      "ceterms:targetNodeName": "Domain III: Architecture and Design"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+      "ceterms:frameworkName": "CSC-110 Exam Contents",
+      "ceterms:targetNodeName": "Domain IV: Risk Assessment and Management"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+      "ceterms:frameworkName": "CSC-110 Exam Contents",
+      "ceterms:targetNodeName": "Domain V: Application Implementation"
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    "https://home.pearsonvue.com/test-taker.aspx"
+  ],
+  "ceterms:ctid": "ce-d02d6792-64ac-4c40-92ba-209f4cb962c4",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "Multiple Choice/Multiple Response/True-False\n",
+  "ceterms:description": "This exam will certify that the successful candidate has the knowledge, skills, and abilities to design and develop a variety of applications for various platforms, analyze security concerns outside of specific languages and platforms, use a number of testing and analysis tools, and mitigate against common threats to data and systems.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://store.logicaloperations.com/ccsc-certified-cyber-secure-coder-exam-csc-110-exam-voucher.html",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": "CSC-110 Exam Fee",
+      "ceterms:price": 300.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H"
+    }
+  ],
+  "ceterms:inLanguage": "English",
+  "ceterms:name": "Cyber Secure Coder (CSC) Exam CSC-110",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-d4a88e2c-448d-428b-8d26-c1deac2a15ce"
+        }
+      ],
+      "ceterms:condition": [
+        "Develop applications using multiple programming languages and coding environments while following generally accepted coding best practices",
+        "Develop applications for a variety of platforms: web, cloud, mobile, desktop",
+        "Write and analyze use cases, technical requirements, specifications, and other application documentation"
+      ],
+      "ceterms:description": "While there are no formal prerequisites for taking the CSC exam, Logical Operations strongly recommends that you first possess the knowledge, skills, and abilities to do the following",
+      "ceterms:name": "Exam Preparation",
+      "ceterms:subjectWebpage": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf"
+    }
+  ],
+  "ceterms:scoringMethodDescription": "Number of Items: 80\n\nPassing Score: 60 out of 80 (75%)",
+  "ceterms:scoringMethodExample": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://store.logicaloperations.com/coursefiles/CCSCVOUCHER1/csc_exam%20blueprint_final%20approved.pdf"
+}

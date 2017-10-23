@@ -1,0 +1,110 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-2E96FD31-7761-4524-B104-20CED12936A5",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": "http://www.nrfsp.com/~/media/NRFSP/Files/HACCP/Manager%20Practice%20Exam.ashx?sc_database=web",
+  "ceterms:availabilityListing": [
+    "http://www.nrfsp.com/NRFSP/Examinee%20Information/Examination%20Trainer%20Locator.aspx"
+  ],
+  "ceterms:creditUnitType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:CreditUnit",
+      "ceterms:targetNode": "creditUnit:CertificateCredit",
+      "ceterms:targetNodeName": "Certificate Credit"
+    }
+  ],
+  "ceterms:ctid": "ce-2E96FD31-7761-4524-B104-20CED12936A5",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:BlendedDelivery",
+      "ceterms:targetNodeName": "Blended Delivery"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "Online and In-Person Assessments Available",
+  "ceterms:description": "National Registry’s certification program has been developed to assess the knowledge of entry-level Food Safety Managers in the retail food industry. National Registry offers the Certified Food Safety Manager program worldwide, enabling competent individuals to demonstrate that their knowledge and skills meet specific, measurable food safety management competencies. In doing so, National Registry advances its mission of promoting food safety and consumer protection.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://nrfsp.com/~/media/NRFSP/Files/HACCP/Fact%20Sheet.ashx",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "The Food Safety HACCP Manager Certification Exam covers the seven principles of HACCP and measures the level of food safety comprehension essential for workers in facilities such as food manufacturing, processing\nplants, distribution centers, food packing, and warehouses storing food for human consumption. This exam is a risk mitigation tool to provide evidence that employees are not only trained, but knowledgeable enough to apply what they learned.",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:mainJurisdiction": [
+            {
+              "@type": "ceterms:GeoCoordinates",
+              "ceterms:geoURI": "http://geonames.org/6252001/",
+              "ceterms:latitude": "39.76",
+              "ceterms:longitude": "-98.5"
+            }
+          ]
+        }
+      ],
+      "ceterms:name": "Certified Food Safety HACCP Manager Examination",
+      "ceterms:price": 85.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://shopping.nrfsp.com/international-certified-food-safety-manager-icfsm-exam-voucher",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "National Registry of Food Safety Professionals (National Registry) is an American National Standards Institute/Conference for Food Protection (ANSI-CFP) accredited certification program that produces and administers the Food Safety Manager Certification Examination (FSMCE). National Registry’s certification program has been developed to assess the knowledge of entry-level Food Safety Managers in the retail food industry. National Registry offers the Certified Food Safety Manager program worldwide, enabling competent individuals to demonstrate that their knowledge and skills meet specific, measurable food safety management competencies. In doing so, National Registry advances its mission of promoting food safety and consumer protection.",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": " Food Safety Manager Certification Exam",
+      "ceterms:price": 47.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT120M"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Food Safety Manager Certification Exam",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Certified Food Safety HACCP Manager"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Food Safety"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.nrfsp.com/en/Examination%20Blue%20Print.aspx"
+}

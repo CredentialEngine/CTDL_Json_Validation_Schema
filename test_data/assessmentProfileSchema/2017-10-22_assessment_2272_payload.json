@@ -1,0 +1,208 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-1fd6ce66-34b4-459d-8c51-a13e6b6d099c",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://nccco.org/nccco/certification-programs/dedicated-pile-driver/practical-exam-dpd",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 1: PRE-OPERATIONAL INSPECTION ",
+      "ceterms:targetNodeName": "You will be asked to identify the five items on the dedicated pile driver that are part of the pre-operational inspection. "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "http://nccco.org/nccco/certification-programs/dedicated-pile-driver/practical-exam-dpd",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 1: PRE-OPERATIONAL INSPECTION ",
+      "ceterms:targetNodeDescription": "You have approximately one minute per item.",
+      "ceterms:targetNodeName": "One at a time, you will describe how you would conduct the inspection and what deficiencies you would look for. "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, at which point timing will begin, raise the test weight at or above eye level to clear all obstacles and personnel."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeName": "Bring the test weight from the start point over to Designated Area 1 and lower it inside the barrel."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeName": "Once the line on the test weight has been lowered below the rim of the barrel, the examiner will indicate this to you and signal you to proceed to the next barrel."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeName": "You will again lower the test weight inside of the barrel at Designated Area 2 and wait for the examiner to give you the signal to proceed to Designated Area 3."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeDescription": "Timing stops when the test weight is completely clear of Barrel #3 and the Examiner has given you a final stop signal.",
+      "ceterms:targetNodeName": "You will lower the test weight inside of the barrel at Designated Area 3 so that the line on the test weight has been lowered below the rim of the barrel and hold it in until instructed by the examiner to remove it."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 2: TEST WEIGHT IN BARRELS",
+      "ceterms:targetNodeDescription": "-   Weight touching ground outside of designated area\n-   Weight touching any part of the course (except leader or hammer)\n-   Touching ground with leader\n-   Hoisting before being signaled to hoist by examiner\n-   Weight not hoisted to operator eye level\n-   Knocking over barrel\n-   Moving barrel (2 in. or more)\n-   Touching tracks with the leader\n-   Lead system 5-degrees or greater out of level\n-   Exceeding optimum time (4 minutes)",
+      "ceterms:targetNodeName": "Points will be deducted for the following:"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: STAND UP, CAP, AND SECURE THE PILE",
+      "ceterms:targetNodeDescription": "Timing stops when the pile is capped and the pile arms have closed around the pile.",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, lift the pile into an upright position, then cap the pile and secure it with the pile guides."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 3: STAND UP, CAP, AND SECURE THE PILE",
+      "ceterms:targetNodeDescription": "-    Dragging pile tip out of box\n-    Pile tip kicking out during capping operation\n-    Touching tracks with leader or pile\n-    Lead system 5-degrees or greater out of level\n-    Knocking ball off pole\n-    Moving pole base off line\n-    Knocking pole over\n-    Exceeding optimum time (6 minutes)*\n\n*Candidates who cannot complete Task 3 within 12 minutes (twice optimum time) will not be allowed to continue on with the remaining parts of the exam.",
+      "ceterms:targetNodeName": "Points will be deducted for the following:"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: POSITION PILE",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, at which point timing will begin, lift the pile and set it on the ground inside Designated Area 1."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: POSITION PILE",
+      "ceterms:targetNodeName": "The examiner will give you a stop, a hoist and a swing signal to indicate that you may lift the Test Pile and bring it to Designated Area 2."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: POSITION PILE",
+      "ceterms:targetNodeDescription": "Timing stops when the pile has been set down fully inside of Designated Area 3 and the examiner has given you a stop signal.",
+      "ceterms:targetNodeName": "Once the pile has been landed inside Designated Area 2, the Examiner will give you another set of stop, hoist and swing signals to indicate you may proceed to Designated Area 3."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 4: POSITION PILE",
+      "ceterms:targetNodeDescription": "-  Pile touching ground outside of designated area\n-  Touching the tracks with the pile or leader\n-  Lead system 5-degrees or greater out of level\n-  Exceeding optimum time (4 minutes)",
+      "ceterms:targetNodeName": "Points will be deducted for the following:"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 5: INITIATE PILE DRIVING ON TEST PILE",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, at which point timing will begin, pick up the Test Pile and set the pile head fully on the Pile Driving Plate in preparation for driving the pile."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 5: INITIATE PILE DRIVING ON TEST PILE",
+      "ceterms:targetNodeDescription": "DO NOT initiate driving until instructed to by the Examiner.",
+      "ceterms:targetNodeName": "Prepare to initiate the driving sequence at the manual driving setting at lowest energy."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 5: INITIATE PILE DRIVING ON TEST PILE",
+      "ceterms:targetNodeDescription": "Your setting will be evaluated by the Examiner prior to proceeding.",
+      "ceterms:targetNodeName": "When you are ready to initiate the driving sequence and the pile guides are open, say “done,” at which point timing will end."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 5: INITIATE PILE DRIVING ON TEST PILE",
+      "ceterms:targetNodeName": "The Examiner will then instruct you to proceed with the driving sequence."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 5: INITIATE PILE DRIVING ON TEST PILE",
+      "ceterms:targetNodeDescription": "-  Driving energy not set at lowest power\n-  Hammer not placed fully on pile\n-  Leader is not plumb (+/- 0.5 degrees in either direction)\n-  Ropes are not visibly slack\n-  Touching the tracks with the pile or leader\n-  Not setting machine in manual mode\n-  Lead system 5-degrees or greater out of level\n-  Exceeding optimum time (3 minutes)",
+      "ceterms:targetNodeName": "Points will be deducted for the following:"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 6: SET PILE DOWN",
+      "ceterms:targetNodeName": "At the Examiner’s indication to start, at which point timing will begin, pick up the Test Pile and set the pile head down fully within the square designated area."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 6: SET PILE DOWN",
+      "ceterms:targetNodeName": "With the pile head in the square designated area, lower the pile back down so that it rests inside the Pole Corridor."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 6: SET PILE DOWN",
+      "ceterms:targetNodeName": "The Examiner will give you a stop signal when the Test Pile has been completely lowered to the ground inside the Pole Corridor."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 6: SET PILE DOWN",
+      "ceterms:targetNodeDescription": "\n    Dragging pile tip out of box\n-  Opening guides after uncapping\n-  Touching the tracks with the pile or leader\n-  Lead system 5-degrees or greater out of level\n-  Knocking ball off pole\n-  Moving pole base off line\n-  Knocking pole over\n-  Exceeding optimum time (5 minutes)",
+      "ceterms:targetNodeName": "Points will be deducted for the following:"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 7: SAFE SHUTDOWN AND SECURING PROCEDURES",
+      "ceterms:targetNodeName": "Before leaving the operator station, you will be required to apply safe shutdown procedures to the dedicated pile driver in preparation for the next candidate."
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "PRACTICAL EXAM TASK 7: SAFE SHUTDOWN AND SECURING PROCEDURES",
+      "ceterms:targetNodeName": "Once the dedicated pile driver is shut down, you will leave the operator station and describe to the Examiner the procedures you would follow to secure the machine at the end of the work day."
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:assessmentOutput": "All candidates receive a score report of their performance. Examination results are mailed to candidates approximately 12 business days after the receipt of Practical Examination score sheets by NCCCO.",
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    "http://nccco.org/nccco/find-test-location/practical-test-sites"
+  ],
+  "ceterms:ctid": "ce-1fd6ce66-34b4-459d-8c51-a13e6b6d099c",
+  "ceterms:dateEffective": "2017-01-02",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    }
+  ],
+  "ceterms:description": "The seven tasks that make up the Practical Examination are: Task 1: Pre-operational (Shift) Inspection; Task 2: Test Weight in Barrels; Task 3: Stand up, Cap, and Secure the Pile; Task 4: Position the Pile; Task 5: Initiate Pile Driving on Test Pile; Task 6: Set Pile Down; Task 7: Safe Shutdown and Securing Procedures",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": "Dedicated Pile Driver Operator Practical Exam (new candidates)",
+      "ceterms:price": 100.00
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:name": "CCO Dedicated Pile Driver Operator Practical Exam",
+  "ceterms:scoringMethodDescription": "A percentage score of 75 represents the minimum passing score for the Dedicated Pile Driver Operator Practical Examination.",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://nccco.org/nccco/certification-programs/dedicated-pile-driver/practical-exam-dpd"
+}

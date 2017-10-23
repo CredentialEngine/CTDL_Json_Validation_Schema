@@ -1,0 +1,35 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-bba769b9-d3c0-4513-ba10-88a56f89317c",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:ctid": "ce-bba769b9-d3c0-4513-ba10-88a56f89317c",
+  "ceterms:description": "The Project Management Institute (PMI) offers a professional certification for agile practitioners, known as the PMI Agile Certified Practitioner (PMI-ACP)®. PMI’s professional certification examination development processes stand apart from other project management certification examination development practices. PMI aligns its process with certification industry best practices, such as those found in the Standards for Educational and Psychological Testing.",
+  "ceterms:inLanguage": "English",
+  "ceterms:name": "PMI Agile Certified Practitioner (PMI-ACP)®",
+  "ceterms:scoringMethodDescription": "120-question, multiple-choice test.",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://www.pmi.org/-/media/pmi/documents/public/pdf/certifications/agile-certified-exam-outline.pdf"
+}

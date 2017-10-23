@@ -1,0 +1,16 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-A133BD58-06D1-420F-807E-1E34C9A09804",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "http://pearsonvue.com/bcsp"
+  ],
+  "ceterms:ctid": "ce-A133BD58-06D1-420F-807E-1E34C9A09804",
+  "ceterms:description": "The CHST examination contains 200 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "CHST Examination",
+  "ceterms:subjectWebpage": "http://www.bcsp.org/CHST"
+}

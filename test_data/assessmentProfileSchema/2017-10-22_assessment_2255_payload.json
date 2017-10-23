@@ -1,0 +1,404 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-8f231209-a64a-49b9-b424-b1492744c4d5",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge of:",
+      "ceterms:targetNodeName": "Job safety/hazard analysis process"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge of:",
+      "ceterms:targetNodeName": "Basic audit or inspection protocols and tools"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge of:",
+      "ceterms:targetNodeName": "Inspection requirements (e.g., machine guarding, hose, grinding wheels, ladders, safety showers, and eye wash stations)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge of:",
+      "ceterms:targetNodeName": "Incident investigation techniques (e.g., root cause analysis, five whys, fishbone), documentation requirements, and corrective action implementation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge of:",
+      "ceterms:targetNodeName": "Basic waste management (e.g., proper disposal of batteries, paint, and light bulbs)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill to:",
+      "ceterms:targetNodeName": "Pre-plan work and manage cross-functional hazards associated with a project"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill to:",
+      "ceterms:targetNodeName": "Address changing conditions or tasks in the job safety/hazard analysis process"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill to:",
+      "ceterms:targetNodeName": "Effectively communicate in writing or verbally the findings of audits or inspections (e.g., follow-ups)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill to:",
+      "ceterms:targetNodeName": "Recognize what is a potential violation relating to waste, emissions, or stormwater pollution (e.g., spills, releases)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hierarchy of controls (e.g., elimination, substitution, engineering, administrative, PPE)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Globally Harmonized System of Classification and Labeling of Chemicals (GHS) (e.g., labels, SDS, pictograms, signal words)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Energy isolation procedures (e.g., lockout/tagout)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with handling and storing hazardous materials or chemicals"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Safety systems/interlocks (e.g., electrical systems, critical support systems)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with working around pressurized systems (e.g., steam systems)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Confined space requirements (e.g., identification, permits, entry, rescue)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with working at heights (e.g., fall prevention and protection methods)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with walking/working surfaces (e.g., slips, trips, and falls)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with elevated work platforms (e.g., aerial lift, scaffolding, lifts, stairways)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Requirements for operating and inspecting power industrial equipment/trucks (PIT), including forklifts (e.g., checklists, certifications, competencies, pedestrian safety)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with hand and power tools (e.g., hammers, grinders)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with working around moving parts and pinch points (e.g., machine guarding, pulleys)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards associated with housekeeping (e.g., materials storage, clutter, staging, fire hazards)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with hot work (e.g., welding, burning, cutting, grinding)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Safety operations associated with cranes and lifting devices (e.g., pre-operation inspection, checking manufacturer use standards, chain fall, load ratings)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Safety procedures associated with rigging and hoisting (e.g., inspection of rigging equipment, load limitations of rigging, use of tag lines)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Types and proper use of personal protection equipment (PPE)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Electrical safe work practices (e.g., arc flash, temporary cord safety, GFCI)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with excavations (e.g., depth, distance, barricades, spoil pile location, basic soil classifications, emergency exits)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Basic concepts in ergonomics (e.g., proper lifting techniques, repetitive stress or injury, neutral posture)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Office safety procedures (e.g., only open one file cabinet drawer at a time, kitchen appliance safety)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Safety procedures associated with motor vehicle operation (e.g., seat belts, loading docks, chocking of wheels)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Safety procedures associated with motor vehicle operation (e.g., front-end loaders, backhoes, excavators)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards associated with using technology while working (e.g., distraction caused by use of personal electronic devices)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with compressed gas storage and use (e.g., fuel gas, oxygen storage, ammonia tanks, liquefied petroleum gas cylinders) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge of:",
+      "ceterms:targetNodeName": "Chronic health hazards and controls (e.g., asbestos, lead, silica, mold, chromium-6)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge of:",
+      "ceterms:targetNodeName": "Acute health hazards and controls (e.g., welding fume fever, poisoning, sensitivity, irritation)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge of:",
+      "ceterms:targetNodeName": "Hazards and controls associated with hearing conservation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge of:",
+      "ceterms:targetNodeName": "Environmental conditions that could impact worker health or safety (e.g., heat and cold stress)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge of:",
+      "ceterms:targetNodeName": "Fire protection methods and classifications (e.g., appropriate fire extinguishing method for materials)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge of:",
+      "ceterms:targetNodeName": "Fire safety requirements (e.g., monthly inspections, fire extinguisher locations, fire exits, emergency lighting)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge of:",
+      "ceterms:targetNodeName": "Emergency response plans and drills (e.g., natural disasters, weather, crisis, fire, alarms, evacuation, rescue procedures, workplace violence and security)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge of:",
+      "ceterms:targetNodeName": "Basic first aid, cardiopulmonary resuscitation (CPR), and automated external defibrillator (AED)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge of:",
+      "ceterms:targetNodeName": "Universal precautions (e.g., bloodborne pathogens)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge of:",
+      "ceterms:targetNodeName": "BCSP Code of Ethics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge of:",
+      "ceterms:targetNodeName": "Conflict resolution techniques (e.g., how to de-escalate a situation)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge of:",
+      "ceterms:targetNodeName": "Behavioral-based safety observations and programs"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge of:",
+      "ceterms:targetNodeName": "Training requirements (e.g., frequency, training needs) for a project or job task"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Effectively communicate safety information to employees, management, contractors, or other affected personnel"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Coach or mentor employees on safe behavior and practices"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Correct unsafe acts or conditions (e.g., stop work and correct)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Influence behavior within a diverse and changing workforce (e.g., motivation techniques for different personalities or learning styles, ability to empathize with workers (e.g., motivation techniques for different personalities or learning styles, ability to empathize with workers)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Recognize when negative reinforcement (e.g., discipline) or escalation is needed to deal with safety behavior issues"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Recognize when to seek assistance in relation to a hazard or situation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Manage worker limitations and apply accommodations as required by company or regulatory standards (e.g., fit for duty, job restrictions)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS3Blueprint.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill to:",
+      "ceterms:targetNodeName": "Identify relevant compliance aspects of a project or job task (e.g., bloodborne pathogens, ladder safety)"
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "https://certification.bcsp.org/bcspssa"
+  ],
+  "ceterms:ctid": "ce-8f231209-a64a-49b9-b424-b1492744c4d5",
+  "ceterms:description": "The STS Certification Examination contains 100 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": " STS ",
+      "ceterms:price": 120.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": " STS ",
+      "ceterms:price": 185.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:name": "STS Certification Examination",
+  "ceterms:subjectWebpage": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STS-Complete-Guide.pdf"
+}

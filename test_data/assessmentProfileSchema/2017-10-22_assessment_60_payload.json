@@ -1,0 +1,13 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-381A2F03-A073-4021-9396-C82D737FD8E6",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:ctid": "ce-381A2F03-A073-4021-9396-C82D737FD8E6",
+  "ceterms:description": "Not able to take assessment as stand alone, have to take the course. Must score 68 or higher on assessment.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "Energy Industry Fundamentals Certificate",
+  "ceterms:subjectWebpage": "http://www.cewd.org/curriculum/fast-tracked-eif.php"
+}

@@ -1,0 +1,56 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-747F9A20-A226-4B75-81D1-2F7ABB62D617",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": "http://abret.org/files/6014/8242/6042/EP_Handbook_2017.pdf",
+  "ceterms:assessmentExampleDescription": " Clavicular, cervical, and scalp sites are commonly used for recording\n\nA. posterior tibial potentials\nB. brainstem auditory evoked potentials\nC. median nerve potentials\nD. popliteal fossa potentials",
+  "ceterms:availabilityListing": [
+    "https://candidate.psiexams.com/testdate/testdate.jsp"
+  ],
+  "ceterms:ctid": "ce-747F9A20-A226-4B75-81D1-2F7ABB62D617",
+  "ceterms:deliveryTypeDescription": "The Registration Examination for Evoked Potential Technologists is a computer-based examination composed of multiple-choice, objective questions.",
+  "ceterms:description": "The Registration Examination for Evoked Potential (EP) Technologists is designed and written for those health care professionals that are trained in and currently practicing EP technology.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Registration Examination for Evoked Potential (EP) Technologists",
+  "ceterms:scoringMethodDescription": "The Board set the passing standard as the number of test questions it determines to be necessary for candidates to answer correctly in order to be considered at least minimally competent. This method focuses on the particular test that is being administered. Different forms of an examination are matched for difficulty and content coverage. This comprehensive approach makes use of information about the performance of similar groups in the past.\n\nABRET is concerned with reporting only valid scores. On rare occasions, misconduct or circumstances beyond the individual’s control may render a score invalid. If doubts are raised about a score because of these or other circumstances, ABRET reserves the right to cancel any examination score if, in the sole opinion of ABRET, there is adequate reason to question its validity.",
+  "ceterms:scoringMethodExample": "http://abret.org/files/6014/8242/6042/EP_Handbook_2017.pdf",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "EP Recording"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Neurological Disorders"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Neuropathology"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Neurophysiology"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Communication"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://abret.org/files/6014/8242/6042/EP_Handbook_2017.pdf"
+}

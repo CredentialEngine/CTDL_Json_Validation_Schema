@@ -1,0 +1,22 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-68B4A3A9-DF61-4449-8337-7DBDB5167005",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "http://pearsonvue.com/bcsp"
+  ],
+  "ceterms:ctid": "ce-68B4A3A9-DF61-4449-8337-7DBDB5167005",
+  "ceterms:description": "The CSP examination contains 200 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:name": "CSP Examination",
+  "ceterms:subjectWebpage": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/CSP-Complete-Guide.pdf"
+}

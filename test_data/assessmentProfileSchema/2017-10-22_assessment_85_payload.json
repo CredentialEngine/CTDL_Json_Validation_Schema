@@ -1,0 +1,524 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FA703602-05DA-4C4A-BD96-A2A40148AD15",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 1. Blood Group Systems",
+      "ceterms:targetNodeDescription": "1) Basic\n2) Molecular\n3) Inheritance of blood groups\n4) Applied\n5) Parentage ",
+      "ceterms:targetNodeName": "A. Genetics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 1. Blood Group Systems",
+      "ceterms:targetNodeDescription": "1) ABO\n2) Lewis\n3) Rh\n4) MNS\n5) P, Globoside\n6) Ii\n7) Kell\n8) Kidd\n9) Duffy\n10) Lutheran\n11) Other\n12) Antigens of high incidence\n13) Antigens of low incidence\n14) HLA\n15) Platelet specific\n16) Granulocyte specific ",
+      "ceterms:targetNodeName": "B. Chemistry, Antigens "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 1. Blood Group Systems",
+      "ceterms:targetNodeDescription": "1) Immunogenicity\n2) Antigen frequency ",
+      "ceterms:targetNodeName": "C. Role of Blood Groups in Transfusion "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 2. Antibody Screen and Identification",
+      "ceterms:targetNodeName": "A. Antibody Screen "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 2. Antibody Screen and Identification",
+      "ceterms:targetNodeDescription": "1) Duffy\n2) Ii\n3) Kell\n4) Kidd\n5) Lewis\n6) MNS\n7) P\n8) Rh\n9) Multiple antibodies ",
+      "ceterms:targetNodeName": "B. Antibody Identification"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 3. Crossmatch and Special Tests",
+      "ceterms:targetNodeName": "A. Crossmatch"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 3. Crossmatch and Special Tests",
+      "ceterms:targetNodeDescription": "1) DAT\n2) Phenotyping and genotyping\n3) Elution/adsorption\n4) Antibody titer\n5) Pre-warm technique\n6) Rosette and Kleihauer-Betke ",
+      "ceterms:targetNodeName": "B. Special Tests"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 4. Blood Donation, Transfusion Therapy, Transfusion Reactions and Hemolytic Disease of the Fetus and Newborn (HDFN) ",
+      "ceterms:targetNodeDescription": "1) Donor requirements\n2) Donor testing ",
+      "ceterms:targetNodeName": "A. Blood Donation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 4. Blood Donation, Transfusion Therapy, Transfusion Reactions and Hemolytic Disease of the Fetus and Newborn (HDFN) ",
+      "ceterms:targetNodeDescription": "1) RBC\n2) PLT\n3) FFP\n4) Cryoprecipitated AHF\n5) RhIG ",
+      "ceterms:targetNodeName": "B. Transfusion Therapy "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 4. Blood Donation, Transfusion Therapy, Transfusion Reactions and Hemolytic Disease of the Fetus and Newborn (HDFN) ",
+      "ceterms:targetNodeName": "C. Transfusion Reactions"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "BLOOD BANK (17-22% of total exam) - 4. Blood Donation, Transfusion Therapy, Transfusion Reactions and Hemolytic Disease of the Fetus and Newborn (HDFN) ",
+      "ceterms:targetNodeName": "D. HDFN "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 1. Carbohydrates, Acid Base and Electrolytes ",
+      "ceterms:targetNodeDescription": "1) Glucose\n2) Glycated hemoglobin\n3) Other carbohydrates (e.g. lactate) ",
+      "ceterms:targetNodeName": "A. Carbohydrates"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 1. Carbohydrates, Acid Base and Electrolytes ",
+      "ceterms:targetNodeDescription": "1) pH, pCO2, pO2\n2) Osmolality, base excess ",
+      "ceterms:targetNodeName": "B. Acid Base "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 1. Carbohydrates, Acid Base and Electrolytes ",
+      "ceterms:targetNodeDescription": "1) Sodium, potassium, chloride, bicarbonate, anion gap\n2) Calcium, magnesium, phosphorus ",
+      "ceterms:targetNodeName": "C. Electrolytes "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 2. Proteins and Other Nitrogen-Containing Compounds",
+      "ceterms:targetNodeDescription": "1) Total protein, albumin\n2) Globulins (alpha 1, alpha 2, beta, gamma)\n3) Ferritin, transferrin\n4) Iron and TIBC\n5) Ammonia\n6) Creatinine, BUN\n7) Uric acid\n8) Troponin\n9) Other (e.g., BNP) ",
+      "ceterms:targetNodeName": "A. Protein and Other Nitrogen-Containing Compounds "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 2. Proteins and Other Nitrogen-Containing Compounds",
+      "ceterms:targetNodeDescription": "1) Hemoglobin (S, fetal, A2, plasma)\n2) Bilirubin, urobilinogen\n3) Other (e.g., myoglobin) ",
+      "ceterms:targetNodeName": "B. Heme Derivatives"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 3. Enzymes, Lipids and Lipoproteins ",
+      "ceterms:targetNodeDescription": "1) Amylase, lipase\n2) AST, ALT\n3) CK, LD\n4) ALP\n5) GGT\n6) Other",
+      "ceterms:targetNodeName": "A. Enzymes "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 3. Enzymes, Lipids and Lipoproteins ",
+      "ceterms:targetNodeDescription": "1) Cholesterol (total, HDL, LDL)\n2) Triglycerides\n3) Phospholipids (PG)\n4) Other lipids and lipoproteins ",
+      "ceterms:targetNodeName": "B. Lipids and Lipoproteins "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 4. Special Chemistry (Endocrinology, Tumor Markers, TDM, Toxicology) ",
+      "ceterms:targetNodeDescription": "1) T3, T4, TBG, TSH\n2) hCG, FSH, LH, estradiol\n3) Other hormones (e.g. cortisol)\n4) Tumor markers (e.g., alpha fetoprotein, CEA, hCG, PSA)",
+      "ceterms:targetNodeName": "A. Endocrinology and Tumor Markers "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "CHEMISTRY (17-22% of total exam) - 4. Special Chemistry (Endocrinology, Tumor Markers, TDM, Toxicology) ",
+      "ceterms:targetNodeDescription": "1) Therapeutic drug monitoring\n2) Drugs of abuse\n3) Other toxicology (e.g., carbon monoxide) ",
+      "ceterms:targetNodeName": "B. TDM and Toxicology "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 1. Erythrocytes and Leukocytes",
+      "ceterms:targetNodeDescription": "1) RBC count\n2) Hemoglobin, hematocrit and indices",
+      "ceterms:targetNodeName": "A. Red Blood Cells and Indices "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 1. Erythrocytes and Leukocytes",
+      "ceterms:targetNodeDescription": "1) WBC count\n2) Cytochemical stains (e.g., esterases, myeloperoxidase, TdT) ",
+      "ceterms:targetNodeName": "B. White Blood Cells"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 1. Erythrocytes and Leukocytes",
+      "ceterms:targetNodeName": "C. CBC (includes count, morphology and/or differential) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 2. Other Tests ",
+      "ceterms:targetNodeName": "A. Reticulocyte Count and Other RBC Inclusions "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 2. Other Tests ",
+      "ceterms:targetNodeName": "B. ESR "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 2. Other Tests ",
+      "ceterms:targetNodeDescription": "1) Sickle cell tests\n2) Hemoglobin electrophoresis ",
+      "ceterms:targetNodeName": "C. Tests for Hemoglobin Defects "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 2. Other Tests ",
+      "ceterms:targetNodeName": "D. RBC enzymes (e.g. G-6PD) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 2. Other Tests ",
+      "ceterms:targetNodeName": "E. Other (e.g., immunophenotyping, cytogenetics) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 3. Morphology and Differentials ",
+      "ceterms:targetNodeName": "A. Red Blood Cell Morphology "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 3. Morphology and Differentials ",
+      "ceterms:targetNodeName": "B. White Blood Cell Morphology "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 3. Morphology and Differentials ",
+      "ceterms:targetNodeName": "C. Differential (Whole Blood and Bone Marrow) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 3. Morphology and Differentials ",
+      "ceterms:targetNodeName": "D. Platelet Morphology "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 4. Platelets and Hemostasis  ",
+      "ceterms:targetNodeDescription": "1) Platelet count\n2) Platelet function\n3) Disease correlation ",
+      "ceterms:targetNodeName": "A. Platelets "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "HEMATOLOGY (17-22% of total exam) - 4. Platelets and Hemostasis  ",
+      "ceterms:targetNodeDescription": "1) PT, aPTT, TT\n2) Fibrinogen, FDP, D-dimer\n3) Factor assays\n4) Inhibitor anticoagulants\n5) Mixing studies\n6) Anticoagulant therapy\n7) Hypercoagulability tests\n8) Disease correlation ",
+      "ceterms:targetNodeName": "B. Hemostasis"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "IMMUNOLOGY (5-10% of total exam)  - 1. Immunity",
+      "ceterms:targetNodeDescription": "1) ANA, anti-DNA\n2) CRP/RF\n3) Thyroid antibodies\n4) Other ",
+      "ceterms:targetNodeName": "A. Autoimmunity "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "IMMUNOLOGY (5-10% of total exam)  - 1. Immunity",
+      "ceterms:targetNodeName": "B. Immune Responses"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "IMMUNOLOGY (5-10% of total exam)  - 1. Immunity",
+      "ceterms:targetNodeName": "C. Physiology of the Immune System "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "IMMUNOLOGY (5-10% of total exam)  - 2. Infectious Diseases ",
+      "ceterms:targetNodeDescription": "1) EBV/infectious mononucleosis\n2) Hepatitis\n3) HIV/HTLV/CMV\n4) Rubella/measles\n5) Other viruses ",
+      "ceterms:targetNodeName": "A. Viral "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "IMMUNOLOGY (5-10% of total exam)  - 2. Infectious Diseases ",
+      "ceterms:targetNodeDescription": "1) Syphilis\n2) Other microorganisms ",
+      "ceterms:targetNodeName": "B. Microbial "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeDescription": "A. Pre-Analytical, Analytical, Post-Analytical\nB. Quality Control\nC. Compliance\nD. Regulation ",
+      "ceterms:targetNodeName": "1. Quality Assessment/Troubleshooting "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "2. Safety "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeDescription": "A. Purchasing\nB. Inventory Control\nC. Competency ",
+      "ceterms:targetNodeName": "3. Management "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "4. Laboratory Mathematics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "5. Instrumentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "6. Education and Communication "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "7. Laboratory Information Systems"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "LABORATORY OPERATIONS  (5-10% of total exam) - 1. Quality Assessment/Troubleshooting ",
+      "ceterms:targetNodeName": "8. Molecular Techniques "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 1. Aerobic Gram-positive Cocci ",
+      "ceterms:targetNodeName": "Aerobic Gram-positive Cocci: Staphylococcus, Streptococcus, Enterococcus, other"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 2. Gram-negative Bacilli ",
+      "ceterms:targetNodeName": "A. Enterobacteriaceae (e.g., Citrobacter, Escherichia, Enterobacter, Klebsiella, Morganella, Proteus, Providencia, Salmonella, Serratia, Shigella, Yersinia)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 2. Gram-negative Bacilli ",
+      "ceterms:targetNodeName": "B. Other Gram-negative Bacilli (e.g., Acinetobacter, Aeromonas, Bordetella, Brucella, Campylobacter, Eikenella, Francisella, Haemophilus, Helicobacter, Legionella, Pasteurella, Plesiomonas, Pseudomonas, Burkholderia) Stenotrophomonas, Chryseobacterium, Vibrio, HACEK, Bartonella, Capnocytophaga "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 3. Gram-negative Cocci, Gram-positive Bacilli and Anaerobes ",
+      "ceterms:targetNodeName": "A. Aerobic Gram-negative Cocci (e.g., Neisseria, Moraxella) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 3. Gram-negative Cocci, Gram-positive Bacilli and Anaerobes ",
+      "ceterms:targetNodeName": "B. Aerobic or Facultative Gram-positive Bacilli (e.g., Bacillus, Corynebacterium, Erysipelothrix Gardnerella, Lactobacillus, Listeria, Nocardia, Streptomyces)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 3. Gram-negative Cocci, Gram-positive Bacilli and Anaerobes ",
+      "ceterms:targetNodeDescription": "1) Gram-positive (e.g., Bifidobacterium, Clostridium, Eubacterium, Actinomyces, Peptostreptococcus, Propionibacterium)\n2) Gram-negative (e.g., Bacteroides, Fusobacterium, Porphyromonas, Prevotella, Veillonella)",
+      "ceterms:targetNodeName": "C. Anaerobes "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 4. Fungus, Viruses, Mycobacteria and Parasites",
+      "ceterms:targetNodeDescription": " Fungi\n1) Yeast (e.g., Candida, Cryptococcus, Geotrichum, Malassezia)\n2) Dimorphic fungi (e.g., Blastomyces, Coccidioides, Histoplasma, Sporothrix)\n3) Dermatophytes (e.g., Epidermophyton, Microsporum, Trichophyton)\n4) Zygomycetes (e.g., Absidia, Mucor, Rhizopus)\n5) Opportunistic molds/septate hyaline molds (e.g., Aspergillus, Penicillium)\n6) Dematiaceous molds\n7) Pneumocystis",
+      "ceterms:targetNodeName": "A. Fungi "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 4. Fungus, Viruses, Mycobacteria and Parasites",
+      "ceterms:targetNodeDescription": " Mycobacteria\n1) Mycobacterium tuberculosis complex (e.g., M. tuberculosis)\n2) Other Mycobacteria (e.g., M. aviumintracellulare, rapid growers, M. gordonae, M. kansasii, M. leprae, M. marinum, M. scrofulaceum) ",
+      "ceterms:targetNodeName": "B. Mycobacteria "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 4. Fungus, Viruses, Mycobacteria and Parasites",
+      "ceterms:targetNodeDescription": "1) Viruses (e.g., specimen collection/transport/processing, cell culture, rapid antigen detection) \n2) Other microorganisms (e.g., Chlamydia, Mycoplasma) ",
+      "ceterms:targetNodeName": "C. Viruses and Other Microorganisms "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "MICROBIOLOGY (17-22% of total exam) - 4. Fungus, Viruses, Mycobacteria and Parasites",
+      "ceterms:targetNodeDescription": "1) Blood and tissue protozoa (e.g., Plasmodium, Trypanosoma)\n2) Intestinal and urogenital protozoa (e.g., Cryptosporidium, Entamoeba, Giardia, Trichomonas)\n3) Intestinal and tissue helminths (e.g., Ascaris, Enterobius, hookworm, Schistosoma, Strongyloides, Taenia, Trichinella, Trichuris) ",
+      "ceterms:targetNodeName": "D. Parasites "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 1. Urinalysis ",
+      "ceterms:targetNodeDescription": "1) Color and clarity\n2) Specific gravity/osmolality ",
+      "ceterms:targetNodeName": "A. Physical "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 1. Urinalysis ",
+      "ceterms:targetNodeDescription": "1) Reagent strip\n2) Confirmatory tests ",
+      "ceterms:targetNodeName": "B. Chemical "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 1. Urinalysis ",
+      "ceterms:targetNodeDescription": "1) Cells\n2) Casts\n3) Crystals\n4) Contaminants\n5) Artifacts/microorganisms ",
+      "ceterms:targetNodeName": "C. Microscopic"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 1. Urinalysis ",
+      "ceterms:targetNodeName": "D. Physiology"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 2. Other Body Fluids (Qualitative & Quantitative) ",
+      "ceterms:targetNodeName": "A. CSF"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.ascp.org/content/docs/default-source/boc-pdfs/boc-us-guidelines/mls_imls_content_guideline_formatted_9-14.pdf?sfvrsn=4",
+      "ceterms:frameworkName": "URINALYSIS & OTHER BODY FLUIDS  (5-10% of total exam) - 2. Other Body Fluids (Qualitative & Quantitative) ",
+      "ceterms:targetNodeName": "B. Amniotic, Synovial, Serous, Semen and Feces "
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "http://www.pearsonvue.com/ascp"
+  ],
+  "ceterms:ctid": "ce-FA703602-05DA-4C4A-BD96-A2A40148AD15",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "All certification examination questions are multiple-choice with one best answer. The examinees will be asked questions that test three types of cognitive skills: recall, application, and analysis. The MLS exam consists of 100 multiple choice questions.\n\nIt is strongly recommended that you contact Pearson registration as early as possible to make your appointment within the three-month examination period. After you have made your appointment, a confirmation letter will be emailed to you. The confirmation letter is not required to sit for the examination.\nYou must take the examination within the three-month examination period indicated on your Admission Notice. Personal/family-related responsibilities or lack of study opportunity will not be considered reasons to cancel, not appear, or miss your scheduled appointment date.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Member",
+          "ceterms:targetNodeName": "Member"
+        }
+      ],
+      "ceterms:costDetails": "https://www.ascp.org/content/board-of-certification/get-credentialed/",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Note: Application fees are non-refundable.\n\n",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": "Application Fee",
+      "ceterms:price": 240.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H30M"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "Medical Laboratory Scientist (MLS)",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Blood Bank (BBNK)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Chemistry (CHEM)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Hematology (HEMA)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Immunology (IMMU)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Laboratory Operations (LO)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Microbiology (MICR)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Urinalysis and Other Body Fluids (UA)"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://www.ascp.org/content/board-of-certification/get-credentialed"
+}

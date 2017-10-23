@@ -1,0 +1,115 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FD6F9B35-40E6-4424-AFC5-DAA942EFB124",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "http://www.pearsonvue.com/ascp"
+  ],
+  "ceterms:ctid": "ce-FD6F9B35-40E6-4424-AFC5-DAA942EFB124",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "The MLT(ASCP) and MLT(ASCPi) certification examination is composed of 100 examination questions given in a 2 hour 30 minute time frame. All examination questions are multiple-choice with one best answer. The certification examination is administered using the format of computer adaptive testing (CAT).\nWith CAT, when a person answers a question correctly, the next test question has a slightly higher level of difficulty. The difficulty level of the questions presented to the examinee continues to increase until a question is answered incorrectly. Then a slightly easier question is presented. In this way, the test is tailored to the individual’s ability level.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ceterms:Audience",
+          "ceterms:targetNode": "audience:Member",
+          "ceterms:targetNodeName": "Member"
+        }
+      ],
+      "ceterms:costDetails": "https://www.ascp.org/content/board-of-certification/get-credentialed/",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Note: Application fees are non-refundable.\n",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": "Application Fee",
+      "ceterms:price": 215.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H30M"
+    }
+  ],
+  "ceterms:inLanguage": "English",
+  "ceterms:name": "Medical Laboratory Technician (MLT)",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-C427F875-9D54-402F-8A66-9C6B9EF2143D"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "AssociatesDegreeLevel"
+        }
+      ],
+      "ceterms:condition": [
+        "Route 2: High school graduation (or equivalent), AND successful completion of a 50 week U.S. military medical laboratory training course* within the last ten years; OR",
+        "Route 3: High school graduation (or equivalent), AND two years of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 4: Associate degree or at least 60 semester hours (90 quarter hours) of academic credit from a regionally accredited college/university, including 6 semester hours (9 quarter hours) of chemistry and 6 semester hours (9 quarter hours) of biology, AND one year of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 5: PBT(ASCP) certification, AND one year of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 6: High school graduation (or equivalent), AND successful completion of an acceptable two part formal structured medical laboratory assistant program in the U.S., Canada or an accredited laboratory** within the last five years which consists of classroom training and clinical laboratory training, AND six months of full time acceptable clinical laboratory experience as a laboratory assistant within the last five years.",
+        "Route 1: High school graduation (or equivalent), AND successful completion of a NAACLS approved Clinical Assistant (CA) program within the last five years.",
+        "Route 2: High school graduation (or equivalent), AND successful completion of a 50 week U.S. military medical laboratory training course* within the last ten years; OR",
+        "Route 3: High school graduation (or equivalent), AND two years of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 4: Associate degree or at least 60 semester hours (90 quarter hours) of academic credit from a regionally accredited college/university, including 6 semester hours (9 quarter hours) of chemistry and 6 semester hours (9 quarter hours) of biology, AND one year of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 5: PBT(ASCP) certification, AND one year of full time acceptable clinical laboratory** experience as a laboratory assistant within the last five years; OR",
+        "Route 6: High school graduation (or equivalent), AND successful completion of an acceptable two part formal structured medical laboratory assistant program in the U.S., Canada or an accredited laboratory within the last five years which consists of classroom training and clinical laboratory training, AND six months of full time acceptable clinical laboratory experience as a laboratory assistant within the last five years."
+      ],
+      "ceterms:description": "A Route of Eligibility MUST be indicated on your application. If no Route of Eligibility is designated, your application will not be processed.\nTo be eligible for this examination category, an applicant must satisfy the requirements of at least one of the following routes:",
+      "ceterms:name": "Medical Laboratory Technician (MLT) - Requirement Pathways",
+      "ceterms:subjectWebpage": "https://www.ascp.org/content/board-of-certification/get-credentialed"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Blood Bank (BBNK)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Chemistry (CHEM)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Hematology (HEMA)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Immunology (IMMU)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Laboratory Operations (LO)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Microbiology (MICR)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Urinalysis and Other Body Fluids (UA)"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://www.ascp.org/content/board-of-certification/get-credentialed"
+}

@@ -1,0 +1,610 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-cf092f27-cb19-4862-b3e7-1bed329bde16",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": " Domain 1 - Management Systems - Skill To:",
+      "ceterms:targetNodeName": "Recognize leading and lagging indicators"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": " Domain 1 - Management Systems - Skill To:",
+      "ceterms:targetNodeName": "Set and prioritize safety-related goals"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": " Domain 1 - Management Systems - Skill To:",
+      "ceterms:targetNodeName": "Assess training needs (regulatory and risk-based)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Principles and common elements of safety management systems (e.g., continuous improvement, safety processes, controls, measurement, standards, implementation)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Principles and techniques for encouraging employee involvement and commitment (e.g., value-based safety)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Principles and techniques for encouraging management commitment to safety (e.g., voluntary protection program (VPP), mission statement, management involvement in jobsite assessment)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Techniques and principles for goal setting (e.g., SMART)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Principles and techniques of internal audits"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Competency/skills assessment management systems (e.g., new hire orientation, assurance of experience, job skills, on the job training) as it pertains to worker safety"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "General concepts of effective trainings (e.g., learning retention, adult learning principles, training delivery)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Recordkeeping related to training and education (e.g., annual, one-time, recertification or retraining)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Management of corrective actions (e.g., follow up, follow through, closure of actions, time periods, tracking corrective actions)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Unsafe conditions and acts and how they relate to incidents (e.g., Swiss cheese model, bowtie model)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Management of change (MOC) procedure and organizational change process"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Common elements of contractor or multi-employer worksite safety programs (e.g., prequalification, selecting, monitoring, managing risk between contractor and host)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Management Systems - Knowledge Of:",
+      "ceterms:targetNodeName": "Process for assessing hazards associated with new products or chemicals"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Resources for hazard prevention and control management (e.g., external resources, internal resources, industry standards, subject matter experts)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Work planning and controls (e.g., job safety analysis, preliminary hazard analysis, job/task hazard analysis, safe work permit)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Prevention through Design concepts (e.g., managing safety through the lifecycle of the program)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Common liability exposures (e.g., tort, joint liability, attractive nuisance)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Common types of insurance coverage (e.g., differences between property and liability coverage)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Hierarchy of controls (e.g., elimination, engineering, substitutions)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Interpret and apply information related to hazard prevention and control management (e.g., internal resources, external resources, industry standards, safety data sheet)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Identify safety, health, and environmental risk (e.g., checklists, brainstorming, observation, lessons learned, experience, HAZID, process safety)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Analyze safety, health, and environmental risk (e.g., severity and likelihood/frequency matrix, historical information, industry data, “what if” analysis, process safety)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Evaluate and prioritize safety, health, and environmental risk (e.g., high/low risk)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Review and refine implemented safety, health, environmental controls to ensure they are effective"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Use a risk matrix"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Risk Management - Skill To:",
+      "ceterms:targetNodeName": "Apply the hierarchy of controls to various types of hazards while considering the likelihood and severity"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Concepts in the Globally Harmonized System of Classification and Labeling of Chemicals (GHS)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for slips, trips, and falls (from all levels)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for working with electricity"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for working in confined spaces"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for working around machinery and equipment"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for bloodborne pathogens"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for lead"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for asbestos"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for radiation (ionizing and non-ionizing)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for temperature extremes (e.g., cold or heat stress, contact with extreme temperatures, thermal stress)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for vibration (e.g., whole body, hand/arm)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for noise"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for ergonomic hazards associated with the type of work, body positions, or strain on the body from working conditions (e.g., improperly adjusted workstations/chairs, frequent lifting, awkward movements, poor posture, repetitive movements, use of too much force, compression)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for any form of chemical hazards (e.g., liquids, vapors, fumes, dusts, gases, flammable liquids, and pesticides)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Common controls for workplace stressors (e.g., workload demand, fatigue, harassment, lack of schedule flexibility, lack of control)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Knowledge Of:",
+      "ceterms:targetNodeName": "Occupational health programs (e.g., medical surveillance, fit for duty, return to work, substance abuse testing)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts that can cause slips, trips, and falls (from all levels)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts when working with electricity"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts when working in confined spaces"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts when working around machinery and equipment (e.g., caught in, struck by, pinch points)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize conditions that could lead to unsafe exposures to molds and allergens"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to bloodborne pathogens"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures lead"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to asbestos"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to radiation (ionizing and non-ionizing)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to temperature extremes (e.g., cold or heat stress, contact with extreme temperatures, thermal stress)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to vibration (e.g., whole body, hand/arm)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to potential exposures to noise"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to ergonomic hazards associated with the type of work, body positions, or strain on the body from working conditions (e.g., improperly adjusted workstations/chairs, frequent lifting, awkward movements, poor posture, repetitive movements, use of too much force, compression) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to exposures to any form of chemicals (e.g., liquids, vapors, fumes, dusts, gases, flammable liquids, and pesticides)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Safety, Health, and Environmental Concepts - Skill To:",
+      "ceterms:targetNodeName": "Recognize unsafe conditions or acts related to workplace stressors (e.g., workload demand, fatigue, harassment, lack of schedule flexibility, lack of control)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Fundamentals of causal analysis (e.g., 5 whys, root cause analysis)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Components or elements of an effective incident/accident management program"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Emergency action requirements/procedures (e.g., response plans, evacuations, preparedness, operation upsets)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Components or elements of an emergency response plan (e.g., roles and responsibilities, emergency contact information, stakeholder notification, media response) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Incident command structure in emergency response"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Techniques for identifying gaps in an emergency response plan (e.g., table top drills, lessons learned)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Knowledge To:",
+      "ceterms:targetNodeName": "Basic elements of workers’ compensation and case management programs"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Incident Investigation and Emergency Preparedness - Skill To:",
+      "ceterms:targetNodeName": "Calculate incident and injury rates"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Cost/benefit analysis principles and common techniques (e.g., return on investment [ROI], as low as reasonably practicable [ALARP], as low as reasonably achievable [ALARA])"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Direct and indirect costs in relation to safety"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Experience modification rate (EMR), or premium rate, and how it is used"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Principles of positive safety/organizational culture and common techniques for creating a positive safety culture (e.g., Hearts & Minds, behavioral safety management [BSM], behavior-based safety [BBS], stop work, open communication, culture or perception surveys)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Indicators of a positive safety/organizational culture (e.g., leading indicators, management system, management commitment)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Techniques and processes for communicating hazards and controls to stakeholders (e.g., management, workforce)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Presentation techniques or best practices for communicating technical and other safety information to stakeholders (e.g., management, workforce)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Conflict management techniques (e.g., situational leadership, good conflict versus bad conflict, diffusion techniques, relationship management)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "Common leadership strategies or principles (e.g., setting good example, building trust)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Knowledge To:",
+      "ceterms:targetNodeName": "BCSP Code of Ethics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Interpret cost/benefit analysis"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Interpret leading and lagging indicators (e.g., training metrics, safety initiatives, incident and injury rates)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Develop a safety business case for additional budget, resources, other support, etc. (e.g., use financial tools to make a case for investing in safety program or initiative)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Communicate safety on multi-employer/contractor worksites"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Facilitate or lead safety meetings (e.g., agenda, review safety plans, safety stand-down, shift handover)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Communicate (internal) safety activities and performance (e.g., reports, initiatives, lessons learned, requirements) to management and personnel"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Communicate (external) safety risks and performance information (e.g., reports, presentations, risk/incident plans) to key stakeholders (e.g., public safety organizations, regulatory agencies, community)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Business Case of Safety - Skill To:",
+      "ceterms:targetNodeName": "Write communications that promote safety objectives and activities (e.g., safety proposal development, risk management plans, noncompliance response)"
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "http://pearsonvue.com/bcsp"
+  ],
+  "ceterms:ctid": "ce-cf092f27-cb19-4862-b3e7-1bed329bde16",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "The SMS examination contains 200 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": " SMS ",
+      "ceterms:price": 160.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": " SMS ",
+      "ceterms:price": 350.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT4H30M"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "SMS Examination",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6EB7ABF1-F5B7-444C-A304-6C10B451A534"
+        }
+      ],
+      "ceterms:description": "*** Condition PROFILE DESCRIPTION MISSING ***",
+      "ceterms:experience": "To qualify for the examination, SMS candidates must have ten (10) years of experience with at least 35% of primary job duties related to the management of safety related programs, processes, procedures, personnel, etc.",
+      "ceterms:name": "Eligibility Requirements - SMS Examination",
+      "ceterms:subjectWebpage": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/SMS-Complete-Guide.pdf"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.bcsp.org/SMS"
+}

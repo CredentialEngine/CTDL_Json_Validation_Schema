@@ -1,0 +1,64 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-51211FB3-DDC5-473C-A9CF-7EC4D8E1110F",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": "http://abret.org/files/1514/8242/6110/CAP_Handbook_2017.pdf",
+  "ceterms:assessmentExampleDescription": "Which autonomic function test will be MOST affected in a patient who has had a nerve biopsy of the sural\nnerve?\n\nA. Tilt\nB. HRDB\nC. QSART\nD. Valsalva",
+  "ceterms:availabilityListing": [
+    "https://candidate.psiexams.com/testdate/testdate.jsp"
+  ],
+  "ceterms:ctid": "ce-51211FB3-DDC5-473C-A9CF-7EC4D8E1110F",
+  "ceterms:deliveryTypeDescription": " The Certification Examination in Autonomic Professionals is a computer based examination composed of multiple-choice, objective questions.",
+  "ceterms:description": "The Certification Examination in Autonomic Professionals (CAP) is designed and written for the advanced level autonomic professional.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Certification Examination for Autonomic Professionals Exam",
+  "ceterms:scoringMethodDescription": "The Board set the passing standard as the number of test questions it determines to be necessary for candidates to answer correctly in order to be considered at least minimally competent. This method focuses on the particular test that is being administered. Different forms of an examination are matched for difficulty and content coverage. This comprehensive approach makes use of information about the performance of similar groups in the past.\n\nABRET is concerned with reporting only valid scores. On rare occasions, misconduct or circumstances beyond the individual’s control may render a score invalid. If doubts are raised about a score because of these or other circumstances, ABRET reserves the right to cancel any examination score if, in the sole opinion of ABRET, there is adequate reason to question its validity.",
+  "ceterms:scoringMethodExample": "http://abret.org/files/1514/8242/6110/CAP_Handbook_2017.pdf",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Health Care"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Management of Emergencies"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Medicine"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Nursing"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Care"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Documentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Preparation"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://abret.org/files/1514/8242/6110/CAP_Handbook_2017.pdf"
+}

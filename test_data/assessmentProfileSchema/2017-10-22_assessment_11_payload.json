@@ -1,0 +1,29 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-42316834-77EE-41FE-A06F-AC5608179A5D",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "https://certification.bcsp.org/bcspssa"
+  ],
+  "ceterms:ctid": "ce-42316834-77EE-41FE-A06F-AC5608179A5D",
+  "ceterms:description": "The ASP examination contains 200 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:inLanguage": "English",
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:name": "ASP Certification Examination",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Management"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Safety"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.bcsp.org/ASP"
+}

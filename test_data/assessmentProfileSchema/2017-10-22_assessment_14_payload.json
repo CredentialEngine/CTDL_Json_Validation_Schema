@@ -1,0 +1,483 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-DC626DDF-B9CF-44BB-BD2D-880E2A76A91D",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Established environmental, safety, and health programs for implementation in the field (e.g., program compliance)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Appropriate respiratory protection relevant to the job task and associated hazards"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Incident investigative processes and documentation (e.g., secure site, gather facts, take photographs)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "How to conduct a job/task hazard analysis"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Hazards that need to be escalated and who to contact for determination of appropriate controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Sanitation requirements (e.g., hand-washing facilities, toilets, single-use cups, potable drinking water, trash receptacles)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Illumination requirements for job tasks"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Knowledge Of:",
+      "ceterms:targetNodeName": "Hot work hazards and associated control methods (e.g., fire watch, permit)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Evaluate if workers have required qualifications, training, or certifications for job tasks (e.g., power industrial trucks, aerial work platforms, confined space, lockout/tagout, respiratory protection)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Identify and evaluate if a worker is fit for duty (e.g., sick, under influence of controlled substances, fatigued)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Identify safe and at-risk workplace behaviors"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Conduct a safety inspection or audit"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Correct hazards or risks found in a safety inspection or audit"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Implement corrective actions based on the outcome of an incident investigation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 1 - Safety Program Implementation - Skill To:",
+      "ceterms:targetNodeName": "Implement appropriate controls for job site hazards"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Electrical hazards and controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Excavation hazards and controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Confined space requirements, hazards, and controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazardous energy and control methods (e.g., lockout/tagout, blocking and bleeding of lines) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Work zone hazards and controls (e.g., traffic control, limited access zones)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards and controls associated with material handling (e.g., site layout for materials, proper stacking and storage, lateral and horizontal movements)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Struck by/caught between hazards and controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Rotating moving equipment pinch points hazards and controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "How to respond to environmental impacts (e.g., spills, pollutants)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Appropriate use, care, maintenance, and limitations of personal protective equipment (PPE)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with working at heights (e.g., scaffolding, lifts, ladders, stair towers, leading edge)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Fall protection systems, components, and installations"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with walking/working surfaces"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with poor housekeeping (e.g., rolling stock, slip hazards, blocked exits, fire exposures, material waste)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with hand and power tools (e.g., guarding; powder actuated; use, care, and maintenance of tools)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with heavy equipment (e.g., crawlers, bucket loader, back hoe) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards associated with cranes (e.g., swing radius, ground conditions, overhead power lines) "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hoisting, rigging, and signaling"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Knowledge To:",
+      "ceterms:targetNodeName": "Hierarchy of controls"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Skill To:",
+      "ceterms:targetNodeName": "Identify if there are risks or hazards associated with the site layout "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 2 - Hazard Identification and Control - Skill To:",
+      "ceterms:targetNodeName": "Identify if personal protective equipment (PPE) is adequate for the job task and hazards "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge To:",
+      "ceterms:targetNodeName": "Hazards and controls related to musculoskeletal disorders (e.g., proper lifting techniques, buddy system, elevating material to proper work height)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge To:",
+      "ceterms:targetNodeName": "Work conditions that could create thermal stress (e.g., humidity, temperature, PPE, duration of exposure, wind) and control methods (e.g., drinking water, warm up area)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Knowledge To:",
+      "ceterms:targetNodeName": "Chemical hazards and controls (e.g., Globally Harmonized System)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Skill To:",
+      "ceterms:targetNodeName": "Recognize ergonomic hazards on the worksite (e.g., vibration, repetitive motion)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Skill To:",
+      "ceterms:targetNodeName": "Recognize symptoms associated with thermal stress (e.g., heat stroke, hypothermia)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Skill To:",
+      "ceterms:targetNodeName": "Identify hazards associated with inhalation, absorption, ingestion, and injection on a job task (e.g., silica, asbestos, chemicals, lead, welding fumes, sharps)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Skill To:",
+      "ceterms:targetNodeName": "Identify potential exposure to noisy environments"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 3 - Health Hazards and Basic Industrial Hygiene - Skill To:",
+      "ceterms:targetNodeName": "Identify if controls are being implemented correctly (e.g., if hearing protection is being worn correctly)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Use, access, and inspections of fire prevention and protection methods (e.g., PASS-pull the pin, aim at base of fire, squeeze handle, and sweep side to side)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Potential fire hazards (e.g., sources of ignition)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Emergency response plans and drills (e.g., natural disasters, weather, crisis, fire, alarms, evacuation, rescue procedures)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge Of:",
+      "ceterms:targetNodeName": "Required emergency response equipment for worksite hazards (e.g., eye wash facilities, backboard, rescue skiff, first aid kit)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Knowledge Of:",
+      "ceterms:targetNodeName": "How to respond to medical emergencies (e.g., bloodborne pathogens, first aid, emergency contacts)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 4 - Emergency Preparedness and Management - Skill To:",
+      "ceterms:targetNodeName": "Identify if correct fire extinguishing methods are in place for worksite hazards"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "Coaching techniques"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "How to influence others to achieve desired outcome"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "Effective communication techniques (e.g., repeat back)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "Negative and positive reinforcement and motivation techniques (e.g., progressive discipline, recognition for correct behaviors)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "How language and cultural barriers impact the safety of employees"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "How to limit exposure to hazards from multiple trades working in proximity (e.g., scheduling, communication of safetyrelated matters)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "What should be documented (e.g., training attendance, inspections, daily safety briefings)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "All written documentation being discoverable in a legal case"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "Confidentiality considerations (e.g., trade secrets, personal medical information)"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Knowledge Of: ",
+      "ceterms:targetNodeName": "BCSP Code of Ethics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf",
+      "ceterms:frameworkName": "Domain 5 - Leadership, Communication, and Training - Skill To: ",
+      "ceterms:targetNodeName": "Recognize when to seek appropriate subject matter expertise for additional guidance"
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "https://certification.bcsp.org/bcspssa/ssaauthmain.login_page"
+  ],
+  "ceterms:ctid": "ce-DC626DDF-B9CF-44BB-BD2D-880E2A76A91D",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "STSC Certification Examination contains 100 multiple-choice items with four possible answers and only one correct answer.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": "STSC ",
+      "ceterms:price": 120.00
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://www.bcsp.org/Certifications/Safety-Certifications-at-a-Glance",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Estimated Costs",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:StandaloneAssessment",
+          "ceterms:targetNodeName": "Standalone/Extra Assessment"
+        }
+      ],
+      "ceterms:name": "STSC ",
+      "ceterms:price": 185.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT2H"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": false,
+  "ceterms:name": "STSC Certification Examination",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6EB7ABF1-F5B7-444C-A304-6C10B451A534"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "IntermediateLevel"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "AdvancedLevel"
+        }
+      ],
+      "ceterms:condition": [
+        "Professional safety must be a function of the position",
+        "The responsibility must be the prevention of harm to people, property, and the environment, rather than responsibility for responding to harmful events. CETs must have 135 hours of training in safety."
+      ],
+      "ceterms:description": "In addition to the academic requirement, BCSP candidates must have professional safety experience. Professional safety experience must meet all of the following criteria to be considered acceptable by BCSP:",
+      "ceterms:name": "STSC Certification Examination - Eligibility Requirements",
+      "ceterms:subjectWebpage": "http://www.bcsp.org/STSC"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Safety"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Supervisor"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.bcsp.org/Portals/0/Assets/DocumentLibrary/STSC-Complete-Guide.pdf"
+}

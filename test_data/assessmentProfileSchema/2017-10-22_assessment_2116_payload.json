@@ -1,0 +1,68 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-6A655C49-A9E7-4AD5-9A01-774E0A8A43F8",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": "http://abret.org/files/5314/9555/2276/CLTM_Handbook_5.2017.pdf",
+  "ceterms:assessmentExampleDescription": "What is the most common cause for temporal lobe seizures in adults?\n\nA. Diffuse axonal injury\nB. Hippocampalsclerosis\nC. Glioblastomamultiforme\nD. Venousangioma",
+  "ceterms:availabilityListing": [
+    "https://candidate.psiexams.com/testdate/testdate.jsp"
+  ],
+  "ceterms:ctid": "ce-6A655C49-A9E7-4AD5-9A01-774E0A8A43F8",
+  "ceterms:deliveryTypeDescription": "The Certification Examination for Long Term Monitoring Technologists is a computer-based examination composed of a maximum of 200 multiple-choice, objective questions.",
+  "ceterms:description": "The Certification Examination in Long Term Monitoring is designed and written for the advanced level R. EEG T. who has had at least one year of experience in Neurophysiologic Long Term Monitoring, and is currently practicing in a monitoring environment. Candidates will be expected to have been an active participant in the set-up, monitoring, and review of prolonged video-EEG cases.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Certification Examination in Long Term Monitoring",
+  "ceterms:scoringMethodDescription": "The Board set the passing standard as the number of test questions it determines to be necessary for candidates to answer correctly in order to be considered at least minimally competent. This method focuses on the particular test that is being administered. Different forms of an examination are matched for difficulty and content coverage. This comprehensive approach makes use of information about the performance of similar groups in the past.\n\nABRET is concerned with reporting only valid scores. On rare occasions, misconduct or circumstances beyond the individual’s control may render a score invalid. If doubts are raised about a score because of these or other circumstances, ABRET reserves the right to cancel any examination score if, in the sole opinion of ABRET, there is adequate reason to question its validity.",
+  "ceterms:scoringMethodExample": "http://abret.org/files/5314/9555/2276/CLTM_Handbook_5.2017.pdf",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Age-Specific Criteria"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Long Term Care"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Medical Contraindications to Activation Procedures"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Medical/EEG Terminology"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "National Patient Safety Goals"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Neurologic Examination"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Nursing"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Histories"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://abret.org/files/5314/9555/2276/CLTM_Handbook_5.2017.pdf"
+}

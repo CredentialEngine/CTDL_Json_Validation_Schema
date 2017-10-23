@@ -1,0 +1,193 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-CB4B0178-3D97-4515-9F2E-D13A0212DB75",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Artifact",
+      "ceterms:targetNodeName": "Artifact"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Exam",
+      "ceterms:targetNodeName": "Exam"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:assessmentOutput": "assessment in each cyber security course is made through written assignments, lab assignments, projects and a final exam",
+  "ceterms:availableOnlineAt": [
+    "https://www.charteroak.edu/catalog/current/ug_prog_study_degree_requirements/cyber_security.cfm"
+  ],
+  "ceterms:ctid": "ce-CB4B0178-3D97-4515-9F2E-D13A0212DB75",
+  "ceterms:dateEffective": "2014-03-11",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "These assessment selections are a part of each course syllabus.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Resident",
+          "ceterms:targetNodeName": "Resident"
+        }
+      ],
+      "ceterms:costDetails": "https://www.charteroak.edu/prospective/tuition/",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Undergraduate Tuition & Fees",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:endDate": "2018-06-30",
+      "ceterms:name": "Bachelor of Science in Cyber Security courses",
+      "ceterms:paymentPattern": "per semester credit",
+      "ceterms:price": 298.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ],
+      "ceterms:startDate": "2017-07-01"
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:NonResident",
+          "ceterms:targetNodeName": "Non-Resident"
+        }
+      ],
+      "ceterms:costDetails": "https://www.charteroak.edu/prospective/tuition/",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Undergraduate Tuition & Fees",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:endDate": "2018-06-30",
+      "ceterms:name": "Bachelor of Science in Cyber Security courses",
+      "ceterms:paymentPattern": "per semester credit",
+      "ceterms:price": 392.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:OutOfState",
+          "ceterms:targetNodeName": "Out-of-State"
+        }
+      ],
+      "ceterms:startDate": "2017-07-01"
+    }
+  ],
+  "ceterms:financialAssistance": [
+    {
+      "@type": "ceterms:FinancialAlignmentObject",
+      "ceterms:framework": "https://www.charteroak.edu/current/sfa/",
+      "ceterms:frameworkName": "Student Financial Aid",
+      "ceterms:targetNode": "https://www.charteroak.edu/current/sfa/types.cfm",
+      "ceterms:targetNodeDescription": "We offer a variety of financial aid programs in the form of grants, scholarships, and loans to eligible students. The amount and type of assistance for most programs will be dependent on your financial need, enrollment plans, as well as federal, state and institutional allocations of annual funds, and expected family contribution (EFC). You must be a degree seeking student.",
+      "ceterms:targetNodeName": "Financial Aid Programs"
+    }
+  ],
+  "ceterms:hasGroupParticipation": true,
+  "ceterms:inLanguage": "English",
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "Instructional programs that focus on the computer and information sciences and prepare individuals for various occupations in information technology and computer operations fields.",
+      "ceterms:targetNodeName": "COMPUTER AND INFORMATION SCIENCES AND SUPPORT SERVICES"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11.0401",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "A program that focuses on the  theory, organization, and process of information collection, transmission, and utilization in traditional and electronic forms.  Includes instruction in information classification and organization; information storage and processing; transmission, transfer, and signaling; communications and networking; systems planning and design; human interfacing and use analysis; database development; information policy analysis; and related aspects of hardware, software, economics, social factors, and capacity.",
+      "ceterms:targetNodeName": "Information Science/Studies"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11.1003",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "A program that prepares individuals to assess the security needs of computer and network systems, recommend safeguard solutions, and manage the implementation and maintenance of security devices, systems, and procedures.  Includes instruction in computer architecture, programming, and systems analysis; networking; telecommunications; cryptography; security system design; applicable law and regulations; risk assessment and policy analysis; contingency planning; user access issues; investigation techniques; and troubleshooting.",
+      "ceterms:targetNodeName": "Computer and Information Systems Security/Information Assurance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11.1099",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "Any instructional program in computer/information technology services administration and management not listed above.",
+      "ceterms:targetNodeName": "Computer/Information Technology Services Administration and Management, Other"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/5744337/",
+          "ceterms:latitude": "44.00013",
+          "ceterms:longitude": "-120.50139",
+          "ceterms:name": "Oregon"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6251999/",
+          "ceterms:latitude": "60.10867",
+          "ceterms:longitude": "-113.64258"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Bachelor of Science in Cyber Security courses",
+  "ceterms:subjectWebpage": "https://www.charteroak.edu/catalog/current/ug_prog_study_degree_requirements/cyber_security.cfm"
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-EC0575D2-1B81-4A70-A36B-755CAC4D8B7F",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assessmentExample": "http://abret.org/files/2814/8242/6009/EEG_Handbook_2017.pdf",
+  "ceterms:assessmentExampleDescription": "The MOST appropriate time constant for recording a low voltage slow wave focus is:\n\nA. 0.012second\nB. 0.05second\nC. 0.12second\nD. 1.00second",
+  "ceterms:availabilityListing": [
+    "https://candidate.psiexams.com/testdate/testdate.jsp"
+  ],
+  "ceterms:ctid": "ce-EC0575D2-1B81-4A70-A36B-755CAC4D8B7F",
+  "ceterms:deliveryTypeDescription": "The Registration Examinations for Electroencephalographic Technologists, Parts 1 and 2, are computer based examinations composed of a maximum of multiple-choice,objective questions.",
+  "ceterms:description": "The Registration Examination for Electroencephalographic (EEG) Technologists is designed and written for those health care professionals that are trained in and currently practicing EEG technology.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": "English",
+  "ceterms:isProctored": true,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:GeoCoordinates",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": "39.76",
+          "ceterms:longitude": "-98.5"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Registration Examination for Electroencephalographic (EEG) Technologists Part I",
+  "ceterms:scoringMethodDescription": "The Board set the passing standard as the number of test questions it determines to be necessary for candidates to answer correctly in order to be considered at least minimally competent. This method focuses on the particular test that is being administered. Different forms of an examination are matched for difficulty and content coverage. This comprehensive approach makes use of information about the performance of similar groups in the past.\n\nABRET is concerned with reporting only valid scores. On rare occasions, misconduct or circumstances beyond the individual’s control may render a score invalid. If doubts are raised about a score because of these or other circumstances, ABRET reserves the right to cancel any examination score if, in the sole opinion of ABRET, there is adequate reason to question its validity.",
+  "ceterms:scoringMethodExample": "http://abret.org/files/2814/8242/6009/EEG_Handbook_2017.pdf",
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Common Medications"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Common Neurological Disorders"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "EEG Concepts"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Electroencephalographic Technologists"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Health Care"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Instrumentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Nursing"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Histories"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Patient Preparation and Care"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://abret.org/files/2814/8242/6009/EEG_Handbook_2017.pdf"
+}
