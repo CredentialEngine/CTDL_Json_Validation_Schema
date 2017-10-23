@@ -1,0 +1,34 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-222c5f3a-b272-4324-a8e8-7c413f5093c3",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Government",
+      "ceterms:targetNodeName": "Government Agency"
+    }
+  ],
+  "ceterms:ctid": "ce-222c5f3a-b272-4324-a8e8-7c413f5093c3",
+  "ceterms:description": "Within Indiana Professional Licensing Agency",
+  "ceterms:image": [
+    "https://secure.in.gov/portal/images/logo_PLA.png"
+  ],
+  "ceterms:name": "Indiana State Psychology Board",
+  "ceterms:subjectWebpage": "https://secure.in.gov/pla/psych.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

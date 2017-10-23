@@ -1,0 +1,42 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-99a97141-8208-4c56-918a-55d4ec4ef33f",
+  "@type": "ceterms:QACredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:QualityAssurance",
+      "ceterms:targetNodeName": "Quality Assurance Body"
+    }
+  ],
+  "ceterms:ctid": "ce-99a97141-8208-4c56-918a-55d4ec4ef33f",
+  "ceterms:description": "Since its establishment in 1945, the Indiana Department of Veterans Affairs (IDVA) has remained focused on aiding and assisting \"Hoosier\" veterans, and qualified family members or survivors, who are eligible for benefits or advantages provided by Indiana and the U.S. government.\n\nIndiana owes a great debt to its veterans, past and present, for their personal sacrifices and dedicated service. 75 Hoosiers (2 still living) have been awarded the Congressional Medal of Honor in testimony to their courage and sacrifices.\n\nToday, Indiana is home to nearly 550,000 veterans. 52,000 veterans and survivors collect disability compensation or pension payments. There is no greater honor than to serve those who have given so much.",
+  "ceterms:image": [
+    "http://www.in.gov/portal/images/logo_dva.png"
+  ],
+  "ceterms:name": "Indiana Department of Veterans Affairs - State Approving Agency",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AgentServiceType",
+      "ceterms:targetNode": "serviceType:ApproveService",
+      "ceterms:targetNodeName": "Approve Service"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.in.gov/dva/2364.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

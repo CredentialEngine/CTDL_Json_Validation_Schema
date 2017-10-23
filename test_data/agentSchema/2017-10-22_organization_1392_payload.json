@@ -1,0 +1,44 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-6e8317df-be12-42a6-bb7b-b6f7bc6ff1e0",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:addressLocality": "Indianapolis",
+      "ceterms:addressRegion": "IN",
+      "ceterms:name": "IPLA",
+      "ceterms:postalCode": "46204",
+      "ceterms:streetAddress": "302 W Washington St"
+    }
+  ],
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Government",
+      "ceterms:targetNodeName": "Government Agency"
+    }
+  ],
+  "ceterms:ctid": "ce-6e8317df-be12-42a6-bb7b-b6f7bc6ff1e0",
+  "ceterms:description": "The Indiana Professional Licensing Agency (PLA) currently serves as an administrative agency that supports 38 licensing boards, which regulate more than 500,000 professionals and businesses in 134 different occupations. Licensing boards are generally comprised of members appointed by the governor who are qualified to serve because of their 1) citizenship, 2) residence within the state, 3) licensure, and 4) experience in the field related to the board. Boards may be tasked with overseeing examination, licensure, renewal, and the disciplinary process for individuals in violation of their license.",
+  "ceterms:image": [
+    "https://secure.in.gov/portal/images/logo_PLA.png"
+  ],
+  "ceterms:name": "Indiana Professional Licensing Agency (IPLA)",
+  "ceterms:subjectWebpage": "http://www.in.gov/pla/index.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

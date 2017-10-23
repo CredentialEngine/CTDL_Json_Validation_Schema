@@ -1,0 +1,34 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-e396aee9-2016-4f68-8ae7-b760fcd12a13",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:FourYear",
+      "ceterms:targetNodeName": "Four-Year College"
+    }
+  ],
+  "ceterms:ctid": "ce-e396aee9-2016-4f68-8ae7-b760fcd12a13",
+  "ceterms:description": "Indiana University Southeast, a regional campus of Indiana University, is a four-year, public, comprehensive university located in New Albany, Indiana, just across the Ohio River from Louisville, Kentucky. Founded in 1941, it provides high-quality educational programs and services that promote student learning and prepare students for productive citizenship in a diverse society, and that contribute to the intellectual, cultural, and economic development of our region.",
+  "ceterms:image": [
+    "https://assets.iu.edu/brand/2.x/trident-large.png"
+  ],
+  "ceterms:name": "Indiana University Southeast",
+  "ceterms:subjectWebpage": "https://www.ius.edu",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

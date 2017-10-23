@@ -1,0 +1,26 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-41b7d06d-8e99-4af8-937c-f1482c4eb565",
+  "@type": "ceterms:QACredentialOrganization",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:QualityAssurance",
+      "ceterms:targetNodeName": "Quality Assurance Body"
+    }
+  ],
+  "ceterms:ctid": "ce-41b7d06d-8e99-4af8-937c-f1482c4eb565",
+  "ceterms:description": "The Indiana State Board of Nursing accredits all nursing programs operating in the State of Indiana preparing individuals for initial licensure as either a Registered Nurse or a Licensed Practical Nurse.  The Board does not review or accredit RN-BSN programs or any graduate level nursing programs.\n\nOne requirement for maintaining Board accreditation is that programs must demonstrate that they are preparing their students adequately so as to be successful on their pre-licensure examinations.  If a program posts 3 or more consecutive years of having first-time graduate pass rates less than one standard deviation below the national average, the program is required to present and implement a corrective action plan.  Failure to improve the school pass rates to meet the Board's accreditation requirements can ultimately result in the program's loss of Board accreditation and program closure.",
+  "ceterms:image": [
+    "https://secure.in.gov/portal/images/logo_PLA.png"
+  ],
+  "ceterms:name": "Indiana State Board of Nursing",
+  "ceterms:subjectWebpage": "http://www.in.gov/pla/2490.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

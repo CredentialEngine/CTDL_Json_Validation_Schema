@@ -1,0 +1,26 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-5edfa507-d5df-448d-9382-3cd4fd8c5d8f",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:FourYear",
+      "ceterms:targetNodeName": "Four-Year College"
+    }
+  ],
+  "ceterms:ctid": "ce-5edfa507-d5df-448d-9382-3cd4fd8c5d8f",
+  "ceterms:description": "Founded in 1965, the University of Southern Indiana enrolls over 10,000 dual credit, undergraduate and graduate students in 80 majors. A public higher education institution, located on a beautiful 1,400-acre campus in Evansville, Indiana, USI offers programs through the College of Liberal Arts, Romain College of Business, College of Nursing and Health Professions, and the Pott College of Science, Engineering, and Education.",
+  "ceterms:image": [
+    "https://www.usi.edu/images/newlogo/USI-Logo.png"
+  ],
+  "ceterms:name": "University of Southern Indiana",
+  "ceterms:subjectWebpage": "http://www.usi.edu",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

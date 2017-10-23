@@ -1,0 +1,31 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-40640528-1244-47c3-9ce4-abf46b12d6ba",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Government",
+      "ceterms:targetNodeName": "Government Agency"
+    }
+  ],
+  "ceterms:ctid": "ce-40640528-1244-47c3-9ce4-abf46b12d6ba",
+  "ceterms:description": "Within the Indiana Professional Licensing Board",
+  "ceterms:name": "Medical Licensing Board of Indiana",
+  "ceterms:subjectWebpage": "http://in.gov/pla/medical.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-b412e8bc-f1e3-44b3-8785-1195e34caf80",
+  "@type": "ceterms:QACredentialOrganization",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Indianapolis",
+      "ceterms:addressRegion": "IN",
+      "ceterms:name": "Indiana Commission for Higher Education",
+      "ceterms:postalCode": "46204",
+      "ceterms:streetAddress": "101 West Ohio Street, Suite 300"
+    }
+  ],
+  "ceterms:agentPurpose": "http://www.in.gov/che/2376.htm",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Government",
+      "ceterms:targetNodeName": "Government Agency"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:QualityAssurance",
+      "ceterms:targetNodeName": "Quality Assurance Body"
+    }
+  ],
+  "ceterms:ctid": "ce-b412e8bc-f1e3-44b3-8785-1195e34caf80",
+  "ceterms:description": "Created in 1971 by an act of the General Assembly and signed into law by then Governor Edgar Whitcomb, the Indiana Commission for Higher Education is now in its fourth decade of service to the State of Indiana. The Commission is a fourteen-member public body created to:\n-Define the educational missions of public colleges and universities;\n-Plan and to coordinate Indiana’s state-supported system of post-high school education, taking into account the plans and interests of independent colleges and universities;\n-Review both operating budget and capital budget appropriation requests from public institutions;\n-Approve or disapprove for public institutions the establishment of any new branches, campuses, extension centers, colleges or schools;\n-Approve or disapprove for public institutions the offering of any additional associate, baccalaureate or graduate degree or certificate program of two semesters or more in duration;\n-Review all programs of public institutions and make recommendations to the governing board of the institution, the Governor, and the General -Assembly concerning the funding and the disposition of these programs; and,\n-Distribute student financial aid from state aid programs.\n\nThe Governor appoints twelve members, nine representing a Congressional District and three at-large members, to serve terms of four years. In addition, the 1990 legislature added a student and a faculty representative who are appointed by the Governor for terms of two years. The -Commission is not a governing board, but a coordinating agency that works closely with Indiana’s public and independent colleges. In addition, The Commission has strong working relationships with many other State agencies, including: Department of Education, the Department of Workforce Development, The Center for Education and Career Innovation, and the Independent Colleges of Indiana.",
+  "ceterms:foundingDate": "1971",
+  "ceterms:image": [
+    "http://in.gov/portal/images/logo_che.png"
+  ],
+  "ceterms:name": "Indiana Commission for Higher Education",
+  "ceterms:subjectWebpage": "http://in.gov/portal/images/logo_che.png",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

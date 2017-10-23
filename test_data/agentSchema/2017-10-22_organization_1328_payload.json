@@ -1,0 +1,72 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-5896d921-7091-4de6-9542-20a59b1a3a48",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-F80E0E3B-829E-48FC-9DD1-E9C51D3FBC31"
+    }
+  ],
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:addressLocality": "Bloomington",
+      "ceterms:addressRegion": "IN",
+      "ceterms:name": "Bloomington",
+      "ceterms:postalCode": "47405",
+      "ceterms:streetAddress": "107 S. Indiana Avenue"
+    }
+  ],
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:FourYear",
+      "ceterms:targetNodeName": "Four-Year College"
+    }
+  ],
+  "ceterms:approvedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-99a97141-8208-4c56-918a-55d4ec4ef33f"
+    }
+  ],
+  "ceterms:ctid": "ce-5896d921-7091-4de6-9542-20a59b1a3a48",
+  "ceterms:description": "Founded in 1820, Indiana University Bloomington is the flagship campus of IU’s eight campuses statewide. Innovation, creativity, and academic freedom are hallmarks of our world-class contributions in research and the arts.",
+  "ceterms:image": [
+    "https://assets.iu.edu/brand/2.x/trident-large.png"
+  ],
+  "ceterms:name": "Indiana University Bloomington",
+  "ceterms:socialMedia": [
+    "https://twitter.com/IUBloomington",
+    "https://www.facebook.com/IndianaUniversity",
+    "https://www.instagram.com/iubloomington",
+    "https://www.youtube.com/c/IndianaUniversityBloomington1820",
+    "https://www.pinterest.com/indianauniv",
+    "https://www.linkedin.com/edu/school?id=18342",
+    "https://plus.google.com/116105654836823545019"
+  ],
+  "ceterms:subjectWebpage": "https://www.indiana.edu",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        "https://twitter.com/IUBloomington",
+        "https://www.facebook.com/IndianaUniversity",
+        "https://www.instagram.com/iubloomington",
+        "https://www.youtube.com/c/IndianaUniversityBloomington1820",
+        "https://www.pinterest.com/indianauniv",
+        "https://www.linkedin.com/edu/school?id=18342",
+        "https://plus.google.com/116105654836823545019"
+      ]
+    }
+  ]
+}

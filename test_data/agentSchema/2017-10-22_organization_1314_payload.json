@@ -1,0 +1,26 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-e2a409f9-c4c3-43b3-86c9-5110c9ea072c",
+  "@type": "ceterms:QACredentialOrganization",
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:QualityAssurance",
+      "ceterms:targetNodeName": "Quality Assurance Body"
+    }
+  ],
+  "ceterms:ctid": "ce-e2a409f9-c4c3-43b3-86c9-5110c9ea072c",
+  "ceterms:description": "To promote and provide essential public health services.",
+  "ceterms:image": [
+    "http://www.in.gov/portal/images/logo.png"
+  ],
+  "ceterms:name": "Indiana State Department of Health",
+  "ceterms:subjectWebpage": "http://www.in.gov/isdh/23279.htm#",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}

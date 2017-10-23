@@ -1,0 +1,34 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-4e615d0e-c4f7-4bee-a7b7-6a25cb91a840",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Government",
+      "ceterms:targetNodeName": "Government Agency"
+    }
+  ],
+  "ceterms:ctid": "ce-4e615d0e-c4f7-4bee-a7b7-6a25cb91a840",
+  "ceterms:description": "Within the Indiana Professional Licensing Agency",
+  "ceterms:image": [
+    "https://secure.in.gov/portal/images/logo_PLA.png"
+  ],
+  "ceterms:name": "Indiana Optometry Board",
+  "ceterms:subjectWebpage": "https://secure.in.gov/pla/opt.htm",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information"
+    }
+  ]
+}
