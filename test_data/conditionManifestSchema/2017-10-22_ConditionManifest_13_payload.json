@@ -1,0 +1,42 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-27b450cd-40e9-4f93-854d-302dd15cccaa",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-4BF88EC6-FABE-4453-8754-22A2D685252A"
+    }
+  ],
+  "ceterms:ctid": "ce-27b450cd-40e9-4f93-854d-302dd15cccaa",
+  "ceterms:description": "Students applying for undergraduate admission in a bachelor's program must have:",
+  "ceterms:name": "Brandman University - Undergraduate Admission for Bachelor's Program",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-4BF88EC6-FABE-4453-8754-22A2D685252A"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "SecondaryLevel"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "PostSecondaryLevel"
+        }
+      ],
+      "ceterms:condition": [
+        "At least 12 transferable baccalaureate-level credits (or the equivalent) from a regionally accredited college or university.",
+        "A minimum 2.0 cumulative GPA in all prior college-level coursework."
+      ],
+      "ceterms:creditHourValue": 12.00,
+      "ceterms:description": "Students applying for undergraduate admission in a bachelor's program must have:",
+      "ceterms:name": "Brandman University - Undergraduate Requirements - Bachelor's Program",
+      "ceterms:subjectWebpage": "https://www.brandman.edu/admissions/how-apply/undergraduate-admission"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://www.brandman.edu/admissions/how-apply/undergraduate-admission"
+}

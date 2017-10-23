@@ -1,0 +1,34 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-6c1f4f4a-9397-40a4-bc9d-b8dcce61399d",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-ec7eb277-f45e-4038-ba71-7c5c55864478"
+    }
+  ],
+  "ceterms:ctid": "ce-6c1f4f4a-9397-40a4-bc9d-b8dcce61399d",
+  "ceterms:description": "ASU welcomes applications from students with diverse academic backgrounds and interests. A freshman is defined as a student who has graduated from a regionally accredited high school and has completed fewer than 12 transferable college credits post-high school. Freshman applicants who possess a high school diploma and meet the following requirements will be admitted to ASU.\n\nEnglish - 4 years (composition/literature based)\nMath - 4 years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)\nLaboratory Science - 3 years total (1 year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences and physics)\nSocial Science - 2 years (including 1 year American history)\nSecond Language - 2 years (same language)\nFine Arts or Career and Technical Education - 1 year\nApplicants must also meet at least one of the following:\nTop 25% in high school graduating class\n3.00 GPA in competency courses (4.00 = \"A\")\nACT 22 (24 nonresidents)*\nSAT\nTaken prior to May 2016: 1040 (1110 nonresidents)\nTaken after April 2016: 1120 (1180 nonresidents)*",
+  "ceterms:name": "ASU Admissions Requirements",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-ec7eb277-f45e-4038-ba71-7c5c55864478"
+        }
+      ],
+      "ceterms:condition": [
+        "English - 4 years (composition/literature based)",
+        "Math - 4 years (algebra I, geometry, algebra II and one course requiring algebra II as a prerequisite)",
+        "Laboratory Science - 3 years total (1 year each from any of the following areas are accepted: biology, chemistry, earth science, integrated sciences and physics)",
+        "Social Science - 2 years (including 1 year American history)",
+        "Second Language - 2 years (same language)",
+        "Fine Arts or Career and Technical Education - 1 year"
+      ],
+      "ceterms:description": "*** Condition PROFILE DESCRIPTION MISSING ***",
+      "ceterms:name": "High School Diploma"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://students.asu.edu/freshman/requirements"
+}

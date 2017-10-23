@@ -1,0 +1,69 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-7788b953-60ec-4b15-b5ca-9cff6dff2359",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-4BF88EC6-FABE-4453-8754-22A2D685252A"
+    }
+  ],
+  "ceterms:ctid": "ce-7788b953-60ec-4b15-b5ca-9cff6dff2359",
+  "ceterms:description": "Students applying for undergraduate admission in an associate (AA) program must provide the following:",
+  "ceterms:name": "Brandman University - Undergraduate Admission for Associate's Program",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-4BF88EC6-FABE-4453-8754-22A2D685252A"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "SecondaryLevel"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "IntermediateLevel"
+        }
+      ],
+      "ceterms:condition": [
+        "High school diploma or GED equivalent",
+        "Official high school transcript indicating the date of graduation",
+        "High school cumulative GPA of 2.0",
+        "Pass admissions test in English and Math",
+        "Successful completion of a transferable course to ENGU-103 or ENGU-104 (grade of C or higher) waives admissions test in English",
+        "Successful completion of a transferable course to MATU-103 or higher (grade of C or higher) waives admissions test in Math"
+      ],
+      "ceterms:description": "Students applying for undergraduate admission in an associate (AA) program with 0 - 11 transferable credits must provide the following:",
+      "ceterms:name": "Brandman University - Undergraduate Admission in an Associate Program - 0 - 11 transferable credits:",
+      "ceterms:subjectWebpage": "https://www.brandman.edu/admissions/how-apply/undergraduate-admission"
+    },
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-4BF88EC6-FABE-4453-8754-22A2D685252A"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "IntermediateLevel"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:targetNodeName": "PostSecondaryLevel"
+        }
+      ],
+      "ceterms:condition": [
+        "Provide official transcripts from ALL colleges and universities attended. No admission exams or high school transcript are required."
+      ],
+      "ceterms:description": "Students applying for undergraduate admission in an associate (AA) program with 12 or more transferable credits must provide the following:",
+      "ceterms:name": "Brandman University - Undergraduate Admission in an Associate Program - 12 or more transferable credits:",
+      "ceterms:subjectWebpage": "https://www.brandman.edu/admissions/how-apply/undergraduate-admission"
+    }
+  ],
+  "ceterms:subjectWebpage": "https://www.brandman.edu/admissions/how-apply/undergraduate-admission"
+}

@@ -1,0 +1,14 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-14c62725-3a41-412f-909e-549dd5b485d8",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-10a15308-d950-4808-81bc-98ba138902a3"
+    }
+  ],
+  "ceterms:ctid": "ce-14c62725-3a41-412f-909e-549dd5b485d8",
+  "ceterms:description": "Admission to Saddleback College is open to anyone who is a high school graduate, has a high school equivalency certificate, or is 18 years of age and shows evidence of being able to benefit from instruction.\n\nStudents enrolled in K-12 may attend as Special Admits. Please see the High School and K-8 Students page for more details.",
+  "ceterms:name": "Admissions",
+  "ceterms:subjectWebpage": "https://www.saddleback.edu/admissions/home"
+}

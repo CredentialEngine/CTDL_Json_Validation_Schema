@@ -1,0 +1,14 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-855a9ad5-f6c9-4239-a90c-117fcf8f6956",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-a799a6db-1544-493b-9d73-978ea112beec"
+    }
+  ],
+  "ceterms:ctid": "ce-855a9ad5-f6c9-4239-a90c-117fcf8f6956",
+  "ceterms:description": "Apply for free using our Online Application. Be sure to choose the appropriate application. After you apply, we will send an email with your login information to My Cougar Connection.  You can use this information to check on the status of your application, pay your confimation fee online, and much more!",
+  "ceterms:name": "Undergraduate Admissions",
+  "ceterms:subjectWebpage": "https://ecampus.sf.edu/ICS/Admissions"
+}
