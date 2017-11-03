@@ -1,0 +1,116 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Salt Lake City",
+      "ceterms:addressRegion": "UT",
+      "ceterms:name": "Western Governors University",
+      "ceterms:postalCode": "84107",
+      "ceterms:streetAddress": "4001 South 700 East, Suite 700"
+    }
+  ],
+  "ceterms:agentPurposeDescription": "The principal mission of Western Governors University is to improve quality and expand access to post-secondary educational opportunities by providing a means for individuals to learn independent of time or place and to earn competency-based degrees and other credentials that are credible to both academic institutions and employers.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateForProfit",
+      "ceterms:targetNodeName": "Private For-Profit"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Postsecondary",
+      "ceterms:targetNodeName": "Postsecondary Educational Institution"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:FourYear",
+      "ceterms:targetNodeName": "Four-Year College"
+    }
+  ],
+  "ceterms:complaintProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "This is a process profile description",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Business",
+          "ceterms:targetNodeName": "Business"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:BusinessAssociation",
+          "ceterms:targetNodeName": "Business or Industry Association"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Consumers",
+          "ceterms:targetNodeName": "Consumers"
+        }
+      ],
+      "ceterms:processFrequency": "monthly",
+      "ceterms:processingAgent": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC"
+        }
+      ],
+      "ceterms:processMethod": "http://example.com?t=processMethod",
+      "ceterms:subjectWebpage": "http://example.com?a=1"
+    }
+  ],
+  "ceterms:ctid": "ce-9D30F846-DFA4-4B1C-90FA-9D01238A86AC",
+  "ceterms:description": "Western Governors University (WGU) is an accredited online university offering online bachelor’s and master’s degree programs.  The programs are competency-based, student-focused, online, nonprofit university. From the bottom up, GWU is designed with students in mind—particularly, the busy, working, adult student who wants to earn a bachelor's or master's degree but for whom a traditional university education simply won't do.",
+  "ceterms:duns": "129936902",
+  "ceterms:fein": "841383926",
+  "ceterms:foundingDate": "1997",
+  "ceterms:hasCostManifest": [
+    "http://lr-staging.learningtapestry.com/resources/ce-819ad172-f6cb-411d-814a-37a234803c09"
+  ],
+  "ceterms:image": [
+    "http://www.wgu.edu/sites/all/themes/bricktheme/img/logo-national-tagline.svg"
+  ],
+  "ceterms:name": "TESTING_Western Governors University  - 170316a",
+  "ceterms:opeID": "033394",
+  "ceterms:socialMedia": [
+    "https://www.wgu.edu/wgu/inquiry_form",
+    "https://www.facebook.com/wgu.edu",
+    "https://twitter.com/wgu",
+    "https://plus.google.com/+wgu/posts",
+    "https://www.youtube.com/wgu",
+    "http://www.wgu.edu/blog",
+    "https://plus.google.com/108979942620761055408"
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization",
+  "ceterms:targetContactPoint": [
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:name": "Organization Contact Information",
+      "ceterms:socialMedia": [
+        "https://www.wgu.edu/wgu/inquiry_form",
+        "https://www.facebook.com/wgu.edu",
+        "https://twitter.com/wgu",
+        "https://plus.google.com/+wgu/posts",
+        "https://www.youtube.com/wgu",
+        "http://www.wgu.edu/blog",
+        "https://plus.google.com/108979942620761055408"
+      ],
+      "ceterms:telephone": [
+        "801-274-3280 (Main Phone Number)",
+        "1-866-225-5948 (Toll Free)",
+        "801-274-3305 (Fax)"
+      ]
+    }
+  ]
+}

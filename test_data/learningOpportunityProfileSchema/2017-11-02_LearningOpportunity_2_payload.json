@@ -1,0 +1,78 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87",
+  "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:PostalAddress",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Springfield",
+      "ceterms:addressRegion": "Illinois",
+      "ceterms:name": "Main - 0901a - update isMain",
+      "ceterms:postalCode": "62704-1000",
+      "ceterms:streetAddress": "2450 Foundation Street, suite 100C"
+    }
+  ],
+  "ceterms:codedNotation": "TESTING2",
+  "ceterms:ctid": "ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87",
+  "ceterms:dateEffective": "2010-03-03",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:BlendedDelivery",
+      "ceterms:targetNodeName": "Blended Delivery"
+    }
+  ],
+  "ceterms:description": "later",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://example.com?id=3166",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "lopp2 cost 1__3166",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:EnrollmentFee",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:name": "lopp2 cost 1",
+      "ceterms:price": 1234.00
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P4W3DT2H"
+    },
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT22H"
+    }
+  ],
+  "ceterms:hasPart": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11.0102",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "A program that focuses on the symbolic inference, representation, and simulation by computers and software of human learning and reasoning processes and capabilities, and the computer modeling of human motor control and motion. Includes instruction in computing theory, cybernetics, human factors, natural language processing, and applicable aspects of engineering, technology, and specific end-use applications.",
+      "ceterms:targetNodeName": "Artificial Intelligence"
+    }
+  ],
+  "ceterms:name": "TESTING_TESTING_Learning opportunity two - registry testing",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+}

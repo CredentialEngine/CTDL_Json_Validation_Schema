@@ -1,0 +1,44 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Assesses:\n- normalizing database design",
+      "ceterms:targetNodeName": "cred 1, asmt 10 - verify relational database design principles"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Limit tardiness, early departures, and absences to legitimate and essential occasions",
+      "ceterms:targetNodeName": "Attendance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "ASP Exam",
+      "ceterms:targetNodeDescription": "Explain the importance of satisfactory attendance to the overall operation of the business",
+      "ceterms:targetNodeName": "Attendance"
+    }
+  ],
+  "ceterms:ctid": "ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF",
+  "ceterms:description": "The Board  of  Certified  Safety Professionals (BCSP) partners  with Pearson VUE to deliver  its  computer-based certification examinations  at testing  centers  available   throughout  the world.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false,
+  "ceterms:name": "TESTING_ASP Exam",
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Information Technology"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}

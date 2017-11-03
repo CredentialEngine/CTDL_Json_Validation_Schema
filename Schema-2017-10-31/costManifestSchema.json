@@ -24,19 +24,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:string" }
 		},
-		"meta:langstring": {
-			"type": "object",
-			"properties": {
-				"en": { "type": "string" },
-				"en-US": { "type": "string" },
-				"en-GB": { "type": "string" },
-				"es": { "type": "string" },
-				"pl": { "type": "string" },
-				"zh": { "type": "string" },
-				"de": { "type": "string" },
-				"ru": { "type": "string" }
-			}
-		},
+		"meta:langstring": { "type": "string" },
 		"meta:langstring_multi": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:langstring" }
@@ -167,22 +155,19 @@
 		"ceterms:costDetails": { "$ref": "#/definitions/@id_absolute" },
 		"ceterms:costManifestOf": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
-		"ceterms:description": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:description": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:endDate": { "$ref": "#/definitions/meta:string" },
 		"ceterms:estimatedCost": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CostProfile" }
 		},
-		"ceterms:name": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:name": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:startDate": { "$ref": "#/definitions/meta:string" },
 		"ceterms:audienceType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
-		"ceterms:condition": {
-			"type": "array",
-			"items": { "$ref": "#/definitions/rdf:langString" }
-		},
+		"ceterms:condition": { "$ref": "#/definitions/meta:langstring_multi" },
 		"ceterms:currency": { "$ref": "#/definitions/meta:string" },
 		"ceterms:directCostType": {
 			"type": "array",
@@ -192,7 +177,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
 		},
-		"ceterms:paymentPattern": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:paymentPattern": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:price": { "type": "number" },
 		"ceterms:region": {
 			"type": "array",
@@ -206,10 +191,10 @@
 		"ceterms:alignmentType": { "$ref": "#/definitions/meta:string" },
 		"ceterms:codedNotation": { "$ref": "#/definitions/meta:string" },
 		"ceterms:framework": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:frameworkName": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:frameworkName": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:targetNode": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:targetNodeDescription": { "$ref": "#/definitions/rdf:langString" },
-		"ceterms:targetNodeName": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:targetNodeDescription": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:targetNodeName": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:weight": { "type": "number" },
 		"ceterms:assertedBy": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:globalJurisdiction": { "type": "boolean" },
@@ -221,24 +206,21 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:Place" }
 		},
-		"ceterms:addressCountry": { "$ref": "#/definitions/rdf:langString" },
-		"ceterms:addressLocality": { "$ref": "#/definitions/rdf:langString" },
-		"ceterms:addressRegion": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:addressCountry": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:addressLocality": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:addressRegion": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:geoURI": { "$ref": "#/definitions/@id_absolute" },
 		"ceterms:latitude": { "type": "number" },
 		"ceterms:longitude": { "type": "number" },
 		"ceterms:postalCode": { "$ref": "#/definitions/meta:string" },
 		"ceterms:postOfficeBoxNumber": { "$ref": "#/definitions/meta:string" },
-		"ceterms:streetAddress": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:streetAddress": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:targetContactPoint": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ContactPoint" }
 		},
-		"ceterms:contactOption": {
-			"type": "array",
-			"items": { "$ref": "#/definitions/rdf:langString" }
-		},
-		"ceterms:contactType": { "$ref": "#/definitions/rdf:langString" },
+		"ceterms:contactOption": { "$ref": "#/definitions/meta:langstring_multi" },
+		"ceterms:contactType": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:email": { "$ref": "#/definitions/meta:string_multi" },
 		"ceterms:faxNumber": { "$ref": "#/definitions/meta:string_multi" },
 		"ceterms:socialMedia": { "$ref": "#/definitions/@id_absolute_multi" },
