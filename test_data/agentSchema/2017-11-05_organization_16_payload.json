@@ -9,16 +9,26 @@
   ],
   "ceterms:address": [
     {
-      "@type": "ceterms:PostalAddress",
+      "@type": "ceterms:Place",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Florence",
       "ceterms:addressRegion": "KY",
+      "ceterms:latitude": 38.961321,
+      "ceterms:longitude": -84.632905999999991,
       "ceterms:name": "Gateway Community & Technical College",
       "ceterms:postalCode": "41042",
       "ceterms:streetAddress": "500 Technology Way"
     }
   ],
   "ceterms:agentPurposeDescription": "Gateway Community and Technical College provides high quality, affordable, accessible, and inclusive postsecondary education and training resulting in a positive contribution to the economic vitality of the region and enhanced quality of life for all citizens.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
@@ -32,9 +42,7 @@
   "ceterms:duns": "124711065",
   "ceterms:fein": "611320380",
   "ceterms:foundingDate": "2002",
-  "ceterms:image": [
-    "https://www.nationalappcenter.com/school_logos/GoHigherKY/Gateway_Community_and_Technical_College/Gateway_Community_and_Technical_College.jpg"
-  ],
+  "ceterms:image": "https://www.nationalappcenter.com/school_logos/GoHigherKY/Gateway_Community_and_Technical_College/Gateway_Community_and_Technical_College.jpg",
   "ceterms:name": "TESTING_Gateway Community & Technical College",
   "ceterms:opeID": "013753",
   "ceterms:serviceType": [
@@ -56,17 +64,20 @@
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
-      "ceterms:name": "Organization Contact Information",
-      "ceterms:socialMedia": [
-        "http://gateway.kctcs.edu/About_Us/Contact_Us",
-        "https://www.facebook.com/GatewayCTC",
-        "https://twitter.com/GCTC_News",
-        "https://www.instagram.com/GCTC_News",
-        "https://www.youtube.com/channel/UCp4sWtUcUgqv4aELPG8YaAA"
+      "ceterms:contactOption": [
+        "Main Phone Number"
       ],
       "ceterms:telephone": [
-        "859-441-4500 (Main Phone Number)",
-        "855-346-4282 (Toll Free)"
+        "859-441-4500"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Toll Free"
+      ],
+      "ceterms:telephone": [
+        "855-346-4282"
       ]
     }
   ]

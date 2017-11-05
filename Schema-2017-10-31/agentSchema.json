@@ -110,7 +110,8 @@
 				"ceterms:serviceType": { "$ref": "#/definitions/ceterms:serviceType" },
 				"ceterms:socialMedia": { "$ref": "#/definitions/ceterms:socialMedia" },
 				"ceterms:subjectWebpage": { "$ref": "#/definitions/ceterms:subjectWebpage" },
-				"ceterms:subOrganization": { "$ref": "#/definitions/ceterms:subOrganization" }
+				"ceterms:subOrganization": { "$ref": "#/definitions/ceterms:subOrganization" },
+				"ceterms:targetContactPoint": { "$ref": "#/definitions/ceterms:targetContactPoint" }
 			},
 			"required": [ "@type", "@id", "ceterms:agentSectorType", "ceterms:agentType", "ceterms:ctid", "ceterms:description", "ceterms:name", "ceterms:subjectWebpage" ],
 			"additionalProperties": false
@@ -178,7 +179,8 @@
 				"ceterms:serviceType": { "$ref": "#/definitions/ceterms:serviceType" },
 				"ceterms:socialMedia": { "$ref": "#/definitions/ceterms:socialMedia" },
 				"ceterms:subjectWebpage": { "$ref": "#/definitions/ceterms:subjectWebpage" },
-				"ceterms:subOrganization": { "$ref": "#/definitions/ceterms:subOrganization" }
+				"ceterms:subOrganization": { "$ref": "#/definitions/ceterms:subOrganization" },
+				"ceterms:targetContactPoint": { "$ref": "#/definitions/ceterms:targetContactPoint" }
 			},
 			"required": [ "@type", "@id", "ceterms:agentSectorType", "ceterms:agentType", "ceterms:ctid", "ceterms:description", "ceterms:name", "ceterms:subjectWebpage" ],
 			"additionalProperties": false

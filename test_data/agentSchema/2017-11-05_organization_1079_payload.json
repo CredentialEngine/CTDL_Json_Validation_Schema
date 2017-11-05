@@ -4,7 +4,7 @@
   "@type": "ceterms:QACredentialOrganization",
   "ceterms:address": [
     {
-      "@type": "ceterms:PostalAddress",
+      "@type": "ceterms:Place",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Springfield",
       "ceterms:addressRegion": "IL",
@@ -17,15 +17,15 @@
   "ceterms:agentSectorType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:AgentSector",
-      "ceterms:targetNode": "agentSector:Public",
-      "ceterms:targetNodeName": "Public"
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateNonProfit",
+      "ceterms:targetNodeName": "Private Not-For-Profit"
     }
   ],
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:OrganizationType",
+      "ceterms:framework": "OrganizationType",
       "ceterms:targetNode": "orgType:CertificationBody",
       "ceterms:targetNodeName": "Certification Body"
     },
@@ -36,21 +36,48 @@
       "ceterms:targetNodeName": "Quality Assurance Body"
     }
   ],
+  "ceterms:approves": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-D859A7E1-2900-40EC-A178-A1396E4F984E"
+    },
+    {
+      "@type": "ceterms:CredentialOrganization",
+      "ceterms:description": "An example of an organization that issues credentials to individuals.",
+      "ceterms:name": "TESTING_Example Credentialing Organization",
+      "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+    }
+  ],
   "ceterms:ctid": "ce-141693CA-90E1-4749-820E-94F6C9A0A6DD",
   "ceterms:description": "Example of an organization that issues and maintains quality assurance credentials",
   "ceterms:duns": "1357",
-  "ceterms:email": [
-    "info@siuccwd.com"
-  ],
   "ceterms:fein": "2468",
   "ceterms:foundingDate": "2016-01-01",
   "ceterms:ipedsID": "0864",
   "ceterms:name": "TESTING_Example Quality Assurance Organization",
   "ceterms:opeID": "9753",
+  "ceterms:owns": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3BD494DC-EE09-403E-A812-2BC8887FBD61"
+    }
+  ],
+  "ceterms:recognizes": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-B4860C39-945F-4DE6-8803-64E27F8F49EC"
+    },
+    {
+      "@type": "ceterms:CredentialOrganization",
+      "ceterms:description": "An example of an organization that issues credentials to individuals.",
+      "ceterms:name": "TESTING_Example Credentialing Organization",
+      "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+    }
+  ],
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:AgentServiceType",
+      "ceterms:framework": "AgentServiceType",
       "ceterms:targetNode": "serviceType:AccreditService",
       "ceterms:targetNodeName": "Accredit Service"
     },
@@ -81,19 +108,47 @@
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Information"
+      ],
       "ceterms:email": [
         "info@siuccwd.com"
-      ],
-      "ceterms:name": "Organization Contact Information",
-      "ceterms:socialMedia": [
-        "https://www.linkedin.com/testorg",
-        "https://twitter.com/illinoisworknet"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Toll Free"
       ],
       "ceterms:telephone": [
-        "217-303-2222 (Toll Free)",
-        "217-303-2222 (Main Phone Number)",
-        "217-303-2222 (TTY)",
-        "217-303-2222 (Fax)"
+        "217-303-2222"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Main Phone Number"
+      ],
+      "ceterms:telephone": [
+        "217-303-2222"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "TTY"
+      ],
+      "ceterms:telephone": [
+        "217-303-2222"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Fax"
+      ],
+      "ceterms:telephone": [
+        "217-303-2222"
       ]
     }
   ]

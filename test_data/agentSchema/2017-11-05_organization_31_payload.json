@@ -4,22 +4,37 @@
   "@type": "ceterms:CredentialOrganization",
   "ceterms:address": [
     {
-      "@type": "ceterms:PostalAddress",
+      "@type": "ceterms:Place",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Minneapolis",
       "ceterms:addressRegion": "MN",
+      "ceterms:latitude": 44.9762075,
+      "ceterms:longitude": -93.268586800000008,
       "ceterms:name": "Capella University",
       "ceterms:postalCode": "55402",
       "ceterms:streetAddress": "225 South 6th Street, 9th Floor"
     }
   ],
   "ceterms:agentPurposeDescription": "The mission of Capella University is to extend access to high quality bachelor's, master's, doctoral, and certificate programs for adults who seek to maximize their personal and professional potential. This mission is fulfilled through innovative programs that are responsive to the needs of adult learners and involve active, engaging, challenging, and relevant learning experiences offered in a variety of delivery modes.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateForProfit",
+      "ceterms:targetNodeName": "Private For-Profit"
+    }
+  ],
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:framework": "OrganizationType",
       "ceterms:targetNode": "orgType:Postsecondary",
       "ceterms:targetNodeName": "Postsecondary Educational Institution"
+    }
+  ],
+  "ceterms:approves": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
     }
   ],
   "ceterms:ctid": "ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429",
@@ -54,12 +69,27 @@
       "ceterms:holderMustAuthorize": false
     }
   ],
-  "ceterms:image": [
-    "https://s3.amazonaws.com/sophia-images/logo-partner-capella.png"
-  ],
+  "ceterms:image": "https://s3.amazonaws.com/sophia-images/logo-partner-capella.png",
   "ceterms:ipedsID": "413413",
   "ceterms:name": "TESTING_Capella University",
   "ceterms:opeID": "032673",
+  "ceterms:owns": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3D57BA3B-9B84-4A14-9F64-13D83960F9CC"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D4FAF35-D5F3-484B-DCBA-70AC65C05EB2"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-25843D95-13E6-4CF8-B3F3-E5B9DBBEDB10"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87"
+    }
+  ],
   "ceterms:serviceType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
@@ -81,19 +111,20 @@
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
-      "ceterms:name": "Organization Contact Information",
-      "ceterms:socialMedia": [
-        "http://www.capella.edu/contact-us",
-        "https://www.facebook.com/CapellaUniversity",
-        "https://twitter.com/CapellaU",
-        "https://plus.google.com/+capellauniversity/posts",
-        "https://www.youtube.com/user/capellauniversity",
-        "https://www.linkedin.com/company/capella-university",
-        "https://www.pinterest.com/capellau"
+      "ceterms:contactOption": [
+        "Toll Free"
       ],
       "ceterms:telephone": [
-        "1-844-316-8955 (Toll Free)",
-        "1-612-977-5060 (Fax)"
+        "1-844-316-8955"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Fax"
+      ],
+      "ceterms:telephone": [
+        "1-612-977-5060"
       ]
     }
   ]

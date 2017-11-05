@@ -12,16 +12,25 @@
   ],
   "ceterms:address": [
     {
-      "@type": "ceterms:PostalAddress",
+      "@type": "ceterms:Place",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Clearwater",
       "ceterms:addressRegion": "Florida",
+      "ceterms:latitude": 27.9624843,
+      "ceterms:longitude": -82.723858499999992,
       "ceterms:name": "(ISC)²",
       "ceterms:postalCode": " 33759",
-      "ceterms:streetAddress": "311 Park Place Blvd, Suite 400"
+      "ceterms:streetAddress": "311 Park Place Blvd, Suite 400",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactType": "Registrar",
+          "ceterms:name": "Grants"
+        }
+      ]
     },
     {
-      "@type": "ceterms:PostalAddress",
+      "@type": "ceterms:Place",
       "ceterms:addressCountry": "Guam",
       "ceterms:addressLocality": "victoryville",
       "ceterms:addressRegion": "GM",
@@ -67,8 +76,8 @@
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:framework": "AgentSector",
-      "ceterms:targetNode": "agentSector:PrivateForProfit",
-      "ceterms:targetNodeName": "Private For-Profit"
+      "ceterms:targetNode": "agentSector:PrivateNonProfit",
+      "ceterms:targetNodeName": "Private Not-For-Profit"
     }
   ],
   "ceterms:agentType": [
@@ -102,6 +111,32 @@
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-bf5d5693-2706-467c-8081-46ee8a0ef578"
     }
   ],
+  "ceterms:approves": [
+    {
+      "@type": "ceterms:AssessmentProfile",
+      "ceterms:description": "Assessments vary per course.",
+      "ceterms:name": "TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree",
+      "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3D57BA3B-9B84-4A14-9F64-13D83960F9CC"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-1785aa77-e844-4f25-9dd2-5f801c9e475e"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "This work/study program gives you the opportunity to learn in the environment in which you will work as well as the ability to apply almost immediately what you learned in class on the manufacturing floor. It is not your typical college class. You attend class full time two days a week and work at your sponsoring manufacturer three days. You will also learn “lean” manufacturing principles and develop productive work behaviors that provide excellent self-development skills that are very attractive to employers. The course work implements the multidisciplinary, multiskilled model with courses in electricity, fluid power, mechanics, fabrication, troubleshooting, problem solving, etc.",
+      "ceterms:name": "TESTING_TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree Program",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
   "ceterms:ctid": "ce-66B26730-C43F-4FF7-A055-5A6919568750",
   "ceterms:department": [
     {
@@ -122,9 +157,6 @@
   ],
   "ceterms:description": "Headquartered in the United States and with offices in London, Hong Kong, Tokyo, Mumbai, and an authorized China agency in Beijing, the International Information System Security Certification Consortium, Inc., (ISC)²®, is the global, not-for-profit leader in educating and certifying cyber, information, software and infrastructure security professionals throughout their careers. We are recognized for Gold Standard certifications and world class education programs.",
   "ceterms:duns": "789797920",
-  "ceterms:email": [
-    "membersupport@isc2.org"
-  ],
   "ceterms:fein": "04-3064434",
   "ceterms:foundingDate": "1988-1",
   "ceterms:hasConditionManifest": [
@@ -216,9 +248,7 @@
       ]
     }
   ],
-  "ceterms:image": [
-    "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg"
-  ],
+  "ceterms:image": "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg",
   "ceterms:industryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
@@ -240,10 +270,24 @@
   "ceterms:jurisdiction": [
     {
       "@type": "ceterms:JurisdictionProfile",
-      "ceterms:description": "Available world wide - check update"
+      "ceterms:description": "Available world wide - check update",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6295630/"
+        }
+      ]
     },
     {
-      "@type": "ceterms:JurisdictionProfile"
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": 39.76,
+          "ceterms:longitude": -98.5
+        }
+      ]
     }
   ],
   "ceterms:keyword": [
@@ -254,7 +298,50 @@
     "111"
   ],
   "ceterms:name": "TESTING_(ISC)²",
+  "ceterms:offers": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-86BE9B32-0556-4429-A058-E6DE44BD8FD3"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-41DB3899-8826-41F6-DCBA-B79A63184EBD"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "This work/study program gives you the opportunity to learn in the environment in which you will work as well as the ability to apply almost immediately what you learned in class on the manufacturing floor. It is not your typical college class. You attend class full time two days a week and work at your sponsoring manufacturer three days. You will also learn “lean” manufacturing principles and develop productive work behaviors that provide excellent self-development skills that are very attractive to employers. The course work implements the multidisciplinary, multiskilled model with courses in electricity, fluid power, mechanics, fabrication, troubleshooting, problem solving, etc.",
+      "ceterms:name": "TESTING_TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree Program",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "Blended learning badge.",
+      "ceterms:name": "TESTING_TESTING_Applied Problem Solving and Decision Making Badge",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
   "ceterms:opeID": "1080-OPEID",
+  "ceterms:owns": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-B2492F20-02F6-4C7A-DCBA-362C889D91B3"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-1785aa77-e844-4f25-9dd2-5f801c9e475e"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-0ddd924e-b202-46b9-8522-92b1bb7f7a5e"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
   "ceterms:parentOrganization": [
     {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
@@ -269,6 +356,21 @@
   "ceterms:recognizedBy": [
     {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    }
+  ],
+  "ceterms:recognizes": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-A81E3B16-1111-40DA-A186-C568559AD7E5"
+    }
+  ],
+  "ceterms:renews": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    }
+  ],
+  "ceterms:revokes": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
     }
   ],
   "ceterms:serviceType": [
@@ -294,21 +396,56 @@
   "ceterms:targetContactPoint": [
     {
       "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Information"
+      ],
       "ceterms:email": [
         "membersupport@isc2.org"
-      ],
-      "ceterms:name": "Organization Contact Information",
-      "ceterms:socialMedia": [
-        "https://www.facebook.com/isc2fb",
-        "https://www.youtube.com/user/ISC2TV",
-        "https://www.linkedin.com/company/isc2"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Toll Free"
       ],
       "ceterms:telephone": [
-        "1-866-462-4777 (Toll Free)",
-        "703-891-6781 (Main Phone Number)",
-        "703-356-7977 (Fax)",
-        "+61 2 4728 4600 (Reception)",
-        "123-456-7890 (Other (enter type))"
+        "1-866-462-4777"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Main Phone Number"
+      ],
+      "ceterms:telephone": [
+        "703-891-6781"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Fax"
+      ],
+      "ceterms:telephone": [
+        "703-356-7977"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Australia"
+      ],
+      "ceterms:telephone": [
+        "+61 2 4728 4600"
+      ]
+    },
+    {
+      "@type": "ceterms:ContactPoint",
+      "ceterms:contactOption": [
+        "Custom Phone Type"
+      ],
+      "ceterms:telephone": [
+        "123-456-7890"
       ]
     },
     {
