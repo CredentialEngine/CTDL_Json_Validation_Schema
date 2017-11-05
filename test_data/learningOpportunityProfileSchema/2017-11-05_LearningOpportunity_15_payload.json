@@ -1,0 +1,88 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-228F28E8-4CAC-4693-9989-E3DE1560E527",
+  "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:ctid": "ce-228F28E8-4CAC-4693-9989-E3DE1560E527",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "The SMU Graphic Design Certificate program is offered in a cohort format. A cohort is structured so that students progress through the program together, guided by expert instructors. Courses build upon one another with assignments and lessons, allowing you to hone your design skills in between class sessions. The certificate program culminates in a Capstone Course, in which you'll create your final, portfolio-bound design project, with the guidance of your instructor.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Citizen",
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": "https://www.smu.edu/CAPE/ProfessionalDevelopment/CertificatePrograms/GraphicDesign/ProgramDetails",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Tuition for the Certificate Program in Graphic Design is $3,895. SMU faculty, staff, students, and alumni save 10%!",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "Graphic Design Certificate Program Costs",
+      "ceterms:price": 3995.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        }
+      ],
+      "ceterms:startDate": "2016-09-06"
+    },
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Citizen",
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": "https://www.smu.edu/CAPE/ProfessionalDevelopment/CertificatePrograms/GraphicDesign/ProgramDetails",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "Tuition for the Certificate Program in Graphic Design is $3,895. SMU faculty, staff, students, and alumni save 10%!",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Application",
+          "ceterms:targetNodeName": "Application"
+        }
+      ],
+      "ceterms:name": "Graphic Design Certificate Program Costs",
+      "ceterms:price": 50.00,
+      "ceterms:startDate": "2016-09-06"
+    }
+  ],
+  "ceterms:name": "TESTING_TESTING_Graphic Design Certificate curriculum",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-A4041983-B1AE-4AD4-A43D-284A5B4B2D73"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+}

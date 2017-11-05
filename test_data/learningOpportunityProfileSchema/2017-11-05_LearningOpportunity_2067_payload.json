@@ -1,0 +1,77 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-B0FB2C12-2608-491B-8331-702BF6BA5563",
+  "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:ctid": "ce-B0FB2C12-2608-491B-8331-702BF6BA5563",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:InPerson",
+      "ceterms:targetNodeName": "In-Person"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "The PECB designations are valid for three years. To maintain his/her certification, the applicant must demonstrate every year that he/she is still performing tasks that are related to the certification.\nThe following credentials do not require maintenance (if a candidate does not require obtaining another credential): Foundation, Provisional Auditor and Provisional Implementer.\nPECB professionals should engage in appropriate continual professional development activities to maintain the necessary knowledge to perform their tasks with competence. Depending of the certification applicable, these activities include education, work experience, auditor training, audit experience, implementation and/or consulting experience.\nThis may be achieved through means such as additional work experience, training, private study, coaching, attendance at meetings, seminars and conferences or other relevant activities.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Citizen",
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": "http://example.com?id=2095",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "PECB Annual Maintenance Fee  __2095",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject"
+        }
+      ],
+      "ceterms:name": "PECB Annual Maintenance Fee  ",
+      "ceterms:price": 100.00
+    }
+  ],
+  "ceterms:name": "TESTING_TESTING_Certified ISO 31000 Risk Manager",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7fceca4b-722e-4885-b3ae-a9f40504815c"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Residual Risk Management"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Acceptance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Identification"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Identification2"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Identification3"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Risk Management Framework"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+}

@@ -1,0 +1,111 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214",
+  "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:approvedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Springfield",
+      "ceterms:addressRegion": "IL  ",
+      "ceterms:latitude": 39.8030286,
+      "ceterms:longitude": -89.6604196,
+      "ceterms:name": "Springfield",
+      "ceterms:postalCode": "62761",
+      "ceterms:streetAddress": " 525-535 West Jefferson Street"
+    }
+  ],
+  "ceterms:ctid": "ce-7CD825C4-3493-4337-A845-61B1598DA214",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:BlendedDelivery",
+      "ceterms:targetNodeName": "Blended Delivery"
+    }
+  ],
+  "ceterms:description": "The PA educational program is modeled on the medical school curriculum with a combination of classroom and clinical instruction. The PA course of study is graduate level, full-time, rigorous and intense. \nThe program requires 27 consecutive months of full time academic and clinical coursework that will confer a Master’s degree.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Citizen",
+          "ceterms:targetNodeName": "Citizen"
+        }
+      ],
+      "ceterms:costDetails": "http://sites.laverne.edu/physician-assistant/program-cost/",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "    Year 1 Tuition (2016-17): $38,000 + $9,400 fees= $47,400\n    Year 2 Tuition (2017-18): $39,600 + $6,860 fees= $46,460\n\nTuition rates may increase as much as 4%  for students who enroll after June 2017.\nAdditional related program costs are housing, meals and transportation and have not been included in the estimated tuition and fees.",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": "Masters of Science - Physician Assistant Program Tuition",
+      "ceterms:price": 47400.00,
+      "ceterms:startDate": "2016-06-01"
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "PT40H"
+    }
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "03",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "Instructional programs that focus on the various natural resources and conservation fields and prepare individuals for related occupations.",
+      "ceterms:targetNodeName": "NATURAL RESOURCES AND CONSERVATION"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/4197000/",
+          "ceterms:latitude": 32.75042,
+          "ceterms:longitude": -83.50018,
+          "ceterms:name": "Georgia"
+        }
+      ]
+    }
+  ],
+  "ceterms:keyword": [
+    "keyword46"
+  ],
+  "ceterms:name": "TESTING_TESTING_Masters of Science - Physician Assistant Program",
+  "ceterms:offeredBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-4D3536D8-025D-465F-ABBE-BAC3789BA5BB"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "subject46"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+}

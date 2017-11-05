@@ -1,0 +1,422 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+    }
+  ],
+  "ceterms:corequisite": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+        }
+      ],
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
+      "ceterms:name": "Bachelor of Science in Business",
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-88409435-EBA9-4B42-8977-0814356F9A74"
+        }
+      ]
+    }
+  ],
+  "ceterms:ctid": "ce-0a7853a1-5222-44b5-9ee7-b6f565722ba5",
+  "ceterms:description": "sample description",
+  "ceterms:entryCondition": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-43dbf837-d4e5-4be9-85d7-dc783e23bc1f"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:BeginnerLevel",
+          "ceterms:targetNodeName": "Beginner Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Citizen",
+          "ceterms:targetNodeName": "Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:NonCitizen",
+          "ceterms:targetNodeName": "Non-Citizen"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:NonMember",
+          "ceterms:targetNodeName": "Non-Member"
+        }
+      ],
+      "ceterms:creditHourType": "clock hours",
+      "ceterms:creditHourValue": 60.00,
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
+      "ceterms:experience": "3 years of experience in Reg Assistant",
+      "ceterms:name": "sample org Entry Conditions",
+      "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@type": "ceterms:AssessmentProfile",
+          "ceterms:description": "Each concentration would have different requirements.  ",
+          "ceterms:name": "TESTING_Bachelor of Science in Computer Science courses",
+          "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@type": "ceterms:Credential",
+          "ceterms:description": "a description",
+          "ceterms:name": "TESTING_A license",
+          "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@type": "ceterms:LearningOpportunityProfile",
+          "ceterms:description": "Advanced Multimedia Development Certificate - child 1",
+          "ceterms:name": "TESTING_TESTING_Advanced Multimedia Development Certificate - child 1",
+          "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+        }
+      ],
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
+  "ceterms:name": "Test Condition Manifet",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:SecondaryLevel",
+          "ceterms:targetNodeName": "Secondary School or Equivalent"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:PrivateEmployee",
+          "ceterms:targetNodeName": "Private Employee"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:PublicEmployee",
+          "ceterms:targetNodeName": "Public Employee"
+        }
+      ],
+      "ceterms:creditUnitType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CreditUnit",
+          "ceterms:targetNode": "creditUnit:CertificateCredit",
+          "ceterms:targetNodeName": "Certificate Credit"
+        }
+      ],
+      "ceterms:creditUnitTypeDescription": "sample desc",
+      "ceterms:creditUnitValue": 3.00,
+      "ceterms:description": "Sample desc for recommendations",
+      "ceterms:estimatedCost": [
+        {
+          "@type": "ceterms:CostProfile",
+          "ceterms:audienceType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:CurrentMilitarySpouse",
+              "ceterms:targetNodeName": "Current Military Spouse"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:Member",
+              "ceterms:targetNodeName": "Member"
+            }
+          ],
+          "ceterms:costDetails": "http://www.example.com/?CostDetailsURL",
+          "ceterms:currency": "Afghani",
+          "ceterms:description": "Sample Description of cost ",
+          "ceterms:directCostType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "CostType",
+              "ceterms:targetNode": "costType:ScoringFee",
+              "ceterms:targetNodeName": "Scoring Fee"
+            }
+          ],
+          "ceterms:endDate": "2017-08-05",
+          "ceterms:name": " credit cost",
+          "ceterms:price": 300.00,
+          "ceterms:residencyType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Residency",
+              "ceterms:targetNode": "residency:InState",
+              "ceterms:targetNodeName": "In-State"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Residency",
+              "ceterms:targetNode": "residency:Local",
+              "ceterms:targetNodeName": "Local"
+            }
+          ],
+          "ceterms:startDate": "2015-05-08"
+        }
+      ],
+      "ceterms:experience": "5 yrs of work experience",
+      "ceterms:name": "Sample Recommendations",
+      "ceterms:residentOf": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "sample residency",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:subjectWebpage": "http://example.com/.?SubjectWebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-A81E3B16-1111-40DA-A186-C568559AD7E5"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-43B65F6B-188F-443C-B495-11F0DCC52D38"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-0744D945-9A33-4822-BAAA-435A53034051"
+        }
+      ],
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:alternativeCondition": [
+        {
+          "@type": "ceterms:ConditionProfile",
+          "ceterms:assertedBy": [
+            {
+              "@id": "http://lr-staging.learningtapestry.com/resources/ce-84559D19-F0CD-45E0-ACC8-CDF8D5B7F46F"
+            }
+          ],
+          "ceterms:audienceLevelType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "AudienceLevel",
+              "ceterms:targetNode": "audLevel:IntermediateLevel",
+              "ceterms:targetNodeName": "Intermediate Level"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "AudienceLevel",
+              "ceterms:targetNode": "audLevel:BachelorsDegreeLevel",
+              "ceterms:targetNodeName": "Bachelors Degree Level"
+            }
+          ],
+          "ceterms:audienceType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:FullTime",
+              "ceterms:targetNodeName": "Full-Time"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:NonCitizen",
+              "ceterms:targetNodeName": "Non-Citizen"
+            }
+          ],
+          "ceterms:condition": [
+            "certification in clinical pathology"
+          ],
+          "ceterms:creditUnitType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "CreditUnit",
+              "ceterms:targetNode": "creditUnit:DegreeCredit",
+              "ceterms:targetNodeName": "Degree Credit"
+            }
+          ],
+          "ceterms:creditUnitTypeDescription": "sample credit unit type description",
+          "ceterms:creditUnitValue": 40.00,
+          "ceterms:description": "SAmple Alternative conditions description",
+          "ceterms:estimatedCost": [
+            {
+              "@type": "ceterms:CostProfile",
+              "ceterms:audienceType": [
+                {
+                  "@type": "ceterms:CredentialAlignmentObject",
+                  "ceterms:framework": "Audience",
+                  "ceterms:targetNode": "audience:FullTime",
+                  "ceterms:targetNodeName": "Full-Time"
+                },
+                {
+                  "@type": "ceterms:CredentialAlignmentObject",
+                  "ceterms:framework": "Audience",
+                  "ceterms:targetNode": "audience:NonCitizen",
+                  "ceterms:targetNodeName": "Non-Citizen"
+                }
+              ],
+              "ceterms:costDetails": "http://www.example.com/?CostDetailsURL",
+              "ceterms:currency": "Pound Sterling",
+              "ceterms:description": "sample desc",
+              "ceterms:directCostType": [
+                {
+                  "@type": "ceterms:CredentialAlignmentObject",
+                  "ceterms:framework": "CostType",
+                  "ceterms:targetNode": "costType:GraduationFee",
+                  "ceterms:targetNodeName": "Graduation Fee"
+                }
+              ],
+              "ceterms:jurisdiction": [
+                {
+                  "@type": "ceterms:JurisdictionProfile",
+                  "ceterms:description": "sample jurisdiction",
+                  "ceterms:globalJurisdiction": true
+                }
+              ],
+              "ceterms:name": " sample org cost",
+              "ceterms:price": 4000.00,
+              "ceterms:residencyType": [
+                {
+                  "@type": "ceterms:CredentialAlignmentObject",
+                  "ceterms:framework": "Residency",
+                  "ceterms:targetNode": "residency:InState",
+                  "ceterms:targetNodeName": "In-State"
+                },
+                {
+                  "@type": "ceterms:CredentialAlignmentObject",
+                  "ceterms:framework": "Residency",
+                  "ceterms:targetNode": "residency:OutOfState",
+                  "ceterms:targetNodeName": "Out-of-State"
+                }
+              ]
+            }
+          ],
+          "ceterms:experience": "2 years of experience in clinical pathology",
+          "ceterms:name": "sample alternative condition",
+          "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage",
+          "ceterms:targetAssessment": [
+            {
+              "@type": "ceterms:AssessmentProfile",
+              "ceterms:description": "Each concentration would have different requirements.  ",
+              "ceterms:name": "TESTING_Bachelor of Science in Computer Science courses",
+              "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+            }
+          ],
+          "ceterms:targetCredential": [
+            {
+              "@id": "http://lr-staging.learningtapestry.com/resources/ce-88409435-EBA9-4B42-8977-0814356F9A74"
+            }
+          ],
+          "ceterms:targetLearningOpportunity": [
+            {
+              "@type": "ceterms:LearningOpportunityProfile",
+              "ceterms:description": "Advanced Multimedia Development Certificate - child 1",
+              "ceterms:name": "TESTING_TESTING_Advanced Multimedia Development Certificate - child 1",
+              "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+            }
+          ],
+          "ceterms:yearsOfExperience": 2.00
+        }
+      ],
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-84559D19-F0CD-45E0-ACC8-CDF8D5B7F46F"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:IntermediateLevel",
+          "ceterms:targetNodeName": "Intermediate Level"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:BachelorsDegreeLevel",
+          "ceterms:targetNodeName": "Bachelors Degree Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:NonCitizen",
+          "ceterms:targetNodeName": "Non-Citizen"
+        }
+      ],
+      "ceterms:condition": [
+        "certified in clincal pathology"
+      ],
+      "ceterms:creditUnitTypeDescription": "sample credit unit type description",
+      "ceterms:creditUnitValue": 60.00,
+      "ceterms:description": "sample desc",
+      "ceterms:estimatedCost": [
+        {
+          "@type": "ceterms:CostProfile",
+          "ceterms:costDetails": "http://www.example.com/?CostDetailsURL",
+          "ceterms:currency": "Pound Sterling",
+          "ceterms:description": "test description",
+          "ceterms:name": " sample org cost"
+        }
+      ],
+      "ceterms:experience": "2 years of experience in clinical pathology",
+      "ceterms:name": "Org Reqs",
+      "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@type": "ceterms:LearningOpportunityProfile",
+          "ceterms:description": "Advanced Multimedia Development Certificate - child 1 - subchild One - Sub-sub child 1",
+          "ceterms:name": "TESTING_TESTING_Advanced Multimedia Development Certificate - child 1 - subchild One - Sub-sub child 1",
+          "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+        }
+      ],
+      "ceterms:yearsOfExperience": 2.00
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage"
+}

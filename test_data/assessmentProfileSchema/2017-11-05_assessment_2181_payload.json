@@ -1,0 +1,559 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-F1D95D00-0CEE-46D6-87E9-4887FD090D31",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:administrationProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:dateEffective": "2015-05-20",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:EducationAdministrators",
+          "ceterms:targetNodeName": "Education Administrators"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Educators",
+          "ceterms:targetNodeName": "Educators"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Guardians",
+          "ceterms:targetNodeName": "Guardians"
+        }
+      ],
+      "ceterms:processFrequency": "3",
+      "ceterms:processingAgent": [
+        {
+          "@type": "ceterms:CredentialOrganization",
+          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
+          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
+        }
+      ],
+      "ceterms:processMethodDescription": "sample desc",
+      "ceterms:processStandards": "http://www.google.com/?ProcessStandards",
+      "ceterms:scoringMethodDescription": "sample scoring method desc"
+    }
+  ],
+  "ceterms:assessmentExample": "http://www.example.com/?.AssessmentExample",
+  "ceterms:assessmentExampleDescription": "Assessment Example Desc",
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:assessmentOutput": "Grades",
+  "ceterms:assessmentUseType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AssessmentUse",
+      "ceterms:targetNode": "assessUse:Summative",
+      "ceterms:targetNodeName": "Summative Assessment"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    "http://www.example.com/?AvailabilityListing"
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Springfield",
+      "ceterms:addressRegion": "IL",
+      "ceterms:name": "Reg Ass",
+      "ceterms:postalCode": "62704",
+      "ceterms:streetAddress": "2450 Foundation  Dr"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "http://www.example.com/?AvailableOnlineAt"
+  ],
+  "ceterms:codedNotation": "101",
+  "ceterms:corequisite": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@type": "ceterms:CredentialOrganization",
+          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
+          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
+        }
+      ],
+      "ceterms:description": "this is a co-requisite condition, for some purpose",
+      "ceterms:name": "TESTING_Associate of Science - Engineering Technology",
+      "ceterms:targetCredential": [
+        {
+          "@type": "ceterms:Credential",
+          "ceterms:description": "The Engineering Technology Program is an Associate of Science degree program. It includes 18 credit hours of General Education courses, 18 credit hours of Technical Core courses, and 24 credit hours of specialized Advanced Technical courses.",
+          "ceterms:name": "TESTING_Associate of Science - Engineering Technology",
+          "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+        }
+      ]
+    }
+  ],
+  "ceterms:creditHourType": "semm hrs",
+  "ceterms:creditHourValue": 50.00,
+  "ceterms:ctid": "ce-F1D95D00-0CEE-46D6-87E9-4887FD090D31",
+  "ceterms:dateEffective": "2014-06-04",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "Can have online classes",
+  "ceterms:description": "Testing Assessment Description",
+  "ceterms:entryCondition": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@type": "ceterms:CredentialOrganization",
+          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
+          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:AdvancedLevel",
+          "ceterms:targetNodeName": "Advanced Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FormerStudent",
+          "ceterms:targetNodeName": "Former Student / Alumni"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:Member",
+          "ceterms:targetNodeName": "Member"
+        }
+      ],
+      "ceterms:creditUnitType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CreditUnit",
+          "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
+          "ceterms:targetNodeName": "Continuing Education Unit"
+        }
+      ],
+      "ceterms:creditUnitTypeDescription": "testing description",
+      "ceterms:creditUnitValue": 20.00,
+      "ceterms:description": "Entry Conditions Sample",
+      "ceterms:experience": "4 years of experience in public health",
+      "ceterms:name": "Entry Conditions Sample",
+      "ceterms:subjectWebpage": "http://example.com?t=subjectwebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-42316834-77EE-41FE-A06F-AC5608179A5D"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@type": "ceterms:Credential",
+          "ceterms:description": "description text here",
+          "ceterms:name": "TESTING_2nd credential connection, b",
+          "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-73D4131B-FEF0-478F-9870-E21CE67C22F3"
+        }
+      ],
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://example.com?t=sCostDetailsURL",
+      "ceterms:currency": "Pound Sterling",
+      "ceterms:description": "sample estimated costs",
+      "ceterms:name": " sample estimated costs"
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P1Y2M"
+    }
+  ],
+  "ceterms:externalResearch": [
+    "http://www.example.com/?.ExternalResearch"
+  ],
+  "ceterms:financialAssistance": [
+    {
+      "@type": "ceterms:FinancialAlignmentObject",
+      "ceterms:alignmentDate": "2017-06-07",
+      "ceterms:codedNotation": "helloo12",
+      "ceterms:framework": "http://www.google.com/?FrameworkURL",
+      "ceterms:frameworkName": "sample financial assistance",
+      "ceterms:targetNode": "http://www.google.com/?TargetNodeURL",
+      "ceterms:targetNodeDescription": "Sample target node description",
+      "ceterms:targetNodeName": "financial assistance for assesment"
+    }
+  ],
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:inLanguage": [
+    "Akan"
+  ],
+  "ceterms:instructionalProgramType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "21.0101",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNodeDescription": "Deleted",
+      "ceterms:targetNodeName": "Technology Education/Industrial Arts"
+    }
+  ],
+  "ceterms:isPreparationFor": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+        }
+      ],
+      "ceterms:creditHourType": "clock hours",
+      "ceterms:creditHourValue": 20.00,
+      "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-A81E3B16-1111-40DA-A186-C568559AD7E5"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@type": "ceterms:Credential",
+          "ceterms:description": "again test from ctitest",
+          "ceterms:name": "again test from ctitest",
+          "ceterms:subjectWebpage": "http://example.com"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-1D7C07E0-061D-4BB5-8024-4F164E255A5B"
+        }
+      ],
+      "ceterms:weight": 0.50
+    }
+  ],
+  "ceterms:isProctored": false,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "jursidiction sample",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:keyword": [
+    "public health",
+    "testing"
+  ],
+  "ceterms:maintenanceProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:BusinessAssociation",
+          "ceterms:targetNodeName": "Business or Industry Association"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Consumers",
+          "ceterms:targetNodeName": "Consumers"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "ExternalInput",
+          "ceterms:targetNode": "inputType:Students",
+          "ceterms:targetNodeName": "Students"
+        }
+      ],
+      "ceterms:processingAgent": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F"
+        }
+      ],
+      "ceterms:processMethodDescription": "this is sample process method desc",
+      "ceterms:processStandardsDescription": "sample standards desc",
+      "ceterms:subjectWebpage": "http://www.example.com/?.SubjectWebpage"
+    }
+  ],
+  "ceterms:name": "TESTING_Registry Testing",
+  "ceterms:processStandards": "http://www.example.com/?ProcessStandards/",
+  "ceterms:processStandardsDescription": "Testing Process Standards ",
+  "ceterms:recommends": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-780204EE-296D-4C95-90D3-7605D3CFE4B3"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:AdvancedLevel",
+          "ceterms:targetNodeName": "Advanced Level"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:DoctoralDegreeLevel",
+          "ceterms:targetNodeName": "Doctoral Degree Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:CurrentMilitaryDependent",
+          "ceterms:targetNodeName": "Current Military Dependent"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:CurrentStudent",
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:PrivateEmployee",
+          "ceterms:targetNodeName": "Private Employee"
+        }
+      ],
+      "ceterms:condition": [
+        "certified medical instructor"
+      ],
+      "ceterms:creditHourType": "hours of service",
+      "ceterms:creditHourValue": 100.00,
+      "ceterms:description": "sample recommendations description",
+      "ceterms:experience": "6 yrs of experience in American medical standard maintenance",
+      "ceterms:name": "Recommendations Sample",
+      "ceterms:subjectWebpage": "http://example.com?t=subjectwebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF"
+        },
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-ff332224-f2c5-4da2-86b3-569b0bc60eb6"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-C7939762-97A2-4C12-8D85-91252ACC0EE1"
+        },
+        {
+          "@type": "ceterms:Credential",
+          "ceterms:description": "Nursing assistants/aides working in licensed and/or certified skilled nursing facilities, intermediate care facilities and home health agencies in the state of Illinois must be certified. The Illinois Nurse Aide Testing Program is responsible for administering the written competency exam as required by the Illinois Department of Public Health.",
+          "ceterms:name": "TESTING_Certified Nursing Assistant",
+          "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6D252EE1-37EA-4EF1-8D47-9EAA4E659AAA"
+        }
+      ],
+      "ceterms:yearsOfExperience": 4.00
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@type": "ceterms:CredentialOrganization",
+          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
+          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:AdvancedLevel",
+          "ceterms:targetNodeName": "Advanced Level"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:MastersDegreeLevel",
+          "ceterms:targetNodeName": "Masters Degree Level"
+        }
+      ],
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:CurrentStudent",
+          "ceterms:targetNodeName": "Current Student"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:NonCitizen",
+          "ceterms:targetNodeName": "Non-Citizen"
+        }
+      ],
+      "ceterms:creditUnitType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CreditUnit",
+          "ceterms:targetNode": "creditUnit:DegreeCredit",
+          "ceterms:targetNodeName": "Degree Credit"
+        }
+      ],
+      "ceterms:creditUnitTypeDescription": "sample credit unit type description",
+      "ceterms:creditUnitValue": 15.00,
+      "ceterms:description": "sample description data",
+      "ceterms:estimatedCost": [
+        {
+          "@type": "ceterms:CostProfile",
+          "ceterms:audienceType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:CurrentStudent",
+              "ceterms:targetNodeName": "Current Student"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:FullTime",
+              "ceterms:targetNodeName": "Full-Time"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Audience",
+              "ceterms:targetNode": "audience:Member",
+              "ceterms:targetNodeName": "Member"
+            }
+          ],
+          "ceterms:costDetails": "http://example.com",
+          "ceterms:currency": "US Dollar",
+          "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
+          "ceterms:directCostType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "CostType",
+              "ceterms:targetNode": "costType:EnrollmentFee",
+              "ceterms:targetNodeName": "Enrollment Fee"
+            }
+          ],
+          "ceterms:endDate": "2015-05-04",
+          "ceterms:name": " sample cost for requires ",
+          "ceterms:price": 2000.00,
+          "ceterms:residencyType": [
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Residency",
+              "ceterms:targetNode": "residency:InState",
+              "ceterms:targetNodeName": "In-State"
+            },
+            {
+              "@type": "ceterms:CredentialAlignmentObject",
+              "ceterms:framework": "Residency",
+              "ceterms:targetNode": "residency:OutOfState",
+              "ceterms:targetNodeName": "Out-of-State"
+            }
+          ],
+          "ceterms:startDate": "2010-04-04"
+        }
+      ],
+      "ceterms:experience": "4 years of experience in public health organization",
+      "ceterms:name": "requires sample",
+      "ceterms:subjectWebpage": "http://example.com/?t=subjectwebpage",
+      "ceterms:targetAssessment": [
+        {
+          "@type": "ceterms:AssessmentProfile",
+          "ceterms:description": "Students may participate in a course, they don’t earn the badge by participating in the course, they earn it through re-assessment.",
+          "ceterms:name": "Applied Problem Solving and Decision Making Badge",
+          "ceterms:subjectWebpage": "http://example.com"
+        }
+      ],
+      "ceterms:targetCredential": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-C1835D19-12FB-4052-DCBA-FC568BB34B54"
+        }
+      ],
+      "ceterms:targetLearningOpportunity": [
+        {
+          "@type": "ceterms:LearningOpportunityProfile",
+          "ceterms:description": "Blended learning badge.",
+          "ceterms:name": "TESTING_TESTING_Applied Problem Solving and Decision Making Badge",
+          "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+        }
+      ],
+      "ceterms:yearsOfExperience": 3.00
+    }
+  ],
+  "ceterms:scoringMethodDescription": "sample",
+  "ceterms:scoringMethodExample": "http://www.example.com/?ScoringMethodExample",
+  "ceterms:scoringMethodExampleDescription": "Sample Desc",
+  "ceterms:scoringMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:ScoringMethod",
+      "ceterms:targetNode": "score:CriterionReferenced",
+      "ceterms:targetNodeName": "Criterion-Referenced"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "pharmacy"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "public health"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}
