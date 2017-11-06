@@ -126,14 +126,12 @@
           "ceterms:targetNodeName": "Public Employee"
         }
       ],
-      "ceterms:creditUnitType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CreditUnit",
-          "ceterms:targetNode": "creditUnit:CertificateCredit",
-          "ceterms:targetNodeName": "Certificate Credit"
-        }
-      ],
+      "ceterms:creditUnitType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:framework": "CreditUnit",
+        "ceterms:targetNode": "creditUnit:CertificateCredit",
+        "ceterms:targetNodeName": "Certificate Credit"
+      },
       "ceterms:creditUnitTypeDescription": "sample desc",
       "ceterms:creditUnitValue": 3.00,
       "ceterms:description": "Sample desc for recommendations",
@@ -255,14 +253,12 @@
           "ceterms:condition": [
             "certification in clinical pathology"
           ],
-          "ceterms:creditUnitType": [
-            {
-              "@type": "ceterms:CredentialAlignmentObject",
-              "ceterms:framework": "CreditUnit",
-              "ceterms:targetNode": "creditUnit:DegreeCredit",
-              "ceterms:targetNodeName": "Degree Credit"
-            }
-          ],
+          "ceterms:creditUnitType": {
+            "@type": "ceterms:CredentialAlignmentObject",
+            "ceterms:framework": "CreditUnit",
+            "ceterms:targetNode": "creditUnit:DegreeCredit",
+            "ceterms:targetNodeName": "Degree Credit"
+          },
           "ceterms:creditUnitTypeDescription": "sample credit unit type description",
           "ceterms:creditUnitValue": 40.00,
           "ceterms:description": "SAmple Alternative conditions description",

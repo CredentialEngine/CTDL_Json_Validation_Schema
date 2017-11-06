@@ -83,14 +83,12 @@
     "http://www.google.com/?availableOnlineAt"
   ],
   "ceterms:codedNotation": "123.abc",
-  "ceterms:creditUnitType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "CreditUnit",
-      "ceterms:targetNode": "creditUnit:SecondaryDiplomaCredit",
-      "ceterms:targetNodeName": "Secondary Diploma Credit"
-    }
-  ],
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject",
+    "ceterms:framework": "CreditUnit",
+    "ceterms:targetNode": "creditUnit:SecondaryDiplomaCredit",
+    "ceterms:targetNodeName": "Secondary Diploma Credit"
+  },
   "ceterms:creditUnitTypeDescription": "Credit unit type description value",
   "ceterms:creditUnitValue": 30.00,
   "ceterms:ctid": "ce-2513176a-4acd-41fa-aad7-0107eac540f9",

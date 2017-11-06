@@ -153,14 +153,12 @@
           "ceterms:targetNodeName": "Member"
         }
       ],
-      "ceterms:creditUnitType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CreditUnit",
-          "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
-          "ceterms:targetNodeName": "Continuing Education Unit"
-        }
-      ],
+      "ceterms:creditUnitType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:framework": "CreditUnit",
+        "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
+        "ceterms:targetNodeName": "Continuing Education Unit"
+      },
       "ceterms:creditUnitTypeDescription": "testing description",
       "ceterms:creditUnitValue": 20.00,
       "ceterms:description": "Entry Conditions Sample",
@@ -442,14 +440,12 @@
           "ceterms:targetNodeName": "Non-Citizen"
         }
       ],
-      "ceterms:creditUnitType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CreditUnit",
-          "ceterms:targetNode": "creditUnit:DegreeCredit",
-          "ceterms:targetNodeName": "Degree Credit"
-        }
-      ],
+      "ceterms:creditUnitType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:framework": "CreditUnit",
+        "ceterms:targetNode": "creditUnit:DegreeCredit",
+        "ceterms:targetNodeName": "Degree Credit"
+      },
       "ceterms:creditUnitTypeDescription": "sample credit unit type description",
       "ceterms:creditUnitValue": 15.00,
       "ceterms:description": "sample description data",
