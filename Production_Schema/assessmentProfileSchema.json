@@ -24,19 +24,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:string" }
 		},
-		"meta:langstring": {
-			"type": "object",
-			"properties": {
-				"en": { "type": "string" },
-				"en-US": { "type": "string" },
-				"en-GB": { "type": "string" },
-				"es": { "type": "string" },
-				"pl": { "type": "string" },
-				"zh": { "type": "string" },
-				"de": { "type": "string" },
-				"ru": { "type": "string" }
-			}
-		},
+		"meta:langstring": { "type": "string" },
 		"meta:langstring_multi": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:langstring" }
@@ -152,26 +140,17 @@
 			"required": [ "@type" ],
 			"additionalProperties": false
 		},
-		"ceterms:GeoCoordinates": {
+		"ceterms:Place": {
 			"type": "object",
 			"properties": {
-				"@type": { "enum": [ "ceterms:GeoCoordinates" ] },
-				"ceterms:address": { "$ref": "#/definitions/ceterms:address" },
-				"ceterms:geoURI": { "$ref": "#/definitions/ceterms:geoURI" },
-				"ceterms:latitude": { "$ref": "#/definitions/ceterms:latitude" },
-				"ceterms:longitude": { "$ref": "#/definitions/ceterms:longitude" },
-				"ceterms:name": { "$ref": "#/definitions/ceterms:name" }
-			},
-			"required": [ "@type" ],
-			"additionalProperties": false
-		},
-		"ceterms:PostalAddress": {
-			"type": "object",
-			"properties": {
-				"@type": { "enum": [ "ceterms:PostalAddress" ] },
+				"@type": { "enum": [ "ceterms:Place" ] },
 				"ceterms:addressCountry": { "$ref": "#/definitions/ceterms:addressCountry" },
 				"ceterms:addressLocality": { "$ref": "#/definitions/ceterms:addressLocality" },
 				"ceterms:addressRegion": { "$ref": "#/definitions/ceterms:addressRegion" },
+				"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
+				"ceterms:geoURI": { "$ref": "#/definitions/ceterms:geoURI" },
+				"ceterms:latitude": { "$ref": "#/definitions/ceterms:latitude" },
+				"ceterms:longitude": { "$ref": "#/definitions/ceterms:longitude" },
 				"ceterms:name": { "$ref": "#/definitions/ceterms:name" },
 				"ceterms:postalCode": { "$ref": "#/definitions/ceterms:postalCode" },
 				"ceterms:postOfficeBoxNumber": { "$ref": "#/definitions/ceterms:postOfficeBoxNumber" },
@@ -298,6 +277,21 @@
 			"required": [ "@type", "ceterms:costDetails", "ceterms:description" ],
 			"additionalProperties": false
 		},
+		"ceterms:PostalAddress": {
+			"type": "object",
+			"properties": {
+				"@type": { "enum": [ "ceterms:PostalAddress" ] },
+				"ceterms:addressCountry": { "$ref": "#/definitions/ceterms:addressCountry" },
+				"ceterms:addressLocality": { "$ref": "#/definitions/ceterms:addressLocality" },
+				"ceterms:addressRegion": { "$ref": "#/definitions/ceterms:addressRegion" },
+				"ceterms:name": { "$ref": "#/definitions/ceterms:name" },
+				"ceterms:postalCode": { "$ref": "#/definitions/ceterms:postalCode" },
+				"ceterms:postOfficeBoxNumber": { "$ref": "#/definitions/ceterms:postOfficeBoxNumber" },
+				"ceterms:streetAddress": { "$ref": "#/definitions/ceterms:streetAddress" }
+			},
+			"required": [ "@type" ],
+			"additionalProperties": false
+		},
 		"ceterms:DurationProfile": {
 			"type": "object",
 			"properties": {
@@ -362,12 +356,12 @@
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
 		"ceterms:assessmentExample": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:assessmentExampleDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:assessmentExampleDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:assessmentMethodType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
-		"ceterms:assessmentOutput": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:assessmentOutput": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:assessmentUseType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
@@ -375,32 +369,29 @@
 		"ceterms:availabilityListing": { "$ref": "#/definitions/@id_absolute_multi" },
 		"ceterms:availableAt": {
 			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:PostalAddress" }
+			"items": { "$ref": "#/definitions/ceterms:Place" }
 		},
 		"ceterms:availableOnlineAt": { "$ref": "#/definitions/@id_absolute_multi" },
-		"ceterms:codedNotation": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:codedNotation": { "$ref": "#/definitions/meta:string" },
 		"ceterms:commonConditions": { "$ref": "#/definitions/@id_absolute_multi" },
 		"ceterms:commonCosts": { "$ref": "#/definitions/@id_absolute_multi" },
 		"ceterms:corequisite": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
-		"ceterms:creditHourType": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:creditHourType": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:creditHourValue": { "type": "number" },
-		"ceterms:creditUnitType": {
-			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
-		},
-		"ceterms:creditUnitTypeDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:creditUnitType": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" },
+		"ceterms:creditUnitTypeDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:creditUnitValue": { "type": "number" },
-		"ceterms:ctid": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
 		"ceterms:dateEffective": { "$ref": "#/definitions/meta:string" },
 		"ceterms:deliveryType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
-		"ceterms:deliveryTypeDescription": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:description": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:deliveryTypeDescription": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:description": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:developmentProcess": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ProcessProfile" }
@@ -424,7 +415,7 @@
 		},
 		"ceterms:hasGroupEvaluation": { "type": "boolean" },
 		"ceterms:hasGroupParticipation": { "type": "boolean" },
-		"ceterms:inLanguage": { "$ref": "#/definitions/meta:string" },
+		"ceterms:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
 		"ceterms:instructionalProgramType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
@@ -450,12 +441,12 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
 		},
-		"ceterms:keyword": { "$ref": "#/definitions/meta:literal_multi" },
+		"ceterms:keyword": { "$ref": "#/definitions/meta:langstring_multi" },
 		"ceterms:maintenanceProcess": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ProcessProfile" }
 		},
-		"ceterms:name": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:name": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:offeredBy": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:offeredIn": {
 			"type": "array",
@@ -467,7 +458,7 @@
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
 		"ceterms:processStandards": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:processStandardsDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:processStandardsDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:recognizedBy": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:recognizedIn": {
 			"type": "array",
@@ -479,7 +470,7 @@
 		},
 		"ceterms:region": {
 			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:GeoCoordinates" }
+			"items": { "$ref": "#/definitions/ceterms:Place" }
 		},
 		"ceterms:regulatedBy": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:regulatedIn": {
@@ -490,9 +481,9 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ConditionProfile" }
 		},
-		"ceterms:scoringMethodDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:scoringMethodDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:scoringMethodExample": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:scoringMethodExampleDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:scoringMethodExampleDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:scoringMethodType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
@@ -502,8 +493,13 @@
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
 		"ceterms:subjectWebpage": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:targetAssessment": { "$ref": "#/definitions/pointer:constraint:ReferenceAssessment" },
-		"ceterms:verificationMethodDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:targetAssessment": {
+			"anyOf": [
+				{ "$ref": "#/definitions/@id_absolute_multi" },
+				{ "$ref": "#/definitions/pointer:constraint:ReferenceAssessment" }
+			]
+		},
+		"ceterms:verificationMethodDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:versionIdentifier": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:IdentifierValue" }
@@ -512,56 +508,57 @@
 		"ceterms:globalJurisdiction": { "type": "boolean" },
 		"ceterms:jurisdictionException": {
 			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:GeoCoordinates" }
+			"items": { "$ref": "#/definitions/ceterms:Place" }
 		},
 		"ceterms:mainJurisdiction": {
 			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:GeoCoordinates" }
+			"items": { "$ref": "#/definitions/ceterms:Place" }
 		},
-		"ceterms:address": {
-			"type": "array",
-			"items": { "$ref": "#/definitions/ceterms:PostalAddress" }
-		},
+		"ceterms:addressCountry": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:addressLocality": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:addressRegion": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:geoURI": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:latitude": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:longitude": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:addressCountry": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:addressLocality": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:addressRegion": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:postalCode": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:postOfficeBoxNumber": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:streetAddress": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:latitude": { "type": "number" },
+		"ceterms:longitude": { "type": "number" },
+		"ceterms:postalCode": { "$ref": "#/definitions/meta:string" },
+		"ceterms:postOfficeBoxNumber": { "$ref": "#/definitions/meta:string" },
+		"ceterms:streetAddress": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:targetContactPoint": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:ContactPoint" }
 		},
-		"ceterms:contactOption": { "$ref": "#/definitions/meta:literal_multi" },
-		"ceterms:contactType": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:email": { "$ref": "#/definitions/meta:literal_multi" },
-		"ceterms:faxNumber": { "$ref": "#/definitions/meta:literal_multi" },
+		"ceterms:contactOption": { "$ref": "#/definitions/meta:langstring_multi" },
+		"ceterms:contactType": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:email": { "$ref": "#/definitions/meta:string_multi" },
+		"ceterms:faxNumber": { "$ref": "#/definitions/meta:string_multi" },
 		"ceterms:socialMedia": { "$ref": "#/definitions/@id_absolute_multi" },
-		"ceterms:telephone": { "$ref": "#/definitions/meta:literal_multi" },
+		"ceterms:telephone": { "$ref": "#/definitions/meta:string_multi" },
 		"ceterms:externalInputType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
-		"ceterms:processFrequency": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:processFrequency": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:processingAgent": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
 		"ceterms:processMethod": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:processMethodDescription": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:processMethodDescription": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:targetCompetencyFramework": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
 		"ceterms:targetCredential": { "$ref": "#/definitions/pointer:constraint:ReferenceCredential" },
-		"ceterms:targetLearningOpportunity": { "$ref": "#/definitions/pointer:constraint:ReferenceLearningOpportunity" },
+		"ceterms:targetLearningOpportunity": {
+			"anyOf": [
+				{ "$ref": "#/definitions/@id_absolute_multi" },
+				{ "$ref": "#/definitions/pointer:constraint:ReferenceLearningOpportunity" }
+			]
+		},
 		"ceterms:alignmentDate": { "$ref": "#/definitions/meta:string" },
-		"ceterms:alignmentType": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:alignmentType": { "$ref": "#/definitions/meta:string" },
 		"ceterms:framework": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:frameworkName": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:frameworkName": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:targetNode": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:targetNodeDescription": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:targetNodeName": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:targetNodeDescription": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:targetNodeName": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:weight": { "type": "number" },
 		"ceterms:alternativeCondition": {
 			"type": "array",
@@ -575,27 +572,27 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
-		"ceterms:condition": { "$ref": "#/definitions/meta:literal_multi" },
-		"ceterms:experience": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:condition": { "$ref": "#/definitions/meta:langstring_multi" },
+		"ceterms:experience": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:minimumAge": { "type": "number" },
 		"ceterms:residentOf": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
 		},
-		"ceterms:submissionOf": { "$ref": "#/definitions/meta:literal_multi" },
+		"ceterms:submissionOf": { "$ref": "#/definitions/meta:langstring_multi" },
 		"ceterms:targetCompetency": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
 		"ceterms:yearsOfExperience": { "type": "number" },
 		"ceterms:costDetails": { "$ref": "#/definitions/@id_absolute" },
-		"ceterms:currency": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:currency": { "$ref": "#/definitions/meta:string" },
 		"ceterms:directCostType": {
 			"type": "array",
 			"items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
 		},
 		"ceterms:endDate": { "$ref": "#/definitions/meta:string" },
-		"ceterms:paymentPattern": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:paymentPattern": { "$ref": "#/definitions/meta:langstring" },
 		"ceterms:price": { "type": "number" },
 		"ceterms:residencyType": {
 			"type": "array",
@@ -605,8 +602,8 @@
 		"ceterms:exactDuration": { "$ref": "#/definitions/meta:string" },
 		"ceterms:maximumDuration": { "$ref": "#/definitions/meta:string" },
 		"ceterms:minimumDuration": { "$ref": "#/definitions/meta:string" },
-		"ceterms:identifierType": { "$ref": "#/definitions/meta:literal" },
-		"ceterms:identifierValueCode": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:identifierType": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:identifierValueCode": { "$ref": "#/definitions/meta:string" },
 		"pointer:constraint:ReferenceAssessment": {
 			"anyOf": [
 				{
