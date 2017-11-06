@@ -193,7 +193,7 @@
       "ceterms:targetNodeName": "Self Paced"
     }
   ],
-  "ceterms:name": "TESTING_TESTING_Active Standard ASTM E2659",
+  "ceterms:name": "TESTING - Active Standard ASTM E2659",
   "ceterms:offeredBy": [
     {
       "@type": "ceterms:CredentialOrganization",
