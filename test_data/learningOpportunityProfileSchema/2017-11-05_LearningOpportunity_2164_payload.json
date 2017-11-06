@@ -9,14 +9,12 @@
     }
   ],
   "ceterms:codedNotation": "70-560",
-  "ceterms:creditUnitType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "CreditUnit",
-      "ceterms:targetNode": "creditUnit:CertificateCredit",
-      "ceterms:targetNodeName": "Certificate Credit"
-    }
-  ],
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject",
+    "ceterms:framework": "CreditUnit",
+    "ceterms:targetNode": "creditUnit:CertificateCredit",
+    "ceterms:targetNodeName": "Certificate Credit"
+  },
   "ceterms:ctid": "ce-34953E31-53CC-4CE9-BB12-0DD1A2549894",
   "ceterms:deliveryType": [
     {

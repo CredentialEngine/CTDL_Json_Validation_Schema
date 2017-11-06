@@ -18,14 +18,12 @@
   "ceterms:availableOnlineAt": [
     "https://www.google.com"
   ],
-  "ceterms:creditUnitType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "CreditUnit",
-      "ceterms:targetNode": "creditUnit:DegreeCredit",
-      "ceterms:targetNodeName": "Degree Credit"
-    }
-  ],
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject",
+    "ceterms:framework": "CreditUnit",
+    "ceterms:targetNode": "creditUnit:DegreeCredit",
+    "ceterms:targetNodeName": "Degree Credit"
+  },
   "ceterms:ctid": "ce-624f7432-d05d-496f-a586-f9be3ece63a4",
   "ceterms:deliveryType": [
     {

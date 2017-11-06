@@ -83,6 +83,9 @@
     "http://www.google.com/?availableOnlineAt"
   ],
   "ceterms:codedNotation": "123abc",
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject"
+  },
   "ceterms:ctid": "ce-3c6dccc7-9fc2-4c8b-9d22-b23595568c98",
   "ceterms:dateEffective": "2001-01-01",
   "ceterms:deliveryType": [

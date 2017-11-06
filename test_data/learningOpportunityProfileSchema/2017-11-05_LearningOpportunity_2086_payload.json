@@ -54,14 +54,12 @@
       ]
     }
   ],
-  "ceterms:creditUnitType": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "CreditUnit",
-      "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
-      "ceterms:targetNodeName": "Continuing Education Unit"
-    }
-  ],
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject",
+    "ceterms:framework": "CreditUnit",
+    "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
+    "ceterms:targetNodeName": "Continuing Education Unit"
+  },
   "ceterms:ctid": "ce-73D4131B-FEF0-478F-9870-E21CE67C22F3",
   "ceterms:deliveryType": [
     {
