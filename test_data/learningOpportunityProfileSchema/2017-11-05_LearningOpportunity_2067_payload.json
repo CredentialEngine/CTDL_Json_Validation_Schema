@@ -34,7 +34,10 @@
       "ceterms:description": "PECB Annual Maintenance Fee  __2095",
       "ceterms:directCostType": [
         {
-          "@type": "ceterms:CredentialAlignmentObject"
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:OptionalCharges",
+          "ceterms:targetNodeName": "Optional Charges"
         }
       ],
       "ceterms:name": "PECB Annual Maintenance Fee  ",

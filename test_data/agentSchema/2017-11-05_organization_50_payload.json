@@ -24,6 +24,14 @@
       "ceterms:targetNodeName": "Private Not-For-Profit"
     }
   ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:Business",
+      "ceterms:targetNodeName": "Business"
+    }
+  ],
   "ceterms:ctid": "ce-B72FA133-BB1D-4865-93A8-1D0249A55346",
   "ceterms:description": "The mission of the American Association of Medical Assistants is to provide the medical assistant professional with education, certification, credential acknowledgment, networking opportunities, scope-of-practice protection, and advocacy for quality patient-centered health care.",
   "ceterms:duns": "67473702",

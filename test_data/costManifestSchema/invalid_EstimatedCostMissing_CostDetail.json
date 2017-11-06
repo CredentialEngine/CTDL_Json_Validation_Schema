@@ -1,0 +1,39 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-7697332f-97d1-47a3-80b0-158f0140761c",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costDetails": "https://financialaid.sf.edu/tuition-fees",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-a799a6db-1544-493b-9d73-978ea112beec"
+    }
+  ],
+  "ceterms:ctid": "ce-7697332f-97d1-47a3-80b0-158f0140761c",
+  "ceterms:description": "As one of the lowest priced private universities in the state, USF represents a tremendous value and is a wonderful investment in your future.  Most students, even those who may not have financial need, receive scholarships at the University of Saint Francis. In addition, funds from state and federal grants, private scholarships, loans and work-study may be available for you.",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:audienceType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Audience",
+          "ceterms:targetNode": "audience:FullTime",
+          "ceterms:targetNodeName": "Full-Time"
+        }
+      ],
+      "ceterms:description": "The University of Saint Francis is committed to making education as affordable as possible. The only application USF requires to determine financial aid eligibility is the FAFSA (Free Application for Federal Student Aid). The FAFSA is available every year after October 1 and should be completed prior to April 15 prior to the start of an academic year to ensure students receive the maximum amount of aid for which they are eligible. Prior to being able to apply for financial aid, we want to afford students the opportunity to determine an estimate of their financial aid eligibility prior to the FAFSA being made available. Please complete the appropriate Net Price Calculator to see how affordable USF can be.",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:Tuition",
+          "ceterms:targetNodeName": "Tuition"
+        }
+      ],
+      "ceterms:name": " Net Price Calculator",
+      "ceterms:paymentPattern": "Tuition for 12-18 credit hours",
+      "ceterms:price": 28390.00
+    }
+  ],
+  "ceterms:name": "Tuition and Fees (Undergraduate)"
+}

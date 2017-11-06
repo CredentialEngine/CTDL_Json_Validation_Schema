@@ -1,0 +1,13 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-67437eed-257a-47ca-bf24-b7dd28c5bb9d",
+  "@type": "ceterms:CostManifest",
+  "ceterms:costManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-405e3396-0f17-43c1-afe3-2628817ca334"
+    }
+  ],
+  "ceterms:ctid": "ce-67437eed-257a-47ca-bf24-b7dd28c5bb9d",
+  "ceterms:description": "Tuition Rates. The State Board shall set a uniform tuition rate per credit hour and a maximum tuition amount per academic term for resident and non-resident students consistent with actions\ntaken by the General Assembly.\n\nTuition Required. Colleges are required to charge students tuition to enroll in a curriculum course that earns Budget FTE as described in 1G SBCCC 100.99. Students are required to pay tuition, or have a third-party pay on their behalf, to enroll in a curriculum course, unless waived by law. See also 1E SBCCC Subchapter 800.",
+  "ceterms:name": "Tuition for Curriculum Programs"
+}
