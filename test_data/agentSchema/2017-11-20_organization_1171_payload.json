@@ -1,0 +1,39 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:approves": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2513176a-4acd-41fa-aad7-0107eac540f9"
+    }
+  ],
+  "ceterms:ctid": "ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
+  "ceterms:description": "This is a test for certification",
+  "ceterms:name": "TESTING_Microsoft",
+  "ceterms:offers": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
+    }
+  ],
+  "ceterms:owns": [
+    {
+      "@type": "ceterms:Badge",
+      "ceterms:description": "hfgsfgsg",
+      "ceterms:name": "sdf",
+      "ceterms:subjectWebpage": "http://www.abc.com"
+    },
+    {
+      "@type": "ceterms:AssociateDegree",
+      "ceterms:description": "a description",
+      "ceterms:name": "TESTING_A license",
+      "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-34953E31-53CC-4CE9-BB12-0DD1A2549894"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+}

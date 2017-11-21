@@ -1,0 +1,52 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-0214d23e-372f-410e-aad4-c02d5c9872bb",
+  "@type": "ceterms:ConditionManifest",
+  "ceterms:conditionManifestOf": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:ctid": "ce-0214d23e-372f-410e-aad4-c02d5c9872bb",
+  "ceterms:description": "suggests that we need a search for a common condition under condition manifest",
+  "ceterms:entryCondition": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ],
+      "ceterms:description": "testing update",
+      "ceterms:name": "try another entry condition to see if update fails"
+    }
+  ],
+  "ceterms:name": "Top condition manifest",
+  "ceterms:renewal": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ],
+      "ceterms:audienceLevelType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:BeginnerLevel",
+          "ceterms:targetNodeName": "Beginner Level"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "AudienceLevel",
+          "ceterms:targetNode": "audLevel:IntermediateLevel",
+          "ceterms:targetNodeName": "Intermediate Level"
+        }
+      ],
+      "ceterms:description": "A common manifest for renewals",
+      "ceterms:name": "Renewals condition profile"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://www.example.com/?SubjectWebpage"
+}

@@ -1,0 +1,9 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FB536A82-9BD3-498F-AF0D-682BF58AF74E",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:ctid": "ce-FB536A82-9BD3-498F-AF0D-682BF58AF74E",
+  "ceterms:description": "Nocti Business Solutions offers expert pre-employment testing, performance assessment, prior learning assessment, and customized job skills assessment in Big Rapids, MI. We also provide both standard job talent assessments and customized job assessment tests, as well as credit for prior learning. Our specialty is Technical Skill Assessment – we will perform task analysis on a specific machine or job.",
+  "ceterms:name": "TESTING_NOCTI Business Solutions",
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+}

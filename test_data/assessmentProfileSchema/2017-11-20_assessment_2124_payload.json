@@ -1,0 +1,144 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-76D08FE9-C4CF-46C2-B2F1-7778F1133621",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "zzz Full Test assessment",
+      "ceterms:targetNode": "http://www.compurl.com",
+      "ceterms:targetNodeName": "comp name"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "zzz Full Test assessment",
+      "ceterms:targetNodeDescription": "This competency is assessed, but has no URL",
+      "ceterms:targetNodeName": "assessed competency"
+    }
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Aurora",
+      "ceterms:addressRegion": "OH",
+      "ceterms:latitude": 41.32098,
+      "ceterms:longitude": -81.323058000000017,
+      "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
+      "ceterms:postalCode": "44202",
+      "ceterms:streetAddress": "610 Thornhill Lane"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "http://testing.com"
+  ],
+  "ceterms:codedNotation": "123345abc",
+  "ceterms:ctid": "ce-76D08FE9-C4CF-46C2-B2F1-7778F1133621",
+  "ceterms:dateEffective": "2001-01-01",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:description": "test",
+  "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://example.com",
+      "ceterms:currency": "US Dollar",
+      "ceterms:description": "My cost profile description",
+      "ceterms:directCostType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "CostType",
+          "ceterms:targetNode": "costType:EnrollmentFee",
+          "ceterms:targetNodeName": "Enrollment Fee"
+        }
+      ],
+      "ceterms:endDate": "2002-02-02",
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:globalJurisdiction": true
+        }
+      ],
+      "ceterms:name": "My cost profile",
+      "ceterms:paymentPattern": "daily",
+      "ceterms:price": 12345.00,
+      "ceterms:residencyType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:InState",
+          "ceterms:targetNodeName": "In-State"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:framework": "Residency",
+          "ceterms:targetNode": "residency:OutOfState",
+          "ceterms:targetNodeName": "Out-of-State"
+        }
+      ]
+    }
+  ],
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:description": "my duration",
+      "ceterms:maximumDuration": "P6W",
+      "ceterms:minimumDuration": "P3Y"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:globalJurisdiction": true
+    }
+  ],
+  "ceterms:keyword": [
+    "keyword 1",
+    "keyword 2"
+  ],
+  "ceterms:maintenanceProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:processingAgent": [
+        {
+          "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "TESTING_zzz Full Test assessment",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+    }
+  ],
+  "ceterms:requires": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:description": "requirements description",
+      "ceterms:experience": "experience data",
+      "ceterms:name": "My eligibility requirements"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "another subject"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Asmt test 2"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "subject here"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}

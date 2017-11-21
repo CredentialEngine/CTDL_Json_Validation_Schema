@@ -1,0 +1,96 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-624f7432-d05d-496f-a586-f9be3ece63a4",
+  "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Springfield",
+      "ceterms:addressRegion": "IL  ",
+      "ceterms:latitude": 39.8030286,
+      "ceterms:longitude": -89.6604196,
+      "ceterms:name": "Springfield",
+      "ceterms:postalCode": "62761",
+      "ceterms:streetAddress": " 525-535 West Jefferson Street"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "https://www.google.com"
+  ],
+  "ceterms:creditUnitType": {
+    "@type": "ceterms:CredentialAlignmentObject",
+    "ceterms:framework": "CreditUnit",
+    "ceterms:targetNode": "creditUnit:DegreeCredit",
+    "ceterms:targetNodeName": "Degree Credit"
+  },
+  "ceterms:ctid": "ce-624f7432-d05d-496f-a586-f9be3ece63a4",
+  "ceterms:deliveryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "Delivery",
+      "ceterms:targetNode": "deliveryType:OnlineOnly",
+      "ceterms:targetNodeName": "Online Only"
+    }
+  ],
+  "ceterms:deliveryTypeDescription": "This learning opportunity is provided online only.",
+  "ceterms:description": "This is a test Learning Opportunity created on February 2, 2017",
+  "ceterms:estimatedDuration": [
+    {
+      "@type": "ceterms:DurationProfile",
+      "ceterms:exactDuration": "P4Y"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/4862182/",
+          "ceterms:latitude": 42.00027,
+          "ceterms:longitude": -93.50049,
+          "ceterms:name": "Iowa"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": 39.76,
+          "ceterms:longitude": -98.5
+        }
+      ]
+    }
+  ],
+  "ceterms:learningMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "LearningMethod",
+      "ceterms:targetNode": "learnMethod:SelfPaced",
+      "ceterms:targetNodeName": "Self Paced"
+    }
+  ],
+  "ceterms:name": "TESTING_TESTING_Test Learning Opportunity - February 2, 2017",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-dbfdd53f-ce22-46fd-abf8-8af3bb28bd53"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Credential"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "subject"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "test"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity",
+  "ceterms:verificationMethodDescription": "http://www.bing.com/"
+}
