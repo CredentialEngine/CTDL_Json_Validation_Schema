@@ -2,10 +2,8 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
   "@type": "ceterms:LearningOpportunityProfile",
-  "ceterms:approvedBy": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
-    }
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
   ],
   "ceterms:commonConditions": [
     "http://lr-staging.learningtapestry.com/resources/ce-82a21f9d-bb19-497b-9f8f-86ddf83a1df7"

@@ -1,0 +1,91 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-FB536A82-9BD3-498F-AF0D-682BF58AF74E",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Big Rapids",
+      "ceterms:addressRegion": "Michigan",
+      "ceterms:latitude": 43.705193,
+      "ceterms:longitude": -85.463534,
+      "ceterms:name": "NOCTI Business Solutions",
+      "ceterms:postalCode": "49307",
+      "ceterms:streetAddress": "NOCTI Business Solutions, 500 N Bronson Ave"
+    },
+    {
+      "@type": "ceterms:Place",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Information"
+          ],
+          "ceterms:email": [
+            "noctibusiness@nocti.org"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Toll Free"
+          ],
+          "ceterms:telephone": [
+            "1-800-334-6283"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Main Phone Number"
+          ],
+          "ceterms:telephone": [
+            "1-800-334-6283"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Fax"
+          ],
+          "ceterms:telephone": [
+            "231-796-4699"
+          ]
+        }
+      ]
+    }
+  ],
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateNonProfit",
+      "ceterms:targetNodeName": "Private Not-For-Profit"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "ceterms:OrganizationType",
+      "ceterms:targetNode": "orgType:BusinessAssociation",
+      "ceterms:targetNodeName": "Business or Industry Association"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:TrainingProvider",
+      "ceterms:targetNodeName": "Education and Training Provider"
+    }
+  ],
+  "ceterms:ctid": "ce-FB536A82-9BD3-498F-AF0D-682BF58AF74E",
+  "ceterms:description": "Nocti Business Solutions offers expert pre-employment testing, performance assessment, prior learning assessment, and customized job skills assessment in Big Rapids, MI. We also provide both standard job talent assessments and customized job assessment tests, as well as credit for prior learning. Our specialty is Technical Skill Assessment – we will perform task analysis on a specific machine or job.",
+  "ceterms:name": "TESTING_NOCTI Business Solutions",
+  "ceterms:socialMedia": [
+    "https://www.linkedin.com/company/nocti-business-solutions",
+    "https://www.facebook.com/pages/Nocti-Business-Solutions/217934398414416",
+    "https://www.youtube.com/user/NoctiBusinessMI/about",
+    "https://plus.google.com/u/0/+Noctibusinesssolutions/about"
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+}

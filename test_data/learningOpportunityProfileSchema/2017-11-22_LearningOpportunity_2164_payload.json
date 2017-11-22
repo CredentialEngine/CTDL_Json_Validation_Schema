@@ -8,6 +8,9 @@
       "ceterms:globalJurisdiction": false
     }
   ],
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
+  ],
   "ceterms:codedNotation": "70-560",
   "ceterms:creditUnitType": {
     "@type": "ceterms:CredentialAlignmentObject",

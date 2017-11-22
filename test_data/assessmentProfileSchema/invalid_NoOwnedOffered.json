@@ -2,9 +2,12 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-E47DF383-C5F3-4899-8CC5-EDE828551686",
   "@type": "ceterms:AssessmentProfile",
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
+  ],
   "ceterms:ctid": "ce-E47DF383-C5F3-4899-8CC5-EDE828551686",
   "ceterms:dateEffective": "2014-03-11",
-  "ceterms:description": "These assessment selections are a part of each course syllabus. ",
+  "ceterms:description": "These assessment selections are a part of each course syllabus.",
   "ceterms:estimatedCost": [
     {
       "@type": "ceterms:CostProfile",
@@ -48,10 +51,6 @@
     }
   ],
   "ceterms:name": "TESTING_Bachelor of Science in Cyber Security Exams",
-  "ceterms:ownedBy": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-A4041983-B1AE-4AD4-A43D-284A5B4B2D73"
-    }
-  ],
+
   "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
 }

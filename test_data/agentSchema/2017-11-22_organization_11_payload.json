@@ -72,6 +72,9 @@
   ],
   "ceterms:owns": [
     {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-A75F534F-E59D-4ACB-8E06-1FC4E507F554"
+    },
+    {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-41DB3899-8826-41F6-DCBA-B79A63184EBD"
     },
     {
@@ -94,6 +97,12 @@
     },
     {
       "@id": "http://lr-staging.learningtapestry.com/resources/ce-FF2A1077-3345-DCBA-A90F-13AE8BB2FF80"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-B0FB2C12-2608-491B-8331-702BF6BA5563"
+    },
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-9E7EB78C-B080-4C90-B0E0-F57D18F89646"
     }
   ],
   "ceterms:serviceType": [

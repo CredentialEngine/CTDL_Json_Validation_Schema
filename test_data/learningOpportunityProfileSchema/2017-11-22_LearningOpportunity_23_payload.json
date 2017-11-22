@@ -2,6 +2,9 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-9E7EB78C-B080-4C90-B0E0-F57D18F89646",
   "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
+  ],
   "ceterms:ctid": "ce-9E7EB78C-B080-4C90-B0E0-F57D18F89646",
   "ceterms:dateEffective": "2016-10-12",
   "ceterms:deliveryType": [
@@ -18,7 +21,7 @@
       "ceterms:targetNodeName": "Online Only"
     }
   ],
-  "ceterms:description": "Blended – Meets Weekday Evenings on SMU Main Campus in Dallas; some courses meet online. During the certificate program, you will be working on a real-world website project and will require use of the Adobe Creative Cloud software. Complete these 10 courses to earn your certificate.\n    Introduction to Web Design\n    HTML5 and CSS3 (Level 1)\n    Photoshop Essentials\n    HTML5 and CSS3 (Level 2)\n    Illustrator Essentials\n    Web Graphics and Interface Design\n    Javascript and JQuery\n    Fundamentals of User Interface Design and User Experience\n    Responsive Design\n    Capstone\n",
+  "ceterms:description": "Blended – Meets Weekday Evenings on SMU Main Campus in Dallas; some courses meet online. During the certificate program, you will be working on a real-world website project and will require use of the Adobe Creative Cloud software. Complete these 10 courses to earn your certificate.\n    Introduction to Web Design\n    HTML5 and CSS3 (Level 1)\n    Photoshop Essentials\n    HTML5 and CSS3 (Level 2)\n    Illustrator Essentials\n    Web Graphics and Interface Design\n    Javascript and JQuery\n    Fundamentals of User Interface Design and User Experience\n    Responsive Design\n    Capstone",
   "ceterms:estimatedCost": [
     {
       "@type": "ceterms:CostProfile",

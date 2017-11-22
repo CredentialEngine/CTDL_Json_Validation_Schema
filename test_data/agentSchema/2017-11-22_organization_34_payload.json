@@ -42,7 +42,7 @@
   "ceterms:agentSectorType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:AgentSector",
+      "ceterms:framework": "AgentSector",
       "ceterms:targetNode": "agentSector:Public",
       "ceterms:targetNodeName": "Public"
     }
@@ -50,7 +50,7 @@
   "ceterms:agentType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:OrganizationType",
+      "ceterms:framework": "OrganizationType",
       "ceterms:targetNode": "orgType:Postsecondary",
       "ceterms:targetNodeName": "Postsecondary Educational Institution"
     }

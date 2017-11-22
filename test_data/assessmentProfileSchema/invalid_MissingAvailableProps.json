@@ -1,0 +1,36 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-A75F534F-E59D-4ACB-8E06-1FC4E507F554",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:ctid": "ce-A75F534F-E59D-4ACB-8E06-1FC4E507F554",
+  "ceterms:description": "Missing having one of 'ceterms:availableAt', 'ceterms:availableOnlineAt', or 'ceterms:availabilityListing'.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6251999/",
+          "ceterms:latitude": 60.10867,
+          "ceterms:longitude": -113.64258
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "Testing minimum data of available at",
+  "ceterms:ownedBy": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7fceca4b-722e-4885-b3ae-a9f40504815c"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Certified ISO 31000 Risk Manager Exam Subject"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}

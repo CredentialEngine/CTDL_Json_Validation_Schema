@@ -1,9 +1,0 @@
-{
-  "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-52BF78EC-5BB9-465F-8528-54AF190075A9",
-  "@type": "ceterms:CredentialOrganization",
-  "ceterms:ctid": "ce-52BF78EC-5BB9-465F-8528-54AF190075A9",
-  "ceterms:description": "PTCB advocates for a single national standard for pharmacy technician certification that is recognized and supported by the profession. Establishing a national standard for pharmacy technician certification through PTCB is consistent with the approach used by other health professions, including the pharmacist licensure process.",
-  "ceterms:name": "TESTING_Pharmacy Technician Certification Board",
-  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
-}

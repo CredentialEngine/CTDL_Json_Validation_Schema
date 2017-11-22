@@ -2,6 +2,9 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-C9128CF0-45C2-4097-9957-12B1077C5620",
   "@type": "ceterms:LearningOpportunityProfile",
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
+  ],
   "ceterms:ctid": "ce-C9128CF0-45C2-4097-9957-12B1077C5620",
   "ceterms:dateEffective": "2014-03-11",
   "ceterms:deliveryType": [

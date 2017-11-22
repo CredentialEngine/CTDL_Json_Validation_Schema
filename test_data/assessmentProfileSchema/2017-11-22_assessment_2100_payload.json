@@ -17,7 +17,7 @@
   "ceterms:assessmentMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "AssessmentMethod",
+      "ceterms:framework": "ceterms:AssessmentMethod",
       "ceterms:targetNode": "assessMethod:Artifact",
       "ceterms:targetNodeName": "Artifact"
     },
@@ -34,12 +34,15 @@
       "ceterms:targetNodeName": "Performance"
     }
   ],
+  "ceterms:availableOnlineAt": [
+    "http://example.com?t=AvailableOnlineAt"
+  ],
   "ceterms:ctid": "ce-5CD379ED-1274-4CF4-BBAD-47FAC082C7D1",
   "ceterms:dateEffective": "2012-01-01",
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:framework": "ceterms:Delivery",
       "ceterms:targetNode": "deliveryType:BlendedDelivery",
       "ceterms:targetNodeName": "Blended Delivery"
     },

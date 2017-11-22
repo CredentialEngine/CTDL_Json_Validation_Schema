@@ -2,6 +2,9 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "http://lr-staging.learningtapestry.com/resources/ce-5E2DA3D4-8F6C-49D4-8B46-7C57C56705E6",
   "@type": "ceterms:AssessmentProfile",
+  "ceterms:availabilityListing": [
+    "http://example.com?t=AvailabilityListing"
+  ],
   "ceterms:ctid": "ce-5E2DA3D4-8F6C-49D4-8B46-7C57C56705E6",
   "ceterms:dateEffective": "2014-07-01",
   "ceterms:description": "Four hour, 180 four-option, multiple-choice question examination consisting of 160 scored questions and 20 pretest questions.\nA candidate's score is based on the number of scored questions on the examination. The pretest questions do not affect a candidate's score.",

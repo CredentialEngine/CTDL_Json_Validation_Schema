@@ -50,7 +50,7 @@
   "ceterms:assessmentMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:AssessmentMethod",
+      "ceterms:framework": "AssessmentMethod",
       "ceterms:targetNode": "assessMethod:Performance",
       "ceterms:targetNodeName": "Performance"
     }
@@ -112,7 +112,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "ceterms:Delivery",
+      "ceterms:framework": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }

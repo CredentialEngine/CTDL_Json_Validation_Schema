@@ -55,11 +55,6 @@
       "ceterms:targetNodeName": "Postsecondary Educational Institution"
     }
   ],
-  "ceterms:approves": [
-    {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
-    }
-  ],
   "ceterms:ctid": "ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429",
   "ceterms:description": "The mission of Capella University is to extend access to high quality bachelor's, master's, doctoral, and certificate programs for adults who seek to maximize their personal and professional potential. This mission is fulfilled through innovative programs that are responsive to the needs of adult learners and involve active, engaging, challenging, and relevant learning experiences offered in a variety of delivery modes.",
   "ceterms:duns": "32020245",
