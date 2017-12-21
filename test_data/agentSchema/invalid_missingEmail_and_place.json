@@ -1,0 +1,43 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "http://lr-staging.learningtapestry.com/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateForProfit",
+      "ceterms:targetNodeName": "Private For-Profit"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:CertificationBody",
+      "ceterms:targetNodeName": "Certification Body"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "OrganizationType",
+      "ceterms:targetNode": "orgType:TrainingProvider",
+      "ceterms:targetNodeName": "Education and Training Provider"
+    }
+  ],
+  "ceterms:approves": [
+    {
+      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2513176a-4acd-41fa-aad7-0107eac540f9"
+    }
+  ],
+  "ceterms:ctid": "ce-3CAF00E3-ABAE-1111-98FA-0C2A84753A35",
+  "ceterms:description": "This is a test for certification",
+  "ceterms:duns": "34lk545",
+  "ceterms:fein": "22-6984234",
+  "ceterms:keyword": [
+    "certification",
+    "professional"
+  ],
+  "ceterms:name": "Missing email and address",
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+  ]
+}

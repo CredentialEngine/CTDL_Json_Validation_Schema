@@ -1,0 +1,12 @@
+{
+	"@id": "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1d16a2-4720-11e7-8be9-477a077503f8",
+	"@type": "ceasn:Competency",
+	"@context": "http://credreg.net/ctdlasn/schema/context/json",
+	"ceterms:ctid": "ce-7a54623c-e89b-37ab-9cc2-a7d71c139ba4",
+	"ceasn:isPartOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFDocuments/6b049b04-4720-11e7-8d2d-b41056aae514" ],
+	"ceasn:isChildOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1ce506-4720-11e7-86b8-1efb6ee7440e" ],
+	"ceasn:inLanguage": [ "en" ],
+	"ceasn:codedNotation": "ELAGSE11-12W5",
+	"ceasn:competencyText": { "en-us": "Develop and strengthen writing as needed by planning, revising, editing, rewriting, or trying a new approach, focusing on addressing what is most significant for a specific purpose and audience." },
+	"ceasn:competencyCategory": [ { "en-us": "Standard" } ]
+}

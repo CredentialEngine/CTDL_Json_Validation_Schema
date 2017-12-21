@@ -1,0 +1,12 @@
+{
+	"@id": "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1d5ebe-4720-11e7-ba62-2fe4d48aec50",
+	"@type": "ceasn:Competency",
+	"@context": "http://credreg.net/ctdlasn/schema/context/json",
+	"ceterms:ctid": "ce-e4655b81-26f3-3371-9007-6eb436a226ec",
+	"ceasn:isPartOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFDocuments/6b049b04-4720-11e7-8d2d-b41056aae514" ],
+	"ceasn:isChildOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1d2f5c-4720-11e7-bfa0-28b939e63c8e" ],
+	"ceasn:inLanguage": [ "en" ],
+	"ceasn:codedNotation": "ELAGSE11-12W8",
+	"ceasn:competencyText": { "en-us": "Gather relevant information from multiple authoritative print and digital sources, using advanced searches effectively; assess the strengths and limitations of each source in terms of the task, purpose, and audience; integrate information into the text selectively to maintain the flow of ideas, avoiding plagiarism and overreliance on any one source and following a standard format for citation." },
+	"ceasn:competencyCategory": [ { "en-us": "Standard" } ]
+}

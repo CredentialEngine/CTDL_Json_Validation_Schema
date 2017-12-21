@@ -1,0 +1,12 @@
+{
+	"@id": "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1dc2dc-4720-11e7-a207-c6e6741d044a",
+	"@type": "ceasn:Competency",
+	"@context": "http://credreg.net/ctdlasn/schema/context/json",
+	"ceterms:ctid": "ce-e2f814c1-1d40-3e23-aad3-5dcda0a302d9",
+	"ceasn:isPartOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFDocuments/6b049b04-4720-11e7-8d2d-b41056aae514" ],
+	"ceasn:isChildOf": [ "https://case.georgiastandards.org/ims/case/v1p0/CFItems/6b1da9c8-4720-11e7-91a7-b7a2a81e4e99" ],
+	"ceasn:inLanguage": [ "en" ],
+	"ceasn:codedNotation": "ELSGSE11-12SL2",
+	"ceasn:competencyText": { "en-us": "Integrate multiple sources of information presented in diverse formats and media (e.g., visually, quantitatively, orally) in order to make informed decisions and solve problems, evaluating the credibility and accuracy of each source and noting any discrepancies among the data." },
+	"ceasn:competencyCategory": [ { "en-us": "Standard" } ]
+}
