@@ -1,7 +1,19 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
   "@type": "ceterms:CredentialOrganization",
+  "ceterms:address": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressLocality": "Redmond",
+      "ceterms:addressRegion": "WA",
+      "ceterms:latitude": 47.6393225,
+      "ceterms:longitude": -122.1283833,
+      "ceterms:name": "Home",
+      "ceterms:postalCode": "98052",
+      "ceterms:streetAddress": "1 Microsoft Way"
+    }
+  ],
   "ceterms:agentSectorType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
@@ -26,10 +38,18 @@
   ],
   "ceterms:approves": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2513176a-4acd-41fa-aad7-0107eac540f9"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2513176a-4acd-41fa-aad7-0107eac540f9"
     }
   ],
   "ceterms:ctid": "ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35",
+  "ceterms:department": [
+    {
+      "@type": "ceterms:CredentialOrganization",
+      "ceterms:description": "a test department",
+      "ceterms:name": "Department of Microsoft",
+      "ceterms:subjectWebpage": "http://example.com?t=dept"
+    }
+  ],
   "ceterms:description": "This is a test for certification",
   "ceterms:duns": "34lk545",
   "ceterms:fein": "22-6984234",
@@ -40,7 +60,7 @@
   "ceterms:name": "TESTING_Microsoft",
   "ceterms:offers": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
     }
   ],
   "ceterms:owns": [
@@ -54,13 +74,13 @@
       "@type": "ceterms:AssociateDegree",
       "ceterms:description": "a description",
       "ceterms:name": "TESTING_A license",
-      "ceterms:subjectWebpage": "http://example.com?t=testCredential"
+      "ceterms:subjectWebpage": "http://example.com?t=testCredential1202"
     },
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AC793EBE-98F9-43B4-AB51-29FF122BA11E"
     },
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-34953E31-53CC-4CE9-BB12-0DD1A2549894"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-34953E31-53CC-4CE9-BB12-0DD1A2549894"
     }
   ],
   "ceterms:subjectWebpage": "http://example.com?t=testOrganization",
