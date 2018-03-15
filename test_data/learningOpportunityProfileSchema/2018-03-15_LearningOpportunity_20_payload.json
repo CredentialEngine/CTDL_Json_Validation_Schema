@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-2C68941D-9959-42AE-8E41-AF2CB4C8CBF4",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2C68941D-9959-42AE-8E41-AF2CB4C8CBF4",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availabilityListing": [
     "http://example.com?t=AvailabilityListing"
@@ -10,13 +10,13 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -28,7 +28,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -36,14 +36,12 @@
       "ceterms:costDetails": "http://gateway.kctcs.edu/en/CorporateCollege/Workforce_Solutions.aspx",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "Total course $2300\nNo additional textbook cost\n$195 Lean Six Sigma Yellow Belt Certification Exam (optional)\nSome employers offer scholarships or tuition reimbursement ",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:Tuition",
-          "ceterms:targetNodeName": "Tuition"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:Tuition",
+        "ceterms:targetNodeName": "Tuition"
+      },
       "ceterms:name": "Enhanced Operator Certificate Curriculum Costs",
       "ceterms:price": 2300.00
     }
@@ -51,7 +49,7 @@
   "ceterms:name": "TESTING_TESTING_Enhanced Operator Certificate Curriculum",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
     }
   ],
   "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"

@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availableAt": [
     {
@@ -21,7 +21,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:BlendedDelivery",
       "ceterms:targetNodeName": "Blended Delivery"
     }
@@ -33,14 +33,12 @@
       "ceterms:costDetails": "http://example.com?id=3166",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "lopp2 cost 1__3166",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:EnrollmentFee",
-          "ceterms:targetNodeName": "Enrollment Fee"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:EnrollmentFee",
+        "ceterms:targetNodeName": "Enrollment Fee"
+      },
       "ceterms:name": "lopp2 cost 1",
       "ceterms:price": 1234.00
     }
@@ -57,7 +55,7 @@
   ],
   "ceterms:hasPart": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
     }
   ],
   "ceterms:instructionalProgramType": [
@@ -73,7 +71,7 @@
   "ceterms:name": "TESTING_TESTING_Learning opportunity two - registry testing",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
     }
   ],
   "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"

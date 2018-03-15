@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-9E7EB78C-B080-4C90-B0E0-F57D18F89646",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-9E7EB78C-B080-4C90-B0E0-F57D18F89646",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availabilityListing": [
     "http://example.com?t=AvailabilityListing"
@@ -10,13 +10,13 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -28,7 +28,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -36,20 +36,18 @@
       "ceterms:costDetails": "https://www.smu.edu/CAPE/ProfessionalDevelopment/CertificatePrograms/WebDesign/Enrollment",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "Tuition for the Web Design Certificate Program is $4,395. This includes tuition and access to our online learning system.",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:Tuition",
-          "ceterms:targetNodeName": "Tuition"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:Tuition",
+        "ceterms:targetNodeName": "Tuition"
+      },
       "ceterms:name": "Web Design Certificate Program Cost",
       "ceterms:price": 4645.00,
       "ceterms:residencyType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:InState",
           "ceterms:targetNodeName": "In-State"
         }
@@ -60,7 +58,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -68,20 +66,18 @@
       "ceterms:costDetails": "https://www.smu.edu/CAPE/ProfessionalDevelopment/CertificatePrograms/WebDesign/Enrollment",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "Tuition for the Web Design Certificate Program is $4,395. This includes tuition and access to our online learning system.",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:Application",
-          "ceterms:targetNodeName": "Application"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:Application",
+        "ceterms:targetNodeName": "Application"
+      },
       "ceterms:name": "Web Design Certificate Program Cost",
       "ceterms:price": 50.00,
       "ceterms:residencyType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:InState",
           "ceterms:targetNodeName": "In-State"
         }
@@ -91,7 +87,7 @@
   "ceterms:name": "TESTING_TESTING_Web Design Certificate Program",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-7fceca4b-722e-4885-b3ae-a9f40504815c"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7fceca4b-722e-4885-b3ae-a9f40504815c"
     }
   ],
   "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"

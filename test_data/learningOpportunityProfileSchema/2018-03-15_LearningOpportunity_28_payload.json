@@ -1,27 +1,27 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availabilityListing": [
     "http://example.com?t=AvailabilityListing"
   ],
   "ceterms:commonConditions": [
-    "http://lr-staging.learningtapestry.com/resources/ce-82a21f9d-bb19-497b-9f8f-86ddf83a1df7"
+    "https://sandbox.credentialengineregistry.org/resources/ce-82a21f9d-bb19-497b-9f8f-86ddf83a1df7"
   ],
   "ceterms:commonCosts": [
-    "http://lr-staging.learningtapestry.com/resources/ce-8af74f7f-4d14-4bb2-8ed3-cd1ee0da2ed9"
+    "https://sandbox.credentialengineregistry.org/resources/ce-8af74f7f-4d14-4bb2-8ed3-cd1ee0da2ed9"
   ],
   "ceterms:ctid": "ce-E2C951D9-4C47-4B7E-8B65-CC545D244158",
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -33,7 +33,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -41,14 +41,12 @@
       "ceterms:costDetails": "http://www.phoenix.edu/programs/ge/default/cert-ammd.html",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "There is no application fee.",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:Tuition",
-          "ceterms:targetNodeName": "Tuition"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:Tuition",
+        "ceterms:targetNodeName": "Tuition"
+      },
       "ceterms:name": "Advanced Multimedia Development Certificate",
       "ceterms:price": 11430.00
     },
@@ -57,7 +55,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -65,14 +63,12 @@
       "ceterms:costDetails": "http://www.phoenix.edu/programs/ge/default/cert-ammd.html",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "There is no application fee.",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:LearningResource",
-          "ceterms:targetNodeName": "Learning Resource"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:LearningResource",
+        "ceterms:targetNodeName": "Learning Resource"
+      },
       "ceterms:name": "Advanced Multimedia Development Certificate",
       "ceterms:price": 840.00
     }
@@ -101,32 +97,32 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
         }
       ],
       "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION",
       "ceterms:targetCredential": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-25843D95-13E6-4CF8-B3F3-E5B9DBBEDB10"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-25843D95-13E6-4CF8-B3F3-E5B9DBBEDB10"
         }
       ]
     }
   ],
   "ceterms:isPartOf": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19"
     },
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-73D4131B-FEF0-478F-9870-E21CE67C22F3"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-73D4131B-FEF0-478F-9870-E21CE67C22F3"
     }
   ],
   "ceterms:keyword": [
     "Information Technology"
   ],
-  "ceterms:name": "TESTING_TESTING_Advanced Multimedia Development Certificate",
+  "ceterms:name": "TESTING_Advanced Multimedia Development Certificate",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
     }
   ],
   "ceterms:requires": [
@@ -134,7 +130,7 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AF0B4FB3-59EC-4FE2-9271-EDCCFEC0D429"
         }
       ],
       "ceterms:description": "later",
@@ -152,6 +148,7 @@
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Advanced Multimedia Development Certificate",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-412860FD-777F-4EE6-947C-76D06707E591",
       "ceterms:targetNodeDescription": "The graduate will be able to design, monitor, and performance test relational databases",
       "ceterms:targetNodeName": "learning opp 3 - database design"
     }

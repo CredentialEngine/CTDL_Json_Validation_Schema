@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-624f7432-d05d-496f-a586-f9be3ece63a4",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-624f7432-d05d-496f-a586-f9be3ece63a4",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availableAt": [
     {
@@ -20,7 +20,7 @@
   ],
   "ceterms:creditUnitType": {
     "@type": "ceterms:CredentialAlignmentObject",
-    "ceterms:framework": "CreditUnit",
+    "ceterms:frameworkName": "CreditUnit",
     "ceterms:targetNode": "creditUnit:DegreeCredit",
     "ceterms:targetNodeName": "Degree Credit"
   },
@@ -28,7 +28,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -66,7 +66,7 @@
   "ceterms:learningMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:SelfPaced",
       "ceterms:targetNodeName": "Self Paced"
     }
@@ -74,7 +74,7 @@
   "ceterms:name": "TESTING_TESTING_Test Learning Opportunity - February 2, 2017",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-dbfdd53f-ce22-46fd-abf8-8af3bb28bd53"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-dbfdd53f-ce22-46fd-abf8-8af3bb28bd53"
     }
   ],
   "ceterms:subject": [

@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-A166A3AA-A0F4-4DE3-9006-BD6BC4AF89E1",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-A166A3AA-A0F4-4DE3-9006-BD6BC4AF89E1",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:availabilityListing": [
     "http://example.com?lopp=2100"
@@ -25,15 +25,15 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     }
   ],
   "ceterms:description": "This course introduces students to information technology as a discipline and the various roles and functions of the IT\ndepartment as business support. Students are presented with various IT disciplines including systems and services, network and security, scripting and programming, data management, and business of IT, with a survey of  technologies in every area and how they relate to each other and to the business.\n-roles received",
   "ceterms:isPartOf": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-AEB4D1EA-51B2-4070-A838-EA880A56BE09"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-AEB4D1EA-51B2-4070-A838-EA880A56BE09"
     }
   ],
   "ceterms:keyword": [
@@ -42,43 +42,43 @@
   "ceterms:learningMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Applied",
       "ceterms:targetNodeName": "Applied Instruction"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:ElectronicMediaBased",
       "ceterms:targetNodeName": "Electronic Media Based"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Laboratory",
       "ceterms:targetNodeName": "Laboratory"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Lecture",
       "ceterms:targetNodeName": "Lecture"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:SelfPaced",
       "ceterms:targetNodeName": "Self Paced"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Seminar",
       "ceterms:targetNodeName": "Seminar"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:WorkBased",
       "ceterms:targetNodeName": "Work Based"
     }
@@ -103,51 +103,61 @@
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-5C0B2223-56FA-4BAA-9686-54CB63FD5C36",
       "ceterms:targetNodeName": "The graduate evaluates ethical concerns involved in the use of technology."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-6662477A-1604-401C-9FC9-30A10CC4F686",
       "ceterms:targetNodeName": "The graduate recognizes and describes functions of basic computer hardware components."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-9C492B99-30DB-4833-BF9E-A29260FB094E",
       "ceterms:targetNodeName": "The graduate describes IT as a discipline and discusses the history and future of computing as well as the currently used infrastructure."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-46BC5160-948A-4295-9E44-EC94196A1D8D",
       "ceterms:targetNodeName": "The graduate explains the structure and function of databases."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-DE1B4CA1-9D26-46E0-B8B1-726E334E27B7",
       "ceterms:targetNodeName": "The graduate describes information technology systems and their role in converting data to organizational knowledge."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-394F72FA-F4F3-496D-BC09-602251E1D2C7",
       "ceterms:targetNodeName": "The graduate identifies the role of different types of software in a computing environment and explains the fundamentals of software development."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-2CDE8400-A41A-48A2-8C3C-504A227A4E97",
       "ceterms:targetNodeName": "The graduate describes the structure, function, and security associated with networks."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-3A407D92-FA8E-436D-B494-CE3FD1599145",
       "ceterms:targetNodeName": "The graduate identifies common software architectures, development techniques, and the relationship between software and its environment."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-43774D3A-92EA-4965-8C92-C768DCE72DAE",
       "ceterms:targetNodeName": "The graduate explains the role of technology in today’s business environment and describes basic concepts of project management."
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Bachelor of Science in Information Technology - Introduction to IT",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-083E6AED-4EF3-4D37-A203-A1853C210E33",
       "ceterms:targetNodeName": "The graduate recommends appropriate strategies for classifying, installing, configuring, optimizing, upgrading, and troubleshooting printers."
     }
   ]

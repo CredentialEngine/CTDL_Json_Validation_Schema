@@ -1,10 +1,10 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2737EF7F-FD34-48AE-9698-9B5F06573C19",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:approvedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F"
     }
   ],
   "ceterms:availabilityListing": [
@@ -64,15 +64,15 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:BlendedDelivery",
       "ceterms:targetNodeName": "Blended Delivery"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     }
   ],
   "ceterms:description": "later\nCharter Oak state\nupdate",
@@ -82,32 +82,30 @@
       "ceterms:costDetails": "http://example.com?id=15",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "Western Governor Bachelor Degree in IT Tuition__15",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:EnrollmentFee",
-          "ceterms:targetNodeName": "Enrollment Fee"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:EnrollmentFee",
+        "ceterms:targetNodeName": "Enrollment Fee"
+      },
       "ceterms:name": "Western Governor Bachelor Degree in IT Tuition",
       "ceterms:price": 136.99,
       "ceterms:residencyType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:InState",
           "ceterms:targetNodeName": "In-State"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:Local",
           "ceterms:targetNodeName": "Local"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:OutOfState",
           "ceterms:targetNodeName": "Out-of-State"
         }
@@ -116,7 +114,7 @@
   ],
   "ceterms:hasPart": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
     }
   ],
   "ceterms:instructionalProgramType": [
@@ -155,7 +153,7 @@
   ],
   "ceterms:isPartOf": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8F99BF6E-D02E-4E6F-B34D-2369DD465E87"
     }
   ],
   "ceterms:jurisdiction": [
@@ -211,7 +209,7 @@
   "ceterms:name": "TESTING_TESTING_zzz Learning opportunity one update - 17-03-16a",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
     }
   ],
   "ceterms:recommends": [
@@ -226,7 +224,7 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
         }
       ],
       "ceterms:dateEffective": "2011-11-11",
@@ -240,7 +238,7 @@
           "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
         },
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-42316834-77EE-41FE-A06F-AC5608179A5D"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-42316834-77EE-41FE-A06F-AC5608179A5D"
         }
       ]
     },
@@ -248,7 +246,7 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
         }
       ],
       "ceterms:dateEffective": "2011-11-12",
@@ -266,33 +264,5 @@
       "ceterms:targetNodeName": "Testing"
     }
   ],
-  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity",
-  "ceterms:teaches": [
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": "zzz Learning opportunity one update",
-      "ceterms:targetNode": "http://COMP.COM",
-      "ceterms:targetNodeDescription": "tbd",
-      "ceterms:targetNodeName": "l opp 1 competency"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": "zzz Learning opportunity one update",
-      "ceterms:targetNodeDescription": "later ",
-      "ceterms:targetNodeName": "LO1 competency taught"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": "zzz Learning opportunity one update",
-      "ceterms:targetNodeDescription": "testing the description",
-      "ceterms:targetNodeName": "competency test"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": "zzz Learning opportunity one update",
-      "ceterms:targetNode": "http://www.competency.org/123456",
-      "ceterms:targetNodeDescription": "new competency description",
-      "ceterms:targetNodeName": "my competency name"
-    }
-  ]
+  "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
 }

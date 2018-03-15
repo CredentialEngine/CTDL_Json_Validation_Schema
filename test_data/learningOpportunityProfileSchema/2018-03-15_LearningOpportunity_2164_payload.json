@@ -1,6 +1,6 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-34953E31-53CC-4CE9-BB12-0DD1A2549894",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-34953E31-53CC-4CE9-BB12-0DD1A2549894",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:accreditedIn": [
     {
@@ -14,7 +14,7 @@
   "ceterms:codedNotation": "70-560",
   "ceterms:creditUnitType": {
     "@type": "ceterms:CredentialAlignmentObject",
-    "ceterms:framework": "CreditUnit",
+    "ceterms:frameworkName": "CreditUnit",
     "ceterms:targetNode": "creditUnit:CertificateCredit",
     "ceterms:targetNodeName": "Certificate Credit"
   },
@@ -22,13 +22,13 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:InPerson",
-      "ceterms:targetNodeName": "In-Person"
+      "ceterms:targetNodeName": "In-Person Only"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -53,7 +53,7 @@
   "ceterms:name": "TESTING_TESTING_microsoft virtual academy",
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35"
     }
   ],
   "ceterms:requires": [
@@ -61,13 +61,13 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3CAF00E3-ABAE-43FD-98FA-0C2A84753A35"
         }
       ],
       "ceterms:audienceLevelType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "AudienceLevel",
+          "ceterms:frameworkName": "AudienceLevel",
           "ceterms:targetNode": "audLevel:BachelorsDegreeLevel",
           "ceterms:targetNodeName": "Bachelors Degree Level"
         }
@@ -87,6 +87,7 @@
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Microsoft Network Certifications ",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-ACFBAB7B-7BDA-4655-98CC-1D4107D48288",
       "ceterms:targetNodeDescription": "this is a test",
       "ceterms:targetNodeName": "Com1"
     }

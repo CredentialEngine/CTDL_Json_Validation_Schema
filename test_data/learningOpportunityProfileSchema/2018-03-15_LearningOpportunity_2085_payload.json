@@ -1,15 +1,15 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-D859A7E1-2900-40EC-A178-A1396E4F984E",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-D859A7E1-2900-40EC-A178-A1396E4F984E",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:accreditedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-141693CA-90E1-4749-820E-94F6C9A0A6DD"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-141693CA-90E1-4749-820E-94F6C9A0A6DD"
     }
   ],
   "ceterms:approvedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-141693CA-90E1-4749-820E-94F6C9A0A6DD"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-141693CA-90E1-4749-820E-94F6C9A0A6DD"
     }
   ],
   "ceterms:availabilityListing": [
@@ -24,13 +24,13 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:BlendedDelivery",
       "ceterms:targetNodeName": "Blended Delivery"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -42,7 +42,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -50,14 +50,12 @@
       "ceterms:costDetails": "http://www.ctitest.siuccwd.com",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "costs for external individuals",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:Application",
-          "ceterms:targetNodeName": "Application"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:Application",
+        "ceterms:targetNodeName": "Application"
+      },
       "ceterms:endDate": "2021-01-01",
       "ceterms:jurisdiction": [
         {
@@ -83,7 +81,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:PublicEmployee",
           "ceterms:targetNodeName": "Public Employee"
         }
@@ -91,14 +89,12 @@
       "ceterms:costDetails": "http://www.ctitest.siuccwd.com",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "costs for external individuals",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:LearningResource",
-          "ceterms:targetNodeName": "Learning Resource"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:LearningResource",
+        "ceterms:targetNodeName": "Learning Resource"
+      },
       "ceterms:endDate": "2021-01-01",
       "ceterms:jurisdiction": [
         {
@@ -120,13 +116,13 @@
       "ceterms:residencyType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:InState",
           "ceterms:targetNodeName": "In-State"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:Local",
           "ceterms:targetNodeName": "Local"
         }
@@ -138,7 +134,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:PublicEmployee",
           "ceterms:targetNodeName": "Public Employee"
         }
@@ -146,14 +142,12 @@
       "ceterms:costDetails": "http://www.ctitest.siuccwd.com",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "Cost to employers who send 10 or more employees through the program in a single semester",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:AggregateCost",
-          "ceterms:targetNodeName": "Aggregate Cost"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:AggregateCost",
+        "ceterms:targetNodeName": "Aggregate Cost"
+      },
       "ceterms:endDate": "2018-01-01",
       "ceterms:jurisdiction": [
         {
@@ -195,19 +189,19 @@
       "ceterms:residencyType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:International",
           "ceterms:targetNodeName": "Foreign/International"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:InState",
           "ceterms:targetNodeName": "In-State"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Residency",
+          "ceterms:frameworkName": "Residency",
           "ceterms:targetNode": "residency:OutOfState",
           "ceterms:targetNodeName": "Out-of-State"
         }
@@ -290,7 +284,7 @@
   ],
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-A4041983-B1AE-4AD4-A43D-284A5B4B2D73"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-A4041983-B1AE-4AD4-A43D-284A5B4B2D73"
     }
   ],
   "ceterms:requires": [
@@ -299,7 +293,7 @@
       "ceterms:audienceLevelType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "AudienceLevel",
+          "ceterms:frameworkName": "AudienceLevel",
           "ceterms:targetNode": "audLevel:SecondaryLevel",
           "ceterms:targetNodeName": "Secondary School or Equivalent"
         }
@@ -320,22 +314,9 @@
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:framework": "http://www.name.com",
       "ceterms:frameworkName": "learning opp taught competency name",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-0EEB3242-8FF0-41CB-900D-52E2C8B4F827",
       "ceterms:targetNodeDescription": "comp desc",
       "ceterms:targetNodeName": "competency name"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "http://learnopp.com",
-      "ceterms:frameworkName": "learning opp required competency framework name",
-      "ceterms:targetNodeDescription": "req comp 1 desc",
-      "ceterms:targetNodeName": "required competency 1 name"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "http://learnopp.com",
-      "ceterms:frameworkName": "learning opp required competency framework name",
-      "ceterms:targetNodeDescription": "req desc",
-      "ceterms:targetNodeName": "req comp 2"
     }
   ]
 }

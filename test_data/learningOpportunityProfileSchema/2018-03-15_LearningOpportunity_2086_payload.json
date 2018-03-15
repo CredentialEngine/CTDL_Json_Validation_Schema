@@ -1,13 +1,13 @@
 {
   "@context": "http://credreg.net/ctdl/schema/context/json",
-  "@id": "http://lr-staging.learningtapestry.com/resources/ce-73D4131B-FEF0-478F-9870-E21CE67C22F3",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-73D4131B-FEF0-478F-9870-E21CE67C22F3",
   "@type": "ceterms:LearningOpportunityProfile",
   "ceterms:accreditedIn": [
     {
       "@type": "ceterms:JurisdictionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
         }
       ],
       "ceterms:description": "LOPP-JA",
@@ -35,28 +35,28 @@
     }
   ],
   "ceterms:commonCosts": [
-    "http://lr-staging.learningtapestry.com/resources/ce-bf427786-e7e3-44b8-92b0-6603b3b0b8e3"
+    "https://sandbox.credentialengineregistry.org/resources/ce-bf427786-e7e3-44b8-92b0-6603b3b0b8e3"
   ],
   "ceterms:corequisite": [
     {
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
         }
       ],
       "ceterms:description": "LOPP CORQ",
       "ceterms:name": "Associate Safety Professional (ASP)",
       "ceterms:targetCredential": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-C1835D19-12FB-4052-DCBA-FC568BB34B54"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-C1835D19-12FB-4052-DCBA-FC568BB34B54"
         }
       ]
     }
   ],
   "ceterms:creditUnitType": {
     "@type": "ceterms:CredentialAlignmentObject",
-    "ceterms:framework": "CreditUnit",
+    "ceterms:frameworkName": "CreditUnit",
     "ceterms:targetNode": "creditUnit:ContinuingEducationUnit",
     "ceterms:targetNodeName": "Continuing Education Unit"
   },
@@ -64,7 +64,7 @@
   "ceterms:deliveryType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "Delivery",
+      "ceterms:frameworkName": "Delivery",
       "ceterms:targetNode": "deliveryType:OnlineOnly",
       "ceterms:targetNodeName": "Online Only"
     }
@@ -76,7 +76,7 @@
       "ceterms:audienceType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "Audience",
+          "ceterms:frameworkName": "Audience",
           "ceterms:targetNode": "audience:Citizen",
           "ceterms:targetNodeName": "Citizen"
         }
@@ -84,14 +84,12 @@
       "ceterms:costDetails": "http://www.astm.org/Standards/E2659.htm",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "pdf, 6 page booklet on standard practice",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:LearningResource",
-          "ceterms:targetNodeName": "Learning Resource"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:LearningResource",
+        "ceterms:targetNodeName": "Learning Resource"
+      },
       "ceterms:name": "Learning opportunity standard costs",
       "ceterms:price": 44.00
     },
@@ -100,14 +98,12 @@
       "ceterms:costDetails": "http://www.astm.org/Standards/E2659.htm",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "pdf, 6 page booklet on standard practice",
-      "ceterms:directCostType": [
-        {
-          "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "CostType",
-          "ceterms:targetNode": "costType:BackgroundCheck",
-          "ceterms:targetNodeName": "Background Check"
-        }
-      ],
+      "ceterms:directCostType": {
+        "@type": "ceterms:CredentialAlignmentObject",
+        "ceterms:frameworkName": "CostType",
+        "ceterms:targetNode": "costType:BackgroundCheck",
+        "ceterms:targetNodeName": "Background Check"
+      },
       "ceterms:name": "Learning opportunity standard costs",
       "ceterms:price": 99.00
     }
@@ -121,11 +117,10 @@
   ],
   "ceterms:hasPart": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
     }
   ],
   "ceterms:inLanguage": [
-    "French",
     "French"
   ],
   "ceterms:instructionalProgramType": [
@@ -160,7 +155,7 @@
       "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
     },
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-3c6dccc7-9fc2-4c8b-9d22-b23595568c98"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3c6dccc7-9fc2-4c8b-9d22-b23595568c98"
     }
   ],
   "ceterms:keyword": [
@@ -170,30 +165,30 @@
   "ceterms:learningMethodType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Applied",
       "ceterms:targetNodeName": "Applied Instruction"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:ElectronicMediaBased",
       "ceterms:targetNodeName": "Electronic Media Based"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:Laboratory",
       "ceterms:targetNodeName": "Laboratory"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:framework": "LearningMethod",
+      "ceterms:frameworkName": "LearningMethod",
       "ceterms:targetNode": "learnMethod:SelfPaced",
       "ceterms:targetNodeName": "Self Paced"
     }
   ],
-  "ceterms:name": "TESTING_TESTING_Active Standard ASTM E2659",
+  "ceterms:name": "TESTING_Active Standard ASTM E2659",
   "ceterms:offeredBy": [
     {
       "@type": "ceterms:CredentialOrganization",
@@ -207,7 +202,7 @@
       "@type": "ceterms:JurisdictionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
         }
       ],
       "ceterms:description": "LOPP-JA",
@@ -224,7 +219,7 @@
   ],
   "ceterms:ownedBy": [
     {
-      "@id": "http://lr-staging.learningtapestry.com/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
     }
   ],
   "ceterms:preparationFrom": [
@@ -232,7 +227,7 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
         }
       ],
       "ceterms:description": "PLEASE PROVIDE A VALID DESCRIPTION"
@@ -243,7 +238,7 @@
       "@type": "ceterms:JurisdictionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
         }
       ],
       "ceterms:description": "LOPP-JA",
@@ -263,25 +258,25 @@
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
-          "@id": "http://lr-staging.learningtapestry.com/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
         }
       ],
       "ceterms:audienceLevelType": [
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "AudienceLevel",
+          "ceterms:frameworkName": "AudienceLevel",
           "ceterms:targetNode": "audLevel:BeginnerLevel",
           "ceterms:targetNodeName": "Beginner Level"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "AudienceLevel",
+          "ceterms:frameworkName": "AudienceLevel",
           "ceterms:targetNode": "audLevel:IntermediateLevel",
           "ceterms:targetNodeName": "Intermediate Level"
         },
         {
           "@type": "ceterms:CredentialAlignmentObject",
-          "ceterms:framework": "AudienceLevel",
+          "ceterms:frameworkName": "AudienceLevel",
           "ceterms:targetNode": "audLevel:AdvancedLevel",
           "ceterms:targetNodeName": "Advanced Level"
         }
@@ -306,76 +301,26 @@
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:codedNotation": "tf1 - c1",
       "ceterms:frameworkName": "Taught Frameworks One",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-91E13C43-9482-40C0-A46C-43968F93EEDE",
       "ceterms:targetNodeName": "Taught Frameworks One - Competency One"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Taught Frameworks One",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-A4A9FDAA-9A50-4D60-802C-BE483F47DEE6",
       "ceterms:targetNodeName": "Taught Frameworks One - Competency Two"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Taught Frameworks One",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-8E4F6463-8E91-4099-A2B2-144DF08D5156",
       "ceterms:targetNodeName": "Taught Frameworks One - Competency Three"
     },
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:frameworkName": "Taught Frameworks One",
+      "ceterms:targetNode": "https://sandbox.credentialengineregistry.org/resources/ce-5D757D6D-C62E-45B6-BFA8-19C7691C71CB",
       "ceterms:targetNodeName": "Taught Frameworks One - Competency Four"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNodeDescription": "this is the description of a required competency",
-      "ceterms:targetNodeName": "required competency name"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNodeDescription": "this is the description of a taught competency",
-      "ceterms:targetNodeName": "taught competency name"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNode": "http://www.competencyurltest.com",
-      "ceterms:targetNodeDescription": "this competency has a URL",
-      "ceterms:targetNodeName": "referenced competency"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNodeName": "name-only competency"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNodeName": "description-only competency"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:frameworkName": " Active Standard ASTM E2659",
-      "ceterms:targetNode": "http://www.name_url-only-competency.org",
-      "ceterms:targetNodeName": "name and url only"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": "f1-c1",
-      "ceterms:frameworkName": "Required Frameworks One",
-      "ceterms:targetNodeDescription": "f1 - c1 - desc",
-      "ceterms:targetNodeName": "Required Frameworks One - Competency One"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": "RF1-c2",
-      "ceterms:frameworkName": "Required Frameworks One",
-      "ceterms:targetNodeName": "Required Frameworks One - Competency Two"
-    },
-    {
-      "@type": "ceterms:CredentialAlignmentObject",
-      "ceterms:codedNotation": "RF1-C3",
-      "ceterms:frameworkName": "Required Frameworks One",
-      "ceterms:targetNodeName": "Required Frameworks One - Competency Three"
     }
   ]
 }
