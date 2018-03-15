@@ -98,11 +98,8 @@
           "@type": "ceterms:CostProfile",
           "ceterms:costDetails": "http://example.com",
           "ceterms:currency": "US Dollar",
-          "ceterms:description": "*** COST PROFILE DESCRIPTION MISSING ***",
-          "ceterms:directCostType": {
-            "@type": "ceterms:CredentialAlignmentObject"
-          },
-          "ceterms:name": "vs costs"
+          "ceterms:description": "description of a cost profile for a verification service.",
+          "ceterms:name": "verification costs"
         }
       ],
       "ceterms:holderMustAuthorize": false

@@ -1,0 +1,231 @@
+{
+  "@graph": [
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/2b0b0f0e-aa2f-4bc8-b5b3-f17a92c70cc6/1519585922151",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-2B0B0F0E-AA2F-4BC8-B5B3-F17A92C70CC6"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-15d5e83e-fd76-39a6-aa20-90dbc894f265",
+      "ceasn:competencyText": {
+        "en-us": "Electricity"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/7c51a78f-5790-495f-9b92-19e9c9264e62/1519330927765",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-7C51A78F-5790-495F-9B92-19E9C9264E62"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-754b6b9c-673b-3959-b688-656a5186c296",
+      "ceasn:competencyText": {
+        "en-us": "Fluid Power"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/05df1dce-2ec2-45ef-a5eb-20d53c55085f/1519330928414",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-05DF1DCE-2EC2-45EF-A5EB-20D53C55085F"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-c4b638fc-605c-3514-9a51-0982359fbb4e",
+      "ceasn:competencyText": {
+        "en-us": "Motor Controls"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f49bb8f3-528e-4c64-9377-2f21043a95cb/1519330928993",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-F49BB8F3-528E-4C64-9377-2F21043A95CB"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-915d73c2-7a06-3548-8783-d5e718f4cb9a",
+      "ceasn:competencyText": {
+        "en-us": "Maintaining Industrial Equipment"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/8a3bd7a7-e7ff-4a01-a135-7e44fe941ca2/1519330929571",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-8A3BD7A7-E7FF-4A01-A135-7E44FE941CA2"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-c4609440-2576-3f14-89e2-fa9ca90d1489",
+      "ceasn:competencyText": {
+        "en-us": "PLCs"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/9779bdaa-92c6-4093-b073-a3f16b4fcc25/1519330930492",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-9779BDAA-92C6-4093-B073-A3F16B4FCC25"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-a20905d8-f78f-3846-87e4-5f9894856945",
+      "ceasn:competencyText": {
+        "en-us": "Welding"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/afa8be6e-e7b3-4d5b-93c7-48d6a2d2bf74/1519330931086",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-AFA8BE6E-E7B3-4D5B-93C7-48D6A2D2BF74"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-cf4c5bc3-c149-3d35-8ec8-ccfaa0f7ae53",
+      "ceasn:competencyText": {
+        "en-us": "Machining"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/96f13c93-ea48-42ab-bbe2-a8a8e74b67aa/1519330931697",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-96F13C93-EA48-42AB-BBE2-A8A8E74B67AA"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-90728ef2-794e-3c7e-997b-0e1925086452",
+      "ceasn:competencyText": {
+        "en-us": "Drawings"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f374cb30-520a-43cd-a002-ada6c208787a/1519330932320",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-F374CB30-520A-43CD-A002-ADA6C208787A"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-496d4859-b751-3eb8-bbd0-cac95563fc6f",
+      "ceasn:competencyText": {
+        "en-us": "System Trouble Shooting"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "@type": "ceasn:Competency",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f42a2ff7-b60c-4862-b550-17db5e2ec102/1519330932945",
+      "ceasn:isChildOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceasn:exactMatch": [
+        "http://credentialengineregistry.org/resources/ce-F42A2FF7-B60C-4862-B550-17DB5E2EC102"
+      ],
+      "ceasn:isPartOf": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+      ],
+      "ceterms:ctid": "ce-919cc61d-e832-3ee6-9cd0-362cd85aa343",
+      "ceasn:competencyText": {
+        "en-us": "Robotics"
+      },
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    },
+    {
+      "ceasn:name": {
+        "en-us": "Advanced Manufacturing Technician Associate in Applied Science Degree Program"
+      },
+      "@type": "ceasn:CompetencyFramework",
+      "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138",
+      "ceasn:hasTopChild": [
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/2b0b0f0e-aa2f-4bc8-b5b3-f17a92c70cc6/1519585922151",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/7c51a78f-5790-495f-9b92-19e9c9264e62/1519330927765",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/05df1dce-2ec2-45ef-a5eb-20d53c55085f/1519330928414",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f49bb8f3-528e-4c64-9377-2f21043a95cb/1519330928993",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/8a3bd7a7-e7ff-4a01-a135-7e44fe941ca2/1519330929571",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/9779bdaa-92c6-4093-b073-a3f16b4fcc25/1519330930492",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/afa8be6e-e7b3-4d5b-93c7-48d6a2d2bf74/1519330931086",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/96f13c93-ea48-42ab-bbe2-a8a8e74b67aa/1519330931697",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f374cb30-520a-43cd-a002-ada6c208787a/1519330932320",
+        "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/f42a2ff7-b60c-4862-b550-17db5e2ec102/1519330932945"
+      ],
+      "ceasn:description": {
+        "en-us": "Advanced Manufacturing Technician Associate in Applied Science Degree Program"
+      },
+      "ceterms:ctid": "ce-692e4808-36be-3dc3-ae0a-a8e5707d944b",
+      "ceasn:inLanguage": [
+        "en"
+      ]
+    }
+  ],
+  "@context": "http://credreg.net/ctdlasn/schema/context/json"
+}

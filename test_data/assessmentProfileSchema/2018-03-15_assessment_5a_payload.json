@@ -14,9 +14,6 @@
       "ceterms:costDetails": "http://example.com?id=26",
       "ceterms:currency": "US Dollar",
       "ceterms:description": "3 x each year (Spring, Fall, Summer)",
-      "ceterms:directCostType": {
-        "@type": "ceterms:CredentialAlignmentObject"
-      },
       "ceterms:name": "Bachelor of Science in Cyber Security Exam"
     }
   ],

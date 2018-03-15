@@ -1,0 +1,550 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:accreditedIn": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ],
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6065171/",
+          "ceterms:latitude": 55.00019,
+          "ceterms:longitude": -97.00049,
+          "ceterms:name": "Manitoba"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6251999/",
+          "ceterms:latitude": 60.10867,
+          "ceterms:longitude": -113.64258
+        }
+      ]
+    }
+  ],
+  "ceterms:advancedStandingFrom": [
+    {
+      "@type": "ceterms:ConditionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+        }
+      ],
+      "ceterms:description": "This is a test. This is a test this is a test.",
+      "ceterms:targetCredential": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7533F794-87D4-4268-8F14-A8ED7B402AC0"
+        }
+      ]
+    }
+  ],
+  "ceterms:approvedIn": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:assertedBy": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ],
+      "ceterms:jurisdictionException": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6065171/",
+          "ceterms:latitude": 55.00019,
+          "ceterms:longitude": -97.00049,
+          "ceterms:name": "Manitoba"
+        }
+      ],
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6251999/",
+          "ceterms:latitude": 60.10867,
+          "ceterms:longitude": -113.64258
+        }
+      ]
+    }
+  ],
+  "ceterms:assesses": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/3b4b164f-75d9-469a-a539-b13591779e56/1495042571780",
+      "ceterms:targetNodeDescription": "Limit tardiness, early departures, and absences to legitimate and essential occasions",
+      "ceterms:targetNodeName": "Attendance "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/98b6d88a-670d-43d7-a5e0-64a6a3038a50/1495042572337",
+      "ceterms:targetNodeDescription": "Explain the importance of satisfactory attendance to the overall operation of the business",
+      "ceterms:targetNodeName": "Attendance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/4e3408c2-9f3e-45cf-8a62-6f557ff4742c/1495042572910",
+      "ceterms:targetNodeDescription": "Negotiate anticipated absences according to company policy",
+      "ceterms:targetNodeName": "Attendance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f044c368-c3db-4491-8fd0-e3673c857ea8/1495042573478",
+      "ceterms:targetNodeDescription": "Call in to notify the supervisor of unanticipated absences",
+      "ceterms:targetNodeName": "Attendance"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/544d08ef-782a-465f-af57-cfe480261497/1495042574044",
+      "ceterms:targetNodeDescription": "Attend team meetings, focus on the topic/purpose, offer facts and ideas, and help others to contribute",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/7a86edaa-df60-4876-b657-49ff92e48e35/1495042574607",
+      "ceterms:targetNodeDescription": "Look for ways to help others",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/866383fb-09be-43b4-a85c-794cdee394f1/1495042575209",
+      "ceterms:targetNodeDescription": "Recognize others for their contributions",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/a761222e-3d50-4e25-8fa9-83fadaf5b237/1495042575771",
+      "ceterms:targetNodeDescription": "Let others know what is needed to get the job done",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/5e3ad6b9-7449-4d77-b76c-8d42a74dd948/1495042576328",
+      "ceterms:targetNodeDescription": "Provide clear documentation of assignments, goals, and timelines",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d4a5487f-1586-4dfb-a6cf-2fec9c46b0df/1495042576906",
+      "ceterms:targetNodeDescription": "Explain the importance of teamwork to the overall operation of the business",
+      "ceterms:targetNodeName": "Collaboration"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f70afef7-d029-4153-9552-824f61db49be/1495042556551",
+      "ceterms:targetNodeDescription": "Utilize word processing, spreadsheet, and database software",
+      "ceterms:targetNodeName": "Computer Literacy "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/50bc0320-169c-4e8b-8aa0-5a1356c03223/1495042557172",
+      "ceterms:targetNodeDescription": "Transfer the operating principles of one application to another similar application",
+      "ceterms:targetNodeName": "Computer Literacy "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/05db39a6-95bc-45ad-822a-f8e7541336a6/1495042557768",
+      "ceterms:targetNodeDescription": "Use the knowledge of computer logic, operating systems, and basic troubleshooting techniques ",
+      "ceterms:targetNodeName": "Computer Literacy "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/c0a81732-a665-45ac-981c-17de7d79a820/1495042566998",
+      "ceterms:targetNodeDescription": "Work without constant supervision",
+      "ceterms:targetNodeName": "Independence and Initiative "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/50193b0d-f914-40bf-bf3e-7246152df068/1495042567560",
+      "ceterms:targetNodeDescription": "Exhibit willingness to learn",
+      "ceterms:targetNodeName": "Independence and Initiative "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/2fe0ef93-6b00-4885-8527-10fd8eb5998d/1495042568159",
+      "ceterms:targetNodeDescription": "Find tasks to perform on one’s own",
+      "ceterms:targetNodeName": "Independence and Initiative"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/c11471c1-0903-42ba-ad49-d0ba6934c2ad/1495042568786",
+      "ceterms:targetNodeDescription": "Exhibit interest in making the organization more effective and productive",
+      "ceterms:targetNodeName": "Independence and Initiative"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/904ce56d-f875-4da5-83f4-9b09e96e3b8f/1495042569392",
+      "ceterms:targetNodeDescription": "Maintain work standards in the midst of change ",
+      "ceterms:targetNodeName": "Independence and Initiative"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/eb4f7a93-0c16-471b-9a74-259a0a6c77c5/1495042549560",
+      "ceterms:targetNodeDescription": "Use mathematical reasoning to solve word problems and interpret graphics ",
+      "ceterms:targetNodeName": "Math Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/42259b8f-7229-4f49-bf28-2710a36e2e20/1495042550128",
+      "ceterms:targetNodeDescription": "Use algebra-based formulas",
+      "ceterms:targetNodeName": "Math Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/cc794fc1-ec10-4f00-b2b8-1cb5aa980588/1495042565236",
+      "ceterms:targetNodeDescription": "Cooperate in a pleasant and polite manner with clients, coworkers, and supervisors ",
+      "ceterms:targetNodeName": "Positive Attitude"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f674edf7-597c-43b7-b1d5-9d0c22216b72/1495042565828",
+      "ceterms:targetNodeDescription": "Exhibit flexibility and adaptability ",
+      "ceterms:targetNodeName": "Positive Attitude"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/7063d559-ca05-4e71-a183-2cf9a97c433e/1495042566422",
+      "ceterms:targetNodeDescription": "Take directions willingly ",
+      "ceterms:targetNodeName": "Positive Attitude"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/ac3f7d31-cd8c-45ec-a595-f6f291972b0a/1495042558346",
+      "ceterms:targetNodeDescription": "Differentiate among types of problems (technical, human relations, ethical) ",
+      "ceterms:targetNodeName": "Reasoning, Problem-Solving, and Decision Making "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/e7a65a30-935b-4cd5-b042-8f3eb76f90f0/1495042558921",
+      "ceterms:targetNodeDescription": " Use established methods of problem-solving and decision-making in individual and  group settings ",
+      "ceterms:targetNodeName": "Reasoning, Problem-Solving, and Decision Making"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/748c3c96-8556-4aa6-836a-97cb394081f7/1495042559496",
+      "ceterms:targetNodeDescription": "Apply previous learning to situations where problems must be solved or decisions made quickly ",
+      "ceterms:targetNodeName": "Reasoning, Problem-Solving, and Decision Making "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d09276d1-db50-43df-bc25-f19204741d2d/1495042560069",
+      "ceterms:targetNodeDescription": "Test solutions or decisions to determine effects or to identify related problems",
+      "ceterms:targetNodeName": "Reasoning, Problem-Solving, and Decision Making "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d051042e-0c46-464d-8865-556171fdceb7/1495042569952",
+      "ceterms:targetNodeDescription": "Identify ways in which the individual employee represents the organization",
+      "ceterms:targetNodeName": "Self-Presentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/a8595976-b43e-417f-a878-be1d44f80b64/1495042570564",
+      "ceterms:targetNodeDescription": "Exhibit a neat appearance",
+      "ceterms:targetNodeName": "Self-Presentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/ba75159a-141d-46fe-a203-0dbcc4cf4996/1495042571177",
+      "ceterms:targetNodeDescription": "Exhibit elements required in professional settings",
+      "ceterms:targetNodeName": "Self-Presentation"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/a1e1a7ab-1b11-4171-9387-e76d9a1a33fd/1495042553620",
+      "ceterms:targetNodeDescription": "Use effective communication skills ",
+      "ceterms:targetNodeName": "Speaking and Listening Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/6b5cc611-bd86-44de-b4bf-b0a4fb16be20/1495042554207",
+      "ceterms:targetNodeDescription": "Provide and comprehend directions or instructions",
+      "ceterms:targetNodeName": "Speaking and Listening Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/1e1fda33-97af-49a9-aed3-aecb427fc3fc/1495042554798",
+      "ceterms:targetNodeDescription": "Give and respond to oral reports or presentations",
+      "ceterms:targetNodeName": "Speaking and Listening Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/ffc5a0b7-8022-4b66-8679-0fdda8d5c891/1495042555409",
+      "ceterms:targetNodeDescription": "Participate in group or team discussions ",
+      "ceterms:targetNodeName": "Speaking and Listening Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/fc73f1fd-243a-4d84-8b71-42728da676c7/1495042555987",
+      "ceterms:targetNodeDescription": "Engage in conversations with coworkers, supervisors, and clients ",
+      "ceterms:targetNodeName": "Speaking and Listening Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d053987a-a0f5-4fa0-b748-87efecd19da1/1495042562964",
+      "ceterms:targetNodeDescription": "Explain basic economic concepts ",
+      "ceterms:targetNodeName": "Understanding the “Big Picture” "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d2e734f6-0745-4b5b-83bc-dc081da5f351/1495042560661",
+      "ceterms:targetNodeDescription": "Identify the company’s mission and the individual employee’s contribution to that mission ",
+      "ceterms:targetNodeName": "Understanding the “Big Picture”"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/c8c29b4f-9d58-4bfc-b712-86ba776acce8/1495042561242",
+      "ceterms:targetNodeDescription": "Identify how the company functions within the broad world of business, industry, and service ",
+      "ceterms:targetNodeName": "Understanding the “Big Picture” "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/dd6698a9-a1e6-4df6-a181-6a95ee4156de/1495042561824",
+      "ceterms:targetNodeDescription": "Interpret organizational policies and procedures",
+      "ceterms:targetNodeName": "Understanding the “Big Picture” "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f302d744-0a4e-42b2-8499-ec5b3bd7e959/1495042563533",
+      "ceterms:targetNodeDescription": "Exhibit responsibility ",
+      "ceterms:targetNodeName": "Work Ethics"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/36078cac-7812-45bf-9a6f-b2742acc09c2/1495042564097",
+      "ceterms:targetNodeDescription": "Exhibit professional practices",
+      "ceterms:targetNodeName": "Work Ethics "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/e819fc11-24dc-4fab-94b9-5493136b5c84/1495042564678",
+      "ceterms:targetNodeDescription": "Explain basic legal and fiduciary obligations  ",
+      "ceterms:targetNodeName": "Work Ethics "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/153d0e07-6bbd-42a1-a528-057eedc87db1/1495042550704",
+      "ceterms:targetNodeDescription": "Determine purpose and audience",
+      "ceterms:targetNodeName": "Writing Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/9dc68e70-8390-4945-ad80-8cce378aa302/1495042551286",
+      "ceterms:targetNodeDescription": "Gather information ",
+      "ceterms:targetNodeName": "Writing Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/209084d9-abcb-4abb-86cf-8c849e41cc07/1495042551858",
+      "ceterms:targetNodeDescription": "Plan the format/layout ",
+      "ceterms:targetNodeName": "Writing Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f1c4c5b0-307d-4e3e-b333-5634ea921773/1495042552445",
+      "ceterms:targetNodeDescription": "Write a first draft ",
+      "ceterms:targetNodeName": "Writing Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/5437f2fd-23ed-427b-bda2-53bf57b43bb4/1495045935239",
+      "ceterms:frameworkName": "21st Century Skills for Workplace Success Assessment - NOCTI 21st Century Skills for Workplace Success",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/1c2de261-f9d0-46bc-8463-7ee487fd9fe8/1495042553053",
+      "ceterms:targetNodeDescription": "Edit and revise to ensure document is complete, clear, concise, correct, courteous, and coherent ",
+      "ceterms:targetNodeName": "Writing Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Framework/6113fc0a-807a-4146-a4a6-23491cddf2ff/1495045973549",
+      "ceterms:frameworkName": "ASP Certification Examination - ASP - Domain 1 - Mathematics - Topic 2 - Knowledge Of:",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/072a6121-eba9-4c1a-8369-deb1c43a9e97/1495042854149",
+      "ceterms:targetNodeName": "Arc flash"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://credentialengineregistry.org/resources/ce-E797A7CE-1111-2222-3333-79CABF497640",
+      "ceterms:frameworkName": "DEFAULT FRAMEWORK",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/f8663770-42cf-491f-9d8e-79c71b0d2696/1495042548359",
+      "ceterms:targetNodeDescription": "Perform math operations using whole numbers, fractions, and percentages",
+      "ceterms:targetNodeName": "Math Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://credentialengineregistry.org/resources/ce-E797A7CE-1111-2222-3333-79CABF497640",
+      "ceterms:frameworkName": "DEFAULT FRAMEWORK",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/d3411d1a-7e53-4895-8136-bbce8061f3d0/1495042548980",
+      "ceterms:targetNodeDescription": " Use statistics (mean, mode, median, standard deviation) to monitor processes and quality of performance",
+      "ceterms:targetNodeName": "Math Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://credentialengineregistry.org/resources/ce-E797A7CE-1111-2222-3333-79CABF497640",
+      "ceterms:frameworkName": "DEFAULT FRAMEWORK",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/52947cdf-450e-49fd-8d2b-d1bf7e8ae702/1495042547211",
+      "ceterms:targetNodeDescription": "Interpret and comprehend technical and general interest in written material",
+      "ceterms:targetNodeName": "Reading Skills"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://credentialengineregistry.org/resources/ce-E797A7CE-1111-2222-3333-79CABF497640",
+      "ceterms:frameworkName": "DEFAULT FRAMEWORK",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/6931f202-082c-40d7-8d19-2f07b0a41d5d/1495042547790",
+      "ceterms:targetNodeDescription": "Apply understanding of the material to job tasks ",
+      "ceterms:targetNodeName": "Reading Skills "
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:framework": "https://credentialengineregistry.org/resources/ce-E797A7CE-1111-2222-3333-79CABF497640",
+      "ceterms:frameworkName": "DEFAULT FRAMEWORK",
+      "ceterms:targetNode": "https://dev.cassproject.org/api/custom/data/schema.cassproject.org.0.2.Competency/34258a2e-00ab-4b30-9359-2e29f36d9b4d/1495042562409",
+      "ceterms:targetNodeDescription": "Explain the necessity and benefits/disadvantages of organizational change",
+      "ceterms:targetNodeName": "Understanding the “Big Picture” "
+    }
+  ],
+  "ceterms:assessmentMethodType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Artifact",
+      "ceterms:targetNodeName": "Artifact"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AssessmentMethod",
+      "ceterms:targetNode": "assessMethod:Performance",
+      "ceterms:targetNodeName": "Performance"
+    }
+  ],
+  "ceterms:availabilityListing": [
+    "http://example.com?t=testAssessment"
+  ],
+  "ceterms:availableAt": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressLocality": "Washington, ",
+      "ceterms:addressRegion": "DC",
+      "ceterms:latitude": 38.8791981,
+      "ceterms:longitude": -76.9818437,
+      "ceterms:name": "Available at",
+      "ceterms:postalCode": "20000",
+      "ceterms:streetAddress": "1600 Pennsylvania Ave"
+    }
+  ],
+  "ceterms:availableOnlineAt": [
+    "http://example.com?t=testAssessment"
+  ],
+  "ceterms:ctid": "ce-2A2806BF-5FB8-4241-AEFA-6EA9EF2108EF",
+  "ceterms:description": "The Board  of  Certified  Safety Professionals (BCSP) partners  with Pearson VUE to deliver  its  computer-based certification examinations  at testing  centers  available   throughout  the world.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false,
+  "ceterms:name": "TESTING_ASP Exam",
+  "ceterms:ownedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-6a62b250-a1a2-4d31-a702-cdc2437efd31"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Information Technology"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}
