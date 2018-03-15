@@ -1,0 +1,39 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-A75F534F-E59D-4ACB-8E06-1FC4E507F554",
+  "@type": "ceterms:AssessmentProfile",
+  "ceterms:availableOnlineAt": [
+    "http://example.com?t=AvailableOnlineAt"
+  ],
+  "ceterms:ctid": "ce-A75F534F-E59D-4ACB-8E06-1FC4E507F554",
+  "ceterms:description": "The “PECB Certified ISO 31000 Risk Manager” exam fully meets the requirements of the PECB Examination and Certification Program (ECP). The exam covers the following competence domains: Domain 1: Fundamental principles and concepts in risk management, Domain 2: Risk management program, Domain 3: Risk assessment,  Domain 4: Risk Treatment, Domain 5: Risk communication, monitoring and improvement.",
+  "ceterms:hasGroupEvaluation": false,
+  "ceterms:hasGroupParticipation": false,
+  "ceterms:isProctored": false,
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6251999/",
+          "ceterms:latitude": 60.10867,
+          "ceterms:longitude": -113.64258
+        }
+      ]
+    }
+  ],
+  "ceterms:name": "TESTING_Certified ISO 31000 Risk Manager Exam",
+  "ceterms:ownedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7fceca4b-722e-4885-b3ae-a9f40504815c"
+    }
+  ],
+  "ceterms:subject": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:targetNodeName": "Certified ISO 31000 Risk Manager Exam Subject"
+    }
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+}

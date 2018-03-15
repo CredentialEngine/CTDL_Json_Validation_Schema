@@ -1,0 +1,468 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bf5d5693-2706-467c-8081-46ee8a0ef578"
+    }
+  ],
+  "ceterms:address": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Clearwater",
+      "ceterms:addressRegion": "Florida",
+      "ceterms:latitude": 27.9624843,
+      "ceterms:longitude": -82.723858499999992,
+      "ceterms:name": "(ISC)²",
+      "ceterms:postalCode": " 33759",
+      "ceterms:streetAddress": "311 Park Place Blvd, Suite 400",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactType": "Registrar",
+          "ceterms:name": "Grants"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "Guam",
+      "ceterms:addressLocality": "victoryville",
+      "ceterms:addressRegion": "GM",
+      "ceterms:name": "Main address",
+      "ceterms:postalCode": "23009",
+      "ceterms:streetAddress": "123 Main"
+    },
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Clearwater",
+      "ceterms:addressRegion": "United States",
+      "ceterms:latitude": 27.9624843,
+      "ceterms:longitude": -82.723858499999992,
+      "ceterms:name": "(ISC)²",
+      "ceterms:postalCode": "33759",
+      "ceterms:streetAddress": "311 Park Place Blvd Suite 400"
+    },
+    {
+      "@type": "ceterms:Place",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Toll Free"
+          ],
+          "ceterms:telephone": [
+            "1-866-462-4777"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Main Phone Number"
+          ],
+          "ceterms:telephone": [
+            "703-891-6781"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Fax"
+          ],
+          "ceterms:telephone": [
+            "703-356-7977"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Australia"
+          ],
+          "ceterms:telephone": [
+            "+61 2 4728 4600"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Custom Phone Type"
+          ],
+          "ceterms:telephone": [
+            "123-456-7890"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Toll-Free"
+          ],
+          "ceterms:contactType": "Illinois",
+          "ceterms:name": "Technical Support",
+          "ceterms:telephone": [
+            "810-Get-Help"
+          ]
+        }
+      ]
+    }
+  ],
+  "ceterms:administrationProcess": [
+    {
+      "@type": "ceterms:ProcessProfile",
+      "ceterms:description": "Admin",
+      "ceterms:externalInputType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ExternalInput",
+          "ceterms:targetNode": "inputType:InternationalBodies",
+          "ceterms:targetNodeName": "International Bodies"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ExternalInput",
+          "ceterms:targetNode": "inputType:Practitioners",
+          "ceterms:targetNodeName": "Practitioners"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ExternalInput",
+          "ceterms:targetNode": "inputType:Associations",
+          "ceterms:targetNodeName": "Professional Associations"
+        }
+      ],
+      "ceterms:processingAgent": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ]
+    }
+  ],
+  "ceterms:agentPurpose": "http://credentialfinder.org",
+  "ceterms:agentPurposeDescription": "Support and provide members and constituents with credentials, resources, and leadership to address cyber, information, software and infrastructure security to deliver value to society.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AgentSector",
+      "ceterms:targetNode": "agentSector:PrivateNonProfit",
+      "ceterms:targetNodeName": "Private Not-For-Profit"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "OrganizationType",
+      "ceterms:targetNode": "orgType:BusinessAssociation",
+      "ceterms:targetNodeName": "Business or Industry Association"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "OrganizationType",
+      "ceterms:targetNode": "orgType:CertificationBody",
+      "ceterms:targetNodeName": "Certification Body"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "OrganizationType",
+      "ceterms:targetNode": "orgType:TrainingProvider",
+      "ceterms:targetNodeName": "Education and Training Provider"
+    }
+  ],
+  "ceterms:approvedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-bf5d5693-2706-467c-8081-46ee8a0ef578"
+    }
+  ],
+  "ceterms:approves": [
+    {
+      "@type": "ceterms:AssessmentProfile",
+      "ceterms:description": "Assessments vary per course.",
+      "ceterms:name": "TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree",
+      "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-3D57BA3B-9B84-4A14-9F64-13D83960F9CC"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-1785aa77-e844-4f25-9dd2-5f801c9e475e"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "This work/study program gives you the opportunity to learn in the environment in which you will work as well as the ability to apply almost immediately what you learned in class on the manufacturing floor. It is not your typical college class. You attend class full time two days a week and work at your sponsoring manufacturer three days. You will also learn “lean” manufacturing principles and develop productive work behaviors that provide excellent self-development skills that are very attractive to employers. The course work implements the multidisciplinary, multiskilled model with courses in electricity, fluid power, mechanics, fabrication, troubleshooting, problem solving, etc.",
+      "ceterms:name": "TESTING_TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree Program",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
+  "ceterms:ctid": "ce-66B26730-C43F-4FF7-A055-5A6919568750",
+  "ceterms:department": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    },
+    {
+      "@type": "ceterms:CredentialOrganization",
+      "ceterms:description": "AdvancED is the largest community of education professionals in the world. We are a non-profit, non-partisan organization that conducts rigorous, on-site external reviews of PreK-12 schools and school systems to ensure that all learners realize their full potential. While our expertise is grounded in more than a hundred years of work in school accreditation, AdvancED is far from a typical accrediting agency. Our goal isn’t to certify that schools are good enough. Rather, our commitment is to help schools improve.",
+      "ceterms:name": "AdvancED",
+      "ceterms:subjectWebpage": "http://www.advanc-ed.org/"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2D409AAE-91B6-4A49-A767-D0C4BF8F462A"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F"
+    }
+  ],
+  "ceterms:description": "Headquartered in the United States and with offices in London, Hong Kong, Tokyo, Mumbai, and an authorized China agency in Beijing, the International Information System Security Certification Consortium, Inc., (ISC)²®, is the global, not-for-profit leader in educating and certifying cyber, information, software and infrastructure security professionals throughout their careers. We are recognized for Gold Standard certifications and world class education programs.\r\rAs part of Governor Holcomb’s Next Level Jobs initiative, the Workforce Ready Grant program provides free training for working-age Hoosiers in the state’s highest demand jobs. These industries have higher median salaried jobs and are rapidly growing in Indiana – including Advanced Manufacturing, Building & Construction, Health & Life Sciences, Information Technology & Business Services, and Transportation & Logistics. ",
+  "ceterms:duns": "789797920",
+  "ceterms:email": [
+    "membersupport@isc2.org"
+  ],
+  "ceterms:fein": "04-3064434",
+  "ceterms:foundingDate": "1988-1",
+  "ceterms:hasConditionManifest": [
+    "https://sandbox.credentialengineregistry.org/resources/ce-0214d23e-372f-410e-aad4-c02d5c9872bb"
+  ],
+  "ceterms:hasVerificationService": [
+    {
+      "@type": "ceterms:VerificationServiceProfile",
+      "ceterms:dateEffective": "2017-12-02",
+      "ceterms:description": "this is service data",
+      "ceterms:estimatedCost": [
+        {
+          "@type": "ceterms:CostProfile",
+          "ceterms:costDetails": "http://example.com",
+          "ceterms:currency": "US Dollar",
+          "ceterms:description": "cost description",
+          "ceterms:directCostType": {
+            "@type": "ceterms:CredentialAlignmentObject",
+            "ceterms:frameworkName": "CostType",
+            "ceterms:targetNode": "costType:BackgroundCheck",
+            "ceterms:targetNodeName": "Background Check"
+          },
+          "ceterms:name": "Costs for this verification profile",
+          "ceterms:price": 234.00
+        }
+      ],
+      "ceterms:holderMustAuthorize": true,
+      "ceterms:jurisdiction": [
+        {
+          "@type": "ceterms:JurisdictionProfile",
+          "ceterms:description": "check it out",
+          "ceterms:globalJurisdiction": false
+        }
+      ],
+      "ceterms:offeredBy": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+        }
+      ],
+      "ceterms:subjectWebpage": "http://example.com?t=verificationSWP",
+      "ceterms:targetCredential": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86BE9B32-57c5-4429-A058-E6DE44BD8FD3"
+        },
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e6b2018e-217f-4ec0-8c19-8916b4ce86f5"
+        },
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
+        },
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86BE9B32-57c5-4429-A058-E6DE44BD8FD3"
+        },
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-e6b2018e-217f-4ec0-8c19-8916b4ce86f5"
+        },
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-BE484CE9-6BFC-42DC-B91F-B0B386EEB8F9"
+        }
+      ],
+      "ceterms:verificationDirectory": [
+        "http://directory.com"
+      ],
+      "ceterms:verificationMethodDescription": "the methods are pretty standard",
+      "ceterms:verificationService": [
+        "http://example.com"
+      ],
+      "ceterms:verifiedClaimType": [
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ClaimType",
+          "ceterms:targetNode": "claimType:BadgeClaim",
+          "ceterms:targetNodeName": "Badge Claim"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ClaimType",
+          "ceterms:targetNode": "claimType:TranscriptClaim",
+          "ceterms:targetNodeName": "Transcript Claim"
+        },
+        {
+          "@type": "ceterms:CredentialAlignmentObject",
+          "ceterms:frameworkName": "ClaimType",
+          "ceterms:targetNode": "claimType:Verifiedclaim",
+          "ceterms:targetNodeName": "Verified Claim"
+        }
+      ]
+    }
+  ],
+  "ceterms:image": "http://insights.dice.com/wp-content/uploads/2014/07/isc2_logo.jpg",
+  "ceterms:industryType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "11",
+      "ceterms:framework": "https://www.census.gov/eos/www/naics/",
+      "ceterms:frameworkName": "NAICS",
+      "ceterms:targetNodeDescription": "Agriculture, Forestry, Fishing and Hunting",
+      "ceterms:targetNodeName": "Agriculture, Forestry, Fishing and Hunting"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "111",
+      "ceterms:framework": "https://www.census.gov/eos/www/naics/",
+      "ceterms:frameworkName": "NAICS",
+      "ceterms:targetNodeDescription": "Crop Production",
+      "ceterms:targetNodeName": "Crop Production"
+    }
+  ],
+  "ceterms:jurisdiction": [
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:description": "Available world wide - check update",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6295630/"
+        }
+      ]
+    },
+    {
+      "@type": "ceterms:JurisdictionProfile",
+      "ceterms:mainJurisdiction": [
+        {
+          "@type": "ceterms:Place",
+          "ceterms:geoURI": "http://geonames.org/6252001/",
+          "ceterms:latitude": 39.76,
+          "ceterms:longitude": -98.5
+        }
+      ]
+    }
+  ],
+  "ceterms:keyword": [
+    "Organization 1080"
+  ],
+  "ceterms:naics": [
+    "11",
+    "111"
+  ],
+  "ceterms:name": "TESTING_(ISC)²",
+  "ceterms:offers": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86BE9B32-57c5-4429-A058-E6DE44BD8FD3"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-41DB3899-8826-41F6-DCBA-B79A63184EBD"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "This work/study program gives you the opportunity to learn in the environment in which you will work as well as the ability to apply almost immediately what you learned in class on the manufacturing floor. It is not your typical college class. You attend class full time two days a week and work at your sponsoring manufacturer three days. You will also learn “lean” manufacturing principles and develop productive work behaviors that provide excellent self-development skills that are very attractive to employers. The course work implements the multidisciplinary, multiskilled model with courses in electricity, fluid power, mechanics, fabrication, troubleshooting, problem solving, etc.",
+      "ceterms:name": "TESTING_TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree Program",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@type": "ceterms:LearningOpportunityProfile",
+      "ceterms:description": "Blended learning badge.",
+      "ceterms:name": "TESTING_TESTING_Applied Problem Solving and Decision Making Badge",
+      "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
+  "ceterms:opeID": "1080-OPEID",
+  "ceterms:owns": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-B2492F20-02F6-4C7A-DCBA-362C889D91B3"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-1785aa77-e844-4f25-9dd2-5f801c9e475e"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0ddd924e-b203-46b9-8522-92b1bb7f7a5e"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-2C68941D-9959-42AE-8E41-AF2CB4C8CBF4"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-7CD825C4-3493-4337-A845-61B1598DA214"
+    }
+  ],
+  "ceterms:parentOrganization": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
+    },
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-086EAFEE-6D07-4B98-9CBD-CAAF4F53929F"
+    }
+  ],
+  "ceterms:recognizedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    }
+  ],
+  "ceterms:recognizes": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-A81E3B16-1111-40DA-A186-C568559AD7E5"
+    }
+  ],
+  "ceterms:regulatedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-0A448F2E-B76B-497B-92CF-51504C7A5000"
+    }
+  ],
+  "ceterms:renews": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    }
+  ],
+  "ceterms:revokes": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-70A27CE2-2F7E-4F79-AEFA-B27F37C2A41A"
+    }
+  ],
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AgentServiceType",
+      "ceterms:targetNode": "serviceType:OfferService",
+      "ceterms:targetNodeName": "Offer Service"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AgentServiceType",
+      "ceterms:targetNode": "serviceType:RecognizeService",
+      "ceterms:targetNodeName": "Recognize Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    "https://www.facebook.com/isc2fb",
+    "https://www.youtube.com/user/ISC2TV",
+    "https://www.linkedin.com/company/isc2"
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+}

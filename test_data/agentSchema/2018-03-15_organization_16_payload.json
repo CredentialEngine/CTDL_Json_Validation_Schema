@@ -1,0 +1,87 @@
+{
+  "@context": "http://credreg.net/ctdl/schema/context/json",
+  "@id": "https://sandbox.credentialengineregistry.org/resources/ce-FD885D15-C0E7-4E1E-9EDC-0DE9B51E7DB7",
+  "@type": "ceterms:CredentialOrganization",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-66B26730-C43F-4FF7-A055-5A6919568750"
+    }
+  ],
+  "ceterms:address": [
+    {
+      "@type": "ceterms:Place",
+      "ceterms:addressCountry": "United States",
+      "ceterms:addressLocality": "Florence",
+      "ceterms:addressRegion": "KY",
+      "ceterms:latitude": 38.961321,
+      "ceterms:longitude": -84.632905999999991,
+      "ceterms:name": "Gateway Community & Technical College",
+      "ceterms:postalCode": "41042",
+      "ceterms:streetAddress": "500 Technology Way"
+    },
+    {
+      "@type": "ceterms:Place",
+      "ceterms:targetContactPoint": [
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Main Phone Number"
+          ],
+          "ceterms:telephone": [
+            "859-441-4500"
+          ]
+        },
+        {
+          "@type": "ceterms:ContactPoint",
+          "ceterms:contactOption": [
+            "Toll Free"
+          ],
+          "ceterms:telephone": [
+            "855-346-4282"
+          ]
+        }
+      ]
+    }
+  ],
+  "ceterms:agentPurposeDescription": "Gateway Community and Technical College provides high quality, affordable, accessible, and inclusive postsecondary education and training resulting in a positive contribution to the economic vitality of the region and enhanced quality of life for all citizens.",
+  "ceterms:agentSectorType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AgentSector",
+      "ceterms:targetNode": "agentSector:Public",
+      "ceterms:targetNodeName": "Public"
+    }
+  ],
+  "ceterms:agentType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "OrganizationType",
+      "ceterms:targetNode": "orgType:Postsecondary",
+      "ceterms:targetNodeName": "Postsecondary Educational Institution"
+    }
+  ],
+  "ceterms:ctid": "ce-FD885D15-C0E7-4E1E-9EDC-0DE9B51E7DB7",
+  "ceterms:description": "Gateway Community and Technical College is Northern Kentucky’s only public, accredited, comprehensive two-year institution. Gateway offers high-quality, targeted education to meet the personal and professional needs of students, and contribute to the economic development of the region.",
+  "ceterms:duns": "124711065",
+  "ceterms:fein": "611320380",
+  "ceterms:foundingDate": "2002",
+  "ceterms:image": "https://www.nationalappcenter.com/school_logos/GoHigherKY/Gateway_Community_and_Technical_College/Gateway_Community_and_Technical_College.jpg",
+  "ceterms:name": "TESTING_Gateway Community & Technical College",
+  "ceterms:opeID": "013753",
+  "ceterms:serviceType": [
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:frameworkName": "AgentServiceType",
+      "ceterms:targetNode": "serviceType:OfferService",
+      "ceterms:targetNodeName": "Offer Service"
+    }
+  ],
+  "ceterms:socialMedia": [
+    "http://gateway.kctcs.edu/About_Us/Contact_Us",
+    "https://www.facebook.com/GatewayCTC",
+    "https://twitter.com/GCTC_News",
+    "https://www.instagram.com/GCTC_News",
+    "https://www.youtube.com/channel/UCp4sWtUcUgqv4aELPG8YaAA"
+  ],
+  "ceterms:subjectWebpage": "http://example.com?t=testOrganization"
+}
