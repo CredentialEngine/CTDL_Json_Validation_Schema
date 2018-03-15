@@ -1,0 +1,186 @@
+{
+	"$ref": "#/definitions/ceasn:Competency",
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"definitions": {
+		"@id": { "type": "string" },
+		"@context": {
+			"enum": [ "http://credreg.net/ctdlasn/schema/context/json" ],
+			"type": "string"
+		},
+		"meta:uri": {
+			"type": "object",
+			"properties": { "@id": { "$ref": "#/definitions/@id_absolute" } }
+		},
+		"@id_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id" }
+		},
+		"meta:string": { "type": "string" },
+		"@id_absolute": {
+			"type": "string",
+			"format": "uri"
+		},
+		"ceasn:author": { "$ref": "#/definitions/meta:string_multi" },
+		"ceasn:listID": { "$ref": "#/definitions/meta:string" },
+		"ceasn:weight": { "type": "number" },
+		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
+		"ceterms:name": { "$ref": "#/definitions/meta:literal" },
+		"meta:literal": {
+			"anyOf": [
+				{ "$ref": "#/definitions/meta:string" },
+				{ "$ref": "#/definitions/meta:literal_object" }
+			]
+		},
+		"ceasn:alignTo": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:comment": { "$ref": "#/definitions/meta:langstring" },
+		"ceasn:creator": { "$ref": "#/definitions/pointer:constraint:ReferenceOrganization" },
+		"ceasn:hasChild": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:isPartOf": { "$ref": "#/definitions/@id_absolute_multi" },
+		"meta:uri_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:uri" }
+		},
+		"ceasn:alignFrom": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:isChildOf": { "$ref": "#/definitions/@id_absolute_multi" },
+		"meta:langstring": {
+			"type": "object",
+			"properties": {
+				"de": { "type": "string" },
+				"en": { "type": "string" },
+				"es": { "type": "string" },
+				"pl": { "type": "string" },
+				"ru": { "type": "string" },
+				"zh": { "type": "string" },
+				"en-GB": { "type": "string" },
+				"en-US": { "type": "string" }
+			}
+		},
+		"ceasn:Competency": {
+			"type": "object",
+			"required": [ "@type", "@id", "ceasn:competencyText", "ceasn:inLanguage", "ceasn:isPartOf", "ceterms:ctid" ],
+			"properties": {
+				"@id": { "$ref": "#/definitions/@id" },
+				"@type": { "enum": [ "ceasn:Competency" ] },
+				"@context": { "$ref": "#/definitions/@context" },
+				"ceasn:author": { "$ref": "#/definitions/ceasn:author" },
+				"ceasn:listID": { "$ref": "#/definitions/ceasn:listID" },
+				"ceasn:weight": { "$ref": "#/definitions/ceasn:weight" },
+				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
+				"ceasn:alignTo": { "$ref": "#/definitions/ceasn:alignTo" },
+				"ceasn:comment": { "$ref": "#/definitions/ceasn:comment" },
+				"ceasn:creator": { "$ref": "#/definitions/ceasn:creator" },
+				"ceasn:hasChild": { "$ref": "#/definitions/ceasn:hasChild" },
+				"ceasn:isPartOf": { "$ref": "#/definitions/ceasn:isPartOf" },
+				"ceasn:alignFrom": { "$ref": "#/definitions/ceasn:alignFrom" },
+				"ceasn:isChildOf": { "$ref": "#/definitions/ceasn:isChildOf" },
+				"ceasn:identifier": { "$ref": "#/definitions/ceasn:identifier" },
+				"ceasn:inLanguage": { "$ref": "#/definitions/ceasn:inLanguage" },
+				"ceasn:comprisedOf": { "$ref": "#/definitions/ceasn:comprisedOf" },
+				"ceasn:conceptTerm": { "$ref": "#/definitions/ceasn:conceptTerm" },
+				"ceasn:dateCreated": { "$ref": "#/definitions/ceasn:dateCreated" },
+				"ceasn:derivedFrom": { "$ref": "#/definitions/ceasn:derivedFrom" },
+				"ceasn:description": { "$ref": "#/definitions/ceasn:description" },
+				"ceasn:isVersionOf": { "$ref": "#/definitions/ceasn:isVersionOf" },
+				"ceasn:localSubject": { "$ref": "#/definitions/ceasn:localSubject" },
+				"ceasn:codedNotation": { "$ref": "#/definitions/ceasn:codedNotation" },
+				"ceasn:skillEmbodied": { "$ref": "#/definitions/ceasn:skillEmbodied" },
+				"ceasn:broadAlignment": { "$ref": "#/definitions/ceasn:broadAlignment" },
+				"ceasn:competencyText": { "$ref": "#/definitions/ceasn:competencyText" },
+				"ceasn:conceptKeyword": { "$ref": "#/definitions/ceasn:conceptKeyword" },
+				"ceasn:exactAlignment": { "$ref": "#/definitions/ceasn:exactAlignment" },
+				"ceasn:majorAlignment": { "$ref": "#/definitions/ceasn:majorAlignment" },
+				"ceasn:minorAlignment": { "$ref": "#/definitions/ceasn:minorAlignment" },
+				"ceasn:complexityLevel": { "$ref": "#/definitions/ceasn:complexityLevel" },
+				"ceasn:narrowAlignment": { "$ref": "#/definitions/ceasn:narrowAlignment" },
+				"ceasn:altCodedNotation": { "$ref": "#/definitions/ceasn:altCodedNotation" },
+				"ceasn:competencyCategory": { "$ref": "#/definitions/ceasn:competencyCategory" },
+				"ceasn:educationLevelType": { "$ref": "#/definitions/ceasn:educationLevelType" },
+				"ceasn:crossSubjectReference": { "$ref": "#/definitions/ceasn:crossSubjectReference" },
+				"ceasn:prerequisiteAlignment": { "$ref": "#/definitions/ceasn:prerequisiteAlignment" }
+			},
+			"additionalProperties": false
+		},
+		"ceasn:identifier": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
+		"ceasn:comprisedOf": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:conceptTerm": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:dateCreated": { "$ref": "#/definitions/meta:string" },
+		"ceasn:derivedFrom": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:description": { "$ref": "#/definitions/meta:langstring" },
+		"ceasn:isVersionOf": { "$ref": "#/definitions/@id_absolute" },
+		"meta:string_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:string" }
+		},
+		"@id_absolute_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id_absolute" }
+		},
+		"ceasn:localSubject": { "$ref": "#/definitions/meta:langstring_multi" },
+		"meta:literal_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:literal" }
+		},
+		"ceasn:codedNotation": { "$ref": "#/definitions/meta:string" },
+		"ceasn:skillEmbodied": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceterms:description": { "$ref": "#/definitions/meta:literal" },
+		"ceterms:socialMedia": { "$ref": "#/definitions/meta:uri_multi" },
+		"meta:literal_object": {
+			"type": "object",
+			"properties": {
+				"@id": { "$ref": "#/definitions/@id" },
+				"@value": { "$ref": "#/definitions/meta:string" },
+				"@language": { "$ref": "#/definitions/meta:string" }
+			}
+		},
+		"ceasn:broadAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:competencyText": { "$ref": "#/definitions/meta:langstring" },
+		"ceasn:conceptKeyword": { "$ref": "#/definitions/meta:langstring_multi" },
+		"ceasn:exactAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:majorAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:minorAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:complexityLevel": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/ceasn:ProficiencyScale" }
+		},
+		"ceasn:narrowAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"meta:langstring_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:langstring" }
+		},
+		"ceasn:ProficiencyScale": {
+			"type": "object",
+			"required": [ "@type" ],
+			"properties": { "@type": { "enum": [ "ceasn:ProficiencyScale" ] } },
+			"additionalProperties": false
+		},
+		"ceasn:altCodedNotation": { "$ref": "#/definitions/meta:string_multi" },
+		"ceterms:subjectWebpage": { "$ref": "#/definitions/meta:uri_multi" },
+		"ceasn:competencyCategory": { "$ref": "#/definitions/meta:langstring_multi" },
+		"ceasn:educationLevelType": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:crossSubjectReference": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:prerequisiteAlignment": { "$ref": "#/definitions/@id_absolute_multi" },
+		"pointer:constraint:ReferenceOrganization": {
+			"anyOf": [
+				{
+					"type": "array",
+					"required": [ "@id" ],
+					"properties": { "@id": { "$ref": "#/definitions/@id_absolute" } },
+					"additionalProperties": false
+				},
+				{
+					"type": "array",
+					"required": [ "@type" ],
+					"properties": {
+						"@type": { "enum": [ "ceterms:CredentialOrganization", "ceterms:QACredentialOrganization" ] },
+						"ceterms:name": { "$ref": "#/definitions/ceterms:name" },
+						"ceterms:description": { "$ref": "#/definitions/ceterms:description" },
+						"ceterms:socialMedia": { "$ref": "#/definitions/ceterms:socialMedia" },
+						"ceterms:subjectWebpage": { "$ref": "#/definitions/ceterms:subjectWebpage" }
+					},
+					"additionalProperties": false
+				}
+			]
+		}
+	}
+}
