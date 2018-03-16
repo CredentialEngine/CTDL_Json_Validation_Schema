@@ -383,9 +383,6 @@
           "ceterms:costDetails": "http://www.example.com/?CostDetailsURL",
           "ceterms:currency": "Pound Sterling",
           "ceterms:description": "test description",
-          "ceterms:directCostType": {
-            "@type": "ceterms:CredentialAlignmentObject"
-          },
           "ceterms:name": " sample org cost"
         }
       ],
