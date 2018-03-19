@@ -1,15 +1,5 @@
 {
   "@context": "http://credreg.net/ctdlasn/schema/context/json",
-  "ceasn:conceptKeyword": [
-    {
-      "en-us": [
-        "keyword 1",
-        "keyword 2",
-        "keyword 3",
-        "credengine"
-      ]
-    }
-  ],
   "ceasn:name": {
     "en-us": "Scrum Foundations Learning Objectives"
   },
@@ -25,5 +15,26 @@
   "ceterms:ctid": "ce-cdde7387-230a-3916-afd5-1f6a844bc708",
   "ceasn:inLanguage": [
     "en"
+  ],
+  "ceterms:alignFrom": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+  "ceterms:alignTo": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+  "ceasn:altCodedNotation": [
+    "code.1",
+    "code.2"
+  ],
+  "ceterms:author": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+  "ceasn:conceptKeyword": [
+    {
+      "en-us": "keyword 1"
+    },
+    {
+      "en-us": "keyword 2"
+    },
+    {
+      "en-us": "keyword 3"
+    },
+    {
+      "en-us": " credengine "
+    }
   ]
 }
