@@ -1,0 +1,21 @@
+{
+  "@context": "http://credreg.net/ctdlasn/schema/context/json",
+  "@type": "ceasn:Competency",
+  "@id": "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/2b0b0f0e-aa2f-4bc8-b5b3-f17a92c70cc6/1519585922151",
+  "ceasn:isChildOf": [
+    "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+  ],
+  "ceasn:exactMatch": [
+    "http://credentialengineregistry.org/resources/ce-2B0B0F0E-AA2F-4BC8-B5B3-F17A92C70CC6"
+  ],
+  "ceasn:isPartOf": [
+    "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Framework/9842b040-0be3-4c65-89dc-ff609851b153/1519329085138"
+  ],
+  "ceterms:ctid": "ce-15d5e83e-fd76-39a6-aa20-90dbc894f265",
+  "ceasn:competencyText": {
+    "en-us": "Electricity"
+  },
+  "ceasn:inLanguage": [
+    "en"
+  ]
+}

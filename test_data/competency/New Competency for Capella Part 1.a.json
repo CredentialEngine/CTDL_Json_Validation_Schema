@@ -1,0 +1,27 @@
+{
+  "@context": "http://credreg.net/ctdlasn/schema/context/json",
+  "ceasn:inLanguage": [
+    "english"
+  ],
+  "@type": "ceasn:Competency",
+  "ceasn:isChildOf": [
+    "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/a042e568-e72a-40a9-a841-84fb197c6378/1521495702272"
+  ],
+  "ceasn:listID": [
+    "1.a"
+  ],
+  "ceasn:codedNotation": "1.a",
+  "@id": "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/5ca1f466-82e4-4e5b-8abd-4c88283654b7/1521495729878",
+  "ceasn:isPartOf": [
+    "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Framework/a5509302-a60e-44b2-8a1a-73597fc5f9dd/1521495623958"
+  ],
+  "ceterms:ctid": "ce-f27a1530-ab7f-311d-bbf3-b582cc7d3908",
+  "ceasn:competencyText": {
+    "en-us": "New Competency Part 1.a"
+  },
+  "ceasn:comment": [
+    {
+      "en-us": "New Competency Part 1"
+    }
+  ]
+}

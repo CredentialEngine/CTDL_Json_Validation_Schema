@@ -1,0 +1,26 @@
+{
+  "@context": "http://credreg.net/ctdlasn/schema/context/json",
+      "ceasn:conceptKeyword": [
+        {
+          "en-us": "A concept keyword"
+        }
+      ],
+      "ceasn:inLanguage": [
+        "eN"
+      ],
+      "@type": "ceasn:CompetencyFramework",
+      "ceasn:derivedFrom": [
+        "http://example.com?t=derivedFrom"
+      ],
+      "ceasn:name": {
+        "en-us": "A test framework for Capella"
+      },
+      "@id": "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Framework/a5509302-a60e-44b2-8a1a-73597fc5f9dd/1521495623958",
+      "ceasn:hasTopChild": [
+        "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/a042e568-e72a-40a9-a841-84fb197c6378/1521495702272"
+      ],
+      "ceasn:description": {
+        "en-us": "A test framework for Capella.\nWhy is publisher uri here? Is the registry uri an example?\nShould be able to save and continue, rather than leaving after save.\nWould be nice if save button was fixed at top so didn't have to scroll update to save - especially if having a save and continue.\nConcept Term: \n- Clicking create or select resulted in a white page with no directions. \nEducationLevelType\n- same issue\nConcept keyword\n- how to enter multiple (found can just enter commas - need help text)\n- entered one, and pressed enter\n  - sent to a search\n  - no cancel, couldn't get back, other than refreshing\nDates\n- use of date picker?\nExport:\nMissing \n- creator\n- creator name\n- publisher\n- publisherName\n- derivedFrom\n- source\n- date created, date valid from, date valid to, date copyrighted\n- Identifier\n- license Url\n- rights text\n- rights holder uri"
+      },
+      "ceterms:ctid": "ce-6526f801-46b9-3355-ac23-3a634b449d68"
+    }

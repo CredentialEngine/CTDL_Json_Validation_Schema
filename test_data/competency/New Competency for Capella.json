@@ -1,0 +1,42 @@
+{
+  "@context": "http://credreg.net/ctdlasn/schema/context/json",
+  "ceasn:conceptKeyword": [
+    {
+      "en-us": [
+        "Competency keyword1",
+        "keyword2"
+      ]
+    }
+  ],
+  "ceasn:weight": ".50",
+  "ceasn:hasChild": [
+    "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/5ca1f466-82e4-4e5b-8abd-4c88283654b7/1521495729878"
+  ],
+  "ceasn:inLanguage": [
+    "english"
+  ],
+  "@type": "ceasn:Competency",
+  "ceasn:derivedFrom": [
+    "http://example.com?t=derivedFrom"
+  ],
+  "ceasn:isChildOf": [
+    "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Framework/a5509302-a60e-44b2-8a1a-73597fc5f9dd/1521495623958"
+  ],
+  "ceasn:listID": [
+    "1"
+  ],
+  "ceasn:codedNotation": "Capella.1",
+  "@id": "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/a042e568-e72a-40a9-a841-84fb197c6378/1521495702272",
+  "ceasn:isPartOf": [
+    "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Framework/a5509302-a60e-44b2-8a1a-73597fc5f9dd/1521495623958"
+  ],
+  "ceterms:ctid": "ce-43a489a8-fddc-38b7-b5c5-46a15d2ef9bc",
+  "ceasn:competencyText": {
+    "en-us": "New Competency for Capella"
+  },
+  "ceasn:comment": [
+    {
+      "en-us": "   A comment on this competency with leading spaces.\nNotes:\n- None of the selects work here\n- No align form or align to\n- No alignment: broad, exact, narrow, major, minor, prerequisite - or is this derived?\n- no comprised of\n- no cross subject reference\n- no date created in export\n- no is version of\n- no local subject\n- no complexity level (proficiency scale)"
+    }
+  ]
+}
