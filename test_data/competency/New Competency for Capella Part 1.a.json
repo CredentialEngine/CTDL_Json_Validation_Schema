@@ -7,9 +7,7 @@
   "ceasn:isChildOf": [
     "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/a042e568-e72a-40a9-a841-84fb197c6378/1521495702272"
   ],
-  "ceasn:listID": [
-    "1.a"
-  ],
+  "ceasn:listID": "1.a",
   "ceasn:codedNotation": "1.a",
   "@id": "https://dev.cassproject.org/api/data/schema.cassproject.org.0.3.Competency/5ca1f466-82e4-4e5b-8abd-4c88283654b7/1521495729878",
   "ceasn:isPartOf": [
@@ -19,9 +17,9 @@
   "ceasn:competencyText": {
     "en-us": "New Competency Part 1.a"
   },
-  "ceasn:comment": [
+  "ceasn:comment":
     {
       "en-us": "New Competency Part 1"
     }
-  ]
+
 }

@@ -13,6 +13,12 @@
     "en-us": "Scrum framework description"
   },
   "ceterms:ctid": "ce-cdde7387-230a-3916-afd5-1f6a844bc708",
+  "ceasn:author": [
+    "some author name"
+  ],
+  "ceasn:creator": [
+    "http://example.com?t=creatorurl"
+  ],
   "ceasn:inLanguage": [
     "en"
   ],
