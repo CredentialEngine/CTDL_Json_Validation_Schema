@@ -22,13 +22,10 @@
   "ceasn:inLanguage": [
     "en"
   ],
-  "ceterms:alignFrom": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
-  "ceterms:alignTo": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
-  "ceasn:altCodedNotation": [
-    "code.1",
-    "code.2"
-  ],
-  "ceterms:author": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+  "ceasn:alignFrom": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+  "ceasn:alignTo": [ "https://cass.credentialengine.org/api/data/schema.cassproject.org.0.3.Competency/5b1c1222-037b-46eb-90c6-24ca640120b8/1519945992706" ],
+
+
   "ceasn:conceptKeyword": [
     {
       "en-us": "keyword 1"
