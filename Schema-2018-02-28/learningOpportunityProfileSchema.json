@@ -226,7 +226,6 @@
         "ceterms:targetNodeName": { "$ref": "#/definitions/ceterms:targetNodeName" },
         "ceterms:weight": { "$ref": "#/definitions/ceterms:weight" }
       },
-      "required": [ "@type", "ceterms:targetNodeName" ],
       "additionalProperties": false
     },
     "ceterms:CostProfile": {
