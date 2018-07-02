@@ -8,14 +8,14 @@
     }
   ],
   "ceterms:availabilityListing": [
-    "http://lopp1.availability.com"
+    "http://example.com/availabilityListing"
   ],
   "ceterms:availableAt": [
     {
       "@type": "ceterms:Place",
       "ceterms:addressCountry": "United States",
       "ceterms:addressLocality": "Aurora",
-      "ceterms:addressRegion": "OH",
+      "ceterms:addressRegion": "Ohio",
       "ceterms:latitude": 41.32098,
       "ceterms:longitude": -81.323058000000017,
       "ceterms:name": "Accreditation Board for Specialty Nursing Certification (ABSNC)",
@@ -57,7 +57,7 @@
     }
   ],
   "ceterms:availableOnlineAt": [
-    "http://available.here.com"
+    "http://example.com/availableHere"
   ],
   "ceterms:ctid": "ce-2737EF7F-FD34-48AE-9698-9B5F06573C19",
   "ceterms:dateEffective": "2012-12-13",
@@ -117,12 +117,16 @@
       "@id": "https://sandbox.credentialengineregistry.org/resources/ce-E2C951D9-4C47-4B7E-8B65-CC545D244158"
     }
   ],
+  "ceterms:inLanguage": [
+    "en"
+  ],
   "ceterms:instructionalProgramType": [
     {
       "@type": "ceterms:CredentialAlignmentObject",
       "ceterms:codedNotation": "11.0102",
       "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
       "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0102",
       "ceterms:targetNodeDescription": "A program that focuses on the symbolic inference, representation, and simulation by computers and software of human learning and reasoning processes and capabilities, and the computer modeling of human motor control and motion. Includes instruction in computing theory, cybernetics, human factors, natural language processing, and applicable aspects of engineering, technology, and specific end-use applications.",
       "ceterms:targetNodeName": "Artificial Intelligence"
     },
@@ -131,6 +135,7 @@
       "ceterms:codedNotation": "11.0102",
       "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
       "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0102",
       "ceterms:targetNodeDescription": "A program that focuses on the symbolic inference, representation, and simulation by computers and software of human learning and reasoning processes and capabilities, and the computer modeling of human motor control and motion. Includes instruction in computing theory, cybernetics, human factors, natural language processing, and applicable aspects of engineering, technology, and specific end-use applications.",
       "ceterms:targetNodeName": "Artificial Intelligence"
     },
@@ -139,6 +144,7 @@
       "ceterms:codedNotation": "11.0103",
       "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
       "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=11.0103",
       "ceterms:targetNodeDescription": "A program that focuses on the design of technological information systems, including computing systems, as solutions to business and research data and communications support needs.  Includes instruction in the principles of computer hardware and software components, algorithms, databases, telecommunications, user tactics, application testing, and human interface design.",
       "ceterms:targetNodeName": "Information Technology"
     },
@@ -147,6 +153,7 @@
       "ceterms:codedNotation": "13.1325",
       "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
       "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=13.1325",
       "ceterms:targetNodeDescription": "A program that prepares individuals to teach French language programs at various educational levels.",
       "ceterms:targetNodeName": "French Language Teacher Education"
     }
@@ -204,9 +211,10 @@
     }
   ],
   "ceterms:keyword": [
-    "LOPP_1"
+    "LOPP_1",
+    "Test Case artifact"
   ],
-  "ceterms:name": "TESTING_TESTING_zzz Learning opportunity one update - 17-03-16a",
+  "ceterms:name": "zzz Learning opportunity one update - 17-03-16a",
   "ceterms:ownedBy": [
     {
       "@id": "https://sandbox.credentialengineregistry.org/resources/ce-8c5e42ea-724a-40e2-b082-efdc2299205e"
@@ -234,7 +242,7 @@
         {
           "@type": "ceterms:AssessmentProfile",
           "ceterms:description": "Assessments vary per course.",
-          "ceterms:name": "TESTING_Advanced Manufacturing Technician Associate in Applied Science Degree",
+          "ceterms:name": "Advanced Manufacturing Technician Associate in Applied Science Degree",
           "ceterms:subjectWebpage": "http://example.com?t=testAssessment"
         },
         {

@@ -2,6 +2,11 @@
   "@context": "http://credreg.net/ctdl/schema/context/json",
   "@id": "https://sandbox.credentialengineregistry.org/resources/ce-F1D95D00-0CEE-46D6-87E9-4887FD090D31",
   "@type": "ceterms:AssessmentProfile",
+  "ceterms:accreditedBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-52AC3310-0BF2-4F00-9F10-DFFC00FE1D3F"
+    }
+  ],
   "ceterms:administrationProcess": [
     {
       "@type": "ceterms:ProcessProfile",
@@ -31,13 +36,18 @@
         {
           "@type": "ceterms:CredentialOrganization",
           "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
-          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:name": "Illinois Department of Public Health (REF)",
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
         }
       ],
       "ceterms:processMethodDescription": "sample desc",
       "ceterms:processStandards": "http://www.google.com/?ProcessStandards",
-      "ceterms:scoringMethodDescription": "sample scoring method desc"
+      "ceterms:scoringMethodDescription": "sample scoring method desc",
+      "ceterms:targetCredential": [
+        {
+          "@id": "https://sandbox.credentialengineregistry.org/resources/ce-86BE9B32-57c5-4429-A058-E6DE44BD8FD3"
+        }
+      ]
     }
   ],
   "ceterms:assessmentExample": "http://www.example.com/?.AssessmentExample",
@@ -85,8 +95,7 @@
       "ceterms:assertedBy": [
         {
           "@type": "ceterms:CredentialOrganization",
-          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
-          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:name": "Illinois Department of Public Health (REF)",
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
         }
       ],
@@ -96,7 +105,7 @@
         {
           "@type": "ceterms:AssociateDegree",
           "ceterms:description": "The Engineering Technology Program is an Associate of Science degree program. It includes 18 credit hours of General Education courses, 18 credit hours of Technical Core courses, and 24 credit hours of specialized Advanced Technical courses.",
-          "ceterms:name": "TESTING_Associate of Science - Engineering Technology",
+          "ceterms:name": "Associate of Science - Engineering Technology",
           "ceterms:subjectWebpage": "http://example.com?t=testCredential1171"
         }
       ]
@@ -115,15 +124,14 @@
     }
   ],
   "ceterms:deliveryTypeDescription": "Can have online classes",
-  "ceterms:description": "Testing Assessment Description",
+  "ceterms:description": "Testing Assessment Description. 2018-06-30 - add applicable audience type",
   "ceterms:entryCondition": [
     {
       "@type": "ceterms:ConditionProfile",
       "ceterms:assertedBy": [
         {
           "@type": "ceterms:CredentialOrganization",
-          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
-          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:name": "Illinois Department of Public Health (REF)",
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
         }
       ],
@@ -176,7 +184,7 @@
         {
           "@type": "ceterms:GeneralEducationDevelopment",
           "ceterms:description": "description text here",
-          "ceterms:name": "TESTING_2nd credential connection, b",
+          "ceterms:name": "2nd credential connection, b",
           "ceterms:subjectWebpage": "http://example.com?t=testCredential1197"
         }
       ],
@@ -189,6 +197,13 @@
     }
   ],
   "ceterms:estimatedCost": [
+    {
+      "@type": "ceterms:CostProfile",
+      "ceterms:costDetails": "http://example.com?t=sCostDetailsURL",
+      "ceterms:currency": "Pound Sterling",
+      "ceterms:description": "sample estimated costs",
+      "ceterms:name": " sample estimated costs"
+    },
     {
       "@type": "ceterms:CostProfile",
       "ceterms:costDetails": "http://example.com?t=sCostDetailsURL",
@@ -221,7 +236,7 @@
   "ceterms:hasGroupEvaluation": false,
   "ceterms:hasGroupParticipation": false,
   "ceterms:inLanguage": [
-    "Akan"
+    "af"
   ],
   "ceterms:instructionalProgramType": [
     {
@@ -229,8 +244,18 @@
       "ceterms:codedNotation": "21.0101",
       "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
       "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=21.0101",
       "ceterms:targetNodeDescription": "Deleted",
       "ceterms:targetNodeName": "Technology Education/Industrial Arts"
+    },
+    {
+      "@type": "ceterms:CredentialAlignmentObject",
+      "ceterms:codedNotation": "52.0305",
+      "ceterms:framework": "https://nces.ed.gov/ipeds/cipcode/Default.aspx?y=55",
+      "ceterms:frameworkName": "Classification of Instructional Programs",
+      "ceterms:targetNode": "https://nces.ed.gov/ipeds/cipcode/cipdetail.aspx?y=55&cip=52.0305",
+      "ceterms:targetNodeDescription": "An integrated or combined program in accounting and business administration/management that prepares individuals to function as accountants and business managers.",
+      "ceterms:targetNodeName": "Accounting and Business/Management"
     }
   ],
   "ceterms:isPreparationFor": [
@@ -275,8 +300,8 @@
   ],
   "ceterms:keyword": [
     "public health",
-    "testing",
-    "RegistryAssistant testing editor AsmtId: 2181"
+    "Test Case artifact",
+    "testing"
   ],
   "ceterms:maintenanceProcess": [
     {
@@ -311,17 +336,19 @@
       "ceterms:subjectWebpage": "http://www.example.com/?.SubjectWebpage"
     }
   ],
-  "ceterms:name": "TESTING_Registry Testing -RegistryAssistant from Org: ",
+  "ceterms:name": "Test case - Audience Type",
+  "ceterms:offeredBy": [
+    {
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-C7E43430-A510-4B44-99BE-04F7A2D6A75B"
+    }
+  ],
   "ceterms:ownedBy": [
     {
-      "@type": "ceterms:CredentialOrganization",
-      "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
-      "ceterms:name": "TESTING_Illinois Department of Public Health",
-      "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
+      "@id": "https://sandbox.credentialengineregistry.org/resources/ce-B72FA133-BB1D-4865-93A8-1D0249A55346"
     }
   ],
   "ceterms:processStandards": "http://www.example.com/?ProcessStandards/",
-  "ceterms:processStandardsDescription": "Testing Process Standards ",
+  "ceterms:processStandardsDescription": "Testing Process Standards",
   "ceterms:recommends": [
     {
       "@type": "ceterms:ConditionProfile",
@@ -394,7 +421,7 @@
         {
           "@type": "ceterms:Certification",
           "ceterms:description": "Nursing assistants/aides working in licensed and/or certified skilled nursing facilities, intermediate care facilities and home health agencies in the state of Illinois must be certified. The Illinois Nurse Aide Testing Program is responsible for administering the written competency exam as required by the Illinois Department of Public Health.",
-          "ceterms:name": "TESTING_Certified Nursing Assistant",
+          "ceterms:name": "Certified Nursing Assistant",
           "ceterms:subjectWebpage": "http://example.com?t=testCredential75"
         }
       ],
@@ -412,8 +439,7 @@
       "ceterms:assertedBy": [
         {
           "@type": "ceterms:CredentialOrganization",
-          "ceterms:description": " IDPH has 200 different programs that benefit each state resident and visitor, although its daily activities of maintaining the public's health are rarely noticed unless a breakdown in the system occurs. With the assistance of local public health agencies, these essential programs and services make up Illinois' public health system, a system that forms a frontline defense against disease through preventive measures and education. The Department is organized into six offices, each of which addresses a distinct area of public health. Each office operates and supports numerous ongoing programs and is prepared to respond to extraordinary situations as they arise.",
-          "ceterms:name": "TESTING_Illinois Department of Public Health",
+          "ceterms:name": "Illinois Department of Public Health (REF)",
           "ceterms:subjectWebpage": "http://example.com?t=testOrganization71"
         }
       ],
@@ -532,7 +558,7 @@
         {
           "@type": "ceterms:LearningOpportunityProfile",
           "ceterms:description": "Blended learning badge.",
-          "ceterms:name": "TESTING_TESTING_Applied Problem Solving and Decision Making Badge",
+          "ceterms:name": "Applied Problem Solving and Decision Making Badge",
           "ceterms:subjectWebpage": "http://example.com?t=testLearningOpportunity"
         }
       ],
