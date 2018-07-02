@@ -58,6 +58,7 @@
         "ceterms:advancedStandingFrom": { "$ref": "#/definitions/ceterms:advancedStandingFrom" },
         "ceterms:approvedBy": { "$ref": "#/definitions/ceterms:approvedBy" },
         "ceterms:approvedIn": { "$ref": "#/definitions/ceterms:approvedIn" },
+        "ceterms:audienceType": { "$ref": "#/definitions/ceterms:audienceType" },
         "ceterms:availabilityListing": { "$ref": "#/definitions/ceterms:availabilityListing" },
         "ceterms:availableAt": { "$ref": "#/definitions/ceterms:availableAt" },
         "ceterms:availableOnlineAt": { "$ref": "#/definitions/ceterms:availableOnlineAt" },
@@ -304,6 +305,10 @@
     "ceterms:approvedIn": {
       "type": "array",
       "items": { "$ref": "#/definitions/ceterms:JurisdictionProfile" }
+    },
+    "ceterms:audienceType": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
     },
     "ceterms:availabilityListing": { "$ref": "#/definitions/@id_absolute_multi" },
     "ceterms:availableAt": {

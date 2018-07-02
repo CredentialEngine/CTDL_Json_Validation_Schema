@@ -65,6 +65,7 @@
         "ceterms:assessmentMethodType": { "$ref": "#/definitions/ceterms:assessmentMethodType" },
         "ceterms:assessmentOutput": { "$ref": "#/definitions/ceterms:assessmentOutput" },
         "ceterms:assessmentUseType": { "$ref": "#/definitions/ceterms:assessmentUseType" },
+        "ceterms:audienceType": { "$ref": "#/definitions/ceterms:audienceType" },
         "ceterms:availabilityListing": { "$ref": "#/definitions/ceterms:availabilityListing" },
         "ceterms:availableAt": { "$ref": "#/definitions/ceterms:availableAt" },
         "ceterms:availableOnlineAt": { "$ref": "#/definitions/ceterms:availableOnlineAt" },
@@ -362,6 +363,10 @@
     },
     "ceterms:assessmentOutput": { "$ref": "#/definitions/meta:langstring" },
     "ceterms:assessmentUseType": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
+    },
+    "ceterms:audienceType": {
       "type": "array",
       "items": { "$ref": "#/definitions/ceterms:CredentialAlignmentObject" }
     },
