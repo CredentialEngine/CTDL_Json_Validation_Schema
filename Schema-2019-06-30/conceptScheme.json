@@ -62,7 +62,7 @@
 		"ceasn:ConceptScheme": {
 			"type": "object",
 			"properties": {
-				"@type": { "enum": [ "ceasn:ConceptScheme" ] },
+				"@type": { "enum": [ "skos:ConceptScheme" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id" },
 				"ceasn:altIdentifier": { "$ref": "#/definitions/ceasn:altIdentifier" },

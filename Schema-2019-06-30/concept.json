@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$ref": "#/definitions/ceasn:Concept",
+	"$ref": "#/definitions/skos:Concept",
 	"definitions": {
 		"@context": {
 			"type": "string",
@@ -70,7 +70,6 @@
 				"skos:broadMatch": { "$ref": "#/definitions/skos:broadMatch" },
 				"skos:changeNote": { "$ref": "#/definitions/skos:changeNote" },
 				"skos:closeMatch": { "$ref": "#/definitions/skos:closeMatch" },
-				"ceasn:dateModified": { "$ref": "#/definitions/ceasn:dateModified" },
 				"skos:definition": { "$ref": "#/definitions/skos:definition" },
 				"skos:exactMatch": { "$ref": "#/definitions/skos:exactMatch" },
 				"skos:hiddenLabel": { "$ref": "#/definitions/skos:hiddenLabel" },
@@ -83,6 +82,7 @@
 				"skos:prefLabel": { "$ref": "#/definitions/skos:prefLabel" },
 				"skos:related": { "$ref": "#/definitions/skos:related" },
 				"skos:relatedMatch": { "$ref": "#/definitions/skos:relatedMatch" },
+				"meta:supersededBy": { "$ref": "#/definitions/meta:supersededBy" },
 				"skos:topConceptOf": { "$ref": "#/definitions/skos:topConceptOf" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" }
 			},
@@ -94,7 +94,6 @@
 		"skos:broadMatch": { "$ref": "#/definitions/@id_absolute_multi" },
 		"skos:changeNote": { "$ref": "#/definitions/meta:langstring_multi" },
 		"skos:closeMatch": { "$ref": "#/definitions/@id_absolute_multi" },
-		"ceasn:dateModified": { "$ref": "#/definitions/meta:string" },
 		"skos:definition": { "$ref": "#/definitions/meta:langstring" },
 		"skos:exactMatch": { "$ref": "#/definitions/@id_absolute_multi" },
 		"skos:hiddenLabel": { "$ref": "#/definitions/meta:langstring_multi" },
@@ -107,6 +106,7 @@
 		"skos:prefLabel": { "$ref": "#/definitions/meta:langstring" },
 		"skos:related": { "$ref": "#/definitions/@id_absolute_multi" },
 		"skos:relatedMatch": { "$ref": "#/definitions/@id_absolute_multi" },
+		"meta:supersededBy": { "$ref": "#/definitions/@id_absolute_multi" },
 		"skos:topConceptOf": { "$ref": "#/definitions/@id_absolute_multi" },
 		"ceterms:ctid": { "$ref": "#/definitions/meta:string" }
 	}
