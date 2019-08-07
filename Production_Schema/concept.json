@@ -59,10 +59,10 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:literal" }
 		},
-		"ceasn:Concept": {
+		"skos:Concept": {
 			"type": "object",
 			"properties": {
-				"@type": { "enum": [ "ceasn:Concept" ] },
+				"@type": { "enum": [ "skos:Concept" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id" },
 				"skos:altLabel": { "$ref": "#/definitions/skos:altLabel" },

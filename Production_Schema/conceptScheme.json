@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$ref": "#/definitions/ceasn:ConceptScheme",
+	"$ref": "#/definitions/skos:ConceptScheme",
 	"definitions": {
 		"@context": {
 			"type": "string",
@@ -59,7 +59,7 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:literal" }
 		},
-		"ceasn:ConceptScheme": {
+		"skos:ConceptScheme": {
 			"type": "object",
 			"properties": {
 				"@type": { "enum": [ "skos:ConceptScheme" ] },
