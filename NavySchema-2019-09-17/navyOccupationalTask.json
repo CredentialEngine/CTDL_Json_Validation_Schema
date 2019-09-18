@@ -1,0 +1,111 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$ref": "#/definitions/navy:OccupationTask",
+	"definitions": {
+		"@context": {
+			"type": "string",
+			"enum": [ "http://credreg.net/ctdlasn/schema/context/json" ]
+		},
+		"@id": { "type": "string" },
+		"@id_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id" }
+		},
+		"@id_absolute": {
+			"type": "string",
+			"format": "uri"
+		},
+		"@id_absolute_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id_absolute" }
+		},
+		"meta:string": { "type": "string" },
+		"meta:string_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:string" }
+		},
+		"meta:langstring": {
+			"type": "object",
+			"properties": {
+				"en": { "type": "string" },
+				"en-US": { "type": "string" },
+				"en-GB": { "type": "string" },
+				"es": { "type": "string" },
+				"pl": { "type": "string" },
+				"zh": { "type": "string" },
+				"de": { "type": "string" },
+				"ru": { "type": "string" }
+			}
+		},
+		"meta:langstring_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:langstring" }
+		},
+		"meta:literal_object": {
+			"type": "object",
+			"properties": {
+				"@id": { "$ref": "#/definitions/@id" },
+				"@value": { "$ref": "#/definitions/meta:string" },
+				"@language": { "$ref": "#/definitions/meta:string" }
+			}
+		},
+		"meta:literal": {
+			"anyOf": [
+				{ "$ref": "#/definitions/meta:string" },
+				{ "$ref": "#/definitions/meta:literal_object" }
+			]
+		},
+		"meta:literal_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:literal" }
+		},
+		"navy:OccupationTask": {
+			"type": "object",
+			"properties": {
+				"@type": { "enum": [ "navy:OccupationTask" ] },
+				"@context": { "$ref": "#/definitions/@context" },
+				"@id": { "$ref": "#/definitions/@id" },
+				"ceterms:inLanguage": { "$ref": "#/definitions/ceterms:inLanguage" },
+				"ceasn:abilityEmbodied": { "$ref": "#/definitions/ceasn:abilityEmbodied" },
+				"ceasn:codedNotation": { "$ref": "#/definitions/ceasn:codedNotation" },
+				"ceasn:comment": { "$ref": "#/definitions/ceasn:comment" },
+				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
+				"ceasn:hasChild": { "$ref": "#/definitions/ceasn:hasChild" },
+				"navy:hasFunctionalGroup": { "$ref": "#/definitions/navy:hasFunctionalGroup" },
+				"navy:hasPayGradeType": { "$ref": "#/definitions/navy:hasPayGradeType" },
+				"navy:hasTaskFlagType": { "$ref": "#/definitions/navy:hasTaskFlagType" },
+				"navy:hasWorkActivity": { "$ref": "#/definitions/navy:hasWorkActivity" },
+				"navy:hasWorkRole": { "$ref": "#/definitions/navy:hasWorkRole" },
+				"ceasn:isChildOf": { "$ref": "#/definitions/ceasn:isChildOf" },
+				"navy:isCore": { "$ref": "#/definitions/navy:isCore" },
+				"ceasn:isPartOf": { "$ref": "#/definitions/ceasn:isPartOf" },
+				"ceasn:isTopChildOf": { "$ref": "#/definitions/ceasn:isTopChildOf" },
+				"ceasn:knowledgeEmbodied": { "$ref": "#/definitions/ceasn:knowledgeEmbodied" },
+				"ceasn:skillEmbodied": { "$ref": "#/definitions/ceasn:skillEmbodied" },
+				"navy:taskText": { "$ref": "#/definitions/navy:taskText" },
+				"schema:version": { "$ref": "#/definitions/schema:version" }
+			},
+			"required": [ "@type", "@id", "ceterms:ctid", "navy:taskText" ],
+			"additionalProperties": false
+		},
+		"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
+		"ceasn:abilityEmbodied": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:codedNotation": { "$ref": "#/definitions/meta:string" },
+		"ceasn:comment": { "$ref": "#/definitions/meta:langstring" },
+		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
+		"ceasn:hasChild": { "$ref": "#/definitions/@id_absolute_multi" },
+		"navy:hasFunctionalGroup": { "$ref": "#/definitions/@id_absolute_multi" },
+		"navy:hasPayGradeType": { "$ref": "#/definitions/@id_absolute_multi" },
+		"navy:hasTaskFlagType": { "$ref": "#/definitions/@id_absolute" },
+		"navy:hasWorkActivity": { "$ref": "#/definitions/@id_absolute_multi" },
+		"navy:hasWorkRole": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:isChildOf": { "$ref": "#/definitions/@id_absolute" },
+		"navy:isCore": { "type": "boolean" },
+		"ceasn:isPartOf": { "$ref": "#/definitions/@id_absolute" },
+		"ceasn:isTopChildOf": { "$ref": "#/definitions/@id_absolute" },
+		"ceasn:knowledgeEmbodied": { "$ref": "#/definitions/@id_absolute_multi" },
+		"ceasn:skillEmbodied": { "$ref": "#/definitions/@id_absolute_multi" },
+		"navy:taskText": { "$ref": "#/definitions/meta:langstring" },
+		"schema:version": { "$ref": "#/definitions/meta:string" }
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"$ref": "#/definitions/navy:SourceIdentifier",
+	"definitions": {
+		"@context": {
+			"type": "string",
+			"enum": [ "http://credreg.net/ctdlasn/schema/context/json" ]
+		},
+		"@id": { "type": "string" },
+		"@id_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id" }
+		},
+		"@id_absolute": {
+			"type": "string",
+			"format": "uri"
+		},
+		"@id_absolute_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/@id_absolute" }
+		},
+		"meta:string": { "type": "string" },
+		"meta:string_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:string" }
+		},
+		"meta:langstring": {
+			"type": "object",
+			"properties": {
+				"en": { "type": "string" },
+				"en-US": { "type": "string" },
+				"en-GB": { "type": "string" },
+				"es": { "type": "string" },
+				"pl": { "type": "string" },
+				"zh": { "type": "string" },
+				"de": { "type": "string" },
+				"ru": { "type": "string" }
+			}
+		},
+		"meta:langstring_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:langstring" }
+		},
+		"meta:literal_object": {
+			"type": "object",
+			"properties": {
+				"@id": { "$ref": "#/definitions/@id" },
+				"@value": { "$ref": "#/definitions/meta:string" },
+				"@language": { "$ref": "#/definitions/meta:string" }
+			}
+		},
+		"meta:literal": {
+			"anyOf": [
+				{ "$ref": "#/definitions/meta:string" },
+				{ "$ref": "#/definitions/meta:literal_object" }
+			]
+		},
+		"meta:literal_multi": {
+			"type": "array",
+			"items": { "$ref": "#/definitions/meta:literal" }
+		},
+		"navy:SourceIdentifier": {
+			"type": "object",
+			"properties": {
+				"@type": { "enum": [ "navy:SourceIdentifier" ] },
+				"@context": { "$ref": "#/definitions/@context" },
+				"@id": { "$ref": "#/definitions/@id" },
+				"ceterms:inLanguage": { "$ref": "#/definitions/ceterms:inLanguage" },
+				"navy:allowedProductConfigurationIdentifier": { "$ref": "#/definitions/navy:allowedProductConfigurationIdentifier" },
+				"navy:alternate_logistics_support_analysis_control_number_code": { "$ref": "#/definitions/navy:alternate_logistics_support_analysis_control_number_code" },
+				"navy:breakdownElementIdentifier": { "$ref": "#/definitions/navy:breakdownElementIdentifier" },
+				"navy:breakdownElementRevisionIdentifier": { "$ref": "#/definitions/navy:breakdownElementRevisionIdentifier" },
+				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
+				"navy:end_item_acronym_code": { "$ref": "#/definitions/navy:end_item_acronym_code" },
+				"navy:logistics_support_analysis_control_number": { "$ref": "#/definitions/navy:logistics_support_analysis_control_number" },
+				"navy:logistics_support_analysis_control_number_indenture_code": { "$ref": "#/definitions/navy:logistics_support_analysis_control_number_indenture_code" },
+				"navy:logistics_support_analysis_control_number_type": { "$ref": "#/definitions/navy:logistics_support_analysis_control_number_type" },
+				"navy:partIdentifier": { "$ref": "#/definitions/navy:partIdentifier" },
+				"navy:system_end_item_identifier": { "$ref": "#/definitions/navy:system_end_item_identifier" }
+			},
+			"required": [ "@type", "@id", "ceterms:ctid", "navy:partIdentifier" ],
+			"additionalProperties": false
+		},
+		"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
+		"navy:allowedProductConfigurationIdentifier": { "$ref": "#/definitions/meta:string" },
+		"navy:alternate_logistics_support_analysis_control_number_code": { "$ref": "#/definitions/meta:string" },
+		"navy:breakdownElementIdentifier": { "$ref": "#/definitions/meta:string" },
+		"navy:breakdownElementRevisionIdentifier": { "$ref": "#/definitions/meta:string" },
+		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
+		"navy:end_item_acronym_code": { "$ref": "#/definitions/meta:string" },
+		"navy:logistics_support_analysis_control_number": { "$ref": "#/definitions/meta:string" },
+		"navy:logistics_support_analysis_control_number_indenture_code": { "$ref": "#/definitions/meta:string" },
+		"navy:logistics_support_analysis_control_number_type": { "$ref": "#/definitions/meta:string" },
+		"navy:partIdentifier": { "$ref": "#/definitions/meta:string" },
+		"navy:system_end_item_identifier": { "$ref": "#/definitions/meta:string" }
+	}
+}
