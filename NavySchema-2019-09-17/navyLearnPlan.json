@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$ref": "#/definitions/navy:System",
+	"$ref": "#/definitions/navy:LearnPlan",
 	"definitions": {
 		"@context": {
 			"type": "string",
@@ -59,39 +59,28 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:literal" }
 		},
-		"navy:System": {
+		"navy:LearnPlan": {
 			"type": "object",
 			"properties": {
-				"@type": { "enum": [ "navy:System" ] },
+				"@type": { "enum": [ "navy:LearnPlan" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id" },
 				"ceterms:inLanguage": { "$ref": "#/definitions/ceterms:inLanguage" },
-				"ceasn:codedNotation": { "$ref": "#/definitions/ceasn:codedNotation" },
 				"ceasn:comment": { "$ref": "#/definitions/ceasn:comment" },
 				"ceterms:ctid": { "$ref": "#/definitions/ceterms:ctid" },
 				"schema:description": { "$ref": "#/definitions/schema:description" },
-				"navy:hasMaintenanceTask": { "$ref": "#/definitions/navy:hasMaintenanceTask" },
-				"schema:hasPart": { "$ref": "#/definitions/schema:hasPart" },
-				"navy:hasSourceIdentifier": { "$ref": "#/definitions/navy:hasSourceIdentifier" },
-				"schema:isPartOf": { "$ref": "#/definitions/schema:isPartOf" },
-				"navy:managedBy": { "$ref": "#/definitions/navy:managedBy" },
-				"schema:name": { "$ref": "#/definitions/schema:name" },
-				"schema:version": { "$ref": "#/definitions/schema:version" }
-			},
-			"required": [ "@type", "@id", "ceterms:ctid", "schema:name" ],
-			"additionalProperties": false
+				"ceasn:hasTopChild": { "$ref": "#/definitions/ceasn:hasTopChild" },
+				"schema:name": { "$ref": "#/definitions/schema:name" }
+			}
 		},
-		"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
-		"ceasn:codedNotation": { "$ref": "#/definitions/meta:string" },
-		"ceasn:comment": { "$ref": "#/definitions/meta:langstring" },
-		"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
-		"schema:description": { "$ref": "#/definitions/meta:langstring" },
-		"navy:hasMaintenanceTask": { "$ref": "#/definitions/@id_absolute_multi" },
-		"schema:hasPart": { "$ref": "#/definitions/@id_absolute_multi" },
-		"navy:hasSourceIdentifier": { "$ref": "#/definitions/@id_absolute_multi" },
-		"schema:isPartOf": { "$ref": "#/definitions/@id_absolute" },
-		"navy:managedBy": { "$ref": "#/definitions/@id_absolute" },
-		"schema:name": { "$ref": "#/definitions/meta:langstring" },
-		"schema:version": { "$ref": "#/definitions/meta:string" }
-	}
+		"required": [ "@type", "@id", "ceterms:ctid", "schema:name" ],
+		"additionalProperties": false
+	},
+	"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
+	"ceasn:comment": { "$ref": "#/definitions/meta:langstring" },
+	"ceterms:ctid": { "$ref": "#/definitions/meta:string" },
+	"schema:description": { "$ref": "#/definitions/meta:langstring" },
+	"ceasn:hasTopChild": { "$ref": "#/definitions/@id_absolute_multi" },
+	"schema:name": { "$ref": "#/definitions/meta:langstring" }
+}
 }
