@@ -83,4 +83,3 @@
 	"ceasn:hasTopChild": { "$ref": "#/definitions/@id_absolute_multi" },
 	"schema:name": { "$ref": "#/definitions/meta:langstring" }
 }
-}
