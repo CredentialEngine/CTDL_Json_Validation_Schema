@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$ref": "#/definitions/navy:OccupationTask",
+	"$ref": "#/definitions/navy:OccupationalTask",
 	"definitions": {
 		"@context": {
 			"type": "string",
@@ -59,10 +59,10 @@
 			"type": "array",
 			"items": { "$ref": "#/definitions/meta:literal" }
 		},
-		"navy:OccupationTask": {
+		"navy:OccupationalTask": {
 			"type": "object",
 			"properties": {
-				"@type": { "enum": [ "navy:OccupationTask" ] },
+				"@type": { "enum": [ "navy:OccupationalTask" ] },
 				"@context": { "$ref": "#/definitions/@context" },
 				"@id": { "$ref": "#/definitions/@id" },
 				"ceterms:inLanguage": { "$ref": "#/definitions/ceterms:inLanguage" },
