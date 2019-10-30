@@ -72,8 +72,8 @@
 				"ceasn:hasTopChild": { "$ref": "#/definitions/ceasn:hasTopChild" },
 				"schema:name": { "$ref": "#/definitions/schema:name" }
 			},
-		"required": [ "@type", "@id", "ceterms:ctid", "schema:name" ],
-		"additionalProperties": false
+			"required": [ "@type", "@id", "ceterms:ctid", "schema:name" ],
+			"additionalProperties": false
 		}
 	},
 	"ceasn:inLanguage": { "$ref": "#/definitions/meta:string_multi" },
